@@ -1,6 +1,6 @@
 # Behavior Diagnosis Framework
 
-This collection of files encodes a behavioral diagnostic framework built on top of two established models from behavioral science: the **COM-B model** (Capability, Opportunity, Motivation - Behavior) by Susan Michie and colleagues, and the **Behavior Change Wheel (BCW)** intervention taxonomy. The framework extends these models into the domain of organizational behavior adoption, tool design, and change strategy.
+This collection of files encodes a behavioral diagnostic framework built on top of two established models from behavioral science: the **COM-B model** (Capability, Opportunity, Motivation - Behavior) by Susan Michie and colleagues, and the **Behavior Change Wheel (BCW)** intervention taxonomy. The framework extends these models into the domain of organizational behavior adoption, tool design, and change strategy. It also includes an applied example showing how to use COM-B to profile personas within a multi-actor behavior system.
 
 ## How to think about these files
 
@@ -59,6 +59,30 @@ The main document. Integrates everything above into a single walkthrough of seve
 
 This file answers: "For a behavior in state X, what exactly is going wrong, and what should I do about it?"
 
+### Layer 6: Applied example — persona-level COM-B profiles
+
+**`personas_jobs.md`**
+
+A worked example applying COM-B to a real multi-actor behavior system: avalanche safety. Profiles eight personas (Forecaster, Field Observer, Ski Patrol, Highway Control, Mountain Guide, Backcountry Recreationist, Search and Rescue, Educator), each described with:
+
+- Target behaviors
+- Needs and desires
+- COM-B breakdown (Capability, Opportunity, Motivation — with specific sub-dimensions)
+- Failure modes
+
+Beyond individual profiles, the file surfaces four system-level insights:
+
+1. **The "last mile" problem:** failures concentrate at the decision point (Guide / Recreationist) even when upstream actors perform well.
+2. **Motivation is the weakest link:** automatic motivation (powder fever, social pressure, familiarity) overrides capability and opportunity.
+3. **Opportunity shapes behavior:** environmental cues (easy access, existing tracks, open terrain) implicitly permit risk.
+4. **Misaligned optimization:** each persona optimizes for a different objective; no single persona owns end-to-end behavioral alignment.
+
+The core framing: avalanche safety is not a knowledge problem — it is a distributed behavior system where capability is uneven, opportunity is often permissive, and motivation is frequently misaligned. Failure occurs when these do not align at the moment of decision.
+
+This file demonstrates how the abstract COM-B vocabulary (Layer 1) can be applied to profile real actors, diagnose where behavior breaks down across a system, and identify the interfaces between personas where interventions matter most.
+
+---
+
 ## How the files reference each other
 
 ```
@@ -86,6 +110,13 @@ behavior-jtbd-maturity-diagnostic-cycle.md
     Uses: BCW codes from intervention mapping
     Applies: tool mechanisms from tool influence file
     Expands: blocker matrix into full per-state diagnosis + intervention
+
+personas_jobs.md
+    Uses: COM-B categories (C, O, M) from abbreviations reference
+    Applies: COM-B as a persona profiling lens (not abbreviated codes)
+    Demonstrates: how to decompose a multi-actor system using COM-B
+    Complements: diagnostic cycle (cycle diagnoses behavior states;
+                  personas file diagnoses actor-level breakdowns)
 ```
 
 ## How an LLM should use this framework
@@ -100,10 +131,19 @@ behavior-jtbd-maturity-diagnostic-cycle.md
 
 5. **Reason about transitions.** The cycle is not a maturity ladder. Behaviors can regress (e.g., a Fully Realized behavior becomes Actively Suppressed after a reorg). Use the cycle flow to reason about what state a behavior might move toward, and what blockers would emerge at that next state.
 
-6. **Avoid common mistakes.**
+6. **Profile actors in a system.** When the situation involves multiple actors (personas, roles, teams), use the personas file as a template. For each actor, map their target behaviors, COM-B profile (what they can do, what the environment permits, what drives them), and failure modes. Then look at the interfaces between actors — where one actor's output becomes another's input — because system-level failures often occur at these handoffs, not within a single actor.
+
+7. **Diagnose system-level dynamics.** After profiling actors, check for the patterns surfaced in the personas file:
+   - Is there a "last mile" problem where upstream performance is strong but downstream decisions still fail?
+   - Is automatic motivation (habits, biases, social pressure) overriding capability and opportunity?
+   - Is the environment implicitly permitting the wrong behavior?
+   - Are different actors optimizing for different objectives with no one owning end-to-end alignment?
+
+8. **Avoid common mistakes.**
    - Do not assume higher states are always better. "Fully Realized & Stable" can mask brittleness and hidden cost.
    - Do not treat the seven states as mutually exclusive within an organization. Different teams may be at different states for the same behavior.
    - Do not skip diagnosis. The framework's value is in matching the intervention to the specific blocker profile, not in applying generic advice.
+   - Do not profile personas in isolation. The value of multi-actor COM-B analysis is in revealing misalignment between actors, not just within them.
 
 ## Theoretical foundations
 
