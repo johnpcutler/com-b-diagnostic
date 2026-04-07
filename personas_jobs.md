@@ -1,13 +1,50 @@
-# Avalanche Safety Personas (COM-B Framing)
+# Persona Profiles (COM-B Framing)
 
-Avalanche safety is a **multi-actor behavior system**. Failures often occur at the *interfaces between personas*, not just within one.
+Use this file to profile the actors in any multi-actor behavior system. The goal is to understand each actor's behavioral drivers using COM-B, then look at the interfaces between actors where breakdowns actually happen.
 
-Each persona is described using:
-- **Target Behaviors (B)**
-- **Needs / Desires**
-- **Capability (C)**
-- **Opportunity (O)**
-- **Motivation (M)**
+## Persona template
+
+Copy and fill in for each actor in your system:
+
+```
+## [Role / Persona Name]
+
+### Target Behaviors
+- [What this actor should be doing — the specific behaviors that matter]
+
+### Needs / Desires
+- [What they want, what drives them, what they optimize for]
+
+### COM-B
+
+**Capability**
+- [What they know, can do, or struggle with — skills, mental models, knowledge]
+
+**Opportunity**
+- [What the environment permits or constrains — tools, time, access, social norms]
+
+**Motivation**
+- Reflective: [deliberate reasoning — values, identity, cost/benefit, beliefs]
+- Automatic: [habits, impulses, emotional responses, biases]
+
+### Failure Modes
+- [How this actor typically fails — the predictable breakdowns]
+```
+
+## System-level analysis
+
+After profiling individual actors, look for these patterns:
+
+1. **Last mile problem:** Are upstream actors performing well, but downstream decisions still failing?
+2. **Motivation override:** Is automatic motivation (habits, biases, social pressure) overriding what people know they should do?
+3. **Permissive environment:** Is the environment implicitly allowing the wrong behavior?
+4. **Misaligned optimization:** Are different actors optimizing for different objectives, with no one owning end-to-end alignment?
+
+---
+
+# Worked Example: Avalanche Safety Personas
+
+The following is a complete example applying the template above to avalanche safety — a multi-actor behavior system where failures often occur at the *interfaces between personas*, not just within one.
 
 ---
 

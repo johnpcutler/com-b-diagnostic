@@ -1,38 +1,36 @@
-# Avalanche Simulation Workshop: Behavior Diagnosis Framework
+# Behavior Diagnosis Framework
 
-This repo supports the **avalanche simulation workshop**. It provides the behavioral diagnostic framework participants will use to analyze decision-making across the avalanche safety system.
+A behavioral diagnostic framework built on two established models from behavioral science: the **COM-B model** (Capability, Opportunity, Motivation - Behavior) by Susan Michie and colleagues, and the **Behavior Change Wheel (BCW)** intervention taxonomy. The framework extends these models into organizational behavior adoption, tool design, and change strategy.
 
-The framework is built on two established models from behavioral science: the **COM-B model** (Capability, Opportunity, Motivation - Behavior) by Susan Michie and colleagues, and the **Behavior Change Wheel (BCW)** intervention taxonomy. For the workshop, these models are applied to avalanche safety — a multi-actor behavior system where forecasters, field observers, ski patrol, guides, recreationists, SAR teams, and educators each play distinct roles, and where failures tend to occur at the interfaces between actors rather than within any single one.
-
-The persona profiles in `personas_jobs.md` are the central artifact for the workshop. The diagnostic cycle and reference files provide the underlying COM-B and BCW vocabulary needed to reason about why behaviors break down and what interventions might help.
+The repo includes reference files for COM-B vocabulary, BCW intervention logic, and tool-level mechanisms, plus a diagnostic cycle that walks through seven behavior states with matched blockers and interventions. It also includes `personas_jobs.md` — a worked example (avalanche safety) and reusable template for profiling actors in any multi-actor behavior system.
 
 ## How to apply this framework
 
-This framework works at two levels, and the workshop will use both.
+This framework works at two levels, and the real power comes from using them together.
 
 ### Level 1: Diagnose the behavior
 
-Pick a specific avalanche safety behavior — terrain selection, forecast interpretation, turn-around decisions, mitigation timing, companion rescue, or any other critical practice. Use the **diagnostic cycle** (`behavior-jtbd-maturity-diagnostic-cycle.md`) to classify its current state across seven possibilities: from fully ritualized and stable, through friction-filled or inconsistent, down to aspirational, suppressed, or conceptually undefined. Each state comes with a COM-B blocker profile that explains *why* the behavior looks the way it does, and a set of intervention strategies matched to those specific blockers.
+Pick any behavior that matters in your domain — a practice, ritual, process, or habit. Use the **diagnostic cycle** (`behavior-jtbd-maturity-diagnostic-cycle.md`) to classify its current state across seven possibilities: from fully ritualized and stable, through friction-filled or inconsistent, down to aspirational, suppressed, or conceptually undefined. Each state comes with a COM-B blocker profile that explains *why* the behavior looks the way it does, and a set of intervention strategies matched to those specific blockers.
 
 This level answers: **"What is happening with this behavior, why is it stuck, and what interventions fit?"**
 
-### Level 2: Map the actors
+### Level 2: Map the actors (optional)
 
-Avalanche safety behaviors do not live inside a single person. They span a system of actors — forecasters, field observers, ski patrol, highway control, mountain guides, backcountry recreationists, SAR teams, and educators — each with their own capability, opportunity, and motivation profile. The persona profiles in `personas_jobs.md` map each actor's COM-B breakdown, target behaviors, and failure modes.
+Most important behaviors do not live inside a single person. They span a system of actors — different roles, teams, or personas — each with their own capability, opportunity, and motivation profile. Use `personas_jobs.md` as a template for profiling each actor: what they are trying to do, what COM-B forces shape their behavior, and where they are likely to fail. The file includes a reusable persona structure and a worked example (avalanche safety) you can reference.
 
-The critical insight is at the **interfaces**. Forecasters, observers, and patrol may each perform well within their own scope, but failures concentrate at the handoffs — where one actor's output becomes another's input. A forecast that is technically accurate but communicated abstractly fails the guide who needs actionable terrain guidance. Strong mitigation by patrol means nothing if the recreationist reads open terrain as implicit permission.
+The critical insight is at the **interfaces**. Individual actors may each perform well within their own scope, but failures concentrate at the handoffs — where one actor's output becomes another's input. A report that is technically accurate but communicated abstractly fails the person who needs actionable guidance. Strong upstream performance means nothing if the downstream decision-maker misreads the environment.
 
 This level answers: **"Who are the actors, what does COM-B look like for each of them, and where do the breakdowns between actors actually happen?"**
 
-### Combining both levels in the workshop
+### Combining both levels
 
-For a complete diagnosis during the simulation:
+For a complete diagnosis:
 
-1. **Name the behavior.** What specific avalanche safety practice or decision are you examining?
+1. **Name the behavior.** What specific practice or decision are you examining?
 2. **Classify its state** using the diagnostic cycle. Identify the COM-B blockers.
-3. **Profile the actors** involved using `personas_jobs.md`. For each, review their capability, opportunity, motivation, and failure modes.
-4. **Find the misalignments.** Where do actors optimize for different objectives? Where does one actor's failure mode become another's blocker? Where does automatic motivation (powder fever, social pressure, familiarity) override what people know they should do?
-5. **Select interventions** that target the specific blockers and misalignments you found — not generic safety advice.
+3. **Profile the actors** involved. Create your own personas using the template in `personas_jobs.md`. For each, map their capability, opportunity, motivation, and failure modes.
+4. **Find the misalignments.** Where do actors optimize for different objectives? Where does one actor's failure mode become another's blocker? Where does automatic motivation (habits, biases, social pressure) override what people know they should do?
+5. **Select interventions** that target the specific blockers and misalignments you found — not generic best practices.
 
 The reference files (`com-b-abbreviations-reference.md`, `com-b-to-bcw-intervention-function-mapping.md`, `com-b-tool-influence-mechanisms-and-levers.md`, `com-b-behavior-states-primary-secondary-blockers.md`) provide the vocabulary, intervention logic, and tool mechanisms you need at each step.
 
@@ -95,27 +93,27 @@ The main document. Integrates everything above into a single walkthrough of seve
 
 This file answers: "For a behavior in state X, what exactly is going wrong, and what should I do about it?"
 
-### Layer 6: Applied example — persona-level COM-B profiles
+### Layer 6: Persona profiles (template + worked example)
 
 **`personas_jobs.md`**
 
-A worked example applying COM-B to a real multi-actor behavior system: avalanche safety. Profiles eight personas (Forecaster, Field Observer, Ski Patrol, Highway Control, Mountain Guide, Backcountry Recreationist, Search and Rescue, Educator), each described with:
+A reusable template and worked example for profiling actors in a multi-actor behavior system using COM-B. The file starts with the persona structure to follow for any domain, then includes a complete worked example applying that structure to avalanche safety (eight personas: Forecaster, Field Observer, Ski Patrol, Highway Control, Mountain Guide, Backcountry Recreationist, Search and Rescue, Educator).
+
+Each persona is described with:
 
 - Target behaviors
 - Needs and desires
 - COM-B breakdown (Capability, Opportunity, Motivation — with specific sub-dimensions)
 - Failure modes
 
-Beyond individual profiles, the file surfaces four system-level insights:
+The worked example also demonstrates system-level analysis — the patterns to look for after profiling individual actors:
 
-1. **The "last mile" problem:** failures concentrate at the decision point (Guide / Recreationist) even when upstream actors perform well.
-2. **Motivation is the weakest link:** automatic motivation (powder fever, social pressure, familiarity) overrides capability and opportunity.
-3. **Opportunity shapes behavior:** environmental cues (easy access, existing tracks, open terrain) implicitly permit risk.
-4. **Misaligned optimization:** each persona optimizes for a different objective; no single persona owns end-to-end behavioral alignment.
+1. **The "last mile" problem:** failures concentrate at downstream decision points even when upstream actors perform well.
+2. **Motivation as weakest link:** automatic motivation (habits, biases, social pressure) overrides capability and opportunity.
+3. **Permissive environments:** environmental cues implicitly permit the wrong behavior.
+4. **Misaligned optimization:** each actor optimizes for a different objective; no single actor owns end-to-end behavioral alignment.
 
-The core framing: avalanche safety is not a knowledge problem — it is a distributed behavior system where capability is uneven, opportunity is often permissive, and motivation is frequently misaligned. Failure occurs when these do not align at the moment of decision.
-
-This file demonstrates how the abstract COM-B vocabulary (Layer 1) can be applied to profile real actors, diagnose where behavior breaks down across a system, and identify the interfaces between personas where interventions matter most.
+This file is **optional**. Use it when your situation involves multiple actors and you want to understand where behavior breaks down across a system, not just within a single role. You can use the avalanche example as a reference, replace it with your own domain, or build from the template.
 
 ---
 
@@ -147,10 +145,10 @@ behavior-jtbd-maturity-diagnostic-cycle.md
     Applies: tool mechanisms from tool influence file
     Expands: blocker matrix into full per-state diagnosis + intervention
 
-personas_jobs.md
+personas_jobs.md (optional — template + worked example)
     Uses: COM-B categories (C, O, M) from abbreviations reference
-    Applies: COM-B as a persona profiling lens (not abbreviated codes)
-    Demonstrates: how to decompose a multi-actor system using COM-B
+    Provides: reusable persona structure for any domain
+    Includes: worked example (avalanche safety) as reference
     Complements: diagnostic cycle (cycle diagnoses behavior states;
                   personas file diagnoses actor-level breakdowns)
 ```
@@ -167,9 +165,9 @@ personas_jobs.md
 
 5. **Reason about transitions.** The cycle is not a maturity ladder. Behaviors can regress (e.g., a Fully Realized behavior becomes Actively Suppressed after a reorg). Use the cycle flow to reason about what state a behavior might move toward, and what blockers would emerge at that next state.
 
-6. **Profile actors in a system.** When the situation involves multiple actors (personas, roles, teams), use the personas file as a template. For each actor, map their target behaviors, COM-B profile (what they can do, what the environment permits, what drives them), and failure modes. Then look at the interfaces between actors — where one actor's output becomes another's input — because system-level failures often occur at these handoffs, not within a single actor.
+6. **Profile actors in a system (if applicable).** When the situation involves multiple actors (personas, roles, teams), use the persona template in `personas_jobs.md` to profile each one. For each actor, map their target behaviors, COM-B profile (what they can do, what the environment permits, what drives them), and failure modes. Then look at the interfaces between actors — where one actor's output becomes another's input — because system-level failures often occur at these handoffs, not within a single actor. The avalanche safety example in the same file shows this pattern in detail.
 
-7. **Diagnose system-level dynamics.** After profiling actors, check for the patterns surfaced in the personas file:
+7. **Diagnose system-level dynamics (if applicable).** After profiling actors, check for recurring patterns:
    - Is there a "last mile" problem where upstream performance is strong but downstream decisions still fail?
    - Is automatic motivation (habits, biases, social pressure) overriding capability and opportunity?
    - Is the environment implicitly permitting the wrong behavior?
@@ -179,7 +177,7 @@ personas_jobs.md
    - Do not assume higher states are always better. "Fully Realized & Stable" can mask brittleness and hidden cost.
    - Do not treat the seven states as mutually exclusive within an organization. Different teams may be at different states for the same behavior.
    - Do not skip diagnosis. The framework's value is in matching the intervention to the specific blocker profile, not in applying generic advice.
-   - Do not profile personas in isolation. The value of multi-actor COM-B analysis is in revealing misalignment between actors, not just within them.
+   - When profiling personas, do not profile them in isolation. The value of multi-actor COM-B analysis is in revealing misalignment between actors, not just within them.
 
 ## Theoretical foundations
 
