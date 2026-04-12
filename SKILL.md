@@ -50,6 +50,8 @@ For each COM-B code, open the matching lens file:
 
 Output dimensional IDs and short tags (e.g. "PC 1.2.3 — mental-model gap in cue interpretation").
 
+This is a good place to ask the user follow-up questions. The lens dimensions often surface distinctions the user hasn't considered — e.g. whether a capability gap is about mental models or procedural fluency, whether motivation is about identity or habit, whether opportunity constraints are about tooling or norms. If the initial description doesn't give enough signal to choose between competing dimensions, ask.
+
 ### Step 4 — Map to BCW intervention functions
 
 Read [`references/com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md`](references/com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md). The lens-specified blockers drive the function ordering — a PC blocker rooted in mental-model gaps calls for different functions than one rooted in procedural fluency.
