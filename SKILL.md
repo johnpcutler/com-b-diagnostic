@@ -60,7 +60,7 @@ Read [`references/com-b-bcw-bct/bct-taxonomy.md`](references/com-b-bcw-bct/bct-t
 
 ### Step 6 — Choose tool levers
 
-Read per-state levers in [`references/com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](references/com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md) and product patterns in [`references/com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md`](references/com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md). Each lever is annotated with COM-B target and BCW mechanism.
+Read per-state levers in [`references/com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](references/com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md). Each lever is annotated with COM-B target and BCW mechanism.
 
 ### Step 7 — Design the intervention
 

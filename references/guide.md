@@ -68,7 +68,7 @@ Read [`com-b-bcw-bct/bct-taxonomy.md`](com-b-bcw-bct/bct-taxonomy.md). The full 
 
 ### Step 6 — Choose tool levers
 
-Read the per-state tool levers in [`com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md) and the product-design patterns in [`com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md`](com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md). Each lever is annotated with its COM-B target and BCW mechanism so choices stay traceable back to diagnosis.
+Read the per-state tool levers in [`com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md). Each lever is annotated with its COM-B target and BCW mechanism so choices stay traceable back to diagnosis.
 
 **Output:** concrete tool or design changes keyed by COM-B branch.
 
@@ -89,7 +89,6 @@ com-b-bcw-bct/com-b-abbreviations-reference.md
 
 com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md
     Uses: COM-B codes, BCW codes
-    Applies: tool mechanisms from tool influence file
     Expands: blocker matrix into full per-state diagnosis + intervention
 
 com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md
@@ -102,9 +101,6 @@ com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md
 com-b-bcw-bct/bct-taxonomy.md
     Full BCT Taxonomy v1 (93 techniques / 16 groupings)
     Linked from: intervention mapping table 3
-
-com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md
-    Translates: COM-B → product/tool design patterns
 
 lenses/*.md
     Deepen each COM-B branch into numbered dimensions

@@ -42,7 +42,6 @@ STEP 5  select_bcts()
 
 STEP 6  tool_levers()
   READ    com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md   // per-state levers
-          com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md  // product/tool lens
   OUT     tool_notes_by_com_b       // digest: PO:foo, PC:bar, …
 
 STEP 7  intervention_design()
@@ -94,7 +93,6 @@ Body text under **The situation** is context only; it is not a numbered pipeline
 | COM-B abbreviations | [`com-b-bcw-bct/com-b-abbreviations-reference.md`](com-b-bcw-bct/com-b-abbreviations-reference.md) |
 | COM-B → BCW → BCT groupings | [`com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md`](com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) |
 | Full BCT taxonomy | [`com-b-bcw-bct/bct-taxonomy.md`](com-b-bcw-bct/bct-taxonomy.md) |
-| Tool mechanisms | [`com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md`](com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md) |
 | Lenses | [`lenses/capability-lenses.md`](lenses/capability-lenses.md), [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md), [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md), [`lenses/social-opportunity-lenses.md`](lenses/social-opportunity-lenses.md) |
 | Repo overview | [`README.md`](../README.md) |
 

@@ -172,8 +172,6 @@ Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../
 
 ## Step 6: Tool levers
 
-Referencing [../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md](../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md):
-
 - **PC: Guided interview template in the team's existing tool.** A Notion or Confluence template with a structured discussion guide format: assumption statement, 3-5 open questions, probing prompts, and a synthesis section. This uses the Clarification and Instruction mechanisms to make the behavior procedurally clear without requiring separate training. The template encodes "what good looks like" directly into the workflow.
 
 - **PO: One-click scheduling integration for customer calls.** A Calendly-style link connected to a customer panel or opt-in list, reducing the recruiting and scheduling overhead from hours to minutes. This uses the Automation and Streamlining mechanisms to collapse the highest-friction step in the discovery workflow.

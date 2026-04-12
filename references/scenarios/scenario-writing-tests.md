@@ -183,8 +183,6 @@ Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../
 
 ## Step 6: Tool levers
 
-Referencing [../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md](../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md):
-
 - **PO: Test scaffold generator in the CLI.** `make test ModuleName` creates a test file with imports, a describe block, and a placeholder assertion. Mechanism: Reduction of Resource Cost, Streamlining. Targets the high activation energy that prevents engineers from starting. When starting a test takes 5 seconds instead of 5 minutes, the decision calculus changes.
 
 - **PO: Parallelized test suite and flaky test quarantine.** Split the suite into fast unit tests (target: under 90 seconds) and slower integration tests. Quarantine flaky tests into a non-blocking suite that runs nightly, not on every PR. Mechanism: Automation, removing friction. Targets the hostile tooling environment that makes testing aversive.

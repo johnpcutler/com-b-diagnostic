@@ -46,7 +46,7 @@ _Ordered by lens-driven priority._
 
 | COM-B branch | Lever | Mechanism | Source |
 |-------------|-------|-----------|--------|
-| _PC_ | _e.g. Inline guidance at decision point_ | _ED → 4.1_ | _tool-influence file_ |
+| _PC_ | _e.g. Inline guidance at decision point_ | _ED → 4.1_ | _diagnostic cycle S?_ |
 | _SO_ | _e.g. Make peer behavior visible_ | _ER → 12.5_ | _diagnostic cycle S?_ |
 
 ## 7. Phased rollout

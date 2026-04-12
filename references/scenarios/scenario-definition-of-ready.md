@@ -173,8 +173,6 @@ Referencing the full taxonomy in [../com-b-bcw-bct/bct-taxonomy.md](../com-b-bcw
 
 ## Step 6: Tool levers
 
-Referencing [../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md](../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md):
-
 - **PC → Clarification, Sensemaking Support.** Multi-perspective readiness canvas embedded in the ticket template. Each role's readiness dimensions are visible as named sections (not a single flat checklist). The canvas makes the multi-perspective structure of readiness visible and navigable. When a PM fills out "Problem Clarity" and an engineer fills out "Technical Approach," the structure itself teaches the team that readiness is multi-dimensional.
 
 - **PC → Cognitive Offloading, Error Reduction.** Required fields in the ticket tool that surface specific readiness dimensions before a story can be committed to a sprint. Constraint-based inputs that prevent the "is it ready?" question from collapsing into a monolithic yes/no. The tool enforces dimensionality: you cannot mark a story "ready" without explicitly assessing each dimension, even if that assessment is "uncertain — plan: [X]."

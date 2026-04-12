@@ -153,8 +153,6 @@ Using [../com-b-bcw-bct/bct-taxonomy.md](../com-b-bcw-bct/bct-taxonomy.md), sele
 
 ## Step 6: Tool levers
 
-Using [../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md](../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md):
-
 - **PO -> Automation, Streamlining:** CI integration that flags PRs exceeding 300 lines and suggests splitting strategies based on the file change graph. This removes the manual negotiation around PR size and makes the convention self-enforcing.
 - **PO -> Integration:** Review dashboard showing real-time queue depth, average wait times, and reviewer load balance across the team. Integrates CI results, test coverage deltas, and file-risk scores directly into the review interface so reviewers do not need to context-switch.
 - **PC -> Instruction, Cognitive Offloading:** Inline review guidance via collapsible checklist sections embedded in the PR template. Each section (logic, tests, architecture, security) includes 2-3 prompt questions that direct the reviewer's attention. This offloads the "what should I look for?" question from working memory to the interface.
