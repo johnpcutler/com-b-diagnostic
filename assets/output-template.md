@@ -48,7 +48,6 @@ lenses.RM  = [...]                 # if RM in play
 lenses.AM  = [...]                 # if AM in play
 functions  = <BCW order, use >> or > for emphasis if needed>
 bcts       = <FUNCTION→n.n,n.n | ...>
-tools      = <COM-B:token pairs or short tokens>
 phases     = <e.g. [wk1-3] A+B → [wk4-8] C>
 ```
 
@@ -97,20 +96,14 @@ Context-only prose: what people do or fail to do, actors, environment, recent ch
 
 ---
 
-## Step 6: Tool levers
+## Step 6: Intervention design
 
-- Bulleted list of concrete tool/process/design changes.
-- Key each item by COM-B branch; note mechanism where useful (still traceable to BCTs / functions).
-
----
-
-## Step 7: Intervention design
-
-- One sub-heading **per phase** (e.g. `### Phase 1: … (weeks …)`).
+- **Tool and design levers:** bulleted list of concrete changes keyed by COM-B branch; traceable to BCTs / functions.
+- **Phased rollout:** one sub-heading **per phase** (e.g. `### Phase 1: … (weeks …)`).
 - Each phase: **Focus** (which functions / dimensions), concrete actions with BCT numbers, owners if known, **advance signal** (what improves if the phase works).
 
 ---
 
 ## Framework observations
 
-Reflections **after** the diagnosis: what the framework surfaced, tensions (e.g. primary vs secondary blockers), gaps, or risks — not a repeat of Steps 1–7.
+Reflections **after** the diagnosis: what the framework surfaced, tensions (e.g. primary vs secondary blockers), gaps, or risks — not a repeat of Steps 1–6.

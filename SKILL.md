@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Run a structured behavioral diagnosis using COM-B, the Behavior Change Wheel, and BCT Taxonomy v1. Given a description of a stuck or problematic behavior, produce a traceable chain: behavior state → COM-B blockers → dimensional lens analysis → intervention functions → named techniques → tool/design levers → phased rollout.
+Run a structured behavioral diagnosis using COM-B, the Behavior Change Wheel, and BCT Taxonomy v1. Given a description of a stuck or problematic behavior, produce a traceable chain: behavior state → COM-B blockers → dimensional lens analysis → intervention functions → named techniques → phased intervention design.
 
 ## When to activate
 
@@ -25,7 +25,7 @@ Ask the user for (or extract from context):
 
 ## Pipeline
 
-Follow [`references/flow.md`](references/flow.md) steps 1–7 in order. The full walkthrough with file pointers is in [`references/guide.md`](references/guide.md).
+Follow [`references/flow.md`](references/flow.md) steps 1–6 in order. The full walkthrough with file pointers is in [`references/guide.md`](references/guide.md).
 
 ### Step 1 — Classify the behavior state
 
@@ -56,13 +56,9 @@ Read [`references/com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md`](
 
 Read [`references/com-b-bcw-bct/bct-taxonomy.md`](references/com-b-bcw-bct/bct-taxonomy.md). Name specific techniques per function. The taxonomy acts as a checklist against narrow interventions.
 
-### Step 6 — Choose tool levers
+### Step 6 — Design the intervention
 
-Read per-state levers in [`references/com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](references/com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md). Each lever is annotated with COM-B target and BCW mechanism.
-
-### Step 7 — Design the intervention
-
-Combine into a phased rollout with ownership and success signals.
+Combine BCTs into concrete changes (tools, process, environment, social structures) and a phased rollout with ownership and success signals. Per-state lever ideas in [`references/com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](references/com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md) can inform this step when they match the classified state.
 
 ## Using scenarios
 
@@ -72,7 +68,7 @@ Consult [`references/scenarios/`](references/scenarios/) as worked examples when
 
 Produce the diagnosis as a **report** following the skeleton in [`assets/output-template.md`](assets/output-template.md). That file is not a form for the user to fill in; it defines a stable heading order, digest block shape, and wording conventions so long outputs stay consistent and downstream consumers can rely on required sections.
 
-The agent fills in each section from the pipeline (Steps 1–7). Include a **digest** (compressed outputs only) at the top, then narrative sections matching the scenario pattern in [`references/scenarios/`](references/scenarios/).
+The agent fills in each section from the pipeline (Steps 1–6). Include a **digest** (compressed outputs only) at the top, then narrative sections matching the scenario pattern in [`references/scenarios/`](references/scenarios/).
 
 ## Guardrails
 

@@ -1,6 +1,6 @@
 # Scenario: "Code review is a bottleneck everyone dreads"
 
-This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–7.
+This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–6.
 
 ```
 state      = S2: Realized but Friction-Filled
@@ -15,8 +15,6 @@ lenses.PC  = [1.1.2 procedural-review-skill, 1.3.4 recognition-judgment, 1.5.1 c
 lenses.AM  = [2.1.2-2.1.5 habit-loop, 2.4.1 helplessness, 2.2.1-2.2.2 reinforcement-inverted]
 functions  = ER >> EN > MO > TR > PE
 bcts       = ER→12.1,12.5,7.1 | EN→1.1,2.2 | MO→6.1 | TR→8.1 | PE→5.3
-tools      = PO:ci-size-limit,review-dashboard | PC:inline-checklist | SO:team-feed |
-             AM:auto-assign | RM:impact-summary
 phases     = [wk1-3] ER+EN → [wk4-8] TR+MO+PE → [wk9+] INC+AM+sustain
 ```
 
@@ -151,7 +149,9 @@ Using [../com-b-bcw-bct/bct-taxonomy.md](../com-b-bcw-bct/bct-taxonomy.md), sele
 
 - **5.3 Information about social and environmental consequences.** Present data connecting review quality to downstream outcomes: bugs caught during review versus bugs discovered in production, with estimated cost differential. Show specific examples: "This bug was caught in review and took 15 minutes to fix. This similar bug escaped review, caused a production incident, and took 3 days to resolve." Making consequences concrete and local shifts review from abstract obligation to felt necessity.
 
-## Step 6: Tool levers
+## Step 6: Intervention design
+
+### Tool and design levers
 
 - **PO -> Automation, Streamlining:** CI integration that flags PRs exceeding 300 lines and suggests splitting strategies based on the file change graph. This removes the manual negotiation around PR size and makes the convention self-enforcing.
 - **PO -> Integration:** Review dashboard showing real-time queue depth, average wait times, and reviewer load balance across the team. Integrates CI results, test coverage deltas, and file-risk scores directly into the review interface so reviewers do not need to context-switch.
@@ -159,8 +159,6 @@ Using [../com-b-bcw-bct/bct-taxonomy.md](../com-b-bcw-bct/bct-taxonomy.md), sele
 - **SO -> Social Proof, Shared Visibility:** Team-level activity feed showing review depth metrics aggregated by team, not individual. Displays comment type distribution (what percentage of comments are substantive vs. style) and review turnaround trends. Team-level aggregation avoids surveillance dynamics while shifting the descriptive norm.
 - **AM -> Defaults:** Auto-assignment of reviewers with rotation and load balancing. The default is "you have a reviewer assigned within 30 minutes" rather than "find someone to review your PR." Rotating assignment prevents bottlenecking on senior engineers and distributes review load.
 - **RM -> Feedback Loops:** Monthly "review impact" summary that connects specific review comments to prevented production incidents, resolved design issues, or knowledge-sharing moments. This closes the long-horizon feedback loop: reviewers see that their effort mattered, which counteracts the learned helplessness dynamic.
-
-## Step 7: Intervention design
 
 ### Phase 1: Reduce friction (weeks 1-3)
 

@@ -1,6 +1,6 @@
 # Framework Guide
 
-A detailed walkthrough of the seven-step diagnostic pipeline and how the reference files connect.
+A detailed walkthrough of the six-step diagnostic pipeline and how the reference files connect.
 
 Built on the **COM-B model** (Michie, van Stralen & West), the **Behavior Change Wheel** (Michie, Atkins & West), and the **BCT Taxonomy v1** (Michie, Richardson, Johnston et al.). The diagnostic lenses draw from Deci & Ryan, Bandura, Klein, Kahneman & Tversky, Endsley, Norman, Cialdini, Edmondson, Beer, Vygotsky, and others across behavioral science, human factors, and organizational theory. The behavior states, blocker profiles, dimensional lens IDs, and product-level levers are original extensions. Full credits and sources in [`credits.md`](../credits.md).
 
@@ -66,17 +66,11 @@ Read [`com-b-bcw-bct/bct-taxonomy.md`](com-b-bcw-bct/bct-taxonomy.md). The full 
 
 **Output:** techniques keyed by function (e.g. ER → 12.1, 12.5 | EN → 1.1, 2.2).
 
-### Step 6 — Choose tool levers
+### Step 6 — Design the intervention
 
-Read the per-state tool levers in [`com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md). Each lever is annotated with its COM-B target and BCW mechanism so choices stay traceable back to diagnosis.
+Combine BCTs into **concrete changes** (tools, process, environment, social structures) and a **phased rollout**: what changes when, who owns it, which BCW functions and BCTs are active in each phase, and what signals tell you to advance or adjust. Per-state lever ideas in [`com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md) can inform this step when they match the classified state.
 
-**Output:** concrete tool or design changes keyed by COM-B branch.
-
-### Step 7 — Design the intervention
-
-Combine all prior outputs into a **phased rollout**: what changes when, who owns it, which BCW functions and BCTs are active in each phase, and what signals tell you to advance or adjust.
-
-**Output:** timeboxed phases tying functions + techniques + levers to sequence and ownership.
+**Output:** timeboxed phases tying functions + techniques + concrete changes to sequence and ownership.
 
 ---
 
@@ -108,8 +102,8 @@ lenses/*.md
     Point to: intervention mapping for BCW layer
 
 flow.md
-    Canonical pipeline + digest field spec; scenarios implement steps 1–7
+    Canonical pipeline + digest field spec; scenarios implement steps 1–6
 
 scenarios/*.md
-    End-to-end examples: state → COM-B → lenses → BCW → BCT → tools → phases
+    End-to-end examples: state → COM-B → lenses → BCW → BCT → intervention design
 ```

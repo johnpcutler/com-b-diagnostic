@@ -1,6 +1,6 @@
 # Scenario: "What does 'ready for dev' actually mean?"
 
-This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–7.
+This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–6.
 
 ```
 state      = S7: Contested / Undefined
@@ -13,7 +13,6 @@ lenses.PO  = [3.7 activation-energy, 5.1-5.2 tooling-affordance, 4.3 feedback-la
 lenses.RM  = [1.4.1-1.4.4 identity-framing, 1.3.1-1.3.3 expectancy+value-cost]
 functions  = ED >> ER > MO > EN > PE
 bcts       = ED→4.2,4.1 | ER→12.1,12.2 | MO→6.1 | PE→13.2,9.2 | EN→1.2
-tools      = PC:readiness-canvas,required-fields | SO:shared-readiness-map | RM:outcome-tracking
 phases     = [wk1-2] ED → [wk3-6] ER+EN → [wk7+] MO+PE+feedback
 ```
 
@@ -171,7 +170,9 @@ Referencing the full taxonomy in [../com-b-bcw-bct/bct-taxonomy.md](../com-b-bcw
 
 - **1.2 Problem solving.** Run a facilitated session where the team maps their actual rework patterns back to specific readiness gaps. Analyze the last 8-10 sprints: which stories caused the most rework, what was missing at sprint entry, what would have changed if that information had been surfaced earlier? Generate solutions collaboratively from the evidence rather than from abstract principles. This grounds the readiness definition in the team's own experience rather than imposing an external standard.
 
-## Step 6: Tool levers
+## Step 6: Intervention design
+
+### Tool and design levers
 
 - **PC → Clarification, Sensemaking Support.** Multi-perspective readiness canvas embedded in the ticket template. Each role's readiness dimensions are visible as named sections (not a single flat checklist). The canvas makes the multi-perspective structure of readiness visible and navigable. When a PM fills out "Problem Clarity" and an engineer fills out "Technical Approach," the structure itself teaches the team that readiness is multi-dimensional.
 
@@ -180,8 +181,6 @@ Referencing the full taxonomy in [../com-b-bcw-bct/bct-taxonomy.md](../com-b-bcw
 - **SO → Shared Visibility, Depoliticization.** A shared "readiness score" or readiness map visible to all roles, showing which dimensions are assessed as clear, which are flagged as uncertain, and which are gaps. This depoliticizes the conversation: the artifact shows the state of readiness across all dimensions neutrally, rather than one role asserting and another challenging. The discussion moves from "Is it ready?" to "What does the readiness map show?"
 
 - **RM → Feedback Loops, Persuasion.** Before/after metrics tracking the relationship between readiness scores at sprint entry and sprint outcomes (rework rate, mid-sprint scope changes, blocked time, velocity stability). This creates an evidence-based feedback loop: teams can see that stories with high readiness scores across all dimensions have measurably better outcomes. The data does the persuasion work, reducing reliance on authority or assertion.
-
-## Step 7: Intervention design
 
 ### Phase 1: Surface the divergence (weeks 1-2)
 

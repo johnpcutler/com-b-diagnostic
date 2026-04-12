@@ -1,6 +1,6 @@
 # COM-B Diagnostic Skill
 
-A structured LLM skill for diagnosing stuck behaviors and choosing evidence-based interventions. Given a description of what people do (or fail to do), the skill traces a seven-step pipeline from behavior state → COM-B blockers → dimensional lens analysis → BCW intervention functions → named BCTs → tool/design levers → phased rollout.
+A structured LLM skill for diagnosing stuck behaviors and choosing evidence-based interventions. Given a description of what people do (or fail to do), the skill traces a six-step pipeline from behavior state → COM-B blockers → dimensional lens analysis → BCW intervention functions → named BCTs → phased intervention design.
 
 Built on the COM-B model, the Behavior Change Wheel, and the BCT Taxonomy v1, with dimensional lenses drawn from SDT, NDM, SEIPS, social-norms theory, and other research traditions. Full attribution in [`credits.md`](credits.md).
 

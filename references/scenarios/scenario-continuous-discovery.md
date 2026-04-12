@@ -1,6 +1,6 @@
 # Scenario: "We should be doing continuous discovery"
 
-This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–7.
+This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–6.
 
 ```
 state      = S5: Aspirational Only
@@ -16,7 +16,6 @@ lenses.SO  = [1.4 norm-inconsistency, 4.1 reward-misaligned, 4.5 recognition-inv
               5.1 legitimacy, 5.3 identity-safety, 6.3 political-threat, 7.4 governance-recursion]
 functions  = EN >> ED > TR > MO > PE                      COE↓ RE↓
 bcts       = ED→4.1,5.3 | TR→8.1,8.7 | EN→1.4,1.1,3.2 | MO→6.1 | PE→9.1,13.3
-tools      = PC:template | PO:scheduling,synthesis | AM:weekly-prompt | RM:dashboard | SO:feed
 phases     = [wk1-4] ED+TR+EN → [wk5-12] MO+PE+AM → [wk13+] EN+sustain
 ```
 
@@ -170,7 +169,9 @@ Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../
 
 - **13.3 Incompatible beliefs** — Draw attention to the discrepancy between the org's stated identity ("we are discovery-driven") and its actual behavior (6 of 8 PMs have never talked to a customer). This creates productive discomfort. The goal is not shame but honest confrontation of the gap, which can energize commitment to close it.
 
-## Step 6: Tool levers
+## Step 6: Intervention design
+
+### Tool and design levers
 
 - **PC: Guided interview template in the team's existing tool.** A Notion or Confluence template with a structured discussion guide format: assumption statement, 3-5 open questions, probing prompts, and a synthesis section. This uses the Clarification and Instruction mechanisms to make the behavior procedurally clear without requiring separate training. The template encodes "what good looks like" directly into the workflow.
 
@@ -183,8 +184,6 @@ Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../
 - **RM: Dashboard showing discovery cadence alongside product outcomes.** A simple dashboard: discovery conversations per team per sprint, plotted alongside feature activation rates and rework rates. This uses Feedback Loops and Persuasion mechanisms to make the value of discovery visible and to connect the behavior to outcomes leadership already tracks.
 
 - **SO: Shared feed showing which teams did discovery this week.** A weekly Slack digest or Notion board: "This week, Team Alpha tested assumption X and learned Y. Team Beta spoke with 3 customers about Z." This uses Social Proof and Shared Visibility mechanisms to make discovery a visible, normal peer behavior rather than an invisible individual choice.
-
-## Step 7: Intervention design
 
 ### Phase 1: Bootstrap (weeks 1-4)
 

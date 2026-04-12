@@ -1,6 +1,6 @@
 # Scenario: "Everyone agrees we should write tests, but we keep skipping them"
 
-This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–7.
+This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–6.
 
 ```
 state      = S4: Weakly Realized
@@ -17,8 +17,6 @@ lenses.SO  = [1.1-1.2 descriptive≠injunctive, 4.1 shipping>testing,
               5.1-5.3 legitimacy, 6.6 power-gradient]
 functions  = ER >> EN > TR > PE > MO                      COE↓
 bcts       = ER→12.1,7.1,12.5 | EN→1.4,1.1 | TR→8.3,8.7 | PE→5.2,5.5 | MO→6.1
-tools      = PO:scaffold-gen,parallel-suite | AM:pr-checkbox,coverage-delta |
-             RM:impact-dashboard | SO:test-hero
 phases     = [wk1-4] ER+EN → [wk5-10] TR+MO+AM → [wk11+] PE+INC+sustain
 ```
 
@@ -181,7 +179,9 @@ Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../
 
 - **6.1 Demonstration of the behavior** — A senior engineer live-streams a TDD session on a real ticket from the current sprint, narrating the decisions: why this test first, how to mock this dependency, when to use a unit test versus an integration test, how to handle the edge case. The demonstration makes the behavior observable, concrete, and imitable in context. It addresses the gap between "I know how to test in theory" and "I can see how testing works in our codebase, with our patterns, on our tickets."
 
-## Step 6: Tool levers
+## Step 6: Intervention design
+
+### Tool and design levers
 
 - **PO: Test scaffold generator in the CLI.** `make test ModuleName` creates a test file with imports, a describe block, and a placeholder assertion. Mechanism: Reduction of Resource Cost, Streamlining. Targets the high activation energy that prevents engineers from starting. When starting a test takes 5 seconds instead of 5 minutes, the decision calculus changes.
 
@@ -194,8 +194,6 @@ Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../
 - **RM: "Testing impact" dashboard.** A lightweight dashboard showing: bugs caught by tests this month, production incidents in untested code paths, estimated debugging time saved by test coverage. Mechanism: Feedback Loops, Persuasion. Targets the invisible benefit of testing by making the value concrete and trackable.
 
 - **SO: Weekly "test hero" highlight.** In the team standup or Slack channel, highlight the person who wrote the test that caught a real bug before production. Mechanism: Social Proof. Targets the social reward gap by making preventive work visible and celebrated rather than invisible.
-
-## Step 7: Intervention design
 
 ### Phase 1: Fix the infrastructure (weeks 1-4)
 
