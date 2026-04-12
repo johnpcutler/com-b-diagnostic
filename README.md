@@ -1,8 +1,14 @@
-# COM-B Diagnostic Skill
+# Change Lenses and Actions
 
-Diagnose stuck behaviors and design evidence-based interventions. Give your AI agent a description of what people do (or fail to do), and it runs a six-step pipeline: behavior state → COM-B blockers → dimensional lens analysis → BCW intervention functions → named BCTs → phased intervention design.
+Someone isn't doing the thing — and you can't figure out why.
 
-Built on the COM-B model, the Behavior Change Wheel, and the BCT Taxonomy v1. Full attribution in [`credits.md`](credits.md).
+Maybe that someone is you. Maybe you're designing a product and users aren't completing onboarding. Maybe you're trying to help a team of eight adopt a practice — or shift how a thousand people work. You've tried reminders, trainings, nudges, new tools — nothing sticks.
+
+Whatever the scale, the pattern is familiar: something isn't happening, and the obvious fixes haven't worked. This skill helps you understand *why* — look at the problem through multiple lenses — and design actions that might actually help.
+
+Describe what's stuck to your AI agent. It runs a structured diagnostic grounded in the COM-B model, the Behavior Change Wheel, and the BCT Taxonomy v1, and returns a phased plan.
+
+Full attribution in [`credits.md`](credits.md).
 
 ---
 
