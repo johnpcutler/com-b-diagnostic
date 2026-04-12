@@ -16,12 +16,14 @@ The user describes a behavior that is stuck, inconsistent, failing to adopt, reg
 
 ## Intake
 
-Ask the user for (or extract from context):
+Extract from the user's description, or ask follow-up questions to fill gaps:
 
 1. **Target behavior** — what should people be doing, specifically?
 2. **Current reality** — what are people actually doing instead?
 3. **Context** — who are the actors, what's the environment, what changed recently?
 4. **Scope** — single behavior or multi-actor system?
+
+If the user provides enough detail to start the pipeline, begin immediately. If critical information is missing (e.g. no target behavior, or no sense of what's actually happening), ask for it before proceeding.
 
 ## Pipeline
 

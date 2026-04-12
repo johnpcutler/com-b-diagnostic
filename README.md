@@ -52,11 +52,11 @@ Any agent that supports custom instructions or system prompts can use this skill
 
 ## Usage
 
-Describe a behavior that is stuck, inconsistent, or contested. The agent runs the pipeline and produces a structured diagnostic report. Example prompts:
+Describe the behavior you want diagnosed. Include what people should be doing, what they're actually doing, and any relevant context about the environment. The more texture you provide, the better the diagnosis. Example:
 
-- "Why aren't engineers writing tests even though everyone agrees they should?"
-- "Diagnose why our teams aren't doing continuous discovery"
-- "What's blocking adoption of code review best practices?"
+> We want engineers to write tests alongside new features, but coverage has been stuck at 30% for a year. Everyone agrees testing matters — it's in our engineering principles, it comes up in every retro. But when sprint pressure hits, tests are the first thing cut. The test suite itself is slow (8 min) and about 10% of runs fail from flaky tests, so people have learned to ignore red CI. There's no protected time for testing, and the velocity dashboard only tracks PRs merged.
+
+The agent will ask follow-up questions if it needs more detail on the target behavior, current reality, actors, or scope.
 
 ---
 
