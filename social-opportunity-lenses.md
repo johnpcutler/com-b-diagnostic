@@ -174,8 +174,7 @@ These lenses do not replace COM-B. They help specify what kind of `SO` problem i
 
 Once dominant social-opportunity patterns are clearer, the next step is usually to move into [com-b-to-bcw-intervention-function-mapping.md](/Users/johncutler/Documents/genecollab.nosync/com-b-to-bcw-intervention-function-mapping.md):
 
-- `SO` is most often paired with `RE`, `ER`, and `MO`.
-- In higher-friction systems, `EN` can support safe participation pathways and role-clarity scaffolds.
+- `SO` is most often paired with `RE`, `ER`, `MO`, and `EN`.
 
 The goal is not to duplicate that mapping here, but to make it easier to move from social-opportunity diagnosis to intervention family.
 

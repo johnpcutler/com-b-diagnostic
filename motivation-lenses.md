@@ -219,7 +219,7 @@ These lenses do not replace COM-B. They help specify what kind of motivation pro
 Once the dominant motivational pattern is clearer, the next step is usually to move into the BCW mapping in [com-b-to-bcw-intervention-function-mapping.md](/Users/johncutler/Documents/genecollab.nosync/com-b-to-bcw-intervention-function-mapping.md):
 
 - `RM` is most often paired with `ED`, `PE`, `INC`, and `COE`.
-- `AM` is most often paired with `PE`, `INC`, `COE`, `TR`, `MO`, and `EN`.
+- `AM` is most often paired with `PE`, `INC`, `COE`, `TR`, `ER`, `MO`, and `EN`.
 
 The goal is not to duplicate that mapping here, but to make it easier to move from motivational diagnosis to intervention family.
 
