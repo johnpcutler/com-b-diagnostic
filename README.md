@@ -2,7 +2,7 @@
 
 A seven-step diagnostic pipeline for understanding why a behavior is stuck and choosing interventions that match the specific blockers—not generic best practices.
 
-Built on the **COM-B model** (Capability, Opportunity, Motivation → Behavior) by Michie and colleagues, the **Behavior Change Wheel** (BCW) intervention taxonomy, and the **BCT Taxonomy v1** (93 named techniques). The framework extends these into organizational behavior adoption, tool design, and change strategy through original behavior-state classifications, dimensional lenses, and product-level levers.
+Built on the **COM-B model** (Michie, van Stralen & West), the **Behavior Change Wheel** (Michie, Atkins & West), and the **BCT Taxonomy v1** (Michie, Richardson, Johnston et al.). The diagnostic lenses draw from Deci & Ryan, Bandura, Klein, Kahneman & Tversky, Endsley, Norman, Cialdini, Edmondson, Beer, Vygotsky, and others across behavioral science, human factors, and organizational theory. The behavior states, blocker profiles, dimensional lens IDs, and product-level levers are original extensions. Full credits and sources in [`credits.md`](credits.md).
 
 ---
 
@@ -115,6 +115,7 @@ scenarios/
 
 flow.md                                        # Canonical pipeline pseudocode + digest field spec
 personas_jobs.md                               # Optional: multi-actor COM-B profiles (template + avalanche-safety example)
+credits.md                                     # Full credits and source lineages
 ```
 
 ---
@@ -160,6 +161,9 @@ personas_jobs.md
     Multi-actor COM-B profiles; template + worked example (avalanche safety)
     Complements the diagnostic cycle (cycle diagnoses behavior states;
     personas diagnose actor-level breakdowns and interface failures)
+
+credits.md
+    Full credits and source lineages for core models and all lens traditions
 ```
 
 ---
@@ -191,12 +195,3 @@ Follow [`flow.md`](flow.md) steps 1–7 in order. Specific guidance:
     - Do not assume higher states are better. "Fully Realized & Stable" can mask brittleness and hidden cost.
     - Do not profile personas in isolation. The value is in revealing misalignment between actors, not just within them.
 
----
-
-## Theoretical foundations
-
-- **COM-B model:** Michie, S., van Stralen, M. M., & West, R. (2011). The behaviour change wheel: A new method for characterising and designing behaviour change interventions. *Implementation Science*, 6(1), 42.
-- **Behavior Change Wheel (BCW):** The intervention function taxonomy that sits on top of COM-B, mapping each behavioral domain to evidence-based intervention categories.
-- **BCT Taxonomy v1:** Michie, S., Richardson, M., Johnston, M., et al. (2013). The Behavior Change Technique Taxonomy (v1) of 93 hierarchically clustered techniques. *Annals of Behavioral Medicine*, 46(1), 81–95.
-
-The behavior states, blocker profiles, lens dimensions, tool strategies, and tool levers are original extensions of these models, applied to the context of organizational behavior adoption and tool design.
