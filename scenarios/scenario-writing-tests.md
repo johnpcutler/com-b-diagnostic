@@ -65,9 +65,9 @@ Referencing [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-be
 
 ## Step 3: Deepen with lenses
 
-*Dimensional IDs: [../motivation-lenses.md](../motivation-lenses.md) `x.y.z` (RM/AM); [../physical-opportunity-lenses.md](../physical-opportunity-lenses.md) `n.m` (PO); [../capability-lenses.md](../capability-lenses.md) `x.y.z` (PC); [../social-opportunity-lenses.md](../social-opportunity-lenses.md) `n.m` (SO).*
+*Dimensional IDs: [../lenses/motivation-lenses.md](../lenses/motivation-lenses.md) `x.y.z` (RM/AM); [../lenses/physical-opportunity-lenses.md](../lenses/physical-opportunity-lenses.md) `n.m` (PO); [../lenses/capability-lenses.md](../lenses/capability-lenses.md) `x.y.z` (PC); [../lenses/social-opportunity-lenses.md](../lenses/social-opportunity-lenses.md) `n.m` (SO).*
 
-### Motivation lenses ([../motivation-lenses.md](../motivation-lenses.md))
+### Motivation lenses ([../lenses/motivation-lenses.md](../lenses/motivation-lenses.md))
 
 This is where the real diagnostic lives. The motivation picture is complex: high RM endorsement at the value level, but weak RM translation into action, combined with multiple AM forces that actively work against the behavior.
 
@@ -89,7 +89,7 @@ This is where the real diagnostic lives. The motivation picture is complex: high
 
 **2.4 Learned Helplessness** — *AM **2.4.1**, **2.4.3** (controllability / generalization):* The team has a history of failed testing initiatives. Two years ago, someone added 200 tests to the payment module. Within six months, 40 of them were flaky and the rest were ignored because the suite was too slow to run locally. The experience taught engineers that effort (writing tests) is disconnected from outcomes (a reliable test suite). This is the core mechanism of learned helplessness: perceived uncontrollability. Engineers have learned — through direct experience — that writing tests does not reliably produce a better testing outcome. The environment needs to change before the motivation can recover.
 
-### Physical opportunity lenses ([../physical-opportunity-lenses.md](../physical-opportunity-lenses.md))
+### Physical opportunity lenses ([../lenses/physical-opportunity-lenses.md](../lenses/physical-opportunity-lenses.md))
 
 **2. Resource and Capacity** — *PO **2.3** (slack margin), **2.7** (activation overhead):* Zero slack. Sprint commitments fill 100% of engineering capacity with feature delivery. Story point estimates do not include testing time — or if they nominally do, the buffer is the first thing consumed when scope creeps or unexpected issues arise. There is no protected time for testing, no "test day," no percentage of sprint capacity reserved for engineering quality. Testing competes for the same scarce resource as feature work, and feature work always wins because it has a stakeholder attached to it. The activation overhead compounds the problem: even if an engineer had 30 minutes of unexpected free time, the startup cost of navigating the test infrastructure makes it unlikely they would choose to spend it writing a test.
 
@@ -99,7 +99,7 @@ This is where the real diagnostic lives. The motivation picture is complex: high
 
 **7. Control Loops** — *PO **7.4** (loop closure — no coverage→outcome feedback):* There is no feedback loop connecting test coverage to outcomes. Engineers do not see which production bugs would have been caught by tests. There is no dashboard showing coverage trends, no report connecting untested code to incidents, no signal that testing effort produces better outcomes. The absence of a control loop means the behavior is open-loop: engineers act (or do not act) without receiving information about the consequences of their choice. Without feedback, the system cannot self-correct. The team cannot learn from its own behavior because the signal is buried.
 
-### Capability lenses ([../capability-lenses.md](../capability-lenses.md))
+### Capability lenses ([../lenses/capability-lenses.md](../lenses/capability-lenses.md))
 
 PC is not a primary blocker — engineers know how to write tests. But the capability lenses reveal subtler gaps that compound the environmental and motivational problems.
 
@@ -111,7 +111,7 @@ PC is not a primary blocker — engineers know how to write tests. But the capab
 
 **1.7 Supported Performance** — *PC **1.7.6** (transfer under support — scaffolding unlocks latent skill):* With the right scaffolding — test generators, templates, documented mocking patterns, and a fast feedback loop — most engineers on this team could test competently. The capability gap is more about infrastructure and scaffolding than about fundamental skill. This is the optimistic capability finding: the PC investment required is not "teach people to test" but "make the local testing environment navigable," which is actually a PO intervention that unlocks latent PC.
 
-### Social opportunity lenses ([../social-opportunity-lenses.md](../social-opportunity-lenses.md))
+### Social opportunity lenses ([../lenses/social-opportunity-lenses.md](../lenses/social-opportunity-lenses.md))
 
 **1. Norms and Normative Climate** — *SO **1.1**, **1.2** (descriptive vs injunctive):* The descriptive norm is "we don't test." The injunctive norm is "we should test." This contradiction is the social signature of Weakly Realized behaviors. Engineers look around and see that nobody is testing consistently. They hear that testing matters in retros and post-incident reviews. The descriptive norm wins because it carries more behavioral weight: what people actually do is a stronger signal than what people say they should do. Deviance from the descriptive norm (actually writing tests) is not punished, but it is not rewarded either — it is invisible. A testing norm cannot establish itself when the behavior is invisible to peers.
 

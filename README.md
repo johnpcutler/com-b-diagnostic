@@ -2,7 +2,7 @@
 
 A behavioral diagnostic framework built on two established models from behavioral science: the **COM-B model** (Capability, Opportunity, Motivation - Behavior) by Susan Michie and colleagues, and the **Behavior Change Wheel (BCW)** intervention taxonomy. The framework extends these models into organizational behavior adoption, tool design, and change strategy.
 
-The repo includes reference files for COM-B vocabulary, BCW intervention logic, BCT taxonomy links, and tool-level mechanisms, plus a diagnostic cycle that walks through seven behavior states with matched blockers and interventions. Four **lens** files deepen each COM-B branch with numbered dimensions; `scenarios/` holds optional end-to-end pressure tests. It also includes `personas_jobs.md` — a worked example (avalanche safety) and reusable template for profiling actors in any multi-actor behavior system.
+The repo includes reference files for COM-B vocabulary, BCW intervention logic, BCT taxonomy links, and tool-level mechanisms, plus a diagnostic cycle that walks through seven behavior states with matched blockers and interventions. The **`lenses/`** folder holds four companion notes that deepen each COM-B branch with numbered dimensions; `scenarios/` holds optional end-to-end pressure tests. It also includes `personas_jobs.md` — a worked example (avalanche safety) and reusable template for profiling actors in any multi-actor behavior system.
 
 ## How to apply this framework
 
@@ -32,7 +32,7 @@ For a complete diagnosis:
 4. **Find the misalignments.** Where do actors optimize for different objectives? Where does one actor's failure mode become another's blocker? Where does automatic motivation (habits, biases, social pressure) override what people know they should do?
 5. **Select interventions** that target the specific blockers and misalignments you found — not generic best practices.
 
-The reference files (`com-b-abbreviations-reference.md`, `com-b-to-bcw-intervention-function-mapping.md`, `bct-taxonomy.md`, `com-b-tool-influence-mechanisms-and-levers.md`, `com-b-behavior-states-primary-secondary-blockers.md`, the four `*-lenses.md` files, and optionally `scenarios/`) provide the vocabulary, intervention logic, technique detail, lens depth, and tool mechanisms you need at each step.
+The reference files (`com-b-abbreviations-reference.md`, `com-b-to-bcw-intervention-function-mapping.md`, `bct-taxonomy.md`, `com-b-tool-influence-mechanisms-and-levers.md`, `com-b-behavior-states-primary-secondary-blockers.md`, the four lens files under `lenses/`, and optionally `scenarios/`) provide the vocabulary, intervention logic, technique detail, lens depth, and tool mechanisms you need at each step.
 
 ---
 
@@ -70,14 +70,14 @@ Referenced from table 3 in `com-b-to-bcw-intervention-function-mapping.md`.
 
 ### Layer 2c: Lens files (diagnostic depth per COM-B branch)
 
-Four companion notes unpack each branch of COM-B with overlapping sub-lenses and **numbered dimensions** (stable IDs for shorthand and cross-referencing):
+In **`lenses/`**, four companion notes unpack each branch of COM-B with overlapping sub-lenses and **numbered dimensions** (stable IDs for shorthand and cross-referencing):
 
 | File | COM-B branch |
 |------|----------------|
-| `capability-lenses.md` | `PC`, `PHC` |
-| `motivation-lenses.md` | `RM`, `AM` |
-| `physical-opportunity-lenses.md` | `PO` |
-| `social-opportunity-lenses.md` | `SO` |
+| [`lenses/capability-lenses.md`](lenses/capability-lenses.md) | `PC`, `PHC` |
+| [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md) | `RM`, `AM` |
+| [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md) | `PO` |
+| [`lenses/social-opportunity-lenses.md`](lenses/social-opportunity-lenses.md) | `SO` |
 
 **ID scheme:** Physical and social opportunity lenses use **section.dimension** (e.g. PO **2.1**, SO **4.5**). Capability and motivation lenses use **sub-lens.dimension** (e.g. PC **1.2.3**, RM **1.3.8**).
 
@@ -167,7 +167,7 @@ bct-taxonomy.md
     Linked from: com-b-to-bcw-intervention-function-mapping.md
     Read next from: same file; cross-links to lens files and mapping
 
-capability-lenses.md | motivation-lenses.md | physical-opportunity-lenses.md | social-opportunity-lenses.md
+lenses/capability-lenses.md | lenses/motivation-lenses.md | lenses/physical-opportunity-lenses.md | lenses/social-opportunity-lenses.md
     Deep diagnosis per COM-B branch; numbered dimension IDs
     Use after: blocker identification; before: detailed intervention design
     Point to: com-b-to-bcw-intervention-function-mapping.md for BCW layer
@@ -208,7 +208,7 @@ personas_jobs.md (optional — template + worked example)
 
 2. **Identify the blockers.** Use the blocker matrix or the per-state blocker section to name the primary and secondary COM-B forces holding the behavior in place. Decode any abbreviation using the abbreviations reference.
 
-3. **Deepen diagnosis (optional but high value).** For each relevant COM-B code, open the matching lens file (`capability-lenses.md`, `motivation-lenses.md`, `physical-opportunity-lenses.md`, `social-opportunity-lenses.md`) and use the numbered dimensions to specify *what kind* of PC/PHC/PO/SO/RM/AM problem it is.
+3. **Deepen diagnosis (optional but high value).** For each relevant COM-B code, open the matching lens file under `lenses/` (`capability-lenses.md`, `motivation-lenses.md`, `physical-opportunity-lenses.md`, `social-opportunity-lenses.md`) and use the numbered dimensions to specify *what kind* of PC/PHC/PO/SO/RM/AM problem it is.
 
 4. **Select interventions.** Use the intervention mapping to find which BCW functions apply to the identified (and optionally lens-specified) COM-B blockers. Use table 3 in the same file to jump into `bct-taxonomy.md` when you need named techniques. Use the tool influence file if the question is specifically about product or tool design.
 

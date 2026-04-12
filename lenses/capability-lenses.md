@@ -16,7 +16,7 @@ Within this repo's COM-B vocabulary:
 - `PC` covers knowledge, mental models, judgment, psychological skill, conceptual clarity, and self-regulatory capability.
 - `PHC` covers bodily skill, strength, stamina, coordination, and reliable physical execution.
 
-See [com-b-abbreviations-reference.md](/Users/johncutler/Documents/genecollab.nosync/com-b-abbreviations-reference.md) for the shared code system.
+See [com-b-abbreviations-reference.md](../com-b-abbreviations-reference.md) for the shared code system.
 
 ## 1. Psychological Capability
 
@@ -48,7 +48,7 @@ Psychological capability concerns what a person must be able to understand, perc
 
 **What it sees well:** Situations where the person has heard the material but still cannot execute the behavior reliably.
 
-**What it sees less well:** Value alignment, identity fit, and cue-triggered or hot-state behavior unless paired with [motivation-lenses.md](/Users/johncutler/Documents/genecollab.nosync/motivation-lenses.md); it mainly refines `PC`.
+**What it sees less well:** Value alignment, identity fit, and cue-triggered or hot-state behavior unless paired with [motivation-lenses.md](motivation-lenses.md); it mainly refines `PC`.
 
 ### 1.2 Mental Models / Situation Models
 
@@ -311,7 +311,7 @@ These lenses do not replace COM-B. They help specify what kind of capability pro
 - The physical lenses mainly refine `PHC`.
 - Some situations blend both. For example, a difficult surgical procedure can involve `PC` burdens in signal interpretation and judgment, while also placing `PHC` burdens on dexterity, posture, and fatigue tolerance.
 
-Once the dominant capability pattern is clearer, the next step is usually to move into the BCW mapping in [com-b-to-bcw-intervention-function-mapping.md](/Users/johncutler/Documents/genecollab.nosync/com-b-to-bcw-intervention-function-mapping.md):
+Once the dominant capability pattern is clearer, the next step is usually to move into the BCW mapping in [com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md):
 
 - `PC` is most often paired with `ED`, `TR`, and `EN`.
 - `PHC` is most often paired with `TR` and `EN`.
@@ -346,7 +346,7 @@ This note is intentionally capability-first. It does not fully address:
 - time, tools, workflow, and other opportunity conditions
 - broad legitimacy, politics, or institutional context
 
-Those belong more naturally in adjacent notes such as [motivation-lenses.md](/Users/johncutler/Documents/genecollab.nosync/motivation-lenses.md), [physical-opportunity-lenses.md](/Users/johncutler/Documents/genecollab.nosync/physical-opportunity-lenses.md), [social-opportunity-lenses.md](/Users/johncutler/Documents/genecollab.nosync/social-opportunity-lenses.md), and broader practice or institutional analysis.
+Those belong more naturally in adjacent notes such as [motivation-lenses.md](motivation-lenses.md), [physical-opportunity-lenses.md](physical-opportunity-lenses.md), [social-opportunity-lenses.md](social-opportunity-lenses.md), and broader practice or institutional analysis.
 
 Important distinctions:
 
@@ -358,11 +358,11 @@ Important distinctions:
   This note asks what the actor must be able to know, perceive, judge, and physically do; it does not try to preserve task analysis as a separate first-class layer.
 
 Read next:
-- [motivation-lenses.md](/Users/johncutler/Documents/genecollab.nosync/motivation-lenses.md) for `RM` and `AM`
-- [physical-opportunity-lenses.md](/Users/johncutler/Documents/genecollab.nosync/physical-opportunity-lenses.md) for `PO` diagnosis of time, tools, workflow, and local environment
-- [social-opportunity-lenses.md](/Users/johncutler/Documents/genecollab.nosync/social-opportunity-lenses.md) for `SO` diagnosis of norms, incentives, legitimacy, and politics
-- [behavior-jtbd-maturity-diagnostic-cycle.md](/Users/johncutler/Documents/genecollab.nosync/behavior-jtbd-maturity-diagnostic-cycle.md) for how `PC` appears in states such as `Partially Realized / Inconsistent`, `Aspirational Only`, and `Contested / Undefined`
-- [com-b-to-bcw-intervention-function-mapping.md](/Users/johncutler/Documents/genecollab.nosync/com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families after capability diagnosis
+- [motivation-lenses.md](motivation-lenses.md) for `RM` and `AM`
+- [physical-opportunity-lenses.md](physical-opportunity-lenses.md) for `PO` diagnosis of time, tools, workflow, and local environment
+- [social-opportunity-lenses.md](social-opportunity-lenses.md) for `SO` diagnosis of norms, incentives, legitimacy, and politics
+- [behavior-jtbd-maturity-diagnostic-cycle.md](../behavior-jtbd-maturity-diagnostic-cycle.md) for how `PC` appears in states such as `Partially Realized / Inconsistent`, `Aspirational Only`, and `Contested / Undefined`
+- [com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families after capability diagnosis
 
 ## References To Ground These Lenses
 

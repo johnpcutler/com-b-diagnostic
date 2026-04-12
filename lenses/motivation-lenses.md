@@ -7,7 +7,7 @@ The note is grounded in COM-B and its link to PRIME Theory:
 - `Reflective Motivation` (`RM`) covers plans, evaluations, beliefs, identity-linked reasons, and deliberate choice.
 - `Automatic Motivation` (`AM`) covers habits, impulses, affective reactions, learned responses, and inhibition.
 
-This note therefore refines the motivation branch of the shared COM-B vocabulary rather than replacing it. See [com-b-abbreviations-reference.md](/Users/johncutler/Documents/genecollab.nosync/com-b-abbreviations-reference.md) for the broader code system.
+This note therefore refines the motivation branch of the shared COM-B vocabulary rather than replacing it. See [com-b-abbreviations-reference.md](../com-b-abbreviations-reference.md) for the broader code system.
 
 ## 1. Reflective Motivation
 
@@ -216,7 +216,7 @@ These lenses do not replace COM-B. They help specify what kind of motivation pro
 - The automatic lenses mainly refine `AM`.
 - In practice, some situations blend both. For example, a person may have high `RM` but still be crowded out by low-value habits in `AM`, or they may have low `RM` and also lack any reinforcing habit loop in `AM`.
 
-Once the dominant motivational pattern is clearer, the next step is usually to move into the BCW mapping in [com-b-to-bcw-intervention-function-mapping.md](/Users/johncutler/Documents/genecollab.nosync/com-b-to-bcw-intervention-function-mapping.md):
+Once the dominant motivational pattern is clearer, the next step is usually to move into the BCW mapping in [com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md):
 
 - `RM` is most often paired with `ED`, `PE`, `INC`, and `COE`.
 - `AM` is most often paired with `PE`, `INC`, `COE`, `TR`, `ER`, `MO`, and `EN`.
@@ -248,14 +248,14 @@ This note is intentionally motivation-first. It does not fully address:
 - broad legitimacy, politics, or institutional context
 - task structure or task-environment design
 
-Those belong more naturally in adjacent lenses such as [capability-lenses.md](/Users/johncutler/Documents/genecollab.nosync/capability-lenses.md), [physical-opportunity-lenses.md](/Users/johncutler/Documents/genecollab.nosync/physical-opportunity-lenses.md), [social-opportunity-lenses.md](/Users/johncutler/Documents/genecollab.nosync/social-opportunity-lenses.md), and later practice or institutional notes.
+Those belong more naturally in adjacent lenses such as [capability-lenses.md](capability-lenses.md), [physical-opportunity-lenses.md](physical-opportunity-lenses.md), [social-opportunity-lenses.md](social-opportunity-lenses.md), and later practice or institutional notes.
 
 Read next:
-- [capability-lenses.md](/Users/johncutler/Documents/genecollab.nosync/capability-lenses.md) for `PC` and `PHC` diagnosis before coding blockers
-- [physical-opportunity-lenses.md](/Users/johncutler/Documents/genecollab.nosync/physical-opportunity-lenses.md) for `PO` conditions that enable or block follow-through
-- [social-opportunity-lenses.md](/Users/johncutler/Documents/genecollab.nosync/social-opportunity-lenses.md) for `SO` conditions such as norms, legitimacy, and political safety
-- [behavior-jtbd-maturity-diagnostic-cycle.md](/Users/johncutler/Documents/genecollab.nosync/behavior-jtbd-maturity-diagnostic-cycle.md) for how `RM` and `AM` show up in behavior states
-- [com-b-to-bcw-intervention-function-mapping.md](/Users/johncutler/Documents/genecollab.nosync/com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families after motivational diagnosis
+- [capability-lenses.md](capability-lenses.md) for `PC` and `PHC` diagnosis before coding blockers
+- [physical-opportunity-lenses.md](physical-opportunity-lenses.md) for `PO` conditions that enable or block follow-through
+- [social-opportunity-lenses.md](social-opportunity-lenses.md) for `SO` conditions such as norms, legitimacy, and political safety
+- [behavior-jtbd-maturity-diagnostic-cycle.md](../behavior-jtbd-maturity-diagnostic-cycle.md) for how `RM` and `AM` show up in behavior states
+- [com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families after motivational diagnosis
 
 ## References To Ground These Lenses
 

@@ -66,9 +66,9 @@ Referencing [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-be
 
 ## Step 3: Deepen with lenses
 
-*Dimensional IDs below reference [../capability-lenses.md](../capability-lenses.md) (PC `1.x.y`), [../motivation-lenses.md](../motivation-lenses.md) (RM/AM `1.x.y` / `2.x.y`), [../physical-opportunity-lenses.md](../physical-opportunity-lenses.md) (PO `n.m`), [../social-opportunity-lenses.md](../social-opportunity-lenses.md) (SO `n.m`).*
+*Dimensional IDs below reference [../lenses/capability-lenses.md](../lenses/capability-lenses.md) (PC `1.x.y`), [../lenses/motivation-lenses.md](../lenses/motivation-lenses.md) (RM/AM `1.x.y` / `2.x.y`), [../lenses/physical-opportunity-lenses.md](../lenses/physical-opportunity-lenses.md) (PO `n.m`), [../lenses/social-opportunity-lenses.md](../lenses/social-opportunity-lenses.md) (SO `n.m`).*
 
-### Capability lenses ([../capability-lenses.md](../capability-lenses.md))
+### Capability lenses ([../lenses/capability-lenses.md](../lenses/capability-lenses.md))
 
 **1.1 Declarative and Procedural Knowledge** — *PC **1.1.1**, **1.1.2** (emphasis):* Most PMs have read about continuous discovery — they can name Teresa Torres, they know the phrase "opportunity solution tree." But they lack procedural fluency. They could not recruit a participant, write a discussion guide, conduct a 30-minute interview that tests a specific assumption, and synthesize the result into an actionable insight. The gap is between declarative knowledge ("discovery is important, here are some concepts") and procedural capability ("I can execute this, step by step, right now"). This is a classic case where people have heard the material but cannot execute the behavior reliably.
 
@@ -80,7 +80,7 @@ Referencing [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-be
 
 **1.7 Supported Performance** — *PC **1.7.2**, **1.7.6** (scaffolding / transfer under support):* This is the most optimistic lens. With the right templates (interview guide, recruiting script, synthesis template) and light coaching (a research-trained person sitting in on the first few interviews), most PMs could likely perform competently. The capability gap is more about scaffolding than about fundamental cognitive limitation. This suggests that heavy upfront training is less important than providing good tools and paired practice.
 
-### Motivation lenses ([../motivation-lenses.md](../motivation-lenses.md))
+### Motivation lenses ([../lenses/motivation-lenses.md](../lenses/motivation-lenses.md))
 
 **1.3 Expectancy-Value-Cost** — *RM **1.3.5**, **1.3.7**, **1.3.8** (effort / opportunity / present cost):* The reflective calculus is unfavorable. The effort cost of discovery is high and front-loaded: recruiting participants (who? how?), scheduling calls (when? calendar is full), preparing a discussion guide (what questions?), synthesizing results (into what format? for whom?). The payoff is uncertain and delayed: insights may or may not change a product decision, and even if they do, the connection is hard to demonstrate. Present cost dominates future value. This is a textbook expectancy-value-cost problem where the behavior fails not because people don't value it in the abstract, but because the cost-benefit ratio in the moment is terrible.
 
@@ -92,7 +92,7 @@ Referencing [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-be
 
 **2.2 Reinforcement (AM)** — *AM **2.2.1**, **2.2.5**, **2.2.7** (immediacy / cue-wanting / control):* There is no reward for discovery. The organizational reward system celebrates velocity (stories shipped), predictability (hit the sprint commitment), and stakeholder satisfaction (built what was requested). Insight generation is invisible in every performance artifact: sprint demos, quarterly reviews, promotion packets. A PM who spends 3 hours a week on discovery has nothing to show for it in the systems that matter for recognition and advancement.
 
-### Physical opportunity lenses ([../physical-opportunity-lenses.md](../physical-opportunity-lenses.md))
+### Physical opportunity lenses ([../lenses/physical-opportunity-lenses.md](../lenses/physical-opportunity-lenses.md))
 
 **2. Resource and Capacity** — *PO **2.1** (time availability), **2.7** (activation overhead):* There is no protected time for discovery. PM calendars are packed with sprint ceremonies (standup, planning, retro, review), stakeholder meetings, cross-team syncs, and backlog grooming. Discovery competes with all of these for the same scarce resource: unstructured PM time. Time scarcity is severe and structural. Even a motivated PM would struggle to find 3 hours a week for recruiting, interviewing, and synthesizing without something else being explicitly deprioritized. The activation overhead is high because there is no slack margin — every hour is already allocated.
 
@@ -100,7 +100,7 @@ Referencing [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-be
 
 **5. Tooling and Interface Affordances** — *PO **5.1**, **5.3** (affordance clarity / core-path efficiency):* There is no recruiting tool (no customer panel platform, no way to find non-customers), no interview guide template, no consent script template, no note-taking template, no synthesis repository, and no way to connect insights to product decisions in existing tools. The behavior has no infrastructure. The tooling gap means that every instance of discovery requires high manual overhead, which compounds the time scarcity problem. There are no affordances that make discovery easy, and the existing tool landscape (Jira, Confluence, Slack) is optimized for delivery, not discovery.
 
-### Social opportunity lenses ([../social-opportunity-lenses.md](../social-opportunity-lenses.md))
+### Social opportunity lenses ([../lenses/social-opportunity-lenses.md](../lenses/social-opportunity-lenses.md))
 
 **1. Norms and Normative Climate** — *SO **1.1**, **1.2**, **1.4** (descriptive/injunctive norms / consistency).* The descriptive norm is clear: PMs do not do discovery. Six of eight PMs have never interviewed a customer. The two who do are seen as having a personal interest, not as following an organizational norm. The injunctive norm is contradictory: leadership says discovery matters (strong injunctive signal), but peer behavior and calendar allocation say it doesn't (strong descriptive counter-signal). Norm consistency is very low — the message from above and the behavior around you point in opposite directions. When PMs look at what gets rewarded, recognized, and discussed, it is delivery velocity, not insight generation.
 

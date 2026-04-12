@@ -63,9 +63,9 @@ Referencing [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-be
 
 ## Step 3: Deepen with lenses
 
-*Dimensional IDs: [../capability-lenses.md](../capability-lenses.md) `x.y.z` (PC); [../social-opportunity-lenses.md](../social-opportunity-lenses.md) `n.m` (SO); [../physical-opportunity-lenses.md](../physical-opportunity-lenses.md) `n.m` (PO); [../motivation-lenses.md](../motivation-lenses.md) `x.y.z` (RM).*
+*Dimensional IDs: [../lenses/capability-lenses.md](../lenses/capability-lenses.md) `x.y.z` (PC); [../lenses/social-opportunity-lenses.md](../lenses/social-opportunity-lenses.md) `n.m` (SO); [../lenses/physical-opportunity-lenses.md](../lenses/physical-opportunity-lenses.md) `n.m` (PO); [../lenses/motivation-lenses.md](../lenses/motivation-lenses.md) `x.y.z` (RM).*
 
-### Capability lenses ([../capability-lenses.md](../capability-lenses.md))
+### Capability lenses ([../lenses/capability-lenses.md](../lenses/capability-lenses.md))
 
 **1.2 Mental Models / Situation Models** — *PC **1.2.2**, **1.2.3** (causal / structural understanding).* This lens asks whether people hold a workable internal model of how the system or situation operates. In this scenario, each role holds a different causal model of what predicts sprint success:
 
@@ -88,7 +88,7 @@ Each model is internally coherent — the problem is that all three are correct 
 
 **1.1 Declarative and Procedural Knowledge** — *PC **1.1.1**–**1.1.3** (cross-role procedural picture of readiness).* There is a secondary knowledge gap about what a well-structured, multi-perspective readiness assessment actually contains. Most participants have never seen or used a readiness framework that explicitly names dimensions from all three perspectives. Their procedural knowledge is limited to their own role's checklist. They lack declarative knowledge about how other roles' readiness criteria connect to sprint outcomes.
 
-### Social opportunity lenses ([../social-opportunity-lenses.md](../social-opportunity-lenses.md))
+### Social opportunity lenses ([../lenses/social-opportunity-lenses.md](../lenses/social-opportunity-lenses.md))
 
 **2. Roles, Authority, and Boundary Clarity** — *SO **2.1**, **2.2** (ownership / decision-right clarity).* The "ready" boundary is fundamentally a jurisdiction question. Who decides when a story crosses the threshold from "not ready" to "ready for sprint"? Ownership is ambiguous. When a PM says "ready" and engineering says "not ready," there is no clear arbitration mechanism. The decision right is contested, not because it hasn't been assigned, but because the assignment would require resolving the definitional conflict first — and that is the very thing the team cannot do. The readiness gate sits at the intersection of three role boundaries, and no one has explicit authority over the intersection.
 
@@ -104,7 +104,7 @@ The PM's incentive is to push the readiness boundary earlier; engineering's ince
 
 **6. Power, Politics, and Psychological Safety** — *SO **6.6** (status asymmetry).* In teams where PM has higher organizational status or closer access to leadership, the PM's definition tends to win by default — stories enter the sprint under-specified, and engineers absorb the rework cost silently. In teams where engineering has higher status, the engineering definition prevails — PMs feel blocked and escalate stories as "engineering is being slow." The "correct" definition of ready in any given team is often a power outcome rather than a quality outcome. Psychological safety to name this dynamic is low, because naming it requires challenging the implicit authority structure.
 
-### Physical opportunity lenses ([../physical-opportunity-lenses.md](../physical-opportunity-lenses.md))
+### Physical opportunity lenses ([../lenses/physical-opportunity-lenses.md](../lenses/physical-opportunity-lenses.md))
 
 PO is not a primary blocker in this scenario — the problem is conceptual, not environmental. But the PO lenses reveal how the physical environment perpetuates the definitional conflict.
 
@@ -114,7 +114,7 @@ PO is not a primary blocker in this scenario — the problem is conceptual, not 
 
 **4. Information and State Visibility** — *PO **4.3** (feedback latency — rework signal not at planning).* The consequences of entering a sprint with under-specified stories are not visible at the point of the readiness decision. Rework rates, mid-sprint scope changes, and blocked time are tracked (if at all) in retrospectives, not in sprint planning. The feedback loop between "this story wasn't ready" and "we should have caught that" is delayed by two weeks. Engineers experience the downstream cost but PMs may not see it directly. The information that would resolve the definitional conflict — data showing which readiness gaps predict which sprint problems — is not surfaced at the moment when the readiness decision is made.
 
-### Motivation lenses ([../motivation-lenses.md](../motivation-lenses.md))
+### Motivation lenses ([../lenses/motivation-lenses.md](../lenses/motivation-lenses.md))
 
 **1.4 Identity-Based Motivation** — *RM **1.4.1**, **1.4.3** (congruence / identity conflict).* Each role's definition of "ready" is identity-congruent. Asking a PM to add technical design documentation feels like asking them to be an engineer — it conflicts with their identity as a customer-focused problem framer. Asking an engineer to accept vague requirements feels like asking them to abandon professional rigor — it conflicts with their identity as a quality-focused builder. Asking a designer to accept that user flows can be "figured out during the sprint" feels like asking them to accept fragmented experience design — it conflicts with their identity as a user advocate. The behavior change required (converging on a shared, multi-perspective definition) demands identity flexibility that each role experiences as threatening. The difficulty is interpreted as a signal of identity mismatch rather than as a meaningful challenge worth engaging.
 

@@ -59,9 +59,9 @@ Using [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-behavior
 
 ## Step 3: Deepen with lenses
 
-*Dimensional IDs: [../physical-opportunity-lenses.md](../physical-opportunity-lenses.md) `n.m` (PO); [../social-opportunity-lenses.md](../social-opportunity-lenses.md) `n.m` (SO); [../capability-lenses.md](../capability-lenses.md) `x.y.z` (PC); [../motivation-lenses.md](../motivation-lenses.md) `x.y.z` (AM).*
+*Dimensional IDs: [../lenses/physical-opportunity-lenses.md](../lenses/physical-opportunity-lenses.md) `n.m` (PO); [../lenses/social-opportunity-lenses.md](../lenses/social-opportunity-lenses.md) `n.m` (SO); [../lenses/capability-lenses.md](../lenses/capability-lenses.md) `x.y.z` (PC); [../lenses/motivation-lenses.md](../lenses/motivation-lenses.md) `x.y.z` (AM).*
 
-### Physical opportunity lenses ([../physical-opportunity-lenses.md](../physical-opportunity-lenses.md))
+### Physical opportunity lenses ([../lenses/physical-opportunity-lenses.md](../lenses/physical-opportunity-lenses.md))
 
 **1. Work-System Configuration and Constraints** — *PO **1.2**, **1.5** (tool-task fit / feedback-loop strength).* The core mismatch is between the task demands of thoughtful code review and the tool support available. Code review requires understanding intent, assessing risk, evaluating test coverage, and checking architectural consistency. The tool provides a line-by-line diff. This is a tool-task mismatch on the "tools force workarounds" end of the dimension. The reviewer must leave the diff view, open the codebase, trace dependencies, check test files, and mentally reconstruct the change narrative. The work system is fragmented: the review interface, the codebase, the CI results, and the architectural context live in different places with no integration. Feedback-loop strength is weak -- the reviewer rarely learns whether their comments led to better code or were ignored.
 
@@ -73,7 +73,7 @@ Using [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-behavior
 
 **5. Tooling and Interface Affordances** — *PO **5.1**, **5.3** (affordance clarity / core-path efficiency).* The diff view does not highlight what is important. There is no mechanism for the author to annotate "this is the tricky part -- please look carefully here." There is no way to sequence the review ("read this file first, then this one"). The review interface does not support progressive disclosure: the reviewer sees everything at once, with no way to prioritize. Core-path efficiency is low: the most common review action (understand the change, assess risk, approve or request changes) requires extensive navigation and context reconstruction that the tool does not support.
 
-### Social opportunity lenses ([../social-opportunity-lenses.md](../social-opportunity-lenses.md))
+### Social opportunity lenses ([../lenses/social-opportunity-lenses.md](../lenses/social-opportunity-lenses.md))
 
 **1. Norms and Normative Climate** — *SO **1.1**, **1.4**, **1.7** (descriptive/injunctive / consistency / deviance cost).* The descriptive norm is rubber-stamping: most reviews are shallow, and everyone knows it. The injunctive norm is mixed -- leadership says reviews matter, engineering values espouse quality, but peer behavior signals that speed matters more than depth. Norm consistency is low: the message from above ("reviews are important") conflicts with the behavior around you ("everyone skims and approves"). Deviance cost is asymmetric: the cost of doing a shallow review is zero (nobody tracks review quality), while the cost of doing a thorough review is tangible (delayed PRs, sprint friction, social tension with the author). This asymmetry stabilizes the shallow-review norm.
 
@@ -83,7 +83,7 @@ Using [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-behavior
 
 **6. Power, Politics, and Psychological Safety** — *SO **6.1**, **6.6** (voice safety / status asymmetry).* Status asymmetry suppresses voice in reviews. Junior engineers reviewing senior engineers' code face a steep power gradient. Questioning an architectural decision made by a staff engineer requires courage that the environment does not reliably reward. Even among peers, leaving a critical comment creates a micro-conflict that most people would rather avoid. Voice safety is low for substantive feedback: style nits are safe (they are impersonal), but "I think this architecture is wrong" is risky. The review interface does not depersonalize disagreement -- comments are attached to names and visible to the team.
 
-### Capability lenses ([../capability-lenses.md](../capability-lenses.md))
+### Capability lenses ([../lenses/capability-lenses.md](../lenses/capability-lenses.md))
 
 PC is a secondary blocker here, not a primary one — but the capability lenses still surface issues the other lenses miss.
 
@@ -95,7 +95,7 @@ PC is a secondary blocker here, not a primary one — but the capability lenses 
 
 **1.6 Shared Representations** — *PC **1.6.1** (shared language for review quality).* Teams lack a shared vocabulary for review quality. There is no common language for distinguishing categories of review feedback (style, correctness, architecture, test coverage, security). Without shared categories, teams cannot discuss whether their reviews are improving, what kind of feedback is missing, or what a high-quality review looks like. The absence of shared representations makes review quality invisible and undiscussable.
 
-### Motivation lenses ([../motivation-lenses.md](../motivation-lenses.md))
+### Motivation lenses ([../lenses/motivation-lenses.md](../lenses/motivation-lenses.md))
 
 AM is the key secondary blocker. The relevant sub-lenses:
 

@@ -24,10 +24,10 @@ STEP 2  identify_blockers()
           secondary_blockers[]
 
 STEP 3  deepen_with_lenses()
-  READ    capability-lenses.md          // PC, PHC
-          motivation-lenses.md          // RM, AM
-          physical-opportunity-lenses.md
-          social-opportunity-lenses.md
+  READ    lenses/capability-lenses.md          // PC, PHC
+          lenses/motivation-lenses.md          // RM, AM
+          lenses/physical-opportunity-lenses.md
+          lenses/social-opportunity-lenses.md
   OUT     lens_hits.{PC|PHC|PO|SO|RM|AM}   // dimensional IDs + short tags
           // PO/SO: section.dimension  (n.m)
           // PC/PHC/RM/AM: sublens.dimension (x.y.z)
@@ -99,7 +99,7 @@ Body text under **The situation** is context only; it is not a numbered pipeline
 | COM-B → BCW → BCT groupings | [`com-b-to-bcw-intervention-function-mapping.md`](com-b-to-bcw-intervention-function-mapping.md) |
 | Full BCT taxonomy | [`bct-taxonomy.md`](bct-taxonomy.md) |
 | Tool mechanisms | [`com-b-tool-influence-mechanisms-and-levers.md`](com-b-tool-influence-mechanisms-and-levers.md) |
-| Lenses | [`capability-lenses.md`](capability-lenses.md), [`motivation-lenses.md`](motivation-lenses.md), [`physical-opportunity-lenses.md`](physical-opportunity-lenses.md), [`social-opportunity-lenses.md`](social-opportunity-lenses.md) |
+| Lenses | [`lenses/capability-lenses.md`](lenses/capability-lenses.md), [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md), [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md), [`lenses/social-opportunity-lenses.md`](lenses/social-opportunity-lenses.md) |
 | Repo overview | [`README.md`](README.md) |
 
 ---
