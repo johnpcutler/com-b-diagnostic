@@ -64,6 +64,10 @@ Read per-state levers in [`references/com-b-bcw-bct/behavior-jtbd-maturity-diagn
 
 Combine into a phased rollout with ownership and success signals.
 
+## Using scenarios
+
+Consult [`references/scenarios/`](references/scenarios/) as worked examples when helpful for calibration, analogical reasoning, or output shaping. Use scenarios to inform the diagnosis and structure of the response, but do not assume the user's case matches a scenario exactly. Do not copy scenario language unless the user explicitly asks for an example or comparison.
+
 ## Output format
 
 Produce the diagnosis as a **report** following the skeleton in [`assets/output-template.md`](assets/output-template.md). That file is not a form for the user to fill in; it defines a stable heading order, digest block shape, and wording conventions so long outputs stay consistent and downstream consumers can rely on required sections.
