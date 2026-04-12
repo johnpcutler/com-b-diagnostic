@@ -21,13 +21,13 @@ See [com-b-abbreviations-reference.md](/Users/johncutler/Documents/genecollab.no
 
 **Dimensions it tends to foreground:**
 
-- Work-system coherence: coherent and mutually supportive -> fragmented and conflicting
-- Tool-task fit: tools match task demands -> tools force workarounds
-- Process reliability: predictable process -> frequent breakdown and recovery
-- Local adaptability: local adjustment possible -> brittle, hard-to-adapt setup
-- Feedback-loop strength: rapid learning loops -> delayed or weak learning loops
-- Safety-productivity balance: low tradeoff pressure -> chronic tradeoff pressure
-- Constraint load: manageable constraints -> compounding constraints
+- **1.1** Work-system coherence: coherent and mutually supportive -> fragmented and conflicting
+- **1.2** Tool-task fit: tools match task demands -> tools force workarounds
+- **1.3** Process reliability: predictable process -> frequent breakdown and recovery
+- **1.4** Local adaptability: local adjustment possible -> brittle, hard-to-adapt setup
+- **1.5** Feedback-loop strength: rapid learning loops -> delayed or weak learning loops
+- **1.6** Safety-productivity balance: low tradeoff pressure -> chronic tradeoff pressure
+- **1.7** Constraint load: manageable constraints -> compounding constraints
 
 **What it sees well:** Multi-factor opportunity constraints that cannot be explained by a single missing tool or missing skill.
 
@@ -43,13 +43,13 @@ See [com-b-abbreviations-reference.md](/Users/johncutler/Documents/genecollab.no
 
 **Dimensions it tends to foreground:**
 
-- Time availability: protected time -> constant time scarcity
-- Staffing adequacy: adequate coverage -> chronic understaffing
-- Slack margin: healthy slack -> no slack / constant firefighting
-- Competing urgency: stable prioritization -> frequent priority collisions
-- Resource reliability: resources dependable -> frequent resource outages
-- Variability absorption: variability absorbed -> variability destabilizes flow
-- Activation overhead: low startup burden -> high startup burden
+- **2.1** Time availability: protected time -> constant time scarcity
+- **2.2** Staffing adequacy: adequate coverage -> chronic understaffing
+- **2.3** Slack margin: healthy slack -> no slack / constant firefighting
+- **2.4** Competing urgency: stable prioritization -> frequent priority collisions
+- **2.5** Resource reliability: resources dependable -> frequent resource outages
+- **2.6** Variability absorption: variability absorbed -> variability destabilizes flow
+- **2.7** Activation overhead: low startup burden -> high startup burden
 
 **What it sees well:** Why behaviors that are endorsed and understood still fail under real resource pressure.
 
@@ -65,13 +65,13 @@ See [com-b-abbreviations-reference.md](/Users/johncutler/Documents/genecollab.no
 
 **Dimensions it tends to foreground:**
 
-- Path complexity: simple path -> branching and exception-heavy path
-- Handoff burden: few clean handoffs -> many fragile handoffs
-- Dependency depth: shallow dependencies -> deep dependency chain
-- Queue friction: low wait and rework -> high wait and rework
-- Sequence rigidity: flexible order -> rigid order with failure cascades
-- Recovery ease: easy recovery -> recovery is costly and slow
-- Activation energy: easy to begin -> hard to initiate
+- **3.1** Path complexity: simple path -> branching and exception-heavy path
+- **3.2** Handoff burden: few clean handoffs -> many fragile handoffs
+- **3.3** Dependency depth: shallow dependencies -> deep dependency chain
+- **3.4** Queue friction: low wait and rework -> high wait and rework
+- **3.5** Sequence rigidity: flexible order -> rigid order with failure cascades
+- **3.6** Recovery ease: easy recovery -> recovery is costly and slow
+- **3.7** Activation energy: easy to begin -> hard to initiate
 
 **What it sees well:** Operational friction that silently prevents behavior from becoming routine.
 
@@ -87,13 +87,13 @@ See [com-b-abbreviations-reference.md](/Users/johncutler/Documents/genecollab.no
 
 **Dimensions it tends to foreground:**
 
-- Signal surfacing: key signals obvious -> key signals buried
-- State visibility: system state visible -> state must be inferred
-- Feedback latency: immediate feedback -> delayed feedback
-- Feedback diagnosticity: clear meaning -> ambiguous meaning
-- Projection support: next state anticipatable -> next state hard to foresee
-- Representation coherence: coherent displays/artifacts -> fragmented representations
-- Alert quality: useful alerts -> noisy, fatiguing alerts
+- **4.1** Signal surfacing: key signals obvious -> key signals buried
+- **4.2** State visibility: system state visible -> state must be inferred
+- **4.3** Feedback latency: immediate feedback -> delayed feedback
+- **4.4** Feedback diagnosticity: clear meaning -> ambiguous meaning
+- **4.5** Projection support: next state anticipatable -> next state hard to foresee
+- **4.6** Representation coherence: coherent displays/artifacts -> fragmented representations
+- **4.7** Alert quality: useful alerts -> noisy, fatiguing alerts
 
 **What it sees well:** Cases where people fail because critical information is not legible in the environment.
 
@@ -109,13 +109,13 @@ See [com-b-abbreviations-reference.md](/Users/johncutler/Documents/genecollab.no
 
 **Dimensions it tends to foreground:**
 
-- Affordance clarity: obvious action possibilities -> unclear action possibilities
-- State transparency: visible mode/status -> opaque mode/status
-- Core-path efficiency: efficient frequent path -> high interaction overhead
-- Error tolerance: easy recovery -> brittle failure paths
-- Consistency: predictable interaction patterns -> inconsistent patterns
-- Learnability in context: low onboarding burden -> high onboarding burden
-- Automation fit: automation supports work -> automation adds new friction
+- **5.1** Affordance clarity: obvious action possibilities -> unclear action possibilities
+- **5.2** State transparency: visible mode/status -> opaque mode/status
+- **5.3** Core-path efficiency: efficient frequent path -> high interaction overhead
+- **5.4** Error tolerance: easy recovery -> brittle failure paths
+- **5.5** Consistency: predictable interaction patterns -> inconsistent patterns
+- **5.6** Learnability in context: low onboarding burden -> high onboarding burden
+- **5.7** Automation fit: automation supports work -> automation adds new friction
 
 **What it sees well:** Why well-intended users avoid or abandon behaviors when the interface makes them costly.
 
@@ -131,13 +131,13 @@ See [com-b-abbreviations-reference.md](/Users/johncutler/Documents/genecollab.no
 
 **Dimensions it tends to foreground:**
 
-- Layout support: layout enables flow -> layout creates detours and delays
-- Space adequacy: sufficient workspace/access -> constrained workspace/access
-- Sensory load: manageable sensory conditions -> distracting/fatiguing conditions
-- Posture and reach demand: neutral demand -> awkward demand
-- Mobility burden: low searching/movement burden -> high searching/movement burden
-- Environmental hazard load: low exposure -> persistent hazard exposure
-- Physical comfort sustainability: sustainable comfort -> accumulating discomfort
+- **6.1** Layout support: layout enables flow -> layout creates detours and delays
+- **6.2** Space adequacy: sufficient workspace/access -> constrained workspace/access
+- **6.3** Sensory load: manageable sensory conditions -> distracting/fatiguing conditions
+- **6.4** Posture and reach demand: neutral demand -> awkward demand
+- **6.5** Mobility burden: low searching/movement burden -> high searching/movement burden
+- **6.6** Environmental hazard load: low exposure -> persistent hazard exposure
+- **6.7** Physical comfort sustainability: sustainable comfort -> accumulating discomfort
 
 **What it sees well:** Local environmental constraints that make behavior physically inconvenient or unsafe.
 
@@ -153,13 +153,13 @@ See [com-b-abbreviations-reference.md](/Users/johncutler/Documents/genecollab.no
 
 **Dimensions it tends to foreground:**
 
-- Feedback latency: short loop delay -> long loop delay
-- Signal fidelity: accurate control signal -> noisy/misaligned signal
-- Corrective authority: actors can correct locally -> correction requires slow escalation
-- Loop closure quality: actions close loops -> actions fail to close loops
-- Damping quality: stable correction -> oscillation and over-correction
-- Disturbance handling: disturbances absorbed -> disturbances destabilize performance
-- Variety handling: control responses match variability -> variability exceeds control capacity
+- **7.1** Feedback latency: short loop delay -> long loop delay
+- **7.2** Signal fidelity: accurate control signal -> noisy/misaligned signal
+- **7.3** Corrective authority: actors can correct locally -> correction requires slow escalation
+- **7.4** Loop closure quality: actions close loops -> actions fail to close loops
+- **7.5** Damping quality: stable correction -> oscillation and over-correction
+- **7.6** Disturbance handling: disturbances absorbed -> disturbances destabilize performance
+- **7.7** Variety handling: control responses match variability -> variability exceeds control capacity
 
 **What it sees well:** Why systems with enough resources still fail due to broken control architecture and poor adaptation loops.
 

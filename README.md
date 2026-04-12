@@ -2,7 +2,7 @@
 
 A behavioral diagnostic framework built on two established models from behavioral science: the **COM-B model** (Capability, Opportunity, Motivation - Behavior) by Susan Michie and colleagues, and the **Behavior Change Wheel (BCW)** intervention taxonomy. The framework extends these models into organizational behavior adoption, tool design, and change strategy.
 
-The repo includes reference files for COM-B vocabulary, BCW intervention logic, and tool-level mechanisms, plus a diagnostic cycle that walks through seven behavior states with matched blockers and interventions. It also includes `personas_jobs.md` — a worked example (avalanche safety) and reusable template for profiling actors in any multi-actor behavior system.
+The repo includes reference files for COM-B vocabulary, BCW intervention logic, BCT taxonomy links, and tool-level mechanisms, plus a diagnostic cycle that walks through seven behavior states with matched blockers and interventions. Four **lens** files deepen each COM-B branch with numbered dimensions; `scenarios/` holds optional end-to-end pressure tests. It also includes `personas_jobs.md` — a worked example (avalanche safety) and reusable template for profiling actors in any multi-actor behavior system.
 
 ## How to apply this framework
 
@@ -32,7 +32,7 @@ For a complete diagnosis:
 4. **Find the misalignments.** Where do actors optimize for different objectives? Where does one actor's failure mode become another's blocker? Where does automatic motivation (habits, biases, social pressure) override what people know they should do?
 5. **Select interventions** that target the specific blockers and misalignments you found — not generic best practices.
 
-The reference files (`com-b-abbreviations-reference.md`, `com-b-to-bcw-intervention-function-mapping.md`, `com-b-tool-influence-mechanisms-and-levers.md`, `com-b-behavior-states-primary-secondary-blockers.md`) provide the vocabulary, intervention logic, and tool mechanisms you need at each step.
+The reference files (`com-b-abbreviations-reference.md`, `com-b-to-bcw-intervention-function-mapping.md`, `bct-taxonomy.md`, `com-b-tool-influence-mechanisms-and-levers.md`, `com-b-behavior-states-primary-secondary-blockers.md`, the four `*-lenses.md` files, and optionally `scenarios/`) provide the vocabulary, intervention logic, technique detail, lens depth, and tool mechanisms you need at each step.
 
 ---
 
@@ -52,12 +52,36 @@ Read this first if you encounter an abbreviation you do not recognize. Every blo
 
 **`com-b-to-bcw-intervention-function-mapping.md`**
 
-The bridge between diagnosis and action. Contains two tables:
+The bridge between diagnosis and action. Contains three tables:
 
-1. Which BCW intervention functions (Education, Training, Persuasion, etc.) are effective for which COM-B problem type.
+1. Which BCW intervention functions (Education, Training, Persuasion, etc.) are effective for which COM-B problem type (per Michie, Atkins & West, 2014).
 2. What each BCW intervention abbreviation (ED, TR, PE, INC, COE, RE, ER, MO, EN) means and does.
+3. Which BCT groupings typically implement each intervention function, with links into the full taxonomy (`bct-taxonomy.md`).
 
 This file answers: "Given a COM-B blocker, what categories of intervention are likely to work?" It is the theoretical engine behind the tool levers recommended in the diagnostic cycle.
+
+### Layer 2b: Behaviour Change Techniques (BCT) taxonomy
+
+**`bct-taxonomy.md`**
+
+The full **Behaviour Change Technique Taxonomy (v1)** — granular techniques (93 techniques in 16 groupings) that sit *below* BCW intervention functions. Use it when you need to name specific techniques (e.g. for intervention design, research reporting, or matching tactics to functions).
+
+Referenced from table 3 in `com-b-to-bcw-intervention-function-mapping.md`.
+
+### Layer 2c: Lens files (diagnostic depth per COM-B branch)
+
+Four companion notes unpack each branch of COM-B with overlapping sub-lenses and **numbered dimensions** (stable IDs for shorthand and cross-referencing):
+
+| File | COM-B branch |
+|------|----------------|
+| `capability-lenses.md` | `PC`, `PHC` |
+| `motivation-lenses.md` | `RM`, `AM` |
+| `physical-opportunity-lenses.md` | `PO` |
+| `social-opportunity-lenses.md` | `SO` |
+
+**ID scheme:** Physical and social opportunity lenses use **section.dimension** (e.g. PO **2.1**, SO **4.5**). Capability and motivation lenses use **sub-lens.dimension** (e.g. PC **1.2.3**, RM **1.3.8**).
+
+Use these after you know *which* COM-B codes are in play — they turn a code into a precise diagnosis (mental models vs procedural fluency, norms vs incentives, tool-task mismatch vs feedback latency, and so on).
 
 ### Layer 3: Tool-specific mechanisms
 
@@ -115,6 +139,12 @@ The worked example also demonstrates system-level analysis — the patterns to l
 
 This file is **optional**. Use it when your situation involves multiple actors and you want to understand where behavior breaks down across a system, not just within a single role. You can use the avalanche example as a reference, replace it with your own domain, or build from the template.
 
+### Layer 7: Worked scenarios (optional)
+
+**`scenarios/`**
+
+Four end-to-end **pressure-test** narratives (product/engineering contexts). Each file walks: behavior state → COM-B blockers → lens deepening (all four lens files + dimension IDs) → BCW functions → BCTs → tool levers → phased intervention. Use them as templates for applying the full stack or as a check that your own diagnosis hangs together.
+
 ---
 
 ## How the files reference each other
@@ -125,9 +155,23 @@ com-b-abbreviations-reference.md
     Referenced by: every other file
 
 com-b-to-bcw-intervention-function-mapping.md
-    Defines: ED, TR, PE, INC, COE, RE, ER, MO, EN
+    Defines: ED, TR, PE, INC, COE, RE, ER, MO, EN; COM-B -> functions; functions -> BCT groupings
     Uses: COM-B codes from abbreviations reference
-    Referenced by: diagnostic cycle (tool lever annotations)
+    Links to: bct-taxonomy.md (table 3)
+    Referenced by: diagnostic cycle (tool lever annotations); lens files (BCW pointers)
+
+bct-taxonomy.md
+    Full BCT Taxonomy v1 (93 techniques / 16 groupings)
+    Linked from: com-b-to-bcw-intervention-function-mapping.md
+    Read next from: same file; cross-links to lens files and mapping
+
+capability-lenses.md | motivation-lenses.md | physical-opportunity-lenses.md | social-opportunity-lenses.md
+    Deep diagnosis per COM-B branch; numbered dimension IDs
+    Use after: blocker identification; before: detailed intervention design
+    Point to: com-b-to-bcw-intervention-function-mapping.md for BCW layer
+
+scenarios/*.md (optional)
+    End-to-end examples: state -> COM-B -> lenses -> BCW -> BCT -> tools -> phases
 
 com-b-tool-influence-mechanisms-and-levers.md
     Uses: COM-B codes from abbreviations reference
@@ -159,21 +203,23 @@ personas_jobs.md (optional — template + worked example)
 
 2. **Identify the blockers.** Use the blocker matrix or the per-state blocker section to name the primary and secondary COM-B forces holding the behavior in place. Decode any abbreviation using the abbreviations reference.
 
-3. **Select interventions.** Use the intervention mapping to find which BCW functions apply to the identified COM-B blockers. Use the tool influence file if the question is specifically about product or tool design.
+3. **Deepen diagnosis (optional but high value).** For each relevant COM-B code, open the matching lens file (`capability-lenses.md`, `motivation-lenses.md`, `physical-opportunity-lenses.md`, `social-opportunity-lenses.md`) and use the numbered dimensions to specify *what kind* of PC/PHC/PO/SO/RM/AM problem it is.
 
-4. **Recommend tool levers.** Use the per-state tool levers in the diagnostic cycle to suggest specific, actionable changes. Each lever is already annotated with its COM-B target and BCW mechanism, so recommendations are traceable.
+4. **Select interventions.** Use the intervention mapping to find which BCW functions apply to the identified (and optionally lens-specified) COM-B blockers. Use table 3 in the same file to jump into `bct-taxonomy.md` when you need named techniques. Use the tool influence file if the question is specifically about product or tool design.
 
-5. **Reason about transitions.** The cycle is not a maturity ladder. Behaviors can regress (e.g., a Fully Realized behavior becomes Actively Suppressed after a reorg). Use the cycle flow to reason about what state a behavior might move toward, and what blockers would emerge at that next state.
+5. **Recommend tool levers.** Use the per-state tool levers in the diagnostic cycle to suggest specific, actionable changes. Each lever is already annotated with its COM-B target and BCW mechanism, so recommendations are traceable.
 
-6. **Profile actors in a system (if applicable).** When the situation involves multiple actors (personas, roles, teams), use the persona template in `personas_jobs.md` to profile each one. For each actor, map their target behaviors, COM-B profile (what they can do, what the environment permits, what drives them), and failure modes. Then look at the interfaces between actors — where one actor's output becomes another's input — because system-level failures often occur at these handoffs, not within a single actor. The avalanche safety example in the same file shows this pattern in detail.
+6. **Reason about transitions.** The cycle is not a maturity ladder. Behaviors can regress (e.g., a Fully Realized behavior becomes Actively Suppressed after a reorg). Use the cycle flow to reason about what state a behavior might move toward, and what blockers would emerge at that next state.
 
-7. **Diagnose system-level dynamics (if applicable).** After profiling actors, check for recurring patterns:
+7. **Profile actors in a system (if applicable).** When the situation involves multiple actors (personas, roles, teams), use the persona template in `personas_jobs.md` to profile each one. For each actor, map their target behaviors, COM-B profile (what they can do, what the environment permits, what drives them), and failure modes. Then look at the interfaces between actors — where one actor's output becomes another's input — because system-level failures often occur at these handoffs, not within a single actor. The avalanche safety example in the same file shows this pattern in detail.
+
+8. **Diagnose system-level dynamics (if applicable).** After profiling actors, check for recurring patterns:
    - Is there a "last mile" problem where upstream performance is strong but downstream decisions still fail?
    - Is automatic motivation (habits, biases, social pressure) overriding capability and opportunity?
    - Is the environment implicitly permitting the wrong behavior?
    - Are different actors optimizing for different objectives with no one owning end-to-end alignment?
 
-8. **Avoid common mistakes.**
+9. **Avoid common mistakes.**
    - Do not assume higher states are always better. "Fully Realized & Stable" can mask brittleness and hidden cost.
    - Do not treat the seven states as mutually exclusive within an organization. Different teams may be at different states for the same behavior.
    - Do not skip diagnosis. The framework's value is in matching the intervention to the specific blocker profile, not in applying generic advice.

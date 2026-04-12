@@ -26,13 +26,13 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 
 **Dimensions it tends to foreground:**
 
-- Regulation quality: controlled -> autonomous
-- Need satisfaction: frustrated needs -> supported needs
-- Autonomy support: coercive context -> autonomy-supportive context
-- Competence support: discouraging or overwhelming -> confidence-building and optimally challenging
-- Relatedness support: socially disconnected -> socially supported
-- Internalization: surface compliance -> integrated endorsement
-- Goal self-concordance: alien goals -> self-concordant goals
+- **1.1.1** Regulation quality: controlled -> autonomous
+- **1.1.2** Need satisfaction: frustrated needs -> supported needs
+- **1.1.3** Autonomy support: coercive context -> autonomy-supportive context
+- **1.1.4** Competence support: discouraging or overwhelming -> confidence-building and optimally challenging
+- **1.1.5** Relatedness support: socially disconnected -> socially supported
+- **1.1.6** Internalization: surface compliance -> integrated endorsement
+- **1.1.7** Goal self-concordance: alien goals -> self-concordant goals
 
 **What it sees well:** The difference between fragile compliance and durable commitment, especially where people say they are motivated but the motivation is externally driven.
 
@@ -46,13 +46,13 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 
 **Dimensions it tends to foreground:**
 
-- Efficacy belief: low confidence -> high confidence
-- Persistence under difficulty: quick withdrawal -> sustained effort
-- Recovery after setbacks: fragile -> resilient
-- Task specificity: broad uncertainty -> specific confidence for the target behavior
-- Transfer confidence: confidence is narrow -> confidence generalizes across settings
-- Source of efficacy: weak mastery/vicarious/persuasion support -> strong efficacy-building experience
-- Emotional interpretation: arousal feels disabling -> arousal feels manageable or mobilizing
+- **1.2.1** Efficacy belief: low confidence -> high confidence
+- **1.2.2** Persistence under difficulty: quick withdrawal -> sustained effort
+- **1.2.3** Recovery after setbacks: fragile -> resilient
+- **1.2.4** Task specificity: broad uncertainty -> specific confidence for the target behavior
+- **1.2.5** Transfer confidence: confidence is narrow -> confidence generalizes across settings
+- **1.2.6** Source of efficacy: weak mastery/vicarious/persuasion support -> strong efficacy-building experience
+- **1.2.7** Emotional interpretation: arousal feels disabling -> arousal feels manageable or mobilizing
 
 **What it sees well:** Situations where people value the behavior but doubt their ability to carry it through.
 
@@ -66,14 +66,14 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 
 **Dimensions it tends to foreground:**
 
-- Expectancy of success: unlikely -> likely
-- Attainment value: unimportant -> important
-- Interest value: uninteresting -> intrinsically engaging
-- Utility value: low practical benefit -> high practical benefit
-- Effort cost: low effort burden -> high effort burden
-- Emotional cost: low emotional burden -> high emotional burden
-- Opportunity cost: little sacrificed -> substantial sacrifice
-- Present-vs-future weighting: future value dominates -> present cost dominates
+- **1.3.1** Expectancy of success: unlikely -> likely
+- **1.3.2** Attainment value: unimportant -> important
+- **1.3.3** Interest value: uninteresting -> intrinsically engaging
+- **1.3.4** Utility value: low practical benefit -> high practical benefit
+- **1.3.5** Effort cost: low effort burden -> high effort burden
+- **1.3.6** Emotional cost: low emotional burden -> high emotional burden
+- **1.3.7** Opportunity cost: little sacrificed -> substantial sacrifice
+- **1.3.8** Present-vs-future weighting: future value dominates -> present cost dominates
 
 **What it sees well:** Reflective tradeoffs, perceived payoff, and cost-heavy behaviors that fail not because of incapacity but because they do not seem worth the effort.
 
@@ -87,13 +87,13 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 
 **Dimensions it tends to foreground:**
 
-- Identity congruence: behavior feels alien -> behavior feels identity-consistent
-- Prototypicality: behavior feels marginal to the identity -> behavior feels central to it
-- Identity conflict: few competing identities -> many competing identities
-- Interpretation of difficulty: difficulty signals mismatch -> difficulty signals importance
-- Future-self pull: weak possible self -> strong possible self
-- Authenticity: performative adoption -> authentic endorsement
-- Reputation risk: low identity exposure -> high identity exposure
+- **1.4.1** Identity congruence: behavior feels alien -> behavior feels identity-consistent
+- **1.4.2** Prototypicality: behavior feels marginal to the identity -> behavior feels central to it
+- **1.4.3** Identity conflict: few competing identities -> many competing identities
+- **1.4.4** Interpretation of difficulty: difficulty signals mismatch -> difficulty signals importance
+- **1.4.5** Future-self pull: weak possible self -> strong possible self
+- **1.4.6** Authenticity: performative adoption -> authentic endorsement
+- **1.4.7** Reputation risk: low identity exposure -> high identity exposure
 
 **What it sees well:** Aspirational but weakly realized behaviors, professionalism questions, and situations where resistance is really about self-definition rather than simple preference.
 
@@ -107,13 +107,13 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 
 **Dimensions it tends to foreground:**
 
-- Intention strength: weak goal commitment -> strong goal commitment
-- Intention stability: fluctuating intention -> stable intention
-- Plan specificity: vague intention -> precise if-then planning
-- Cue linkage: no clear trigger -> strong cue-response linkage
-- Obstacle planning: no coping plan -> explicit coping plan
-- Initiation readiness: hard to start -> easy to start
-- Maintenance planning: weak follow-through structure -> strong follow-through structure
+- **1.5.1** Intention strength: weak goal commitment -> strong goal commitment
+- **1.5.2** Intention stability: fluctuating intention -> stable intention
+- **1.5.3** Plan specificity: vague intention -> precise if-then planning
+- **1.5.4** Cue linkage: no clear trigger -> strong cue-response linkage
+- **1.5.5** Obstacle planning: no coping plan -> explicit coping plan
+- **1.5.6** Initiation readiness: hard to start -> easy to start
+- **1.5.7** Maintenance planning: weak follow-through structure -> strong follow-through structure
 
 **What it sees well:** Situations where people genuinely intend to act but fail at initiation, timing, or follow-through.
 
@@ -136,13 +136,13 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 
 **Dimensions it tends to foreground:**
 
-- Automaticity: effortful and deliberate -> automatic and effortless
-- Context dependence: weak cueing -> strong cue-triggering
-- Repetition history: little repetition -> extensive repetition
-- Context stability: unstable context -> stable context
-- Goal independence: behavior follows current goals -> behavior runs despite current goals
-- Disruption sensitivity: easy to disrupt -> highly entrenched
-- Competing habit strength: weak competing routine -> strong competing routine
+- **2.1.1** Automaticity: effortful and deliberate -> automatic and effortless
+- **2.1.2** Context dependence: weak cueing -> strong cue-triggering
+- **2.1.3** Repetition history: little repetition -> extensive repetition
+- **2.1.4** Context stability: unstable context -> stable context
+- **2.1.5** Goal independence: behavior follows current goals -> behavior runs despite current goals
+- **2.1.6** Disruption sensitivity: easy to disrupt -> highly entrenched
+- **2.1.7** Competing habit strength: weak competing routine -> strong competing routine
 
 **What it sees well:** Routine, inertia, and why established behavior persists even when attitudes or plans change.
 
@@ -156,13 +156,13 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 
 **Dimensions it tends to foreground:**
 
-- Reward immediacy: delayed reward -> immediate reward
-- Reward magnitude: weak reward -> strong reward
-- Reinforcement frequency: rare reinforcement -> frequent reinforcement
-- Negative reinforcement: little relief value -> strong relief value
-- Cue-triggered wanting: low wanting -> high cue-driven wanting
-- Extinction resistance: easy to extinguish -> highly persistent
-- Goal-directed control: outcome-sensitive -> outcome-insensitive or habit-like
+- **2.2.1** Reward immediacy: delayed reward -> immediate reward
+- **2.2.2** Reward magnitude: weak reward -> strong reward
+- **2.2.3** Reinforcement frequency: rare reinforcement -> frequent reinforcement
+- **2.2.4** Negative reinforcement: little relief value -> strong relief value
+- **2.2.5** Cue-triggered wanting: low wanting -> high cue-driven wanting
+- **2.2.6** Extinction resistance: easy to extinguish -> highly persistent
+- **2.2.7** Goal-directed control: outcome-sensitive -> outcome-insensitive or habit-like
 
 **What it sees well:** Why behaviors persist through reinforcement, craving, relief seeking, and reward salience.
 
@@ -176,13 +176,13 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 
 **Dimensions it tends to foreground:**
 
-- Valence: aversive -> attractive
-- Arousal: calm -> highly activated
-- Anticipatory affect: little emotional anticipation -> strong dread, hope, or relief expectation
-- Mood influence: low mood dependence -> strong mood dependence
-- Social-emotional intensity: low shame/pride/fear load -> high shame/pride/fear load
-- Interoceptive burden: low bodily discomfort -> high bodily discomfort
-- Emotion regulation capacity: reactions are manageable -> reactions easily dominate action
+- **2.3.1** Valence: aversive -> attractive
+- **2.3.2** Arousal: calm -> highly activated
+- **2.3.3** Anticipatory affect: little emotional anticipation -> strong dread, hope, or relief expectation
+- **2.3.4** Mood influence: low mood dependence -> strong mood dependence
+- **2.3.5** Social-emotional intensity: low shame/pride/fear load -> high shame/pride/fear load
+- **2.3.6** Interoceptive burden: low bodily discomfort -> high bodily discomfort
+- **2.3.7** Emotion regulation capacity: reactions are manageable -> reactions easily dominate action
 
 **What it sees well:** Anxiety, discomfort, embarrassment, relief, and other hot motivators that make a behavior feel immediately hard or attractive.
 
@@ -196,13 +196,13 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 
 **Dimensions it tends to foreground:**
 
-- Perceived controllability: effort feels consequential -> effort feels futile
-- Passivity: active coping -> withdrawal or resignation
-- Generalization: helplessness is local -> helplessness spreads across situations
-- Recovery expectation: setbacks feel temporary -> setbacks feel definitive
-- Persistence: repeated attempts continue -> attempts collapse quickly
-- Learned pessimism: outcomes seem influenceable -> outcomes seem fixed
-- Exposure duration: short-term frustration -> prolonged uncontrollable experience
+- **2.4.1** Perceived controllability: effort feels consequential -> effort feels futile
+- **2.4.2** Passivity: active coping -> withdrawal or resignation
+- **2.4.3** Generalization: helplessness is local -> helplessness spreads across situations
+- **2.4.4** Recovery expectation: setbacks feel temporary -> setbacks feel definitive
+- **2.4.5** Persistence: repeated attempts continue -> attempts collapse quickly
+- **2.4.6** Learned pessimism: outcomes seem influenceable -> outcomes seem fixed
+- **2.4.7** Exposure duration: short-term frustration -> prolonged uncontrollable experience
 
 **What it sees well:** Resignation, disengagement, futility, and motivational shutdown.
 
