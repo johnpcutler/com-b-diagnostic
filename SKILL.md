@@ -66,15 +66,6 @@ Read per-state levers in [`references/com-b-bcw-bct/behavior-jtbd-maturity-diagn
 
 Combine into a phased rollout with ownership and success signals.
 
-### Optional — Profile actors
-
-For multi-actor systems, run [`references/personas_jobs.md`](references/personas_jobs.md). Profile each actor, then diagnose interface failures:
-
-- **Last mile:** upstream strong, downstream fails
-- **Motivation override:** automatic motivation overrides reflective intent
-- **Permissive environment:** cues implicitly allow the wrong behavior
-- **Misaligned optimization:** actors optimize for different objectives
-
 ## Output format
 
 See [`assets/output-template.md`](assets/output-template.md) for the structured output format. At minimum, every diagnosis should produce:
@@ -93,6 +84,6 @@ See [`assets/output-template.md`](assets/output-template.md) for the structured 
 2. **Do not skip lens deepening (Step 3).** Generic COM-B codes produce generic interventions.
 3. **Do not assume higher states are better.** "Fully Realized & Stable" can mask brittleness and hidden cost.
 4. **Reason about transitions.** The cycle is not a maturity ladder. Behaviors regress when incentives, norms, or operating conditions shift. Different teams can be at different states for the same behavior.
-5. **Do not profile personas in isolation.** The value is in revealing misalignment between actors, not just within them.
+5. **Multi-actor situations:** do not stop at per-role blockers—trace handoffs and where one actor's output becomes another's input; failures often concentrate at interfaces.
 6. **Trace everything.** Every intervention function should trace back to a COM-B code, every COM-B code to a lens dimension, every lens dimension to observed signals. If the chain breaks, the diagnosis is incomplete.
 7. **Name your sources.** When citing BCTs, use taxonomy numbers. When citing lens dimensions, use the stable IDs.

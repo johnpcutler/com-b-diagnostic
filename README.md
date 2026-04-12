@@ -18,7 +18,6 @@ credits.md                        # Full credits and source lineages
 references/
     guide.md                      # Pipeline walkthrough and file connections
     flow.md                       # Canonical pipeline pseudocode + field spec
-    personas_jobs.md              # Multi-actor COM-B profiles (template + example)
     com-b-bcw-bct/                # Core COM-B / BCW / BCT reference tables
     lenses/                       # Dimensional lenses per COM-B branch
     scenarios/                    # Worked end-to-end examples

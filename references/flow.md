@@ -49,10 +49,6 @@ STEP 7  intervention_design()
   IN      all prior OUTs
   OUT     phases[]                  // timeboxed rollout + sustainment
           // ties BCW + BCT + levers to sequence and ownership
-
-OPTIONAL (not required in every scenario)
-  personas_jobs.md                  // multi-actor COM-B profiles and handoffs
-  // use when diagnosis must span roles / teams, not a single behavior surface
 ```
 
 ---
@@ -107,5 +103,4 @@ Body text under **The situation** is context only; it is not a numbered pipeline
 ## LLM / author notes
 
 - Run steps **in order**; later steps assume earlier outputs. Lens deepening (step 3) is where ambiguous COM-B codes become precise enough for BCT and tool choices.
-- If the situation is **multi-actor**, run `personas_jobs.md` in parallel after you have a first-pass state + blockers, or fold actor-specific blockers back into step 2 on a second pass.
 - Do not treat the seven **behavior states** as a maturity ladder; see step 6 / cycle text on regressions.

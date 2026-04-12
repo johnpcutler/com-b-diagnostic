@@ -78,16 +78,6 @@ Combine all prior outputs into a **phased rollout**: what changes when, who owns
 
 **Output:** timeboxed phases tying functions + techniques + levers to sequence and ownership.
 
-### Optional — Profile actors
-
-When the behavior spans **multiple roles or handoffs**, run [`personas_jobs.md`](personas_jobs.md) in parallel with or after Steps 1–2. For each actor, map target behaviors, COM-B breakdown, and failure modes. Then look at the **interfaces** — where one actor's output becomes another's input — because system-level failures concentrate at handoffs, not within single roles.
-
-Patterns to check after profiling actors:
-- **Last mile:** upstream performance is strong but downstream decisions still fail.
-- **Motivation override:** automatic motivation (habit, bias, social proof) overrides reflective intent.
-- **Permissive environment:** cues implicitly allow the wrong behavior.
-- **Misaligned optimization:** actors optimize for different objectives; no one owns end-to-end alignment.
-
 ---
 
 ## How the files connect
@@ -126,9 +116,4 @@ flow.md
 
 scenarios/*.md
     End-to-end examples: state → COM-B → lenses → BCW → BCT → tools → phases
-
-personas_jobs.md
-    Multi-actor COM-B profiles; template + worked example (avalanche safety)
-    Complements the diagnostic cycle (cycle diagnoses behavior states;
-    personas diagnose actor-level breakdowns and interface failures)
 ```
