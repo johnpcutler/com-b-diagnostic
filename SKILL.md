@@ -23,8 +23,6 @@ Ask the user for (or extract from context):
 3. **Context** — who are the actors, what's the environment, what changed recently?
 4. **Scope** — single behavior or multi-actor system?
 
-See [`assets/intake-template.md`](assets/intake-template.md) for a structured intake form.
-
 ## Pipeline
 
 Follow [`references/flow.md`](references/flow.md) steps 1–7 in order. The full walkthrough with file pointers is in [`references/guide.md`](references/guide.md).
@@ -68,15 +66,9 @@ Combine into a phased rollout with ownership and success signals.
 
 ## Output format
 
-See [`assets/output-template.md`](assets/output-template.md) for the structured output format. At minimum, every diagnosis should produce:
+Produce the diagnosis as a **report** following the skeleton in [`assets/output-template.md`](assets/output-template.md). That file is not a form for the user to fill in; it defines a stable heading order, digest block shape, and wording conventions so long outputs stay consistent and downstream consumers can rely on required sections.
 
-1. **State classification** — state ID, name, matched signals
-2. **COM-B blockers** — primary and secondary codes with rationale
-3. **Lens analysis** — dimensional IDs with short descriptions
-4. **Intervention functions** — ordered by lens-driven priority
-5. **BCTs** — named techniques keyed by function
-6. **Tool levers** — concrete changes keyed by COM-B branch
-7. **Phased rollout** — timeboxed phases with ownership and signals
+The agent fills in each section from the pipeline (Steps 1–7). Include a **digest** (compressed outputs only) at the top, then narrative sections matching the scenario pattern in [`references/scenarios/`](references/scenarios/).
 
 ## Guardrails
 

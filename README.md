@@ -22,8 +22,7 @@ references/
     lenses/                       # Dimensional lenses per COM-B branch
     scenarios/                    # Worked end-to-end examples
 assets/
-    intake-template.md            # Structured intake form
-    output-template.md            # Structured output format
+    output-template.md            # Report skeleton for diagnosis output (agent-filled)
 ```
 
 ## License

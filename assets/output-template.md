@@ -1,79 +1,116 @@
-# Diagnostic Output
+# Diagnostic report skeleton
 
-Structured output format for a COM-B behavioral diagnosis.
+Use this as the **shape** of a COM-B diagnosis output. It mirrors the pattern in [`references/scenarios/`](../references/scenarios/). The **user does not fill this in**; the agent produces a report that follows this structure.
+
+**Purpose:** stable report shape, consistent long outputs, preserved sections, predictable formatting for any downstream use (paste into docs, tickets, or tools).
 
 ---
 
-## 1. Behavior state classification
+## Conventions
 
-| Field | Value |
-|-------|-------|
-| **State** | _S? — State Name_ |
-| **Matched signals** | _List the signals from the diagnostic cycle that matched_ |
-| **Rationale** | _Why this state and not an adjacent one_ |
+- **Lens dimensions:** cite stable IDs from the lens files (e.g. `PO 1.2`, `PC 1.3.4`, `RM 1.3.5`). PO/SO use `section.dimension`; PC/PHC/RM/AM use `sub-lens.dimension`.
+- **BCW functions:** use abbreviations from the intervention mapping (e.g. `ED`, `ER`, `EN`).
+- **BCTs:** cite taxonomy numbers and names (e.g. `12.1 Restructuring the physical environment`).
+- **Primary blockers:** mark with `*` in digest `blockers` line where helpful.
 
-## 2. COM-B blockers
+---
 
-| Priority | Code | Branch | Evidence |
-|----------|------|--------|----------|
-| Primary | _e.g. PC_ | _Psychological Capability_ | _What was observed_ |
-| Secondary | _e.g. SO_ | _Social Opportunity_ | _What was observed_ |
+## Title
 
-## 3. Lens analysis
+```markdown
+# Scenario: "<short label for the situation>"
+```
 
-| COM-B code | Lens dimension | Short tag | Evidence |
-|-----------|---------------|-----------|----------|
-| _PC_ | _PC 1.2.3_ | _Mental-model gap in cue interpretation_ | _Observed pattern_ |
-| _SO_ | _SO 4.5_ | _Norm misalignment_ | _Observed pattern_ |
+One line that names the behavior-in-context (not a generic title).
 
-## 4. Intervention functions
+---
 
-_Ordered by lens-driven priority._
+## Intro (one sentence)
 
-| Priority | Function | Rationale (linked to lens dimension) |
-|----------|----------|--------------------------------------|
-| 1 | _e.g. Education (ED)_ | _Addresses PC 1.2.3 — actors lack mental model for..._ |
-| 2 | _e.g. Environmental Restructuring (ER)_ | _Addresses SO 4.5 — current environment signals..._ |
+Point to the canonical pipeline, e.g. that the report follows [`references/flow.md`](../references/flow.md) and that the fenced block below is the **digest**.
 
-## 5. BCTs
+---
 
-| Function | BCT # | Technique name | How it applies |
-|----------|-------|---------------|----------------|
-| _ED_ | _4.1_ | _Instruction on how to perform the behavior_ | _..._ |
-| _ER_ | _12.1_ | _Restructuring the physical environment_ | _..._ |
+## Digest block (required)
 
-## 6. Tool levers
+Immediately after the intro, a **fenced code block** with **outputs only** — no prose. Same field names as scenarios so skims and diffs stay predictable.
 
-| COM-B branch | Lever | Mechanism | Source |
-|-------------|-------|-----------|--------|
-| _PC_ | _e.g. Inline guidance at decision point_ | _ED → 4.1_ | _diagnostic cycle S?_ |
-| _SO_ | _e.g. Make peer behavior visible_ | _ER → 12.5_ | _diagnostic cycle S?_ |
+Use only `lenses.{branch}` keys for branches in play (omit empty branches).
 
-## 7. Phased rollout
+```text
+state      = S?: <full state name>
+blockers   = <codes>; * = primary, e.g. PO* AM SO | ...
+lenses.PC  = [id short-tag, ...]   # if PC in play
+lenses.PHC = [...]                 # if PHC in play
+lenses.PO  = [...]                 # if PO in play
+lenses.SO  = [...]                 # if SO in play
+lenses.RM  = [...]                 # if RM in play
+lenses.AM  = [...]                 # if AM in play
+functions  = <BCW order, use >> or > for emphasis if needed>
+bcts       = <FUNCTION→n.n,n.n | ...>
+tools      = <COM-B:token pairs or short tokens>
+phases     = <e.g. [wk1-3] A+B → [wk4-8] C>
+```
 
-### Phase 1 — _Name_ (weeks 1–?)
+---
 
-- **Focus:** _Which COM-B branches / lens dimensions_
-- **Functions active:** _ED, ER_
-- **BCTs:** _4.1, 12.1_
-- **Levers:** _What changes_
-- **Owner:** _Who_
-- **Advance signal:** _What you'd observe if this phase is working_
+## The situation
 
-### Phase 2 — _Name_ (weeks ?–?)
+Context-only prose: what people do or fail to do, actors, environment, recent changes. **Not** a numbered pipeline step.
 
-_..._
+---
 
-## 8. Actor profiles (if multi-actor)
+## Step 1: Classify the behavior state
 
-_Include only if scope involves multiple actor groups._
+- State ID and full name (S1–S7).
+- Signals from the diagnostic cycle that matched.
+- Why this state and not an adjacent one (brief).
 
-| Actor | Target behavior | Primary COM-B blocker | Key lens dimension |
-|-------|----------------|----------------------|-------------------|
-| _Role A_ | _..._ | _PC_ | _PC 1.2.3_ |
-| _Role B_ | _..._ | _SO_ | _SO 4.5_ |
+---
 
-**Interface failures:**
+## Step 2: Identify COM-B blockers
 
-- _Where does Actor A's output become Actor B's input?_
-- _What breaks at that handoff?_
+- Primary blockers (with evidence tied to the situation).
+- Secondary blockers (with evidence).
+- Use sub-headings like **Primary blockers** / **Secondary blockers** when it helps readability.
+
+---
+
+## Step 3: Deepen with lenses
+
+- Opening line listing which lens files apply and ID format reminder (optional but matches scenarios).
+- One **sub-section per active COM-B branch** (e.g. `### Physical opportunity lenses`), with narrative paragraphs keyed to dimensional IDs.
+
+---
+
+## Step 4: Map to intervention functions
+
+- Table or list: COM-B blockers → applicable BCW functions (from intervention mapping).
+- **Consolidated priority order** of functions for this case, with rationale tied to lens dimensions.
+
+---
+
+## Step 5: Select BCTs
+
+- Group by BCW function (sub-headings like `### Via ER -> Grouping 12 …`).
+- For each: technique number, name, and how it applies to this case.
+
+---
+
+## Step 6: Tool levers
+
+- Bulleted list of concrete tool/process/design changes.
+- Key each item by COM-B branch; note mechanism where useful (still traceable to BCTs / functions).
+
+---
+
+## Step 7: Intervention design
+
+- One sub-heading **per phase** (e.g. `### Phase 1: … (weeks …)`).
+- Each phase: **Focus** (which functions / dimensions), concrete actions with BCT numbers, owners if known, **advance signal** (what improves if the phase works).
+
+---
+
+## Framework observations
+
+Reflections **after** the diagnosis: what the framework surfaced, tensions (e.g. primary vs secondary blockers), gaps, or risks — not a repeat of Steps 1–7.
