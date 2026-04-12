@@ -44,10 +44,6 @@ Copy the contents of [`SKILL.md`](SKILL.md) into `.github/copilot-instructions.m
 
 Create a **Project**, then upload the files from this repo as project knowledge. Paste the contents of [`SKILL.md`](SKILL.md) into the project's custom instructions.
 
-### ChatGPT
-
-Create a **GPT** or use **Custom Instructions**. Paste the contents of [`SKILL.md`](SKILL.md) as the system prompt, and upload the `references/` folder contents as knowledge files.
-
 ### Other agents
 
 Any agent that supports custom instructions or system prompts can use this skill. Point it at [`SKILL.md`](SKILL.md) as the orchestrator and make the `references/` files available as context.
