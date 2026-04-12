@@ -30,7 +30,7 @@ Engineers have internalized the idea that reviews should catch real bugs and spr
 
 ## Step 1: Classify the behavior state
 
-Using the diagnostic cycle in [../behavior-jtbd-maturity-diagnostic-cycle.md](../behavior-jtbd-maturity-diagnostic-cycle.md), this scenario maps to **State 2: Realized but Friction-Filled**.
+Using the diagnostic cycle in [../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md](../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md), this scenario maps to **State 2: Realized but Friction-Filled**.
 
 The state signal for State 2 is "mandatory but painful; environment is the enemy." That is an exact match. Code review consistently happens -- CI enforcement guarantees that. There is no question about whether the behavior occurs. The problem is that the environment makes it painful and shallow. The characteristics of State 2 align precisely:
 
@@ -43,7 +43,7 @@ This classification matters because it points the intervention toward friction r
 
 ## Step 2: Identify COM-B blockers
 
-Using [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-behavior-states-primary-secondary-blockers.md), State 2 predicts primary blockers in PO and secondary blockers in AM, PC, and SO. Grounding these in the code review scenario:
+Using [../com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md](../com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md), State 2 predicts primary blockers in PO and secondary blockers in AM, PC, and SO. Grounding these in the code review scenario:
 
 ### Primary blockers
 
@@ -107,7 +107,7 @@ AM is the key secondary blocker. The relevant sub-lenses:
 
 ## Step 4: Map to intervention functions
 
-Using [../com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md), the COM-B blockers map to intervention functions as follows:
+Using [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md), the COM-B blockers map to intervention functions as follows:
 
 | COM-B Blocker | Intervention Functions |
 |---|---|
@@ -126,7 +126,7 @@ Consolidating by frequency and relevance to this scenario, the priority interven
 
 ## Step 5: Select BCTs
 
-Using [../bct-taxonomy.md](../bct-taxonomy.md), selecting specific techniques that implement the priority intervention functions:
+Using [../com-b-bcw-bct/bct-taxonomy.md](../com-b-bcw-bct/bct-taxonomy.md), selecting specific techniques that implement the priority intervention functions:
 
 ### Via ER -> Grouping 12 (Antecedents) and 7 (Associations)
 
@@ -153,7 +153,7 @@ Using [../bct-taxonomy.md](../bct-taxonomy.md), selecting specific techniques th
 
 ## Step 6: Tool levers
 
-Using [../com-b-tool-influence-mechanisms-and-levers.md](../com-b-tool-influence-mechanisms-and-levers.md):
+Using [../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md](../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md):
 
 - **PO -> Automation, Streamlining:** CI integration that flags PRs exceeding 300 lines and suggests splitting strategies based on the file change graph. This removes the manual negotiation around PR size and makes the convention self-enforcing.
 - **PO -> Integration:** Review dashboard showing real-time queue depth, average wait times, and reviewer load balance across the team. Integrates CI results, test coverage deltas, and file-risk scores directly into the review interface so reviewers do not need to context-switch.

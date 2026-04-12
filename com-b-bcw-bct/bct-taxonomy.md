@@ -724,10 +724,10 @@ Prompt observation of the consequences (including rewards and punishments) for o
 ## Read Next
 
 - [com-b-to-bcw-intervention-function-mapping.md](com-b-to-bcw-intervention-function-mapping.md) for the COM-B to intervention function mapping
-- [lenses/capability-lenses.md](lenses/capability-lenses.md) for `PC` and `PHC` diagnosis
-- [lenses/motivation-lenses.md](lenses/motivation-lenses.md) for `RM` and `AM` diagnosis
-- [lenses/physical-opportunity-lenses.md](lenses/physical-opportunity-lenses.md) for `PO` diagnosis
-- [lenses/social-opportunity-lenses.md](lenses/social-opportunity-lenses.md) for `SO` diagnosis
+- [../lenses/capability-lenses.md](../lenses/capability-lenses.md) for `PC` and `PHC` diagnosis
+- [../lenses/motivation-lenses.md](../lenses/motivation-lenses.md) for `RM` and `AM` diagnosis
+- [../lenses/physical-opportunity-lenses.md](../lenses/physical-opportunity-lenses.md) for `PO` diagnosis
+- [../lenses/social-opportunity-lenses.md](../lenses/social-opportunity-lenses.md) for `SO` diagnosis
 
 ## Reference
 

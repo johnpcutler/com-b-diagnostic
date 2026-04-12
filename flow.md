@@ -13,13 +13,13 @@ INPUT
   behavior_in_context   // what people do or fail to do, with enough texture to reason about COM-B
 
 STEP 1  classify_state()
-  READ    behavior-jtbd-maturity-diagnostic-cycle.md
+  READ    com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md
   OUT     state_id                      // S1..S7; full name from cycle
           state_rationale               // which characteristics / state signals matched
 
 STEP 2  identify_blockers()
-  READ    com-b-behavior-states-primary-secondary-blockers.md
-          com-b-abbreviations-reference.md   // decode PC, PHC, PO, SO, RM, AM
+  READ    com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md
+          com-b-bcw-bct/com-b-abbreviations-reference.md   // decode PC, PHC, PO, SO, RM, AM
   OUT     primary_blockers[]        // COM-B codes; * in digest
           secondary_blockers[]
 
@@ -33,16 +33,16 @@ STEP 3  deepen_with_lenses()
           // PC/PHC/RM/AM: sublens.dimension (x.y.z)
 
 STEP 4  map_intervention_functions()
-  READ    com-b-to-bcw-intervention-function-mapping.md   // tables 1–3
+  READ    com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md   // tables 1–3
   OUT     bcw_order                 // ED, TR, PE, …; >> / > for emphasis in digest
 
 STEP 5  select_bcts()
-  READ    bct-taxonomy.md           // technique IDs; groupings from mapping table 3
+  READ    com-b-bcw-bct/bct-taxonomy.md           // technique IDs; groupings from mapping table 3
   OUT     bct_by_function           // e.g. ER→12.1,12.5 | EN→1.1,2.2
 
 STEP 6  tool_levers()
-  READ    behavior-jtbd-maturity-diagnostic-cycle.md   // per-state levers
-          com-b-tool-influence-mechanisms-and-levers.md  // product/tool lens
+  READ    com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md   // per-state levers
+          com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md  // product/tool lens
   OUT     tool_notes_by_com_b       // digest: PO:foo, PC:bar, …
 
 STEP 7  intervention_design()
@@ -93,12 +93,12 @@ Body text under **The situation** is context only; it is not a numbered pipeline
 
 | Need | File |
 |------|------|
-| States, per-state blockers, tool levers | [`behavior-jtbd-maturity-diagnostic-cycle.md`](behavior-jtbd-maturity-diagnostic-cycle.md) |
-| Primary/secondary blocker cheat sheet | [`com-b-behavior-states-primary-secondary-blockers.md`](com-b-behavior-states-primary-secondary-blockers.md) |
-| COM-B abbreviations | [`com-b-abbreviations-reference.md`](com-b-abbreviations-reference.md) |
-| COM-B → BCW → BCT groupings | [`com-b-to-bcw-intervention-function-mapping.md`](com-b-to-bcw-intervention-function-mapping.md) |
-| Full BCT taxonomy | [`bct-taxonomy.md`](bct-taxonomy.md) |
-| Tool mechanisms | [`com-b-tool-influence-mechanisms-and-levers.md`](com-b-tool-influence-mechanisms-and-levers.md) |
+| States, per-state blockers, tool levers | [`com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md) |
+| Primary/secondary blocker cheat sheet | [`com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md`](com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md) |
+| COM-B abbreviations | [`com-b-bcw-bct/com-b-abbreviations-reference.md`](com-b-bcw-bct/com-b-abbreviations-reference.md) |
+| COM-B → BCW → BCT groupings | [`com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md`](com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) |
+| Full BCT taxonomy | [`com-b-bcw-bct/bct-taxonomy.md`](com-b-bcw-bct/bct-taxonomy.md) |
+| Tool mechanisms | [`com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md`](com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md) |
 | Lenses | [`lenses/capability-lenses.md`](lenses/capability-lenses.md), [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md), [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md), [`lenses/social-opportunity-lenses.md`](lenses/social-opportunity-lenses.md) |
 | Repo overview | [`README.md`](README.md) |
 

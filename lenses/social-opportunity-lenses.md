@@ -9,7 +9,7 @@ Within this repo's COM-B vocabulary:
 - `SO` covers norms, politics, incentives, culture, and social coordination conditions.
 - `SO` often interacts with `RM` and `AM` when social permission, legitimacy, or sanction risk shape motivation.
 
-See [com-b-abbreviations-reference.md](../com-b-abbreviations-reference.md) for the shared code system.
+See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-reference.md) for the shared code system.
 
 ## 1. Norms and Normative Climate
 
@@ -172,7 +172,7 @@ These lenses do not replace COM-B. They help specify what kind of `SO` problem i
 - Most of these lenses primarily refine `SO`.
 - Secondary effects often appear in `RM` (identity, value, intention shifts) and `AM` (fear-based avoidance, defensive habits).
 
-Once dominant social-opportunity patterns are clearer, the next step is usually to move into [com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md):
+Once dominant social-opportunity patterns are clearer, the next step is usually to move into [com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md):
 
 - `SO` is most often paired with `RE`, `ER`, `MO`, and `EN`.
 
@@ -214,7 +214,7 @@ Important distinctions:
 Read next:
 - [physical-opportunity-lenses.md](physical-opportunity-lenses.md) for `PO` conditions
 - [motivation-lenses.md](motivation-lenses.md) for `RM` and `AM` effects downstream of social conditions
-- [com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families
+- [com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families
 
 ## References To Ground These Lenses
 

@@ -27,7 +27,7 @@ The downstream consequences are significant. Stories enter sprints underspecifie
 
 ## Step 1: Classify the behavior state
 
-Referencing the diagnostic cycle in [../behavior-jtbd-maturity-diagnostic-cycle.md](../behavior-jtbd-maturity-diagnostic-cycle.md), this situation maps to **State 7: Contested / Undefined** — "No shared definition; conceptual ambiguity."
+Referencing the diagnostic cycle in [../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md](../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md), this situation maps to **State 7: Contested / Undefined** — "No shared definition; conceptual ambiguity."
 
 The defining characteristics of this state are present in full:
 
@@ -43,7 +43,7 @@ This is not a State 3 (Partially Realized / Inconsistent) situation, because the
 
 ## Step 2: Identify COM-B blockers
 
-Referencing [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-behavior-states-primary-secondary-blockers.md), State 7 (Contested / Undefined) identifies the following blocker profile, which maps precisely to this scenario:
+Referencing [../com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md](../com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md), State 7 (Contested / Undefined) identifies the following blocker profile, which maps precisely to this scenario:
 
 ### Primary blockers
 
@@ -122,7 +122,7 @@ PO is not a primary blocker in this scenario — the problem is conceptual, not 
 
 ## Step 4: Map to intervention functions
 
-Referencing [../com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md), the COM-B blockers map to the following intervention functions:
+Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md), the COM-B blockers map to the following intervention functions:
 
 From COM-B blockers:
 - PC → ED, TR, EN
@@ -143,7 +143,7 @@ From COM-B blockers:
 
 ## Step 5: Select BCTs
 
-Referencing the full taxonomy in [../bct-taxonomy.md](../bct-taxonomy.md):
+Referencing the full taxonomy in [../com-b-bcw-bct/bct-taxonomy.md](../com-b-bcw-bct/bct-taxonomy.md):
 
 ### Via ED → Grouping 4 (Shaping Knowledge)
 
@@ -173,7 +173,7 @@ Referencing the full taxonomy in [../bct-taxonomy.md](../bct-taxonomy.md):
 
 ## Step 6: Tool levers
 
-Referencing [../com-b-tool-influence-mechanisms-and-levers.md](../com-b-tool-influence-mechanisms-and-levers.md):
+Referencing [../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md](../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md):
 
 - **PC → Clarification, Sensemaking Support.** Multi-perspective readiness canvas embedded in the ticket template. Each role's readiness dimensions are visible as named sections (not a single flat checklist). The canvas makes the multi-perspective structure of readiness visible and navigable. When a PM fills out "Problem Clarity" and an engineer fills out "Technical Approach," the structure itself teaches the team that readiness is multi-dimensional.
 

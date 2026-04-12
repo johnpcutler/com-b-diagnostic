@@ -9,7 +9,7 @@ Within this repo's COM-B vocabulary:
 - `PO` covers time, tools, systems, workflows, and local physical conditions.
 - `PO` often interacts with `PC` and `AM` when friction, overload, or poor fit crowd out capable or well-intended behavior.
 
-See [com-b-abbreviations-reference.md](../com-b-abbreviations-reference.md) for the shared code system.
+See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-reference.md) for the shared code system.
 
 ## 1. Work-System Configuration and Constraints
 
@@ -172,7 +172,7 @@ These lenses do not replace COM-B. They help specify what kind of `PO` problem i
 - Most of these lenses primarily refine `PO`.
 - Secondary effects often appear in `PC` (when friction blocks practice) and `AM` (when high activation energy prevents initiation).
 
-Once dominant physical-opportunity patterns are clearer, the next step is usually to move into [com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md):
+Once dominant physical-opportunity patterns are clearer, the next step is usually to move into [com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md):
 
 - `PO` is most often paired with `RE`, `ER`, and `EN`.
 - In some cases, paired `TR` helps when environmental redesign and capability-building must be coordinated.
@@ -206,7 +206,7 @@ Those belong more naturally in adjacent notes such as [social-opportunity-lenses
 Read next:
 - [social-opportunity-lenses.md](social-opportunity-lenses.md) for `SO` conditions
 - [capability-lenses.md](capability-lenses.md) for `PC` and `PHC`
-- [com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families
+- [com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families
 
 ## References To Ground These Lenses
 

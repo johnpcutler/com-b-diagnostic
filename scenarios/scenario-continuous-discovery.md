@@ -30,7 +30,7 @@ The gap between identity and practice is wide. Sprint ceremonies, stakeholder re
 
 ## Step 1: Classify the behavior state
 
-Using the diagnostic cycle in [../behavior-jtbd-maturity-diagnostic-cycle.md](../behavior-jtbd-maturity-diagnostic-cycle.md), this organization sits squarely in **State 5: Aspirational Only**.
+Using the diagnostic cycle in [../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md](../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md), this organization sits squarely in **State 5: Aspirational Only**.
 
 The state signal for Aspirational Only is "identity-level desire without practice," and the characteristics are:
 
@@ -46,7 +46,7 @@ It is also not Contested/Undefined (State 7), because there is no active definit
 
 ## Step 2: Identify COM-B blockers
 
-Referencing [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-behavior-states-primary-secondary-blockers.md) for the quick lookup and grounding in the Aspirational Only state from [../behavior-jtbd-maturity-diagnostic-cycle.md](../behavior-jtbd-maturity-diagnostic-cycle.md):
+Referencing [../com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md](../com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md) for the quick lookup and grounding in the Aspirational Only state from [../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md](../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md):
 
 ### Primary blockers
 
@@ -114,7 +114,7 @@ Referencing [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-be
 
 ## Step 4: Map to intervention functions
 
-Referencing [../com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md) Table 1:
+Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) Table 1:
 
 From COM-B blockers to intervention functions:
 - **PC** → ED (Education), TR (Training), EN (Enablement)
@@ -138,7 +138,7 @@ COE (Coercion) and RE (Restriction) are deprioritized. Coercing discovery would 
 
 ## Step 5: Select BCTs
 
-Referencing [../com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md) Table 3 to navigate into [../bct-taxonomy.md](../bct-taxonomy.md):
+Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) Table 3 to navigate into [../com-b-bcw-bct/bct-taxonomy.md](../com-b-bcw-bct/bct-taxonomy.md):
 
 ### Via ED → Grouping 4 (Shaping Knowledge) and Grouping 5 (Natural Consequences)
 
@@ -172,7 +172,7 @@ Referencing [../com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-i
 
 ## Step 6: Tool levers
 
-Referencing [../com-b-tool-influence-mechanisms-and-levers.md](../com-b-tool-influence-mechanisms-and-levers.md):
+Referencing [../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md](../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md):
 
 - **PC: Guided interview template in the team's existing tool.** A Notion or Confluence template with a structured discussion guide format: assumption statement, 3-5 open questions, probing prompts, and a synthesis section. This uses the Clarification and Instruction mechanisms to make the behavior procedurally clear without requiring separate training. The template encodes "what good looks like" directly into the workflow.
 

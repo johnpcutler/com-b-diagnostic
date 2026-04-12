@@ -16,7 +16,7 @@ Within this repo's COM-B vocabulary:
 - `PC` covers knowledge, mental models, judgment, psychological skill, conceptual clarity, and self-regulatory capability.
 - `PHC` covers bodily skill, strength, stamina, coordination, and reliable physical execution.
 
-See [com-b-abbreviations-reference.md](../com-b-abbreviations-reference.md) for the shared code system.
+See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-reference.md) for the shared code system.
 
 ## 1. Psychological Capability
 
@@ -311,7 +311,7 @@ These lenses do not replace COM-B. They help specify what kind of capability pro
 - The physical lenses mainly refine `PHC`.
 - Some situations blend both. For example, a difficult surgical procedure can involve `PC` burdens in signal interpretation and judgment, while also placing `PHC` burdens on dexterity, posture, and fatigue tolerance.
 
-Once the dominant capability pattern is clearer, the next step is usually to move into the BCW mapping in [com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md):
+Once the dominant capability pattern is clearer, the next step is usually to move into the BCW mapping in [com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md):
 
 - `PC` is most often paired with `ED`, `TR`, and `EN`.
 - `PHC` is most often paired with `TR` and `EN`.
@@ -361,8 +361,8 @@ Read next:
 - [motivation-lenses.md](motivation-lenses.md) for `RM` and `AM`
 - [physical-opportunity-lenses.md](physical-opportunity-lenses.md) for `PO` diagnosis of time, tools, workflow, and local environment
 - [social-opportunity-lenses.md](social-opportunity-lenses.md) for `SO` diagnosis of norms, incentives, legitimacy, and politics
-- [behavior-jtbd-maturity-diagnostic-cycle.md](../behavior-jtbd-maturity-diagnostic-cycle.md) for how `PC` appears in states such as `Partially Realized / Inconsistent`, `Aspirational Only`, and `Contested / Undefined`
-- [com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families after capability diagnosis
+- [behavior-jtbd-maturity-diagnostic-cycle.md](../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md) for how `PC` appears in states such as `Partially Realized / Inconsistent`, `Aspirational Only`, and `Contested / Undefined`
+- [com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families after capability diagnosis
 
 ## References To Ground These Lenses
 

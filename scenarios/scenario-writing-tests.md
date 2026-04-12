@@ -32,7 +32,7 @@ The testing gap is not a knowledge problem. Engineers know how to write tests. I
 
 ## Step 1: Classify the behavior state
 
-Using the diagnostic cycle in [../behavior-jtbd-maturity-diagnostic-cycle.md](../behavior-jtbd-maturity-diagnostic-cycle.md), this team sits squarely in **State 4: Weakly Realized**.
+Using the diagnostic cycle in [../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md](../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md), this team sits squarely in **State 4: Weakly Realized**.
 
 The state signal for Weakly Realized is "agreed and valued, but continually displaced," and the characteristics match precisely:
 
@@ -45,7 +45,7 @@ This is not Partially Realized/Inconsistent (State 3), because the failure is no
 
 ## Step 2: Identify COM-B blockers
 
-Referencing [../com-b-behavior-states-primary-secondary-blockers.md](../com-b-behavior-states-primary-secondary-blockers.md) for the quick lookup and grounding in the Weakly Realized state from [../behavior-jtbd-maturity-diagnostic-cycle.md](../behavior-jtbd-maturity-diagnostic-cycle.md):
+Referencing [../com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md](../com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md) for the quick lookup and grounding in the Weakly Realized state from [../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md](../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md):
 
 ### Primary blockers
 
@@ -123,7 +123,7 @@ PC is not a primary blocker — engineers know how to write tests. But the capab
 
 ## Step 4: Map to intervention functions
 
-Referencing [../com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md) Table 1:
+Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) Table 1:
 
 From COM-B blockers to intervention functions:
 
@@ -149,7 +149,7 @@ COE (Coercion) is deprioritized. Coverage mandates imposed punitively would gene
 
 ## Step 5: Select BCTs
 
-Referencing [../com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-intervention-function-mapping.md) Table 3 to navigate into [../bct-taxonomy.md](../bct-taxonomy.md):
+Referencing [../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) Table 3 to navigate into [../com-b-bcw-bct/bct-taxonomy.md](../com-b-bcw-bct/bct-taxonomy.md):
 
 ### Via ER → Grouping 12 (Antecedents) and Grouping 7 (Associations)
 
@@ -183,7 +183,7 @@ Referencing [../com-b-to-bcw-intervention-function-mapping.md](../com-b-to-bcw-i
 
 ## Step 6: Tool levers
 
-Referencing [../com-b-tool-influence-mechanisms-and-levers.md](../com-b-tool-influence-mechanisms-and-levers.md):
+Referencing [../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md](../com-b-bcw-bct/com-b-tool-influence-mechanisms-and-levers.md):
 
 - **PO: Test scaffold generator in the CLI.** `make test ModuleName` creates a test file with imports, a describe block, and a placeholder assertion. Mechanism: Reduction of Resource Cost, Streamlining. Targets the high activation energy that prevents engineers from starting. When starting a test takes 5 seconds instead of 5 minutes, the decision calculus changes.
 
