@@ -13,7 +13,7 @@
 
 The four lens files deepen each COM-B branch using established research traditions. Key lineages per branch:
 
-### Capability (`lenses/capability-lenses.md`)
+### Capability (`references/lenses/capability-lenses.md`)
 
 - **Skill acquisition and procedural knowledge:** Anderson; Fitts & Posner
 - **Mental models and situation models:** Johnson-Laird; Gentner & Stevens
@@ -25,7 +25,7 @@ The four lens files deepen each COM-B branch using established research traditio
 - **Motor learning and coordination:** Fitts & Posner; Schmidt; Bernstein; Newell; Kelso
 - **Physical ergonomics and work physiology:** occupational physiology, fatigue science, ICF traditions
 
-### Motivation (`lenses/motivation-lenses.md`)
+### Motivation (`references/lenses/motivation-lenses.md`)
 
 - **Self-Determination Theory:** Deci & Ryan
 - **Self-efficacy:** Bandura
@@ -37,7 +37,7 @@ The four lens files deepen each COM-B branch using established research traditio
 - **Affect and emotion:** emotion and behavior-change literatures on approach and avoidance
 - **Learned helplessness:** Seligman
 
-### Physical Opportunity (`lenses/physical-opportunity-lenses.md`)
+### Physical Opportunity (`references/lenses/physical-opportunity-lenses.md`)
 
 - **Work-system configuration (SEIPS):** Carayon et al.; sociotechnical systems traditions
 - **Workload and demand-capacity:** human-factors and operations-management traditions
@@ -47,7 +47,7 @@ The four lens files deepen each COM-B branch using established research traditio
 - **Physical ergonomics:** occupational human-factors traditions
 - **Cybernetics and control loops:** Wiener; Ashby; systems-dynamics traditions
 
-### Social Opportunity (`lenses/social-opportunity-lenses.md`)
+### Social Opportunity (`references/lenses/social-opportunity-lenses.md`)
 
 - **Social norms:** Cialdini, Reno & Kallgren
 - **Role theory and boundary work:** Kahn et al.; jurisdiction and boundary-work traditions
