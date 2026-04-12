@@ -1,5 +1,7 @@
 # Scenario: "What does 'ready for dev' actually mean?"
 
+This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–7.
+
 ```
 state      = S7: Contested / Undefined
 blockers   = PC* RM* | SO                                 (* = primary)

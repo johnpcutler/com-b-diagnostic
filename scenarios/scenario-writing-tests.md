@@ -1,5 +1,7 @@
 # Scenario: "Everyone agrees we should write tests, but we keep skipping them"
 
+This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–7.
+
 ```
 state      = S4: Weakly Realized
 blockers   = PO* AM* | RM PC SO                           (* = primary)

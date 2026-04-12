@@ -1,5 +1,7 @@
 # Scenario: "Code review is a bottleneck everyone dreads"
 
+This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–7.
+
 ```
 state      = S2: Realized but Friction-Filled
 blockers   = PO* | AM SO PC                               (* = primary)

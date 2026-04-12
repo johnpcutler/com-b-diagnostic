@@ -145,6 +145,8 @@ This file is **optional**. Use it when your situation involves multiple actors a
 
 Four end-to-end **pressure-test** narratives (product/engineering contexts). Each file walks: behavior state → COM-B blockers → lens deepening (all four lens files + dimension IDs) → BCW functions → BCTs → tool levers → phased intervention. Use them as templates for applying the full stack or as a check that your own diagnosis hangs together.
 
+The exact order and the **digest** block convention are specified in **`flow.md`** (canonical pipeline as pseudocode + step table).
+
 ---
 
 ## How the files reference each other
@@ -169,6 +171,9 @@ capability-lenses.md | motivation-lenses.md | physical-opportunity-lenses.md | s
     Deep diagnosis per COM-B branch; numbered dimension IDs
     Use after: blocker identification; before: detailed intervention design
     Point to: com-b-to-bcw-intervention-function-mapping.md for BCW layer
+
+flow.md
+    Canonical pipeline (pseudocode) + digest field spec; scenarios implement steps 1–7
 
 scenarios/*.md (optional)
     End-to-end examples: state -> COM-B -> lenses -> BCW -> BCT -> tools -> phases

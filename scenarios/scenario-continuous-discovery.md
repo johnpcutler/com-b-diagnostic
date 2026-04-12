@@ -1,5 +1,7 @@
 # Scenario: "We should be doing continuous discovery"
 
+This narrative follows the canonical pipeline in [`flow.md`](../flow.md). The fenced block below is the **digest**: a code-like summary of outputs for steps 1–7.
+
 ```
 state      = S5: Aspirational Only
 blockers   = PC* RM* PO* | AM SO                         (* = primary)
