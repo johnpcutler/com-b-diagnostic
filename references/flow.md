@@ -35,6 +35,7 @@ STEP 3  synthesize_and_assess()
   IN      dimensional_findings
   READ    assets/practitioner-worksheet.md                // synthesis + BCW ranking template
   OUT     filled_worksheet {
+            com_b_ranking               // C, O, M ranked with rationale
             per_lens_synthesis[]        // tables: sub-lens, dims, pattern guidance conclusions, BCTs
             cross_lens_interactions     // tensions, reinforcements, prerequisites, leverage
             bcw_ranking[]               // top 5 functions with rationale + top 3 BCTs each
@@ -45,7 +46,7 @@ STEP 4  convert_to_recommendations()                     // under the hood
   IN      filled_worksheet
   READ    com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md
           com-b-bcw-bct/bct-taxonomy.md
-  NOTE    BCW ranking from the worksheet drives function prioritization; refine with taxonomy
+  NOTE    The BCW ranking in the filled worksheet is your starting point; refine with the taxonomy — do not re-derive from scratch
   OUT     bcw_functions_prioritized[]   // ordered by leverage, informed by dimensional positions
           bcts_by_function{}            // e.g. ER→BCT.12.1,BCT.12.5 | EN→BCT.1.1,BCT.2.2
 
@@ -55,7 +56,7 @@ STEP 5  frame_recommendations()
             summary                     // plain-language "what's going on and what to do"
             key_insights[3..5]          // highest-leverage findings
           }
-          phase_b_choice {              // user chooses one or both
+          phase_b_choice {              // user chooses one or more
             in_depth_report             // full diagnostic with dimensional assessments, BCW/BCT reasoning
             action_plan                 // phased rollout: week-by-week, owners, success signals
           }

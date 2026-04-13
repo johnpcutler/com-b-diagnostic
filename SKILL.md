@@ -38,13 +38,15 @@ For each relevant dimension, note: relevance, position on the scale, and evidenc
 
 ### Step 3 — Synthesize and assess
 
-Use [`assets/practitioner-worksheet.md`](assets/practitioner-worksheet.md) to synthesize your findings. Build a cross-lens assessment:
+The output of this step is a filled-out [`assets/practitioner-worksheet.md`](assets/practitioner-worksheet.md). Work through it section by section:
 
-- Where do lenses **tension** against each other? (e.g. capability is present but motivation doesn't support it)
-- Where do lenses **reinforce** each other? (e.g. both opportunity and motivation point to the same bottleneck)
-- Which dimensional findings are **highest-leverage** for this specific situation?
+1. **COM-B priority ranking** — rank C, O, M by contribution to the gap
+2. **Per-lens synthesis** — for each active branch, fill the table (sub-lens, dimensions, Pattern guidance conclusions, BCTs) and write a narrative synthesis
+3. **Cross-lens interactions** — tensions, reinforcements, prerequisites, highest leverage
+4. **BCW function ranking** — top 5 functions with rationale and top 3 BCTs each
+5. **Intervention implications** — connect BCTs to concrete actions
 
-Produce a coherent diagnostic picture that connects the dots across all three lenses.
+The filled worksheet is both your internal reasoning artifact and a deliverable the user can request.
 
 ### Step 4 — Convert to BCW and BCT recommendations
 
@@ -62,9 +64,10 @@ Deliver in two phases:
 
 After delivering Phase A, offer the user two paths:
 
-**Phase B — user chooses one or both:**
-- **In-depth report:** Full diagnostic with dimensional assessments, cross-lens tensions, BCW/BCT reasoning visible. Can include the practitioner worksheet.
+**Phase B — user chooses one or more:**
+- **In-depth report:** Full diagnostic with dimensional assessments, cross-lens tensions, BCW/BCT reasoning visible.
 - **Action plan:** Concrete phased plan — week-by-week — with specific changes, owners, success signals, tool/AI recommendations.
+- **Working analysis:** The filled-out practitioner worksheet showing COM-B ranking, per-lens synthesis, cross-lens interactions, and BCW function ranking with rationale.
 
 Follow the output skeleton in [`assets/output-template.md`](assets/output-template.md) for structure.
 

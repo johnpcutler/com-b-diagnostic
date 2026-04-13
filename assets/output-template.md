@@ -40,13 +40,14 @@ Restate the structured behavior definition from Step 1:
 
 ### Offer
 
-After delivering Phase A, offer the user two paths:
+After delivering Phase A, offer the user three paths:
 
-> I can go deeper in two ways:
+> I can go deeper in three ways:
 > - **In-depth report** — the full diagnostic with dimensional assessments, cross-lens analysis, and the BCW/BCT reasoning behind these recommendations
 > - **Action plan** — a concrete, phased plan with specific changes, owners, and success signals
+> - **Working analysis** — the practitioner worksheet showing how I got from lens findings to ranked interventions
 >
-> Which would be most useful? (You can also ask for both.)
+> Which would be most useful? (You can also ask for more than one.)
 
 ---
 
@@ -92,10 +93,6 @@ One sub-section per active lens:
 - Consolidated priority order of functions with rationale
 - Named BCTs per function with how each applies to this case
 
-### Practitioner worksheet (optional appendix)
-
-If the user asks to see the working analysis, include the filled-out practitioner worksheet with per-lens synthesis, cross-lens interactions, and BCW ranking.
-
 ### Framework observations
 
 Reflections after the diagnosis: what the framework surfaced, tensions, gaps, or risks — not a repeat of earlier sections.
@@ -124,3 +121,17 @@ Each phase includes:
 - What could go wrong
 - What signals would indicate the plan needs adjustment
 - Regression risks (especially where the situational pattern could slide back)
+
+---
+
+## Phase B — Option 3: Working analysis
+
+Reproduce the filled-out practitioner worksheet. This is the
+intermediate reasoning that connects lens findings to the BCW
+ranking and intervention design. Include all five sections:
+
+1. COM-B priority ranking
+2. Per-lens synthesis (tables + narrative)
+3. Cross-lens interactions
+4. BCW function ranking (with rationale and BCTs)
+5. Intervention implications

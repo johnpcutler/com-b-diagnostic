@@ -58,16 +58,17 @@ The agent reads the lens files directly during this step. For each relevant sub-
 
 ### Step 3 — Synthesize and assess the situation
 
-This step uses [`assets/practitioner-worksheet.md`](../assets/practitioner-worksheet.md) to synthesize findings from Step 2 and build a cross-lens picture: the full topology of the situation.
+The output of this step is a filled-out [`assets/practitioner-worksheet.md`](../assets/practitioner-worksheet.md). The agent works through it section by section:
 
-**What "across multiple lenses" means:**
-- **Tensions:** where lenses conflict (e.g. "capability is present but motivation lens says identity doesn't support it")
-- **Reinforcements:** where lenses align (e.g. "both opportunity and motivation point to the same bottleneck")
-- **Leverage:** which dimensional findings are highest-leverage for this specific situation
+1. **COM-B priority ranking** — rank C, O, M by contribution to the gap
+2. **Per-lens synthesis** — for each active branch, fill the table and write a narrative synthesis that surfaces what to try and what not to try
+3. **Cross-lens interactions** — tensions, reinforcements, prerequisites, highest leverage
+4. **BCW function ranking** — top 5 functions with rationale and top 3 BCTs each
+5. **Intervention implications** — connect BCTs to concrete actions
 
-The practitioner worksheet gives this step structured input. The agent fills out the per-lens synthesis tables, identifies cross-lens interactions, and produces the synthesis.
+The filled worksheet is both the agent's internal reasoning artifact and a deliverable the user can request ("working analysis").
 
-**Output:** a situational assessment naming the key forces, their interactions, and where intervention would have the most leverage.
+**Output:** the filled practitioner worksheet — a situational assessment naming the key forces, their interactions, and where intervention would have the most leverage.
 
 ### Step 4 — Convert assessment to BCW and BCT recommendations
 
@@ -94,12 +95,13 @@ Delivers recommendations progressively in two phases.
 - **Summary:** Plain-language "here's what's going on and what to do." No taxonomy codes. Answers the question a trusted advisor would answer.
 - **Key insights:** The 3–5 most important findings — tensions, surprises, or highest-leverage points the diagnosis surfaced.
 
-**Phase B — user chooses one or both:**
+**Phase B — user chooses one or more:**
 
 After delivering Phase A, the agent offers two paths:
 
-- **In-depth report:** Full diagnostic with dimensional assessments per lens, cross-lens tensions, BCW/BCT reasoning made visible. Can include the practitioner worksheet. For understanding the "why" deeply or sharing with stakeholders.
+- **In-depth report:** Full diagnostic with dimensional assessments per lens, cross-lens tensions, BCW/BCT reasoning made visible. For understanding the "why" deeply or sharing with stakeholders.
 - **Action plan:** Concrete, phased plan — week-by-week or phase-by-phase — with specific changes, owners, success signals. Includes tool/AI recommendations and mapping to relevant frameworks. For acting now.
+- **Working analysis:** The practitioner worksheet showing how the agent got from lens findings to ranked interventions. For inspecting the reasoning chain or reusing the analysis.
 
 **Output structure for each:** see [`assets/output-template.md`](../assets/output-template.md).
 

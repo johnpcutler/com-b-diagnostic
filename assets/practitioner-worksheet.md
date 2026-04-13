@@ -17,7 +17,27 @@ using the lens files directly.
 
 ---
 
-## 1. Per-lens synthesis
+## 1. COM-B priority ranking
+
+Before detailed synthesis, rank the three COM-B branches by how
+much they contribute to the gap in this situation. State a
+rationale for each that references what you found in Step 2.
+
+| Rank | Branch | Rationale |
+|------|--------|-----------|
+| 1    |        |           |
+| 2    |        |           |
+| 3    |        |           |
+
+Branches: **Capability** (C), **Opportunity** (O), **Motivation** (M)
+
+If two branches are roughly equal, say so and explain why. If one
+branch is clearly not a factor, note that -- it narrows the
+intervention space.
+
+---
+
+## 2. Per-lens synthesis
 
 For each COM-B branch where you found active dimensions, complete the
 section below. The goal is not to list every dimension -- it is to
@@ -26,7 +46,10 @@ reasoning.
 
 **Instructions:**
 - **Active sub-lenses:** List only the sub-lenses where you found
-  meaningful signal (use shortcodes from lens-map.md).
+  meaningful signal -- either signal of what to try (gaps that
+  interventions can close) or signal of what not to try (conditions
+  that make certain approaches ineffective or counterproductive).
+  Use shortcodes from lens-map.md.
 - **Key dimensional findings:** For each active sub-lens, name the
   dimensions that matter most, their positions (low/mid/high), and
   the evidence that supports each position. Focus on dimensions that
@@ -49,7 +72,13 @@ reasoning.
 |----------|--------------------------|----------------------------|---------------|
 |          |                          |                            |               |
 
-Narrative synthesis: ...
+Narrative synthesis: Go beyond cataloging dimensions. What does
+this lens reveal about the context that points toward specific
+interventions or rules them out? Note signals of what to try
+(gaps that interventions can close) and what not to try
+(conditions that make certain approaches ineffective or
+counterproductive). Build a picture rich enough to drive the
+BCW ranking in Section 4.
 
 ### Opportunity (PO / SO)
 
@@ -57,7 +86,13 @@ Narrative synthesis: ...
 |----------|--------------------------|----------------------------|---------------|
 |          |                          |                            |               |
 
-Narrative synthesis: ...
+Narrative synthesis: Go beyond cataloging dimensions. What does
+this lens reveal about the context that points toward specific
+interventions or rules them out? Note signals of what to try
+(gaps that interventions can close) and what not to try
+(conditions that make certain approaches ineffective or
+counterproductive). Build a picture rich enough to drive the
+BCW ranking in Section 4.
 
 ### Motivation (RM / AM)
 
@@ -65,11 +100,22 @@ Narrative synthesis: ...
 |----------|--------------------------|----------------------------|---------------|
 |          |                          |                            |               |
 
-Narrative synthesis: ...
+Narrative synthesis: Go beyond cataloging dimensions. What does
+this lens reveal about the context that points toward specific
+interventions or rules them out? Note signals of what to try
+(gaps that interventions can close) and what not to try
+(conditions that make certain approaches ineffective or
+counterproductive). Build a picture rich enough to drive the
+BCW ranking in Section 4.
+
+**Self-check:** For each active lens, have you stated both what
+the findings suggest trying and what they suggest avoiding? If a
+lens is inactive, have you noted why that narrows the intervention
+space?
 
 ---
 
-## 2. Cross-lens interactions
+## 3. Cross-lens interactions
 
 Identify how findings from different lenses interact:
 - **Tensions:** where lenses conflict (e.g. capability present
@@ -82,7 +128,7 @@ Identify how findings from different lenses interact:
 
 ---
 
-## 3. BCW function ranking
+## 4. BCW function ranking
 
 Rank the top 5 BCW functions by likelihood of closing the gap
 in this specific situation. For each, state a rationale that
@@ -109,9 +155,12 @@ BCW functions: ED, TR, PE, INC, COE, RE, ER, MO, EN
 **Contraindicated (if any):**
 - Function: ... | Reason: ...
 
+**Self-check:** Does each rationale reference specific dimensions
+from your per-lens synthesis? If not, go back to Section 2.
+
 ---
 
-## 4. Intervention implications
+## 5. Intervention implications
 
 For each of the top-ranked functions, briefly describe what the
 intervention looks like in practice for this situation. Connect
