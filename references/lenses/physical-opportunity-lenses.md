@@ -11,7 +11,7 @@ Within this repo's COM-B vocabulary:
 
 See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-reference.md) for the shared code system.
 
-## 1. Work-System Configuration and Constraints
+## PO-1-WorkSys: Work-System Configuration and Constraints
 
 **Core view of opportunity:** Opportunity is shaped by how person, task, tools, physical setting, and organizational arrangements interact as a local system.
 
@@ -31,7 +31,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.1.6** Safety-productivity balance: low tradeoff pressure -> chronic tradeoff pressure
 - **PO.1.7** Constraint load: manageable constraints -> compounding constraints
 
-## 2. Resource and Capacity Conditions
+## PO-2-Resource: Resource and Capacity Conditions
 
 **Core view of opportunity:** Opportunity depends on whether people have enough time, staffing, material resources, and slack to perform the behavior without sacrificing critical adjacent work.
 
@@ -51,7 +51,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.2.6** Variability absorption: variability absorbed -> variability destabilizes flow
 - **PO.2.7** Activation overhead: low startup burden -> high startup burden
 
-## 3. Workflow and Process Architecture
+## PO-3-Workflow: Workflow and Process Architecture
 
 **Core view of opportunity:** Opportunity is created or blocked by process topology: handoffs, dependencies, sequence constraints, queue points, and coordination latency.
 
@@ -71,7 +71,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.3.6** Recovery ease: easy recovery -> recovery is costly and slow
 - **PO.3.7** Activation energy: easy to begin -> hard to initiate
 
-## 4. Information and State Visibility in the Environment
+## PO-4-Visibility: Information and State Visibility in the Environment
 
 **Core view of opportunity:** Opportunity depends on whether the environment surfaces the right signals, system states, and consequences at the point of action.
 
@@ -93,7 +93,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.4.8** Cost visibility: overhead costs are visible and tracked -> overhead costs are invisible and tolerated
 - **PO.4.9** Friction visibility: friction is visible and discussed -> friction is normalized and invisible
 
-## 5. Tooling and Interface Affordances
+## PO-5-Tooling: Tooling and Interface Affordances
 
 **Core view of opportunity:** Opportunity is shaped by whether tools and interfaces make the desired behavior easy, reliable, and recoverable in context of use.
 
@@ -113,7 +113,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.5.6** Learnability in context: low onboarding burden -> high onboarding burden
 - **PO.5.7** Automation fit: automation supports work -> automation adds new friction
 
-## 6. Physical Environment and Ergonomic Conditions
+## PO-6-PhysEnv: Physical Environment and Ergonomic Conditions
 
 **Core view of opportunity:** Opportunity depends on whether the physical setting supports safe, sustainable, and efficient execution.
 
@@ -133,7 +133,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.6.6** Environmental hazard load: low exposure -> persistent hazard exposure
 - **PO.6.7** Physical comfort sustainability: sustainable comfort -> accumulating discomfort
 
-## 7. Control Loops and Adaptive Regulation (Cybernetics)
+## PO-7-Control: Control Loops and Adaptive Regulation (Cybernetics)
 
 **Core view of opportunity:** Opportunity depends on whether the system has usable feedback loops, effective control actions, and sufficient damping to self-correct under disturbance.
 

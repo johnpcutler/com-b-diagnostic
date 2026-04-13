@@ -33,7 +33,7 @@ Before diving into the C/O/M lenses, identify which pattern best describes the c
 
 Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses.md)
 
-### PC.1.1 — Declarative and Procedural Knowledge / Skill Acquisition
+### PC-1.1-Knowledge: Declarative and Procedural Knowledge / Skill Acquisition
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -45,7 +45,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PC.1.1.6 | Exception handling | normal cases only → adaptable procedure across cases | TR, EN | | | |
 | PC.1.1.7 | Transfer readiness | narrow context competence → competence that transfers | TR, ED | | | |
 
-### PC.1.2 — Mental Models / Situation Models
+### PC-1.2-Models: Mental Models / Situation Models
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -57,7 +57,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PC.1.2.6 | Framing quality | poor framing → appropriate framing | ED, PE | | | |
 | PC.1.2.7 | Updateability | rigid model → revisable and adaptive model | PE, TR | | | |
 
-### PC.1.3 — Judgment and Decision Competence
+### PC-1.3-Judgment: Judgment and Decision Competence
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -69,7 +69,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PC.1.3.6 | Time-pressure competence | quality collapses under pressure → quality is sustained | TR, ER | | | |
 | PC.1.3.7 | Tradeoff handling | poor tradeoff reasoning → strong tradeoff reasoning | ED, TR | | | |
 
-### PC.1.4 — Signal Detection and Pattern Recognition
+### PC-1.4-Signal: Signal Detection and Pattern Recognition
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -81,7 +81,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PC.1.4.6 | Case familiarity | unfamiliar cases dominate → familiar patterns are recognized quickly | TR, MO | | | |
 | PC.1.4.7 | Comparison burden | little comparison needed → many comparisons needed | ER, EN | | | |
 
-### PC.1.5 — Metacognition and Calibration
+### PC-1.5-Meta: Metacognition and Calibration
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -93,7 +93,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PC.1.5.6 | Help-seeking readiness | rarely seeks correction → seeks correction appropriately | EN, MO | | | |
 | PC.1.5.7 | Reflective control | poor regulation of strategy → strong regulation of strategy | TR, EN | | | |
 
-### PC.1.6 — Shared Representations and Conceptual Alignment
+### PC-1.6-Shared: Shared Representations and Conceptual Alignment
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -106,7 +106,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PC.1.6.7 | Cross-role interpretability | representations travel poorly → representations travel well | ED, ER | | | |
 | PC.1.6.8 | Behavior specification | "what good looks like" is clearly specified → "what good looks like" is undefined | ED, ER | | | |
 
-### PC.1.7 — Supported Performance and Scaffolding
+### PC-1.7-Scaffold: Supported Performance and Scaffolding
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -125,7 +125,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 
 Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses.md)
 
-### PHC.2.1 — Motor Learning and Psychomotor Skill Acquisition
+### PHC-2.1-MotorLearn: Motor Learning and Psychomotor Skill Acquisition
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -137,7 +137,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PHC.2.1.6 | Consistency | variable execution → reliable execution | TR | | | |
 | PHC.2.1.7 | Error correction | repeated uncorrected errors → adaptive correction | TR, EN | | | |
 
-### PHC.2.2 — Motor Control and Coordination
+### PHC-2.2-Coordination: Motor Control and Coordination
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -149,7 +149,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PHC.2.2.6 | Timing precision | rough timing → precise timing | TR | | | |
 | PHC.2.2.7 | Fine-vs-gross motor demand | mostly gross → heavily fine-motor | TR, EN | | | |
 
-### PHC.2.3 — Work Physiology, Fatigue, and Recovery
+### PHC-2.3-Fatigue: Work Physiology, Fatigue, and Recovery
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -161,7 +161,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PHC.2.3.6 | Freshness requirement | performance robust when fatigued → performance requires freshness | ER | | | |
 | PHC.2.3.7 | Shift tolerance | stable across shifts → strong decline across shifts | ER, EN | | | |
 
-### PHC.2.4 — Functional Motor Performance
+### PHC-2.4-Function: Functional Motor Performance
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -173,7 +173,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PHC.2.4.6 | Safety margin | narrow safety margin → strong safety margin | EN, ER | | | |
 | PHC.2.4.7 | Reliability of execution | inconsistent performance → dependable performance | TR, EN | | | |
 
-### PHC.2.5 — Physical Ergonomics as Demand Analysis
+### PHC-2.5-Ergo: Physical Ergonomics as Demand Analysis
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -191,7 +191,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 
 Source of truth: [`physical-opportunity-lenses.md`](../references/lenses/physical-opportunity-lenses.md)
 
-### PO.1 — Work-System Configuration and Constraints
+### PO-1-WorkSys: Work-System Configuration and Constraints
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -203,7 +203,7 @@ Source of truth: [`physical-opportunity-lenses.md`](../references/lenses/physica
 | PO.1.6 | Safety-productivity balance | low tradeoff pressure → chronic tradeoff pressure | ER, EN | | | |
 | PO.1.7 | Constraint load | manageable constraints → compounding constraints | ER, EN | | | |
 
-### PO.2 — Resource and Capacity Conditions
+### PO-2-Resource: Resource and Capacity Conditions
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -215,7 +215,7 @@ Source of truth: [`physical-opportunity-lenses.md`](../references/lenses/physica
 | PO.2.6 | Variability absorption | variability absorbed → variability destabilizes flow | ER, EN | | | |
 | PO.2.7 | Activation overhead | low startup burden → high startup burden | ER | | | |
 
-### PO.3 — Workflow and Process Architecture
+### PO-3-Workflow: Workflow and Process Architecture
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -227,7 +227,7 @@ Source of truth: [`physical-opportunity-lenses.md`](../references/lenses/physica
 | PO.3.6 | Recovery ease | easy recovery → recovery is costly and slow | ER, EN | | | |
 | PO.3.7 | Activation energy | easy to begin → hard to initiate | ER | | | |
 
-### PO.4 — Information and State Visibility in the Environment
+### PO-4-Visibility: Information and State Visibility in the Environment
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -241,7 +241,7 @@ Source of truth: [`physical-opportunity-lenses.md`](../references/lenses/physica
 | PO.4.8 | Cost visibility | overhead costs are visible and tracked → overhead costs are invisible and tolerated | ER | | | |
 | PO.4.9 | Friction visibility | friction is visible and discussed → friction is normalized and invisible | ER | | | |
 
-### PO.5 — Tooling and Interface Affordances
+### PO-5-Tooling: Tooling and Interface Affordances
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -253,7 +253,7 @@ Source of truth: [`physical-opportunity-lenses.md`](../references/lenses/physica
 | PO.5.6 | Learnability in context | low onboarding burden → high onboarding burden | ER, TR | | | |
 | PO.5.7 | Automation fit | automation supports work → automation adds new friction | ER | | | |
 
-### PO.6 — Physical Environment and Ergonomic Conditions
+### PO-6-PhysEnv: Physical Environment and Ergonomic Conditions
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -265,7 +265,7 @@ Source of truth: [`physical-opportunity-lenses.md`](../references/lenses/physica
 | PO.6.6 | Environmental hazard load | low exposure → persistent hazard exposure | ER, EN | | | |
 | PO.6.7 | Physical comfort sustainability | sustainable comfort → accumulating discomfort | ER | | | |
 
-### PO.7 — Control Loops and Adaptive Regulation (Cybernetics)
+### PO-7-Control: Control Loops and Adaptive Regulation (Cybernetics)
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -283,7 +283,7 @@ Source of truth: [`physical-opportunity-lenses.md`](../references/lenses/physica
 
 Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-opportunity-lenses.md)
 
-### SO.1 — Norms and Normative Climate
+### SO-1-Norms: Norms and Normative Climate
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -297,7 +297,7 @@ Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-op
 | SO.1.8 | Practice entrenchment | practice is revisable → practice is ritually entrenched | ER, MO | | | |
 | SO.1.9 | Aspiration stability | organizational aspiration is durable → aspiration follows trends | ER | | | |
 
-### SO.2 — Roles, Authority, and Boundary Clarity
+### SO-2-Roles: Roles, Authority, and Boundary Clarity
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -309,7 +309,7 @@ Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-op
 | SO.2.6 | Accountability fit | responsibility without authority → responsibility aligned with authority | ER, EN | | | |
 | SO.2.7 | Handback reliability | dropped transitions → reliable transitions | ER, EN | | | |
 
-### SO.3 — Network Position and Social Capital
+### SO-3-Network: Network Position and Social Capital
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -321,7 +321,7 @@ Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-op
 | SO.3.6 | Sponsorship access | little sponsor protection → strong sponsor support | EN, MO | | | |
 | SO.3.7 | Cross-boundary ties | sparse cross-team ties → rich cross-team ties | ER, EN | | | |
 
-### SO.4 — Incentives, Accountability, and Reinforcement Architecture
+### SO-4-Incentives: Incentives, Accountability, and Reinforcement Architecture
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -333,7 +333,7 @@ Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-op
 | SO.4.6 | Informal reinforcement | peer recognition supports behavior → peer reinforcement undermines behavior | MO, INC | | | |
 | SO.4.7 | Penalty risk | low penalty for trying → high penalty for trying | ER, EN | | | |
 
-### SO.5 — Legitimacy, Meaning, and Identity Safety
+### SO-5-Legitimacy: Legitimacy, Meaning, and Identity Safety
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -345,7 +345,7 @@ Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-op
 | SO.5.6 | Narrative support | no compelling shared narrative → strong shared narrative | PE, MO | | | |
 | SO.5.7 | Symbolic alignment | behavior culturally dissonant → behavior culturally consonant | MO | | | |
 
-### SO.6 — Power, Politics, and Psychological Safety
+### SO-6-Power: Power, Politics, and Psychological Safety
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -358,7 +358,7 @@ Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-op
 | SO.6.7 | Transparency of rules | implicit opaque rules → explicit predictable rules | ER, ED | | | |
 | SO.6.8 | Refinement openness | established practices are open to improvement → established practices are closed to challenge | ER, EN | | | |
 
-### SO.7 — Governance Viability and Recursion (Viable System Lens)
+### SO-7-Governance: Governance Viability and Recursion (Viable System Lens)
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -378,7 +378,7 @@ Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-op
 
 Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses.md)
 
-### RM.1.1 — Self-Determination Theory (SDT)
+### RM-1.1-SDT: Self-Determination Theory (SDT)
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -390,7 +390,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 | RM.1.1.6 | Internalization | surface compliance → integrated endorsement | PE, ED | | | |
 | RM.1.1.7 | Goal self-concordance | alien goals → self-concordant goals | PE | | | |
 
-### RM.1.2 — Self-Efficacy
+### RM-1.2-Efficacy: Self-Efficacy
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -403,7 +403,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 | RM.1.2.7 | Emotional interpretation | arousal feels disabling → arousal feels manageable or mobilizing | PE | | | |
 | RM.1.2.8 | Change efficacy | confident the behavior can be safely changed → changing the behavior feels dangerous | PE, EN | | | |
 
-### RM.1.3 — Expectancy-Value-Cost
+### RM-1.3-EVC: Expectancy-Value-Cost
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -416,7 +416,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 | RM.1.3.7 | Opportunity cost | little sacrificed → substantial sacrifice | PE, ER | | | |
 | RM.1.3.8 | Present-vs-future weighting | future value dominates → present cost dominates | PE, ER | | | |
 
-### RM.1.4 — Identity-Based Motivation
+### RM-1.4-Identity: Identity-Based Motivation
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -429,7 +429,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 | RM.1.4.7 | Reputation risk | low identity exposure → high identity exposure | EN, ER | | | |
 | RM.1.4.8 | Identity-practice distance | identity and practice are aligned → aspiration far exceeds practice | PE, MO | | | |
 
-### RM.1.5 — Goal Intentions and Implementation Intentions
+### RM-1.5-Intentions: Goal Intentions and Implementation Intentions
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -447,7 +447,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 
 Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses.md)
 
-### AM.2.1 — Habit Formation
+### AM-2.1-Habit: Habit Formation
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -459,7 +459,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 | AM.2.1.6 | Disruption sensitivity | easy to disrupt → highly entrenched | ER | | | |
 | AM.2.1.7 | Competing habit strength | weak competing routine → strong competing routine | ER, EN | | | |
 
-### AM.2.2 — Reinforcement, Reward, and Wanting
+### AM-2.2-Reward: Reinforcement, Reward, and Wanting
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -471,7 +471,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 | AM.2.2.6 | Extinction resistance | easy to extinguish → highly persistent | ER, EN | | | |
 | AM.2.2.7 | Goal-directed control | outcome-sensitive → outcome-insensitive or habit-like | TR, PE | | | |
 
-### AM.2.3 — Affect and Emotion
+### AM-2.3-Affect: Affect and Emotion
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|
@@ -484,7 +484,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 | AM.2.3.7 | Emotion regulation capacity | reactions are manageable → reactions easily dominate action | EN, TR | | | |
 | AM.2.3.8 | Displacement guilt | low guilt about skipping → chronic guilt from repeated intention-action gaps | PE, ER | | | |
 
-### AM.2.4 — Learned Helplessness and Perceived Uncontrollability
+### AM-2.4-Helplessness: Learned Helplessness and Perceived Uncontrollability
 
 | ID | Dimension | Scale | Bias (when low) | Relevant? | Position | Evidence |
 |----|-----------|-------|-----------------|-----------|----------|----------|

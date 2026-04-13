@@ -28,7 +28,7 @@ Psychological capability concerns what a person must be able to understand, perc
 - Can they make sound judgments under the conditions of the task?
 - Can they monitor and regulate their own performance?
 
-### 1.1 Declarative and Procedural Knowledge / Skill Acquisition
+### PC-1.1-Knowledge: Declarative and Procedural Knowledge / Skill Acquisition
 
 **Core view of capability:** Capability depends not only on knowing facts or concepts, but also on procedural fluency: knowing how to carry out the behavior in sequence and with sufficient coordination and repetition.
 
@@ -48,7 +48,7 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.1.6** Exception handling: normal cases only -> adaptable procedure across cases
 - **PC.1.1.7** Transfer readiness: narrow context competence -> competence that transfers
 
-### 1.2 Mental Models / Situation Models
+### PC-1.2-Models: Mental Models / Situation Models
 
 **Core view of capability:** Capability depends on whether people hold a workable internal model of how the system, domain, or situation operates.
 
@@ -68,7 +68,7 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.2.6** Framing quality: poor framing -> appropriate framing
 - **PC.1.2.7** Updateability: rigid model -> revisable and adaptive model
 
-### 1.3 Judgment and Decision Competence
+### PC-1.3-Judgment: Judgment and Decision Competence
 
 **Core view of capability:** Capability includes the ability to make workable judgments under uncertainty, pressure, incomplete information, and competing demands.
 
@@ -88,7 +88,7 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.3.6** Time-pressure competence: quality collapses under pressure -> quality is sustained
 - **PC.1.3.7** Tradeoff handling: poor tradeoff reasoning -> strong tradeoff reasoning
 
-### 1.4 Signal Detection and Pattern Recognition
+### PC-1.4-Signal: Signal Detection and Pattern Recognition
 
 **Core view of capability:** Capability often depends on whether people can perceive weak, noisy, rare, or ambiguous signals and recognize meaningful patterns quickly enough to act.
 
@@ -108,7 +108,7 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.4.6** Case familiarity: unfamiliar cases dominate -> familiar patterns are recognized quickly
 - **PC.1.4.7** Comparison burden: little comparison needed -> many comparisons needed
 
-### 1.5 Metacognition and Calibration
+### PC-1.5-Meta: Metacognition and Calibration
 
 **Core view of capability:** Capability includes the ability to monitor one's own understanding, detect uncertainty, regulate effort, and calibrate confidence against actual performance.
 
@@ -128,7 +128,7 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.5.6** Help-seeking readiness: rarely seeks correction -> seeks correction appropriately
 - **PC.1.5.7** Reflective control: poor regulation of strategy -> strong regulation of strategy
 
-### 1.6 Shared Representations and Conceptual Alignment
+### PC-1.6-Shared: Shared Representations and Conceptual Alignment
 
 **Core view of capability:** Capability is sometimes individual, but often depends on whether people share compatible concepts, definitions, representations, and frames of reference.
 
@@ -149,7 +149,7 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.6.7** Cross-role interpretability: representations travel poorly -> representations travel well
 - **PC.1.6.8** Behavior specification: "what good looks like" is clearly specified -> "what good looks like" is undefined
 
-### 1.7 Supported Performance and Scaffolding
+### PC-1.7-Scaffold: Supported Performance and Scaffolding
 
 **Core view of capability:** Capability can exist partially or conditionally: a person may not be able to perform independently yet, but may perform competently with prompts, examples, checklists, or guidance.
 
@@ -181,7 +181,7 @@ It is strongest when the diagnostic question is some version of:
 - Is fatigue, recovery, or physical decline limiting performance?
 - Is the person capable in principle, but only briefly or inconsistently?
 
-### 2.1 Motor Learning and Psychomotor Skill Acquisition
+### PHC-2.1-MotorLearn: Motor Learning and Psychomotor Skill Acquisition
 
 **Core view of capability:** Physical capability depends on practice-based acquisition of bodily skill, not just raw strength or willingness.
 
@@ -201,7 +201,7 @@ It is strongest when the diagnostic question is some version of:
 - **PHC.2.1.6** Consistency: variable execution -> reliable execution
 - **PHC.2.1.7** Error correction: repeated uncorrected errors -> adaptive correction
 
-### 2.2 Motor Control and Coordination
+### PHC-2.2-Coordination: Motor Control and Coordination
 
 **Core view of capability:** Physical capability includes how well movement is organized, stabilized, and coordinated under the actual demands of the task.
 
@@ -221,7 +221,7 @@ It is strongest when the diagnostic question is some version of:
 - **PHC.2.2.6** Timing precision: rough timing -> precise timing
 - **PHC.2.2.7** Fine-vs-gross motor demand: mostly gross -> heavily fine-motor
 
-### 2.3 Work Physiology, Fatigue, and Recovery
+### PHC-2.3-Fatigue: Work Physiology, Fatigue, and Recovery
 
 **Core view of capability:** Physical capability depends not only on whether someone can perform the behavior once, but whether they can sustain it, recover from it, and repeat it reliably over time.
 
@@ -241,7 +241,7 @@ It is strongest when the diagnostic question is some version of:
 - **PHC.2.3.6** Freshness requirement: performance robust when fatigued -> performance requires freshness
 - **PHC.2.3.7** Shift tolerance: stable across shifts -> strong decline across shifts
 
-### 2.4 Functional Motor Performance
+### PHC-2.4-Function: Functional Motor Performance
 
 **Core view of capability:** Physical capability can be assessed in terms of whether someone can complete bounded, concrete physical actions safely and reliably.
 
@@ -261,7 +261,7 @@ It is strongest when the diagnostic question is some version of:
 - **PHC.2.4.6** Safety margin: narrow safety margin -> strong safety margin
 - **PHC.2.4.7** Reliability of execution: inconsistent performance -> dependable performance
 
-### 2.5 Physical Ergonomics as Demand Analysis
+### PHC-2.5-Ergo: Physical Ergonomics as Demand Analysis
 
 **Core view of capability:** Physical capability is partly about the body, but it is best understood relative to the physical demands imposed by the task.
 

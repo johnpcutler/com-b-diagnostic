@@ -11,7 +11,7 @@ Within this repo's COM-B vocabulary:
 
 See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-reference.md) for the shared code system.
 
-## 1. Norms and Normative Climate
+## SO-1-Norms: Norms and Normative Climate
 
 **Core view of opportunity:** Opportunity depends on what people perceive others do (descriptive norms) and what they believe others approve or disapprove (injunctive norms).
 
@@ -33,7 +33,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.1.8** Practice entrenchment: practice is revisable -> practice is ritually entrenched
 - **SO.1.9** Aspiration stability: organizational aspiration is durable -> aspiration follows trends
 
-## 2. Roles, Authority, and Boundary Clarity
+## SO-2-Roles: Roles, Authority, and Boundary Clarity
 
 **Core view of opportunity:** Opportunity depends on whether responsibilities, decision rights, and role boundaries make it legitimate for someone to perform the behavior.
 
@@ -53,7 +53,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.2.6** Accountability fit: responsibility without authority -> responsibility aligned with authority
 - **SO.2.7** Handback reliability: dropped transitions -> reliable transitions
 
-## 3. Network Position and Social Capital
+## SO-3-Network: Network Position and Social Capital
 
 **Core view of opportunity:** Opportunity depends on where actors sit in social networks, which affects access to information, trust, sponsorship, and coordination pathways.
 
@@ -73,7 +73,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.3.6** Sponsorship access: little sponsor protection -> strong sponsor support
 - **SO.3.7** Cross-boundary ties: sparse cross-team ties -> rich cross-team ties
 
-## 4. Incentives, Accountability, and Reinforcement Architecture
+## SO-4-Incentives: Incentives, Accountability, and Reinforcement Architecture
 
 **Core view of opportunity:** Opportunity depends on whether formal and informal reward/accountability systems make the target behavior socially and institutionally viable.
 
@@ -93,7 +93,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.4.6** Informal reinforcement: peer recognition supports behavior -> peer reinforcement undermines behavior
 - **SO.4.7** Penalty risk: low penalty for trying -> high penalty for trying
 
-## 5. Legitimacy, Meaning, and Identity Safety
+## SO-5-Legitimacy: Legitimacy, Meaning, and Identity Safety
 
 **Core view of opportunity:** Opportunity depends on whether the behavior is seen as legitimate, meaningful, and identity-safe within the local social order.
 
@@ -113,7 +113,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.5.6** Narrative support: no compelling shared narrative -> strong shared narrative
 - **SO.5.7** Symbolic alignment: behavior culturally dissonant -> behavior culturally consonant
 
-## 6. Power, Politics, and Psychological Safety
+## SO-6-Power: Power, Politics, and Psychological Safety
 
 **Core view of opportunity:** Opportunity depends on whether power relations and local politics permit voice, experimentation, dissent, and cross-boundary action without unacceptable social risk.
 
@@ -134,7 +134,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.6.7** Transparency of rules: implicit opaque rules -> explicit predictable rules
 - **SO.6.8** Refinement openness: established practices are open to improvement -> established practices are closed to challenge
 
-## 7. Governance Viability and Recursion (Viable System Lens)
+## SO-7-Governance: Governance Viability and Recursion (Viable System Lens)
 
 **Core view of opportunity:** Opportunity depends on whether governance and coordination layers are organized so local units can act autonomously while still remaining coherently coordinated and adaptive at system level.
 

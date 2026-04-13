@@ -68,7 +68,7 @@ def transform_assessment_form(text: str) -> str:
         out.append(line)
 
     text = "".join(out)
-    # Section headings — dotted sub-lens numbers
+    # Section headings — legacy dotted sub-lens numbers (headings now use hybrid shortcodes, e.g. PC-1.1-Knowledge)
     text = re.sub(r"^### PC 1\.", "### PC.1.", text, flags=re.MULTILINE)
     text = re.sub(r"^### PHC 2\.", "### PHC.2.", text, flags=re.MULTILINE)
     text = re.sub(r"^### PO (\d) —", r"### PO.\1 —", text, flags=re.MULTILINE)

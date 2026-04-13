@@ -18,7 +18,7 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - Does it fit who they are?
 - Have they turned the intention into a usable plan?
 
-### 1.1 Self-Determination Theory (SDT)
+### RM-1.1-SDT: Self-Determination Theory (SDT)
 
 **Core view of motivation:** Motivation varies in quality, not just quantity. Behavior is more robust when it is autonomously endorsed and when the context supports autonomy, competence, and relatedness.
 
@@ -36,7 +36,7 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.1.6** Internalization: surface compliance -> integrated endorsement
 - **RM.1.1.7** Goal self-concordance: alien goals -> self-concordant goals
 
-### 1.2 Self-Efficacy
+### RM-1.2-Efficacy: Self-Efficacy
 
 **Core view of motivation:** Belief in one's capability to execute the behavior strongly influences initiation, effort, persistence, and recovery after setbacks.
 
@@ -55,7 +55,7 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.2.7** Emotional interpretation: arousal feels disabling -> arousal feels manageable or mobilizing
 - **RM.1.2.8** Change efficacy: confident the behavior can be safely changed -> changing the behavior feels dangerous
 
-### 1.3 Expectancy-Value-Cost
+### RM-1.3-EVC: Expectancy-Value-Cost
 
 **Core view of motivation:** Motivation depends on whether success seems likely enough, valuable enough, and low-cost enough to justify action.
 
@@ -74,7 +74,7 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.3.7** Opportunity cost: little sacrificed -> substantial sacrifice
 - **RM.1.3.8** Present-vs-future weighting: future value dominates -> present cost dominates
 
-### 1.4 Identity-Based Motivation
+### RM-1.4-Identity: Identity-Based Motivation
 
 **Core view of motivation:** People are more ready to act when the behavior feels congruent with a salient identity and when difficulty is interpreted as meaningful rather than disqualifying.
 
@@ -93,7 +93,7 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.4.7** Reputation risk: low identity exposure -> high identity exposure
 - **RM.1.4.8** Identity-practice distance: identity and practice are aligned -> aspiration far exceeds practice
 
-### 1.5 Goal Intentions and Implementation Intentions
+### RM-1.5-Intentions: Goal Intentions and Implementation Intentions
 
 **Core view of motivation:** Wanting a behavior is not the same as having converted it into a sufficiently specific plan for action.
 
@@ -120,7 +120,7 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 - What feels attractive, aversive, or relieving in the moment?
 - Why has the person stopped trying?
 
-### 2.1 Habit Formation
+### AM-2.1-Habit: Habit Formation
 
 **Core view of motivation:** Repeated behavior in stable contexts creates context-response associations that can drive action with minimal deliberation.
 
@@ -138,7 +138,7 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 - **AM.2.1.6** Disruption sensitivity: easy to disrupt -> highly entrenched
 - **AM.2.1.7** Competing habit strength: weak competing routine -> strong competing routine
 
-### 2.2 Reinforcement, Reward, and Wanting
+### AM-2.2-Reward: Reinforcement, Reward, and Wanting
 
 **Core view of motivation:** Behavior is shaped by reward history, cue-triggered wanting, punishment, relief, and the reinforcement contingencies attached to action.
 
@@ -156,7 +156,7 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 - **AM.2.2.6** Extinction resistance: easy to extinguish -> highly persistent
 - **AM.2.2.7** Goal-directed control: outcome-sensitive -> outcome-insensitive or habit-like
 
-### 2.3 Affect and Emotion
+### AM-2.3-Affect: Affect and Emotion
 
 **Core view of motivation:** Immediate feelings such as anxiety, dread, pride, relief, or discomfort can drive or inhibit action independently of reflective plans.
 
@@ -175,7 +175,7 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 - **AM.2.3.7** Emotion regulation capacity: reactions are manageable -> reactions easily dominate action
 - **AM.2.3.8** Displacement guilt: low guilt about skipping -> chronic guilt from repeated intention-action gaps
 
-### 2.4 Learned Helplessness and Perceived Uncontrollability
+### AM-2.4-Helplessness: Learned Helplessness and Perceived Uncontrollability
 
 **Core view of motivation:** When effort feels repeatedly disconnected from outcomes, people can become passive, disengaged, or resigned.
 
