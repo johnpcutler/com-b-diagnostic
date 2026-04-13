@@ -30,6 +30,8 @@ This step establishes a structured, precise behavior definition that all later s
 
 **Structured output format:** see [`assets/behavior-canvas.md`](../assets/behavior-canvas.md) for fields, coaching prompts, and an example. The canvas also includes optional pattern vocabulary for describing the behavior's current state.
 
+The canvas includes a "Prior attempts" field. Actively ask what has been tried before and why it didn't work -- this is some of the most diagnostic information available. Failed attempts often reveal which COM-B branches are not the real bottleneck.
+
 **Output:** a canonical behavior definition that Steps 2–5 reference.
 
 ### Step 2 — Research capability, opportunity, and motivation
@@ -95,9 +97,18 @@ Delivers recommendations progressively in two phases.
 - **Summary:** Plain-language "here's what's going on and what to do." No taxonomy codes. Answers the question a trusted advisor would answer.
 - **Key insights:** The 3–5 most important findings — tensions, surprises, or highest-leverage points the diagnosis surfaced.
 
+**Feedback loop:**
+
+After delivering Phase A, pause and ask for the user's reaction. Prompt specifically for:
+- Whether the diagnosis resonates with what they're seeing
+- Whether they've already tried any of the implied approaches (and what happened)
+- Missing context -- political dynamics, past failures, constraints
+
+If the user provides substantive new information, update the behavior canvas (especially Prior attempts and any refined fields) and re-run from Step 2. The re-run produces a fresh worksheet; do not patch the old one. If the diagnosis lands, proceed to the Phase B offer.
+
 **Phase B — user chooses one or more:**
 
-After delivering Phase A, the agent offers two paths:
+After the feedback loop, the agent offers three paths:
 
 - **In-depth report:** Full diagnostic with dimensional assessments per lens, cross-lens tensions, BCW/BCT reasoning made visible. For understanding the "why" deeply or sharing with stakeholders.
 - **Action plan:** Concrete, phased plan — week-by-week or phase-by-phase — with specific changes, owners, success signals. Includes tool/AI recommendations and mapping to relevant frameworks. For acting now.

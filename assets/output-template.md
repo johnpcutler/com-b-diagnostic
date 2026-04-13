@@ -42,6 +42,19 @@ Draw from the filled practitioner worksheet -- especially the COM-B ranking and 
 
 Each insight should translate a specific worksheet finding (a cross-lens tension, a "what not to try," or a leverage point) into language a colleague could act on without reading the diagnosis.
 
+### Feedback prompt
+
+After delivering the summary and key insights, pause and ask for the user's reaction before offering Phase B:
+
+> Reading this back — does it resonate with what you're seeing? A few things that would sharpen the diagnosis:
+> - Have you already tried any of the approaches implied above? What happened?
+> - Is there context I'm missing — political dynamics, past failures, constraints I haven't accounted for?
+> - Does anything in the summary surprise you or feel off?
+>
+> If you have more to add, I'll fold it into the canvas and re-run the analysis. If it looks right, I can go deeper.
+
+If the user provides new information, update the behavior canvas (especially Prior attempts and any refined fields), then re-run from Step 2. If the user confirms the diagnosis, proceed to the Phase B offer.
+
 ### Offer
 
 After delivering Phase A, offer the user three paths:

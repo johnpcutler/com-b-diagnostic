@@ -20,6 +20,7 @@ STEP 1  define_behavior()
             in_context  // environment, tools, constraints
             for_outcome // intended result
             current_state  // optional: pattern label (e.g. "aspirational only", "actively suppressed")
+            prior_attempts // optional: what's been tried, why it didn't work
           }
 
 STEP 2  research_com()
@@ -60,6 +61,15 @@ STEP 5  frame_recommendations()
             in_depth_report             // full diagnostic with dimensional assessments, BCW/BCT reasoning
             action_plan                 // phased rollout: week-by-week, owners, success signals
           }
+
+FEEDBACK  refine_with_user()                               // after Phase A, before Phase B
+  IN      phase_a
+  PROMPT  "Does this resonate? Have you tried these? Missing context?"
+  IF      user provides new information
+    UPDATE  behavior_definition.prior_attempts (+ any refined fields)
+    GOTO    STEP 2                                          // re-run with enriched canvas
+  ELSE
+    PROCEED to phase_b_choice
 ```
 
 ---
@@ -75,6 +85,14 @@ Step 5 delivers in two phases:
 | **B — plan** | Phased action plan: concrete changes, owners, success signals, tool/AI recommendations | On request |
 
 The user can ask for both Phase B outputs, but the default is to deliver Phase A and let them pull.
+
+---
+
+## The feedback loop
+
+After delivering Phase A, the agent prompts for the user's reaction. If the user provides new information -- especially prior attempts that failed, political context, or corrections -- the agent updates the behavior canvas and re-runs from Step 2. This is not a patch; the re-run produces a fresh worksheet informed by the richer picture.
+
+The loop is optional: if the diagnosis lands, the user proceeds to Phase B without re-running.
 
 ---
 
@@ -115,3 +133,4 @@ The worksheet is internal by default. It can be surfaced in the Phase B in-depth
 - The practitioner worksheet is the agent's working document for Steps 3–4. Use it to synthesize findings, rank BCW functions, and design interventions.
 - Step 4 happens under the hood. The user does not need to see BCW/BCT taxonomy unless they request the in-depth report.
 - Deliver Phase A first. Wait for the user to choose before producing Phase B content.
+- After Phase A, always prompt for user reaction. New information triggers a re-run from Step 2, not a patch on existing output.

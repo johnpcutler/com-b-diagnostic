@@ -13,6 +13,7 @@ A structured template for defining the target behavior before diagnosis. Fill th
 | **In what context** | What environment, tools, constraints? | Where does this happen? What tools are involved? What time/resource constraints exist? |
 | **For what outcome** | What result should this produce? | What changes if this behavior happens consistently? How would you know? |
 | **Current state** | Where does the behavior sit right now? (optional) | See pattern vocabulary below. |
+| **Prior attempts** | What has been tried that didn't work? (optional) | What interventions, fixes, or workarounds have been attempted? Why did they fail or fall short? |
 
 ## Pattern vocabulary for Current state
 
@@ -37,3 +38,4 @@ These are optional labels for describing where the behavior sits. They are orien
 > **In what context:** Using a centralized data dashboard that includes tools like Process Behavior Charts (PBCs) and Statistical Process Control (SPC), accessible to all team members
 > **For what outcome:** To pinpoint areas for improvement, ensure data-driven insights inform product decisions and align actions with business objectives
 > **Current state:** Weakly Realized — everyone agrees metrics matter, but sprint pressure displaces the review every time
+> **Prior attempts:** Tried a "metrics Monday" standing meeting — attendance dropped after 3 weeks. Also added a dashboard link to Slack — people click it but don't discuss what they see. The team lead thinks the issue is motivation, but the dashboard is hard to read and nobody was trained on SPC.

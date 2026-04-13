@@ -24,6 +24,8 @@ Before any analysis, establish a precise behavior definition using [`assets/beha
 
 If critical fields are missing (especially "will do what" and "to what extent"), ask before proceeding. A vague behavior definition produces a vague diagnosis.
 
+The canvas includes a "Prior attempts" field for what has already been tried and why it didn't work. This is critical context -- prior attempts that failed often reveal which COM-B branches are not the real bottleneck.
+
 ### Step 2 — Research capability, opportunity, and motivation
 
 Apply three diagnostic lenses by reading the lens files directly:
@@ -62,7 +64,9 @@ Deliver in two phases:
 - **Summary:** Plain-language "here's what's going on and what to do." No taxonomy codes. Write as a trusted advisor would speak.
 - **Key insights:** 3–5 most important findings — tensions, surprises, or highest-leverage points.
 
-After delivering Phase A, offer the user two paths:
+**Feedback loop — after Phase A, before Phase B:**
+
+After delivering the summary and key insights, pause and ask for the user's reaction. Prompt for: whether the diagnosis resonates, whether they've tried any of the implied approaches, and whether there's missing context. If the user provides substantive new information, update the behavior canvas (especially Prior attempts) and re-run from Step 2 with the enriched picture. If the diagnosis lands, proceed to Phase B.
 
 **Phase B — user chooses one or more:**
 - **In-depth report:** Full diagnostic with dimensional assessments, cross-lens tensions, BCW/BCT reasoning visible.
@@ -81,3 +85,4 @@ Follow the output skeleton in [`assets/output-template.md`](assets/output-templa
 6. **Deliver Phase A first.** Do not produce the full report or action plan until the user asks. Let them pull.
 7. **Trace everything.** In the in-depth report, every intervention function should trace back to a dimensional position, every dimensional position to observed signals. If the chain breaks, the diagnosis is incomplete.
 8. **Name your sources.** When citing BCTs, use **`BCT.n.m`** IDs (see [`references/lenses/lens-map.md`](references/lenses/lens-map.md)). When citing lens dimensions, use the stable `PC` / `PHC` / `RM` / `AM` / `PO` / `SO` IDs.
+9. **Close the feedback loop.** After Phase A, always prompt for the user's reaction before proceeding to Phase B. New information from the user — especially prior failed attempts — should update the canvas and trigger re-analysis, not be patched onto existing conclusions.
