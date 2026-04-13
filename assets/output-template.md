@@ -57,7 +57,6 @@ After delivering Phase A, offer the user two paths:
 A fenced code block with compressed outputs — no prose. For quick scanning and diffing.
 
 ```text
-pattern    = <situational orientation pattern name>
 dimensions = <top dimensional findings, e.g. PC.1.2.1 low, PO.2.7 high, SO.4.1 low>
 tensions   = <cross-lens tensions, e.g. "C present but M absent">
 leverage   = <highest-leverage dimensions>
@@ -68,11 +67,6 @@ bcts       = <FUNCTION→BCT.n.m,BCT.n.m | ...>
 ### Step 2: Lens analysis
 
 One sub-section per active lens:
-
-#### Situational orientation
-- Pattern name (from the assessment form orientation table)
-- Signals that matched
-- How this orientation guided the lens analysis
 
 #### Capability findings
 - Relevant dimensions with positions and evidence

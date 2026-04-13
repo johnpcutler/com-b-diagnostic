@@ -11,24 +11,6 @@ Internal working document for the agent. Serves triple duty:
 
 ---
 
-## Situational Orientation
-
-Before diving into the C/O/M lenses, identify which pattern best describes the current situation. This is a starting orientation — not a diagnostic finding. It helps prioritize which dimensions to explore first. The real analysis happens in the lens sections below.
-
-| Pattern | Signal | Diagnostic question | Match? | Evidence |
-|---------|--------|---------------------|--------|----------|
-| Fully Realized & Stable | Ritualized, reliable, trusted | Is this behavior working but hiding cost or blocking improvement? | | |
-| Realized but Friction-Filled | Mandatory but painful; environment is the enemy | Is the behavior happening but painful because the environment fights it? | | |
-| Partially Realized / Inconsistent | Exists in pockets; lacks alignment | Is the behavior happening in pockets but without alignment or consistency? | | |
-| Weakly Realized | Agreed and valued, but continually displaced | Is the behavior endorsed but continually displaced by competing priorities? | | |
-| Aspirational Only | Identity-level desire without practice | Is the behavior aspirational but lacking practice, infrastructure, or defined skill? | | |
-| Actively Suppressed | Systemic forces prevent the behavior | Is the behavior blocked by political, structural, or incentive-based forces? | | |
-| Contested / Undefined | No shared definition; conceptual ambiguity | Can people even agree on what the behavior is? | | |
-
-**Best-match pattern:** ___  **Confidence:** ___
-
----
-
 ## C-LENS: Psychological Capability (PC)
 
 Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses.md)

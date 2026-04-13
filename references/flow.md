@@ -11,6 +11,7 @@ Treat each step as a function: named inputs, named outputs, explicit file depend
 ```text
 STEP 1  define_behavior()
   IN      user description, artifacts, or follow-up answers
+  READ    assets/behavior-canvas.md                        // field definitions + coaching prompts + pattern vocabulary
   OUT     behavior_definition {
             behavior    // summary statement
             who         // actors
@@ -18,10 +19,11 @@ STEP 1  define_behavior()
             to_extent   // frequency, depth, observable standard
             in_context  // environment, tools, constraints
             for_outcome // intended result
+            current_state  // optional: pattern label (e.g. "aspirational only", "actively suppressed")
           }
 
 STEP 2  research_com()
-  READ    assets/assessment-form-template.md              // situational orientation + all dimensions + intervention bias annotations
+  READ    assets/assessment-form-template.md              // all dimensions + intervention bias annotations
           lenses/capability-lenses.md                     // C-lens: PC, PHC
           lenses/motivation-lenses.md                     // M-lens: RM, AM
           lenses/physical-opportunity-lenses.md            // O-lens: PO
@@ -78,7 +80,7 @@ The user can ask for both Phase B outputs, but the default is to deliver Phase A
 
 The dimensional assessment form ([`assets/assessment-form-template.md`](../assets/assessment-form-template.md)) is the agent's internal working document. It serves triple duty:
 
-1. **Research scaffold** (Step 2): situational orientation plus all dimensions with intervention bias annotations; agent fills in relevance, position, evidence
+1. **Research scaffold** (Step 2): all dimensions with intervention bias annotations; agent fills in relevance, position, evidence
 2. **Synthesis input** (Step 3): agent reads back the form to spot cross-lens patterns
 3. **Intervention lookup** (Step 4): co-located bias annotations guide BCW function prioritization
 
@@ -90,6 +92,7 @@ The form is internal by default. It can be surfaced in the Phase B in-depth repo
 
 | Need | File |
 |------|------|
+| Behavior definition fields + coaching prompts | [`assets/behavior-canvas.md`](../assets/behavior-canvas.md) |
 | Assessment form scaffold + intervention bias annotations | [`assets/assessment-form-template.md`](../assets/assessment-form-template.md) |
 | C-lens: PC, PHC dimensions | [`lenses/capability-lenses.md`](lenses/capability-lenses.md) |
 | M-lens: RM, AM dimensions | [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md) |
@@ -106,7 +109,7 @@ The form is internal by default. It can be surfaced in the Phase B in-depth repo
 
 - Run steps **in order**; later steps depend on earlier outputs.
 - Step 1 is not optional. A vague behavior definition produces a vague diagnosis. Coach the user until the definition is precise.
-- Step 2 uses three diagnostic lenses (C, O, M) preceded by a situational orientation step at the top of the assessment form.
+- Step 2 uses three diagnostic lenses (C, O, M) applied to dimensions on the assessment form.
 - The assessment form is the agent's primary working document for Steps 2–4. Read it once; fill it out during Step 2; read it back for Steps 3–4.
 - Step 4 happens under the hood. The user does not need to see BCW/BCT taxonomy unless they request the in-depth report.
 - Deliver Phase A first. Wait for the user to choose before producing Phase B content.

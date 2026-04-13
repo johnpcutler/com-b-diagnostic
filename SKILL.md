@@ -20,25 +20,15 @@ Follow [`references/flow.md`](references/flow.md) steps 1–5 in order. The full
 
 ### Step 1 — Define the behavior
 
-Before any analysis, establish a precise behavior definition. Extract from the user's description and artifacts, or coach them through it with follow-up questions.
+Before any analysis, establish a precise behavior definition using [`assets/behavior-canvas.md`](assets/behavior-canvas.md). Extract from the user's description and artifacts, or coach them through it with follow-up questions. The canvas lists every field, coaching prompts for ambiguous cases, and optional pattern vocabulary for describing the behavior's current state.
 
-**Structured output:**
-- **Behavior:** summary statement
-- **Who:** actors
-- **Will do what:** specific action
-- **To what extent:** frequency, depth, observable standard
-- **In what context:** environment, tools, constraints
-- **For what outcome:** intended result
-
-If the user provides enough detail to fill this out, do so and confirm. If critical fields are missing (especially "will do what" and "to what extent"), ask before proceeding. A vague behavior definition produces a vague diagnosis.
+If critical fields are missing (especially "will do what" and "to what extent"), ask before proceeding. A vague behavior definition produces a vague diagnosis.
 
 ### Step 2 — Research capability, opportunity, and motivation
 
 Read [`assets/assessment-form-template.md`](assets/assessment-form-template.md). This is your primary working document for the diagnosis. It lists every dimension from every lens file, with intervention bias annotations baked in.
 
-Start with the **situational orientation** table at the top of the assessment form — identify which pattern best describes the current situation. This is a starting orientation, not a diagnostic finding.
-
-Then apply three diagnostic lenses:
+Apply three diagnostic lenses:
 
 - **Capability** (C-lens): PC, PHC dimensions from the form; deep definitions in [`references/lenses/capability-lenses.md`](references/lenses/capability-lenses.md) if needed.
 - **Opportunity** (O-lens): PO, SO dimensions from the form; deep definitions in [`references/lenses/physical-opportunity-lenses.md`](references/lenses/physical-opportunity-lenses.md) and [`references/lenses/social-opportunity-lenses.md`](references/lenses/social-opportunity-lenses.md) if needed.
@@ -85,9 +75,8 @@ Follow the output skeleton in [`assets/output-template.md`](assets/output-templa
 1. **Start with behavior definition (Step 1).** Do not skip to analysis without a structured definition. Coach the user if needed.
 2. **Follow the pipeline order.** Later steps depend on earlier outputs. Do not jump to interventions without researching through lenses first.
 3. **Use the assessment form.** Read [`assets/assessment-form-template.md`](assets/assessment-form-template.md) as your primary working document. It contains all dimensions and intervention bias annotations in one place.
-4. **Use the situational orientation, then the three lenses.** The pattern match is a starting orientation to prioritize dimensions — the real diagnosis comes from the C, O, and M lenses.
-5. **Do not assume higher patterns are better.** "Fully Realized & Stable" can mask brittleness and hidden cost. The seven patterns are a cycle, not a ladder — behaviors regress when conditions shift.
-6. **Multi-actor situations:** do not stop at per-role analysis — trace handoffs and where one actor's output becomes another's input; failures often concentrate at interfaces.
-7. **Deliver Phase A first.** Do not produce the full report or action plan until the user asks. Let them pull.
-8. **Trace everything.** In the in-depth report, every intervention function should trace back to a dimensional position, every dimensional position to observed signals. If the chain breaks, the diagnosis is incomplete.
-9. **Name your sources.** When citing BCTs, use **`BCT.n.m`** IDs (see [`references/lenses/lens-map.md`](references/lenses/lens-map.md)). When citing lens dimensions, use the stable `PC` / `PHC` / `RM` / `AM` / `PO` / `SO` IDs.
+4. **The real diagnosis comes from the C, O, and M lenses.** Pattern labels in the behavior canvas are orientation, not findings.
+5. **Multi-actor situations:** do not stop at per-role analysis — trace handoffs and where one actor's output becomes another's input; failures often concentrate at interfaces.
+6. **Deliver Phase A first.** Do not produce the full report or action plan until the user asks. Let them pull.
+7. **Trace everything.** In the in-depth report, every intervention function should trace back to a dimensional position, every dimensional position to observed signals. If the chain breaks, the diagnosis is incomplete.
+8. **Name your sources.** When citing BCTs, use **`BCT.n.m`** IDs (see [`references/lenses/lens-map.md`](references/lenses/lens-map.md)). When citing lens dimensions, use the stable `PC` / `PHC` / `RM` / `AM` / `PO` / `SO` IDs.

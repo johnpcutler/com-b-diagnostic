@@ -71,6 +71,6 @@ Definitions and scales live in:
 - [physical-opportunity-lenses.md](physical-opportunity-lenses.md) — `PO.*`
 - [social-opportunity-lenses.md](social-opportunity-lenses.md) — `SO.*`
 
-The working copy of all IDs for assessment is in [`../../assets/assessment-form-template.md`](../../assets/assessment-form-template.md). The **Situational Orientation** section at the top of that form lists seven named patterns (no IDs) as a triage aid before dimensional analysis.
+The working copy of all IDs for assessment is in [`../../assets/assessment-form-template.md`](../../assets/assessment-form-template.md).
 
 BCT definitions and technique text: [`../com-b-bcw-bct/bct-taxonomy.md`](../com-b-bcw-bct/bct-taxonomy.md).

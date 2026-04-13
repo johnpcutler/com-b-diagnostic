@@ -28,31 +28,13 @@ This step establishes a structured, precise behavior definition that all later s
 - The user provides artifacts — the agent extracts and structures
 - The agent coaches the user through describing the behavior until it's clear
 
-**Structured output format:**
-
-| Field | Question it answers |
-|-------|-------------------|
-| **Behavior** | What is the behavior? (summary statement) |
-| **Who** | Who are the actors? |
-| **Will do what** | What specific action should they perform? |
-| **To what extent** | How often, how deeply, to what observable standard? |
-| **In what context** | What environment, tools, constraints? |
-| **For what outcome** | What result should this produce? |
-
-**Example:**
-
-> **Behavior:** Regularly review and analyze key performance metrics
-> **Who:** Product teams
-> **Will do what:** Conduct regular, in-depth reviews and analyses of key performance metrics
-> **To what extent:** In a weekly meeting, dedicating time to discuss trend patterns and metric shifts and identify both routine and special variations in the data
-> **In what context:** Using a centralized data dashboard that includes tools like Process Behavior Charts (PBCs) and Statistical Process Control (SPC), accessible to all team members
-> **For what outcome:** To pinpoint areas for improvement, ensure data-driven insights inform product decisions and align actions with business objectives
+**Structured output format:** see [`assets/behavior-canvas.md`](../assets/behavior-canvas.md) for fields, coaching prompts, and an example. The canvas also includes optional pattern vocabulary for describing the behavior's current state.
 
 **Output:** a canonical behavior definition that Steps 2–5 reference.
 
 ### Step 2 — Research capability, opportunity, and motivation
 
-This is the core analytical step. Before dimensional analysis, the agent uses the **Situational Orientation** table at the top of the assessment form to identify which of seven named patterns best describes the situation. That step is a triage aid, not a separate diagnostic lens.
+This is the core analytical step.
 
 Then three diagnostic lenses are applied. For each, the agent forms a perspective on specific dimensional scales through a mix of inference from the description and follow-up questions.
 
@@ -132,7 +114,7 @@ After delivering Phase A, the agent offers two paths:
 
 ```
 assets/assessment-form-template.md
-    Situational orientation + all dimensions from all lens files + intervention bias annotations
+    All dimensions from all lens files + intervention bias annotations
     Triple duty: research scaffold (Step 2), synthesis input (Step 3), intervention lookup (Step 4)
 
 com-b-bcw-bct/com-b-abbreviations-reference.md
