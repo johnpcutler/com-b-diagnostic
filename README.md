@@ -8,22 +8,17 @@ Whatever the scale, the pattern is familiar: something isn't happening, and the 
 
 Describe what's stuck to your AI agent. It runs a structured diagnostic grounded in the COM-B model, the Behavior Change Wheel, and the BCT Taxonomy v1, and returns a phased plan.
 
-```mermaid
-flowchart TD
-  S1["1 Behavior canvas<br/>define behavior + prior attempts"]
-  S2["2 Dimensional lens analysis<br/>four files: capability · physical opp · social opp · motivation<br/>PC/PHC · PO · SO · RM/AM"]
-  S3["3 Practitioner worksheet<br/>COM-B rank · per-lens synthesis · cross-lens · BCW rank"]
-  S4["4 BCW + BCT mapping<br/>under the hood"]
-  S5["5 Phase A<br/>summary + key insights"]
-  PB["Phase B on request<br/>in-depth report · action plan · working analysis"]
+### How it works
 
-  S1 --> S2 --> S3 --> S4 --> S5
-  S5 --> FB{More context<br/>after Phase A?}
-  FB -->|Update canvas · re-run from lens work| S2
-  FB -->|Continue| PB
-```
+1. **Define the behavior** — pin down who should do what, how often, in what context, and what's been tried before ([`behavior-canvas.md`](assets/behavior-canvas.md))
+2. **Research through four lenses** — capability (knowledge, skill, judgment), physical opportunity (tools, workflow, environment), social opportunity (norms, incentives, power), and motivation (identity, habit, affect) — each with its own dimensional scales ([`references/lenses/`](references/lenses/))
+3. **Synthesize in a practitioner worksheet** — rank C / O / M, build per-lens narrative, identify cross-lens tensions and leverage, rank BCW intervention functions with rationale and BCTs ([`practitioner-worksheet.md`](assets/practitioner-worksheet.md))
+4. **Map to interventions** — refine the BCW ranking against the full BCT taxonomy (under the hood)
+5. **Deliver a summary** — plain-language insights first; the agent then asks for your reaction before going deeper
+6. **Feedback loop** — if you add context (prior failures, political dynamics, corrections), the canvas updates and the lens analysis re-runs with the richer picture
+7. **Phase B on request** — in-depth report, action plan, or the working analysis behind the diagnosis
 
-Steps match [`references/flow.md`](references/flow.md). Lens files live under [`references/lenses/`](references/lenses/); start from [`lens-map.md`](references/lenses/lens-map.md) if you browse the repo.
+Full pipeline: [`references/flow.md`](references/flow.md). Lens index: [`lens-map.md`](references/lenses/lens-map.md).
 
 Full attribution in [`credits.md`](credits.md).
 
