@@ -10,15 +10,20 @@ Describe what's stuck to your AI agent. It runs a structured diagnostic grounded
 
 ```mermaid
 flowchart TD
-  A[Define behavior] --> B[Research C O M lenses]
-  B --> C[Fill practitioner worksheet]
-  C --> D[Phase A summary]
-  D --> E{More context?}
-  E -->|Yes re-run| B
-  E -->|Continue| F[Phase B report plan or analysis]
+  S1["1 Behavior canvas<br/>define behavior + prior attempts"]
+  S2["2 Dimensional lens analysis<br/>four files: capability · physical opp · social opp · motivation<br/>PC/PHC · PO · SO · RM/AM"]
+  S3["3 Practitioner worksheet<br/>COM-B rank · per-lens synthesis · cross-lens · BCW rank"]
+  S4["4 BCW + BCT mapping<br/>under the hood"]
+  S5["5 Phase A<br/>summary + key insights"]
+  PB["Phase B on request<br/>in-depth report · action plan · working analysis"]
+
+  S1 --> S2 --> S3 --> S4 --> S5
+  S5 --> FB{More context<br/>after Phase A?}
+  FB -->|Update canvas · re-run from lens work| S2
+  FB -->|Continue| PB
 ```
 
-Details: [`references/flow.md`](references/flow.md).
+Steps match [`references/flow.md`](references/flow.md). Lens files live under [`references/lenses/`](references/lenses/); start from [`lens-map.md`](references/lenses/lens-map.md) if you browse the repo.
 
 Full attribution in [`credits.md`](credits.md).
 
