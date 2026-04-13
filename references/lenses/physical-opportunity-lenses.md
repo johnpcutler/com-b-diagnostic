@@ -21,13 +21,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **1.1** Work-system coherence: coherent and mutually supportive -> fragmented and conflicting
-- **1.2** Tool-task fit: tools match task demands -> tools force workarounds
-- **1.3** Process reliability: predictable process -> frequent breakdown and recovery
-- **1.4** Local adaptability: local adjustment possible -> brittle, hard-to-adapt setup
-- **1.5** Feedback-loop strength: rapid learning loops -> delayed or weak learning loops
-- **1.6** Safety-productivity balance: low tradeoff pressure -> chronic tradeoff pressure
-- **1.7** Constraint load: manageable constraints -> compounding constraints
+- **PO.1.1** Work-system coherence: coherent and mutually supportive -> fragmented and conflicting
+- **PO.1.2** Tool-task fit: tools match task demands -> tools force workarounds
+- **PO.1.3** Process reliability: predictable process -> frequent breakdown and recovery
+- **PO.1.4** Local adaptability: local adjustment possible -> brittle, hard-to-adapt setup
+- **PO.1.5** Feedback-loop strength: rapid learning loops -> delayed or weak learning loops
+- **PO.1.6** Safety-productivity balance: low tradeoff pressure -> chronic tradeoff pressure
+- **PO.1.7** Constraint load: manageable constraints -> compounding constraints
 
 **What it sees well:** Multi-factor opportunity constraints that cannot be explained by a single missing tool or missing skill.
 
@@ -43,13 +43,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **2.1** Time availability: protected time -> constant time scarcity
-- **2.2** Staffing adequacy: adequate coverage -> chronic understaffing
-- **2.3** Slack margin: healthy slack -> no slack / constant firefighting
-- **2.4** Competing urgency: stable prioritization -> frequent priority collisions
-- **2.5** Resource reliability: resources dependable -> frequent resource outages
-- **2.6** Variability absorption: variability absorbed -> variability destabilizes flow
-- **2.7** Activation overhead: low startup burden -> high startup burden
+- **PO.2.1** Time availability: protected time -> constant time scarcity
+- **PO.2.2** Staffing adequacy: adequate coverage -> chronic understaffing
+- **PO.2.3** Slack margin: healthy slack -> no slack / constant firefighting
+- **PO.2.4** Competing urgency: stable prioritization -> frequent priority collisions
+- **PO.2.5** Resource reliability: resources dependable -> frequent resource outages
+- **PO.2.6** Variability absorption: variability absorbed -> variability destabilizes flow
+- **PO.2.7** Activation overhead: low startup burden -> high startup burden
 
 **What it sees well:** Why behaviors that are endorsed and understood still fail under real resource pressure.
 
@@ -65,13 +65,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **3.1** Path complexity: simple path -> branching and exception-heavy path
-- **3.2** Handoff burden: few clean handoffs -> many fragile handoffs
-- **3.3** Dependency depth: shallow dependencies -> deep dependency chain
-- **3.4** Queue friction: low wait and rework -> high wait and rework
-- **3.5** Sequence rigidity: flexible order -> rigid order with failure cascades
-- **3.6** Recovery ease: easy recovery -> recovery is costly and slow
-- **3.7** Activation energy: easy to begin -> hard to initiate
+- **PO.3.1** Path complexity: simple path -> branching and exception-heavy path
+- **PO.3.2** Handoff burden: few clean handoffs -> many fragile handoffs
+- **PO.3.3** Dependency depth: shallow dependencies -> deep dependency chain
+- **PO.3.4** Queue friction: low wait and rework -> high wait and rework
+- **PO.3.5** Sequence rigidity: flexible order -> rigid order with failure cascades
+- **PO.3.6** Recovery ease: easy recovery -> recovery is costly and slow
+- **PO.3.7** Activation energy: easy to begin -> hard to initiate
 
 **What it sees well:** Operational friction that silently prevents behavior from becoming routine.
 
@@ -87,13 +87,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **4.1** Signal surfacing: key signals obvious -> key signals buried
-- **4.2** State visibility: system state visible -> state must be inferred
-- **4.3** Feedback latency: immediate feedback -> delayed feedback
-- **4.4** Feedback diagnosticity: clear meaning -> ambiguous meaning
-- **4.5** Projection support: next state anticipatable -> next state hard to foresee
-- **4.6** Representation coherence: coherent displays/artifacts -> fragmented representations
-- **4.7** Alert quality: useful alerts -> noisy, fatiguing alerts
+- **PO.4.1** Signal surfacing: key signals obvious -> key signals buried
+- **PO.4.2** State visibility: system state visible -> state must be inferred
+- **PO.4.3** Feedback latency: immediate feedback -> delayed feedback
+- **PO.4.4** Feedback diagnosticity: clear meaning -> ambiguous meaning
+- **PO.4.5** Projection support: next state anticipatable -> next state hard to foresee
+- **PO.4.6** Representation coherence: coherent displays/artifacts -> fragmented representations
+- **PO.4.7** Alert quality: useful alerts -> noisy, fatiguing alerts
 
 **What it sees well:** Cases where people fail because critical information is not legible in the environment.
 
@@ -109,13 +109,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **5.1** Affordance clarity: obvious action possibilities -> unclear action possibilities
-- **5.2** State transparency: visible mode/status -> opaque mode/status
-- **5.3** Core-path efficiency: efficient frequent path -> high interaction overhead
-- **5.4** Error tolerance: easy recovery -> brittle failure paths
-- **5.5** Consistency: predictable interaction patterns -> inconsistent patterns
-- **5.6** Learnability in context: low onboarding burden -> high onboarding burden
-- **5.7** Automation fit: automation supports work -> automation adds new friction
+- **PO.5.1** Affordance clarity: obvious action possibilities -> unclear action possibilities
+- **PO.5.2** State transparency: visible mode/status -> opaque mode/status
+- **PO.5.3** Core-path efficiency: efficient frequent path -> high interaction overhead
+- **PO.5.4** Error tolerance: easy recovery -> brittle failure paths
+- **PO.5.5** Consistency: predictable interaction patterns -> inconsistent patterns
+- **PO.5.6** Learnability in context: low onboarding burden -> high onboarding burden
+- **PO.5.7** Automation fit: automation supports work -> automation adds new friction
 
 **What it sees well:** Why well-intended users avoid or abandon behaviors when the interface makes them costly.
 
@@ -131,13 +131,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **6.1** Layout support: layout enables flow -> layout creates detours and delays
-- **6.2** Space adequacy: sufficient workspace/access -> constrained workspace/access
-- **6.3** Sensory load: manageable sensory conditions -> distracting/fatiguing conditions
-- **6.4** Posture and reach demand: neutral demand -> awkward demand
-- **6.5** Mobility burden: low searching/movement burden -> high searching/movement burden
-- **6.6** Environmental hazard load: low exposure -> persistent hazard exposure
-- **6.7** Physical comfort sustainability: sustainable comfort -> accumulating discomfort
+- **PO.6.1** Layout support: layout enables flow -> layout creates detours and delays
+- **PO.6.2** Space adequacy: sufficient workspace/access -> constrained workspace/access
+- **PO.6.3** Sensory load: manageable sensory conditions -> distracting/fatiguing conditions
+- **PO.6.4** Posture and reach demand: neutral demand -> awkward demand
+- **PO.6.5** Mobility burden: low searching/movement burden -> high searching/movement burden
+- **PO.6.6** Environmental hazard load: low exposure -> persistent hazard exposure
+- **PO.6.7** Physical comfort sustainability: sustainable comfort -> accumulating discomfort
 
 **What it sees well:** Local environmental constraints that make behavior physically inconvenient or unsafe.
 
@@ -153,13 +153,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **7.1** Feedback latency: short loop delay -> long loop delay
-- **7.2** Signal fidelity: accurate control signal -> noisy/misaligned signal
-- **7.3** Corrective authority: actors can correct locally -> correction requires slow escalation
-- **7.4** Loop closure quality: actions close loops -> actions fail to close loops
-- **7.5** Damping quality: stable correction -> oscillation and over-correction
-- **7.6** Disturbance handling: disturbances absorbed -> disturbances destabilize performance
-- **7.7** Variety handling: control responses match variability -> variability exceeds control capacity
+- **PO.7.1** Feedback latency: short loop delay -> long loop delay
+- **PO.7.2** Signal fidelity: accurate control signal -> noisy/misaligned signal
+- **PO.7.3** Corrective authority: actors can correct locally -> correction requires slow escalation
+- **PO.7.4** Loop closure quality: actions close loops -> actions fail to close loops
+- **PO.7.5** Damping quality: stable correction -> oscillation and over-correction
+- **PO.7.6** Disturbance handling: disturbances absorbed -> disturbances destabilize performance
+- **PO.7.7** Variety handling: control responses match variability -> variability exceeds control capacity
 
 **What it sees well:** Why systems with enough resources still fail due to broken control architecture and poor adaptation loops.
 

@@ -38,13 +38,13 @@ Psychological capability concerns what a person must be able to understand, perc
 
 **Dimensions it tends to foreground:**
 
-- **1.1.1** Declarative knowledge: thin factual understanding -> rich conceptual understanding
-- **1.1.2** Procedural fluency: stepwise and effortful -> smooth and well-practiced
-- **1.1.3** Sequence clarity: vague or inconsistent sequence -> clear and executable sequence
-- **1.1.4** Skill stage: novice -> practiced -> increasingly automatic
-- **1.1.5** Repeatability: brittle performance -> stable repeated performance
-- **1.1.6** Exception handling: normal cases only -> adaptable procedure across cases
-- **1.1.7** Transfer readiness: narrow context competence -> competence that transfers
+- **PC.1.1.1** Declarative knowledge: thin factual understanding -> rich conceptual understanding
+- **PC.1.1.2** Procedural fluency: stepwise and effortful -> smooth and well-practiced
+- **PC.1.1.3** Sequence clarity: vague or inconsistent sequence -> clear and executable sequence
+- **PC.1.1.4** Skill stage: novice -> practiced -> increasingly automatic
+- **PC.1.1.5** Repeatability: brittle performance -> stable repeated performance
+- **PC.1.1.6** Exception handling: normal cases only -> adaptable procedure across cases
+- **PC.1.1.7** Transfer readiness: narrow context competence -> competence that transfers
 
 **What it sees well:** Situations where the person has heard the material but still cannot execute the behavior reliably.
 
@@ -60,13 +60,13 @@ Psychological capability concerns what a person must be able to understand, perc
 
 **Dimensions it tends to foreground:**
 
-- **1.2.1** Model accuracy: misaligned mental model -> well-aligned mental model
-- **1.2.2** Causal understanding: weak sense of causality -> strong causal understanding
-- **1.2.3** Structural understanding: fragmented picture -> coherent system picture
-- **1.2.4** Dynamical understanding: static understanding -> understanding of change over time
-- **1.2.5** Model completeness: important factors omitted -> relevant factors integrated
-- **1.2.6** Framing quality: poor framing -> appropriate framing
-- **1.2.7** Updateability: rigid model -> revisable and adaptive model
+- **PC.1.2.1** Model accuracy: misaligned mental model -> well-aligned mental model
+- **PC.1.2.2** Causal understanding: weak sense of causality -> strong causal understanding
+- **PC.1.2.3** Structural understanding: fragmented picture -> coherent system picture
+- **PC.1.2.4** Dynamical understanding: static understanding -> understanding of change over time
+- **PC.1.2.5** Model completeness: important factors omitted -> relevant factors integrated
+- **PC.1.2.6** Framing quality: poor framing -> appropriate framing
+- **PC.1.2.7** Updateability: rigid model -> revisable and adaptive model
 
 **What it sees well:** Why people make coherent-seeming but wrong decisions because they are reasoning from the wrong internal representation.
 
@@ -82,13 +82,13 @@ Psychological capability concerns what a person must be able to understand, perc
 
 **Dimensions it tends to foreground:**
 
-- **1.3.1** Judgment demand: few consequential choices -> many consequential choices
-- **1.3.2** Uncertainty tolerance: low ability to reason under uncertainty -> high ability
-- **1.3.3** Heuristic quality: misleading shortcuts dominate -> useful decision heuristics
-- **1.3.4** Recognition competence: weak pattern-based recognition -> strong recognition competence
-- **1.3.5** Rule dependence: rigid rule following -> flexible, context-sensitive judgment
-- **1.3.6** Time-pressure competence: quality collapses under pressure -> quality is sustained
-- **1.3.7** Tradeoff handling: poor tradeoff reasoning -> strong tradeoff reasoning
+- **PC.1.3.1** Judgment demand: few consequential choices -> many consequential choices
+- **PC.1.3.2** Uncertainty tolerance: low ability to reason under uncertainty -> high ability
+- **PC.1.3.3** Heuristic quality: misleading shortcuts dominate -> useful decision heuristics
+- **PC.1.3.4** Recognition competence: weak pattern-based recognition -> strong recognition competence
+- **PC.1.3.5** Rule dependence: rigid rule following -> flexible, context-sensitive judgment
+- **PC.1.3.6** Time-pressure competence: quality collapses under pressure -> quality is sustained
+- **PC.1.3.7** Tradeoff handling: poor tradeoff reasoning -> strong tradeoff reasoning
 
 **What it sees well:** Situations where the issue is not missing facts, but poor judgment, poor decision rules, or lack of experience in applying them.
 
@@ -104,13 +104,13 @@ Psychological capability concerns what a person must be able to understand, perc
 
 **Dimensions it tends to foreground:**
 
-- **1.4.1** Signal strength: obvious signal -> subtle or weak signal
-- **1.4.2** Signal ambiguity: clean signal -> noisy or conflicting signal
-- **1.4.3** Detection sensitivity: low sensitivity -> high sensitivity
-- **1.4.4** False-alarm balance: overcautious threshold -> overliberal threshold
-- **1.4.5** Pattern repertoire: few usable patterns -> rich pattern repertoire
-- **1.4.6** Case familiarity: unfamiliar cases dominate -> familiar patterns are recognized quickly
-- **1.4.7** Comparison burden: little comparison needed -> many comparisons needed
+- **PC.1.4.1** Signal strength: obvious signal -> subtle or weak signal
+- **PC.1.4.2** Signal ambiguity: clean signal -> noisy or conflicting signal
+- **PC.1.4.3** Detection sensitivity: low sensitivity -> high sensitivity
+- **PC.1.4.4** False-alarm balance: overcautious threshold -> overliberal threshold
+- **PC.1.4.5** Pattern repertoire: few usable patterns -> rich pattern repertoire
+- **PC.1.4.6** Case familiarity: unfamiliar cases dominate -> familiar patterns are recognized quickly
+- **PC.1.4.7** Comparison burden: little comparison needed -> many comparisons needed
 
 **What it sees well:** Why subtle-signal tasks, anomaly detection, and expert pattern recognition are often capability problems even when motivation is high.
 
@@ -126,13 +126,13 @@ Psychological capability concerns what a person must be able to understand, perc
 
 **Dimensions it tends to foreground:**
 
-- **1.5.1** Calibration: confidence poorly tracks accuracy -> confidence tracks accuracy well
-- **1.5.2** Monitoring quality: weak self-monitoring -> strong self-monitoring
-- **1.5.3** Error detection: misses own errors -> catches own errors
-- **1.5.4** Effort allocation: effort is poorly targeted -> effort is well targeted
-- **1.5.5** Uncertainty awareness: uncertainty is hidden from self -> uncertainty is noticed
-- **1.5.6** Help-seeking readiness: rarely seeks correction -> seeks correction appropriately
-- **1.5.7** Reflective control: poor regulation of strategy -> strong regulation of strategy
+- **PC.1.5.1** Calibration: confidence poorly tracks accuracy -> confidence tracks accuracy well
+- **PC.1.5.2** Monitoring quality: weak self-monitoring -> strong self-monitoring
+- **PC.1.5.3** Error detection: misses own errors -> catches own errors
+- **PC.1.5.4** Effort allocation: effort is poorly targeted -> effort is well targeted
+- **PC.1.5.5** Uncertainty awareness: uncertainty is hidden from self -> uncertainty is noticed
+- **PC.1.5.6** Help-seeking readiness: rarely seeks correction -> seeks correction appropriately
+- **PC.1.5.7** Reflective control: poor regulation of strategy -> strong regulation of strategy
 
 **What it sees well:** The difference between someone who lacks knowledge and someone who also does not know that they lack it.
 
@@ -148,13 +148,13 @@ Psychological capability concerns what a person must be able to understand, perc
 
 **Dimensions it tends to foreground:**
 
-- **1.6.1** Shared language: divergent terminology -> common terminology
-- **1.6.2** Conceptual alignment: conflicting concepts -> aligned concepts
-- **1.6.3** Representation compatibility: fragmented representations -> compatible shared representations
-- **1.6.4** Common ground: little mutual understanding -> strong common ground
-- **1.6.5** Coordination literacy: weak understanding of who knows what -> strong distributed understanding
-- **1.6.6** Definition stability: unstable definitions -> stable definitions
-- **1.6.7** Cross-role interpretability: representations travel poorly -> representations travel well
+- **PC.1.6.1** Shared language: divergent terminology -> common terminology
+- **PC.1.6.2** Conceptual alignment: conflicting concepts -> aligned concepts
+- **PC.1.6.3** Representation compatibility: fragmented representations -> compatible shared representations
+- **PC.1.6.4** Common ground: little mutual understanding -> strong common ground
+- **PC.1.6.5** Coordination literacy: weak understanding of who knows what -> strong distributed understanding
+- **PC.1.6.6** Definition stability: unstable definitions -> stable definitions
+- **PC.1.6.7** Cross-role interpretability: representations travel poorly -> representations travel well
 
 **What it sees well:** Situations where people are not simply untrained, but are working from different meanings and incompatible conceptual objects.
 
@@ -170,13 +170,13 @@ Psychological capability concerns what a person must be able to understand, perc
 
 **Dimensions it tends to foreground:**
 
-- **1.7.1** Independence: requires continuous support -> performs independently
-- **1.7.2** Scaffold sensitivity: only strong support works -> light support is enough
-- **1.7.3** Prompt dependence: action needs explicit prompting -> action self-initiates
-- **1.7.4** Example dependence: requires worked examples -> can generalize beyond examples
-- **1.7.5** Feedback dependence: needs constant correction -> self-corrects reliably
-- **1.7.6** Transfer under support: support works only locally -> support generalizes capability
-- **1.7.7** Fading readiness: support cannot be reduced -> support can be faded
+- **PC.1.7.1** Independence: requires continuous support -> performs independently
+- **PC.1.7.2** Scaffold sensitivity: only strong support works -> light support is enough
+- **PC.1.7.3** Prompt dependence: action needs explicit prompting -> action self-initiates
+- **PC.1.7.4** Example dependence: requires worked examples -> can generalize beyond examples
+- **PC.1.7.5** Feedback dependence: needs constant correction -> self-corrects reliably
+- **PC.1.7.6** Transfer under support: support works only locally -> support generalizes capability
+- **PC.1.7.7** Fading readiness: support cannot be reduced -> support can be faded
 
 **What it sees well:** Learning-in-progress situations, guided workflows, job aids, and cases where capability is emerging but not yet consolidated.
 
@@ -203,13 +203,13 @@ It is strongest when the diagnostic question is some version of:
 
 **Dimensions it tends to foreground:**
 
-- **2.1.1** Skill stage: novice -> practiced -> increasingly automatic
-- **2.1.2** Execution fluency: effortful and segmented -> smooth and integrated
-- **2.1.3** Accuracy: inconsistent movement -> accurate movement
-- **2.1.4** Retention: weak retention -> stable retained skill
-- **2.1.5** Transfer: context-bound skill -> transferable skill
-- **2.1.6** Consistency: variable execution -> reliable execution
-- **2.1.7** Error correction: repeated uncorrected errors -> adaptive correction
+- **PHC.2.1.1** Skill stage: novice -> practiced -> increasingly automatic
+- **PHC.2.1.2** Execution fluency: effortful and segmented -> smooth and integrated
+- **PHC.2.1.3** Accuracy: inconsistent movement -> accurate movement
+- **PHC.2.1.4** Retention: weak retention -> stable retained skill
+- **PHC.2.1.5** Transfer: context-bound skill -> transferable skill
+- **PHC.2.1.6** Consistency: variable execution -> reliable execution
+- **PHC.2.1.7** Error correction: repeated uncorrected errors -> adaptive correction
 
 **What it sees well:** Why a person may understand the task but still fail at the bodily execution of it.
 
@@ -225,13 +225,13 @@ It is strongest when the diagnostic question is some version of:
 
 **Dimensions it tends to foreground:**
 
-- **2.2.1** Coordination quality: poorly coordinated -> well coordinated
-- **2.2.2** Dexterity demand: low dexterity -> high dexterity
-- **2.2.3** Movement stability: unstable execution -> stable execution
-- **2.2.4** Variability: high variability -> controlled variability
-- **2.2.5** Dual-task interference: strong interference -> low interference
-- **2.2.6** Timing precision: rough timing -> precise timing
-- **2.2.7** Fine-vs-gross motor demand: mostly gross -> heavily fine-motor
+- **PHC.2.2.1** Coordination quality: poorly coordinated -> well coordinated
+- **PHC.2.2.2** Dexterity demand: low dexterity -> high dexterity
+- **PHC.2.2.3** Movement stability: unstable execution -> stable execution
+- **PHC.2.2.4** Variability: high variability -> controlled variability
+- **PHC.2.2.5** Dual-task interference: strong interference -> low interference
+- **PHC.2.2.6** Timing precision: rough timing -> precise timing
+- **PHC.2.2.7** Fine-vs-gross motor demand: mostly gross -> heavily fine-motor
 
 **What it sees well:** Execution-quality problems that are not primarily about strength or motivation.
 
@@ -247,13 +247,13 @@ It is strongest when the diagnostic question is some version of:
 
 **Dimensions it tends to foreground:**
 
-- **2.3.1** Endurance: short-lived capacity -> sustained capacity
-- **2.3.2** Fatigue load: low fatigue burden -> high fatigue burden
-- **2.3.3** Recovery speed: fast recovery -> slow recovery
-- **2.3.4** Performance drift: stable over time -> degrades over time
-- **2.3.5** Acute-vs-chronic strain: low cumulative burden -> high cumulative burden
-- **2.3.6** Freshness requirement: performance robust when fatigued -> performance requires freshness
-- **2.3.7** Shift tolerance: stable across shifts -> strong decline across shifts
+- **PHC.2.3.1** Endurance: short-lived capacity -> sustained capacity
+- **PHC.2.3.2** Fatigue load: low fatigue burden -> high fatigue burden
+- **PHC.2.3.3** Recovery speed: fast recovery -> slow recovery
+- **PHC.2.3.4** Performance drift: stable over time -> degrades over time
+- **PHC.2.3.5** Acute-vs-chronic strain: low cumulative burden -> high cumulative burden
+- **PHC.2.3.6** Freshness requirement: performance robust when fatigued -> performance requires freshness
+- **PHC.2.3.7** Shift tolerance: stable across shifts -> strong decline across shifts
 
 **What it sees well:** Situations where the person can do the task at first, but not sustainably or repeatedly.
 
@@ -269,13 +269,13 @@ It is strongest when the diagnostic question is some version of:
 
 **Dimensions it tends to foreground:**
 
-- **2.4.1** Functional adequacy: cannot meet minimum requirement -> can meet requirement
-- **2.4.2** Strength demand: low force requirement -> high force requirement
-- **2.4.3** Range-of-motion demand: low range demand -> high range demand
-- **2.4.4** Balance and stability: low balance demand -> high balance demand
-- **2.4.5** Manual handling demand: light handling -> heavy handling
-- **2.4.6** Safety margin: narrow safety margin -> strong safety margin
-- **2.4.7** Reliability of execution: inconsistent performance -> dependable performance
+- **PHC.2.4.1** Functional adequacy: cannot meet minimum requirement -> can meet requirement
+- **PHC.2.4.2** Strength demand: low force requirement -> high force requirement
+- **PHC.2.4.3** Range-of-motion demand: low range demand -> high range demand
+- **PHC.2.4.4** Balance and stability: low balance demand -> high balance demand
+- **PHC.2.4.5** Manual handling demand: light handling -> heavy handling
+- **PHC.2.4.6** Safety margin: narrow safety margin -> strong safety margin
+- **PHC.2.4.7** Reliability of execution: inconsistent performance -> dependable performance
 
 **What it sees well:** The can/cannot boundary, especially for concrete physical tasks.
 
@@ -291,13 +291,13 @@ It is strongest when the diagnostic question is some version of:
 
 **Dimensions it tends to foreground:**
 
-- **2.5.1** Posture demand: neutral posture -> awkward posture
-- **2.5.2** Reach demand: comfortable reach -> extreme reach
-- **2.5.3** Force demand: low exertion -> high exertion
-- **2.5.4** Repetition load: infrequent repetition -> high repetition
-- **2.5.5** Biomechanical sustainability: sustainable -> risky or degrading
-- **2.5.6** Handling complexity: simple manipulation -> complex manipulation
-- **2.5.7** Bodily fit: strong fit between body and task -> mismatch between body and task
+- **PHC.2.5.1** Posture demand: neutral posture -> awkward posture
+- **PHC.2.5.2** Reach demand: comfortable reach -> extreme reach
+- **PHC.2.5.3** Force demand: low exertion -> high exertion
+- **PHC.2.5.4** Repetition load: infrequent repetition -> high repetition
+- **PHC.2.5.5** Biomechanical sustainability: sustainable -> risky or degrading
+- **PHC.2.5.6** Handling complexity: simple manipulation -> complex manipulation
+- **PHC.2.5.7** Bodily fit: strong fit between body and task -> mismatch between body and task
 
 **What it sees well:** Cases where the bodily demands of the task are simply too high or too poorly matched to the actor.
 
@@ -361,7 +361,7 @@ Read next:
 - [motivation-lenses.md](motivation-lenses.md) for `RM` and `AM`
 - [physical-opportunity-lenses.md](physical-opportunity-lenses.md) for `PO` diagnosis of time, tools, workflow, and local environment
 - [social-opportunity-lenses.md](social-opportunity-lenses.md) for `SO` diagnosis of norms, incentives, legitimacy, and politics
-- [behavior-jtbd-maturity-diagnostic-cycle.md](../com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md) for how `PC` appears in states such as `Partially Realized / Inconsistent`, `Aspirational Only`, and `Contested / Undefined`
+- [behavior-lenses.md](behavior-lenses.md) for how `PC` appears in states such as `Partially Realized / Inconsistent`, `Aspirational Only`, and `Contested / Undefined`
 - [com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families after capability diagnosis
 
 ## References To Ground These Lenses

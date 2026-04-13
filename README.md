@@ -73,7 +73,6 @@ You're also welcome to read the source files directly:
 - [`SKILL.md`](SKILL.md) — the LLM orchestrator (purpose, intake, pipeline, output format, guardrails)
 - [`references/guide.md`](references/guide.md) — detailed pipeline walkthrough with file connections
 - [`references/flow.md`](references/flow.md) — canonical pipeline as pseudocode
-- [`references/scenarios/`](references/scenarios/) — four worked end-to-end examples
 - [`references/com-b-bcw-bct/`](references/com-b-bcw-bct/) — core COM-B / BCW / BCT reference tables
 - [`references/lenses/`](references/lenses/) — dimensional lenses per COM-B branch
 - [`assets/output-template.md`](assets/output-template.md) — report skeleton the agent fills in

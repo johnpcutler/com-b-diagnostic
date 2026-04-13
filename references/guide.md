@@ -1,6 +1,6 @@
 # Framework Guide
 
-A detailed walkthrough of the six-step diagnostic pipeline and how the reference files connect.
+A detailed walkthrough of the five-step diagnostic pipeline and how the reference files connect.
 
 Built on the **COM-B model** (Michie, van Stralen & West), the **Behavior Change Wheel** (Michie, Atkins & West), and the **BCT Taxonomy v1** (Michie, Richardson, Johnston et al.). The diagnostic lenses draw from Deci & Ryan, Bandura, Klein, Kahneman & Tversky, Endsley, Norman, Cialdini, Edmondson, Beer, Vygotsky, and others across behavioral science, human factors, and organizational theory. The behavior states, blocker profiles, dimensional lens IDs, and product-level levers are original extensions. Full credits and sources in [`credits.md`](../credits.md).
 
@@ -8,102 +8,166 @@ Built on the **COM-B model** (Michie, van Stralen & West), the **Behavior Change
 
 ## The pipeline
 
-Every diagnosis follows the same ordered steps. Later steps depend on earlier outputs. The canonical pseudocode and field spec live in [`flow.md`](flow.md); worked examples in [`scenarios/`](scenarios/).
+Every diagnosis follows the same ordered steps. Later steps depend on earlier outputs. The canonical pseudocode and field spec live in [`flow.md`](flow.md).
 
-### Step 1 — Classify the behavior state
+```
+Step 1  DEFINE BEHAVIOR              (user-facing, interactive)
+Step 2  RESEARCH B, C, O, M          (user-facing, interactive, dimension-level)
+Step 3  SYNTHESIZE and ASSESS         (cross-lens topology)
+Step 4  CONVERT TO BCW/BCT RECS      (under the hood)
+Step 5  FRAME RECOMMENDATIONS         (user-facing, phased delivery)
+```
 
-**Input:** a description of what people actually do or fail to do, in context.
+### Step 1 — Define the behavior
 
-Read [`com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md). Match the situation to one of **seven states** (Fully Realized & Stable → Realized but Friction-Filled → Partially Realized / Inconsistent → Weakly Realized → Aspirational Only → Actively Suppressed → Contested / Undefined). These are a **cycle**, not a ladder—behaviors regress when incentives, norms, or operating conditions shift.
+**Input:** a user description, artifacts (one-pager, goal doc, data), or a coaching conversation.
 
-**Output:** state id (S1–S7) and a rationale grounded in the state signals and characteristics.
+This step establishes a structured, precise behavior definition that all later steps operate on. Without it, everything downstream reasons about a fuzzy target.
 
-### Step 2 — Identify COM-B blockers
+**Two entry paths:**
+- The user provides artifacts — the agent extracts and structures
+- The agent coaches the user through describing the behavior until it's clear
 
-Read [`com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md`](com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md) for a fast lookup of primary and secondary blockers per state. Decode codes with [`com-b-bcw-bct/com-b-abbreviations-reference.md`](com-b-bcw-bct/com-b-abbreviations-reference.md):
+**Structured output format:**
 
-| Code | Branch | Covers |
-|------|--------|--------|
-| **PC** | Psychological Capability | Mental models, skills, shared definition |
-| **PHC** | Physical Capability | Physical skill, stamina, coordination |
-| **PO** | Physical Opportunity | Time, tools, systems, workflows |
-| **SO** | Social Opportunity | Norms, politics, incentives, culture |
-| **RM** | Reflective Motivation | Intentions, beliefs, identity, political risk |
-| **AM** | Automatic Motivation | Habits, fear, autopilot, learned helplessness |
+| Field | Question it answers |
+|-------|-------------------|
+| **Behavior** | What is the behavior? (summary statement) |
+| **Who** | Who are the actors? |
+| **Will do what** | What specific action should they perform? |
+| **To what extent** | How often, how deeply, to what observable standard? |
+| **In what context** | What environment, tools, constraints? |
+| **For what outcome** | What result should this produce? |
 
-**Output:** primary and secondary COM-B codes for this situation.
+**Example:**
 
-### Step 3 — Deepen with lenses
+> **Behavior:** Regularly review and analyze key performance metrics
+> **Who:** Product teams
+> **Will do what:** Conduct regular, in-depth reviews and analyses of key performance metrics
+> **To what extent:** In a weekly meeting, dedicating time to discuss trend patterns and metric shifts and identify both routine and special variations in the data
+> **In what context:** Using a centralized data dashboard that includes tools like Process Behavior Charts (PBCs) and Statistical Process Control (SPC), accessible to all team members
+> **For what outcome:** To pinpoint areas for improvement, ensure data-driven insights inform product decisions and align actions with business objectives
 
-This is the highest-leverage step. A COM-B code like "PC" is too broad to act on; the lens files turn it into a precise diagnosis.
+**Output:** a canonical behavior definition that Steps 2–5 reference.
 
-| Lens file | COM-B branch | What it unpacks |
-|-----------|-------------|-----------------|
-| [`lenses/capability-lenses.md`](lenses/capability-lenses.md) | `PC`, `PHC` | Mental models, procedural skill, judgment under uncertainty, distributed cognition, learning transfer |
-| [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md) | `RM`, `AM` | Self-determination, identity, habit loops, self-efficacy, temporal discounting, emotion regulation |
-| [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md) | `PO` | Work-system fit, tool-task match, feedback latency, resource constraints, workflow friction |
-| [`lenses/social-opportunity-lenses.md`](lenses/social-opportunity-lenses.md) | `SO` | Norms, power dynamics, institutional legitimacy, coordination cost, psychological safety |
+### Step 2 — Research behavior, capability, opportunity, and motivation
 
-Each lens file contains multiple sub-lenses drawn from established research traditions (SDT, NDM, CTA, SEIPS, social-norms theory, etc.) and breaks each COM-B branch into **numbered dimensions** with stable IDs for shorthand and cross-referencing.
+This is the core analytical step. Four peer lenses are applied to the defined behavior. For each, the agent forms a perspective on specific dimensional scales through a mix of inference from the description and follow-up questions.
 
-**ID scheme:** PO and SO use **section.dimension** (e.g. PO 2.1, SO 4.5). PC, PHC, RM, AM use **sub-lens.dimension** (e.g. PC 1.2.3, RM 1.3.8).
+**Four peer lenses:**
 
-**Output:** dimensional IDs and short tags for the specific forces in play (e.g. "PC 1.2.3 — mental-model gap in cue interpretation" rather than just "PC").
+| Lens | What it examines | Source file |
+|------|-----------------|-------------|
+| **Behavior state** (B-lens) | Where the behavior sits in its lifecycle: how reliably it happens, how aligned people are, how vulnerable it is to regression | [`lenses/behavior-lenses.md`](lenses/behavior-lenses.md) |
+| **Capability** (C-lens) | What people must know, perceive, judge, and physically do — PC and PHC | [`lenses/capability-lenses.md`](lenses/capability-lenses.md) |
+| **Opportunity** (O-lens) | Material/temporal conditions (PO) and social/political conditions (SO) | [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md), [`lenses/social-opportunity-lenses.md`](lenses/social-opportunity-lenses.md) |
+| **Motivation** (M-lens) | Reflective endorsement, identity, intentions (RM) and habits, affect, reinforcement (AM) | [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md) |
 
-### Step 4 — Map to BCW intervention functions
+The behavior-state lens is not a gateway or prerequisite. It is one diagnostic frame among four. Its blocker profiles are hypotheses to test against the C/O/M lenses, not predetermined conclusions.
 
-Read [`com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md`](com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md). Three tables bridge COM-B blockers to intervention categories:
+**The assessment form:**
 
-1. Which of the nine BCW functions (Education, Training, Persuasion, Incentivisation, Coercion, Restriction, Environmental Restructuring, Modelling, Enablement) apply to each COM-B code.
-2. Abbreviation definitions (ED, TR, PE, INC, COE, RE, ER, MO, EN).
-3. Which BCT groupings typically implement each function (links into Step 5).
+The agent uses [`assets/assessment-form-template.md`](../assets/assessment-form-template.md) as its working document. The form lists every dimension from every lens, with intervention bias annotations baked in. For each dimension, the agent notes:
+- **Relevant?** — does this dimension apply to the situation?
+- **Position** — where does the situation land on the scale?
+- **Evidence** — what from the description or follow-up answers supports this?
 
-**Output:** ordered list of intervention functions for this case, with the lens-specified blockers driving the priority.
+The form is internal by default. Most situations will only activate a subset of dimensions — the "relevant?" field makes skipping easy.
 
-### Step 5 — Select BCTs
+**Methods:** Asking (follow-up questions to probe ambiguous dimensions) and Inferring (from the behavior description and any provided artifacts). The lens dimensions often surface distinctions the user hasn't considered — e.g. whether a capability gap is about mental models or procedural fluency, whether motivation is about identity or habit, whether opportunity constraints are about tooling or norms.
 
-Read [`com-b-bcw-bct/bct-taxonomy.md`](com-b-bcw-bct/bct-taxonomy.md). The full **Behaviour Change Technique Taxonomy v1** — 93 techniques in 16 groupings. Pick named techniques that implement the functions from Step 4.
+**ID scheme:** PO and SO use **PO.n.m** / **SO.n.m** (e.g. PO.2.1, SO.4.5). PC, PHC, RM, AM use dotted prefixes **PC.1.x.y**, **PHC.2.x.y**, **RM.1.x.y**, **AM.2.x.y**. Behavior-state classification uses **S.1–S.7**; state-scoped dimensions use **S.n.k**. See [lenses/dimensional-ids.md](lenses/dimensional-ids.md).
 
-**Output:** techniques keyed by function (e.g. ER → 12.1, 12.5 | EN → 1.1, 2.2).
+**Output:** a filled-out assessment form (internal), plus any follow-up questions surfaced to the user.
 
-### Step 6 — Design the intervention
+### Step 3 — Synthesize and assess the situation
 
-Combine BCTs into **concrete changes** (tools, process, environment, social structures) and a **phased rollout**: what changes when, who owns it, which BCW functions and BCTs are active in each phase, and what signals tell you to advance or adjust. Per-state lever ideas in [`com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md) can inform this step when they match the classified state.
+This step reads back the filled-out assessment form and builds a cross-lens picture: the full topology of the situation.
 
-**Output:** timeboxed phases tying functions + techniques + concrete changes to sequence and ownership.
+**What "across multiple lenses" means:**
+- **Tensions:** where lenses conflict (e.g. "capability is present but motivation lens says identity doesn't support it")
+- **Reinforcements:** where lenses align (e.g. "both opportunity and motivation point to the same bottleneck")
+- **Leverage:** which dimensional findings are highest-leverage for this specific situation
+
+The form gives this step structured input rather than forcing it to re-derive findings from narrative prose. The agent reads the form's "relevant" dimensions, looks for patterns across lenses, and produces the synthesis.
+
+**Output:** a situational assessment naming the key forces, their interactions, and where intervention would have the most leverage.
+
+### Step 4 — Convert assessment to BCW and BCT recommendations
+
+This step runs under the hood. The agent converts the dimensional assessment into formal intervention recommendations using the COM-B → BCW → BCT chain. The user doesn't need to see this unless they request the in-depth report.
+
+**How dimensions guide conversion:**
+
+The assessment form carries intervention bias annotations on each dimension. For example, a row reading `1.2.1 Model accuracy | low→ED | relevant: yes | position: low` tells this step to prioritize Education for that finding. The annotations refine within the set of functions the base COM-B → BCW mapping provides — they prioritize, not replace.
+
+**Source files:**
+
+| File | Role |
+|------|------|
+| [`com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md`](com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) | Base mapping: COM-B code → BCW functions → BCT groupings |
+| [`com-b-bcw-bct/bct-taxonomy.md`](com-b-bcw-bct/bct-taxonomy.md) | Full BCT Taxonomy v1 — 93 techniques in 16 groupings |
+
+**Output:** prioritized BCW functions and named BCT techniques keyed by function.
+
+### Step 5 — Frame recommendations
+
+Delivers recommendations progressively in two phases.
+
+**Phase A — always delivered first:**
+- **Summary:** Plain-language "here's what's going on and what to do." No taxonomy codes. Answers the question a trusted advisor would answer.
+- **Key insights:** The 3–5 most important findings — tensions, surprises, or highest-leverage points the diagnosis surfaced.
+
+**Phase B — user chooses one or both:**
+
+After delivering Phase A, the agent offers two paths:
+
+- **In-depth report:** Full diagnostic with dimensional assessments per lens, cross-lens tensions, BCW/BCT reasoning made visible. Can include the assessment form. For understanding the "why" deeply or sharing with stakeholders.
+- **Action plan:** Concrete, phased plan — week-by-week or phase-by-phase — with specific changes, owners, success signals. Includes tool/AI recommendations and mapping to relevant frameworks. For acting now.
+
+**Output structure for each:** see [`assets/output-template.md`](../assets/output-template.md).
 
 ---
 
 ## How the files connect
 
 ```
+assets/assessment-form-template.md
+    All dimensions from all lens files + intervention bias annotations
+    Triple duty: research scaffold (Step 2), synthesis input (Step 3), intervention lookup (Step 4)
+
+lenses/behavior-lenses.md
+    B-lens: 7 behavior states, per-state blocker profiles, lever ideas
+    One of four peer lenses in Step 2 (lives alongside C, O, M lenses)
+
 com-b-bcw-bct/com-b-abbreviations-reference.md
     Defines: PC, PHC, PO, SO, RM, AM
     Referenced by: every other file
 
-com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md
-    Uses: COM-B codes, BCW codes
-    Expands: blocker matrix into full per-state diagnosis + intervention
-
-com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md
-    Quick-reference version of the diagnostic cycle's blocker sections
+lenses/behavior-lenses.md
+    B-lens with quick-reference table: state → primary/secondary blockers
+    (Consolidates the former behavior-jtbd-maturity-diagnostic-cycle.md and com-b-behavior-states-primary-secondary-blockers.md)
 
 com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md
     Bridges: COM-B codes → BCW functions → BCT groupings
-    Links to: com-b-bcw-bct/bct-taxonomy.md (table 3)
+    Used in Step 4
 
 com-b-bcw-bct/bct-taxonomy.md
     Full BCT Taxonomy v1 (93 techniques / 16 groupings)
-    Linked from: intervention mapping table 3
+    Used in Step 4
 
-lenses/*.md
-    Deepen each COM-B branch into numbered dimensions
-    Use after: blocker identification; before: intervention design
-    Point to: intervention mapping for BCW layer
+lenses/capability-lenses.md
+    Source of truth for PC and PHC dimension definitions and academic grounding
+
+lenses/motivation-lenses.md
+    Source of truth for RM and AM dimension definitions and academic grounding
+
+lenses/physical-opportunity-lenses.md
+    Source of truth for PO dimension definitions and academic grounding
+
+lenses/social-opportunity-lenses.md
+    Source of truth for SO dimension definitions and academic grounding
 
 flow.md
-    Canonical pipeline + digest field spec; scenarios implement steps 1–6
-
-scenarios/*.md
-    End-to-end examples: state → COM-B → lenses → BCW → BCT → intervention design
+    Canonical pipeline pseudocode + delivery spec
 ```

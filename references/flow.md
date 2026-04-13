@@ -1,6 +1,6 @@
 # Diagnostic flow (canonical)
 
-Single source of truth for the **ordered pipeline** used in [`scenarios/`](scenarios/) and recommended for any COM-B diagnosis in this repo. Scenario narratives implement this flow as **Step 1** … **Step 6**; the **digest** block at the top of each scenario is a compressed, code-like view of the same outputs.
+Single source of truth for the **ordered pipeline** recommended for any COM-B diagnosis in this repo. The full walkthrough with file pointers is in [`guide.md`](guide.md).
 
 ---
 
@@ -9,73 +9,81 @@ Single source of truth for the **ordered pipeline** used in [`scenarios/`](scena
 Treat each step as a function: named inputs, named outputs, explicit file dependencies.
 
 ```text
-INPUT
-  behavior_in_context   // what people do or fail to do, with enough texture to reason about COM-B
+STEP 1  define_behavior()
+  IN      user description, artifacts, or follow-up answers
+  OUT     behavior_definition {
+            behavior    // summary statement
+            who         // actors
+            will_do     // specific action
+            to_extent   // frequency, depth, observable standard
+            in_context  // environment, tools, constraints
+            for_outcome // intended result
+          }
 
-STEP 1  classify_state()
-  READ    com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md
-  OUT     state_id                      // S1..S7; full name from cycle
-          state_rationale               // which characteristics / state signals matched
+STEP 2  research_bcom()
+  READ    assets/assessment-form-template.md              // scaffold with all dimensions + intervention bias annotations
+          lenses/behavior-lenses.md                                 // B-lens: behavior state
+          lenses/capability-lenses.md                     // C-lens: PC, PHC
+          lenses/motivation-lenses.md                     // M-lens: RM, AM
+          lenses/physical-opportunity-lenses.md            // O-lens: PO
+          lenses/social-opportunity-lenses.md              // O-lens: SO
+  METHOD  asking (follow-up questions) + inferring (from description)
+  OUT     filled_assessment_form                          // per-dimension: relevant?, position, evidence
+          follow_up_questions[]                           // surfaced to user during process
 
-STEP 2  identify_blockers()
-  READ    com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md
-          com-b-bcw-bct/com-b-abbreviations-reference.md   // decode PC, PHC, PO, SO, RM, AM
-  OUT     primary_blockers[]        // COM-B codes; * in digest
-          secondary_blockers[]
+STEP 3  synthesize_and_assess()
+  IN      filled_assessment_form
+  OUT     situational_assessment {
+            cross_lens_tensions[]       // e.g. capability present but motivation absent
+            highest_leverage_points[]   // which dimensions matter most
+            diagnostic_narrative        // coherent picture connecting the dots
+          }
 
-STEP 3  deepen_with_lenses()
-  READ    lenses/capability-lenses.md          // PC, PHC
-          lenses/motivation-lenses.md          // RM, AM
-          lenses/physical-opportunity-lenses.md
-          lenses/social-opportunity-lenses.md
-  OUT     lens_hits.{PC|PHC|PO|SO|RM|AM}   // dimensional IDs + short tags
-          // PO/SO: section.dimension  (n.m)
-          // PC/PHC/RM/AM: sublens.dimension (x.y.z)
+STEP 4  convert_to_recommendations()                     // under the hood
+  IN      situational_assessment, filled_assessment_form
+  READ    com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md
+          com-b-bcw-bct/bct-taxonomy.md
+  NOTE    dimension-level intervention bias annotations on the form guide function prioritization
+  OUT     bcw_functions_prioritized[]   // ordered by leverage, informed by dimensional positions
+          bcts_by_function{}            // e.g. ER→BCT.12.1,BCT.12.5 | EN→BCT.1.1,BCT.2.2
 
-STEP 4  map_intervention_functions()
-  READ    com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md   // tables 1–3
-  OUT     bcw_order                 // ED, TR, PE, …; >> / > for emphasis in digest
-
-STEP 5  select_bcts()
-  READ    com-b-bcw-bct/bct-taxonomy.md           // technique IDs; groupings from mapping table 3
-  OUT     bct_by_function           // e.g. ER→12.1,12.5 | EN→1.1,2.2
-
-STEP 6  intervention_design()
+STEP 5  frame_recommendations()
   IN      all prior OUTs
-  READ    com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md   // optional: per-state lever ideas
-  OUT     phases[]                  // timeboxed rollout + sustainment
-          // concrete changes + BCW + BCT tied to sequence and ownership
+  OUT     phase_a {                     // always delivered first
+            summary                     // plain-language "what's going on and what to do"
+            key_insights[3..5]          // highest-leverage findings
+          }
+          phase_b_choice {              // user chooses one or both
+            in_depth_report             // full diagnostic with dimensional assessments, BCW/BCT reasoning
+            action_plan                 // phased rollout: week-by-week, owners, success signals
+          }
 ```
 
 ---
 
-## Digest block (scenario header convention)
+## Output delivery
 
-Immediately after the scenario title, a **fenced code block** holds the digest: **outputs only**, no prose. Same field names across scenarios so diffs and skims stay predictable.
+Step 5 delivers in two phases:
 
-| Field | Role |
-|--------|------|
-| `state` | State shorthand, e.g. `S2: Realized but Friction-Filled` |
-| `blockers` | COM-B codes; `*` = primary |
-| `lenses.PC` … `lenses.AM` | Lists of `id short-tag` from the lens files (only branches in play) |
-| `functions` | BCW function ordering for this case |
-| `bcts` | `FUNCTION→n.n,n.n` groups, `|` between functions |
-| `phases` | Rollout sequence, e.g. `[wk1-3] A+B → [wk4-8] C` |
+| Phase | What | When |
+|-------|------|------|
+| **A** | Summary + key insights (plain language, no taxonomy codes) | Always delivered first |
+| **B — report** | Full diagnostic: dimensional assessments, cross-lens tensions, BCW/BCT reasoning | On request |
+| **B — plan** | Phased action plan: concrete changes, owners, success signals, tool/AI recommendations | On request |
+
+The user can ask for both Phase B outputs, but the default is to deliver Phase A and let them pull.
 
 ---
 
-## Narrative sections ↔ steps
+## The assessment form
 
-| Section heading | Step |
-|-----------------|------|
-| **Step 1:** Classify the behavior state | 1 |
-| **Step 2:** Identify COM-B blockers | 2 |
-| **Step 3:** Deepen with lenses | 3 |
-| **Step 4:** Map to intervention functions | 4 |
-| **Step 5:** Select BCTs | 5 |
-| **Step 6:** Intervention design | 6 |
+The dimensional assessment form ([`assets/assessment-form-template.md`](../assets/assessment-form-template.md)) is the agent's internal working document. It serves triple duty:
 
-Body text under **The situation** is context only; it is not a numbered pipeline step.
+1. **Research scaffold** (Step 2): lists all dimensions with intervention bias annotations; agent fills in relevance, position, evidence
+2. **Synthesis input** (Step 3): agent reads back the form to spot cross-lens patterns
+3. **Intervention lookup** (Step 4): co-located bias annotations guide BCW function prioritization
+
+The form is internal by default. It can be surfaced in the Phase B in-depth report if the user asks.
 
 ---
 
@@ -83,17 +91,26 @@ Body text under **The situation** is context only; it is not a numbered pipeline
 
 | Need | File |
 |------|------|
-| States, per-state blockers, optional lever ideas | [`com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md`](com-b-bcw-bct/behavior-jtbd-maturity-diagnostic-cycle.md) |
-| Primary/secondary blocker cheat sheet | [`com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md`](com-b-bcw-bct/com-b-behavior-states-primary-secondary-blockers.md) |
-| COM-B abbreviations | [`com-b-bcw-bct/com-b-abbreviations-reference.md`](com-b-bcw-bct/com-b-abbreviations-reference.md) |
+| Assessment form scaffold + intervention bias annotations | [`assets/assessment-form-template.md`](../assets/assessment-form-template.md) |
+| B-lens: behavior states, per-state blockers, lever ideas | [`lenses/behavior-lenses.md`](lenses/behavior-lenses.md) |
+| C-lens: PC, PHC dimensions | [`lenses/capability-lenses.md`](lenses/capability-lenses.md) |
+| M-lens: RM, AM dimensions | [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md) |
+| O-lens: PO dimensions | [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md) |
+| O-lens: SO dimensions | [`lenses/social-opportunity-lenses.md`](lenses/social-opportunity-lenses.md) |
 | COM-B → BCW → BCT groupings | [`com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md`](com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) |
 | Full BCT taxonomy | [`com-b-bcw-bct/bct-taxonomy.md`](com-b-bcw-bct/bct-taxonomy.md) |
-| Lenses | [`lenses/capability-lenses.md`](lenses/capability-lenses.md), [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md), [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md), [`lenses/social-opportunity-lenses.md`](lenses/social-opportunity-lenses.md) |
+| COM-B abbreviations | [`com-b-bcw-bct/com-b-abbreviations-reference.md`](com-b-bcw-bct/com-b-abbreviations-reference.md) |
+| Primary/secondary blocker cheat sheet | [`lenses/behavior-lenses.md`](lenses/behavior-lenses.md) (see quick-reference table) |
 | Repo overview | [`README.md`](../README.md) |
 
 ---
 
 ## LLM / author notes
 
-- Run steps **in order**; later steps assume earlier outputs. Lens deepening (step 3) is where ambiguous COM-B codes become precise enough for BCT and intervention choices.
-- Do not treat the seven **behavior states** as a maturity ladder; see the diagnostic cycle text on regressions.
+- Run steps **in order**; later steps depend on earlier outputs.
+- Step 1 is not optional. A vague behavior definition produces a vague diagnosis. Coach the user until the definition is precise.
+- Step 2 uses four peer lenses (B, C, O, M). The behavior-state lens is not a gateway or prerequisite — it is one diagnostic frame among four.
+- The assessment form is the agent's primary working document for Steps 2–4. Read it once; fill it out during Step 2; read it back for Steps 3–4.
+- Do not treat the seven **behavior states** as a maturity ladder; behaviors regress when incentives, norms, or operating conditions shift.
+- Step 4 happens under the hood. The user does not need to see BCW/BCT taxonomy unless they request the in-depth report.
+- Deliver Phase A first. Wait for the user to choose before producing Phase B content.

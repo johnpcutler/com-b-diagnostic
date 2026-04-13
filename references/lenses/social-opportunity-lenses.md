@@ -21,13 +21,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **1.1** Descriptive norm signal: behavior appears uncommon -> behavior appears common
-- **1.2** Injunctive norm signal: behavior appears disapproved -> behavior appears approved
-- **1.3** Norm clarity: mixed normative cues -> clear normative cues
-- **1.4** Norm consistency: leader message conflicts with peer behavior -> aligned messaging and behavior
-- **1.5** Enforcement intensity: weak social reinforcement -> strong social reinforcement
-- **1.6** Norm volatility: unstable expectations -> stable expectations
-- **1.7** Deviance cost: low social cost for deviation -> high social cost for deviation
+- **SO.1.1** Descriptive norm signal: behavior appears uncommon -> behavior appears common
+- **SO.1.2** Injunctive norm signal: behavior appears disapproved -> behavior appears approved
+- **SO.1.3** Norm clarity: mixed normative cues -> clear normative cues
+- **SO.1.4** Norm consistency: leader message conflicts with peer behavior -> aligned messaging and behavior
+- **SO.1.5** Enforcement intensity: weak social reinforcement -> strong social reinforcement
+- **SO.1.6** Norm volatility: unstable expectations -> stable expectations
+- **SO.1.7** Deviance cost: low social cost for deviation -> high social cost for deviation
 
 **What it sees well:** Cases where behavior fails because local social reality contradicts formal intentions.
 
@@ -43,13 +43,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **2.1** Ownership clarity: ambiguous ownership -> clear ownership
-- **2.2** Decision-right clarity: contested authority -> explicit decision rights
-- **2.3** Boundary permeability: rigid silos -> collaborative boundary crossing
-- **2.4** Escalation path clarity: unclear escalation -> reliable escalation path
-- **2.5** Role conflict load: frequent conflicting expectations -> low conflict
-- **2.6** Accountability fit: responsibility without authority -> responsibility aligned with authority
-- **2.7** Handback reliability: dropped transitions -> reliable transitions
+- **SO.2.1** Ownership clarity: ambiguous ownership -> clear ownership
+- **SO.2.2** Decision-right clarity: contested authority -> explicit decision rights
+- **SO.2.3** Boundary permeability: rigid silos -> collaborative boundary crossing
+- **SO.2.4** Escalation path clarity: unclear escalation -> reliable escalation path
+- **SO.2.5** Role conflict load: frequent conflicting expectations -> low conflict
+- **SO.2.6** Accountability fit: responsibility without authority -> responsibility aligned with authority
+- **SO.2.7** Handback reliability: dropped transitions -> reliable transitions
 
 **What it sees well:** Why people avoid behavior that is technically possible but socially unauthorized.
 
@@ -65,13 +65,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **3.1** Trust density: low relational trust -> high relational trust
-- **3.2** Access to expertise: isolated actors -> well-connected actors
-- **3.3** Brokerage availability: few bridge actors -> multiple bridge pathways
-- **3.4** Network centralization: extreme bottleneck centrality -> distributed access
-- **3.5** Reciprocity norms: weak reciprocity -> strong reciprocity
-- **3.6** Sponsorship access: little sponsor protection -> strong sponsor support
-- **3.7** Cross-boundary ties: sparse cross-team ties -> rich cross-team ties
+- **SO.3.1** Trust density: low relational trust -> high relational trust
+- **SO.3.2** Access to expertise: isolated actors -> well-connected actors
+- **SO.3.3** Brokerage availability: few bridge actors -> multiple bridge pathways
+- **SO.3.4** Network centralization: extreme bottleneck centrality -> distributed access
+- **SO.3.5** Reciprocity norms: weak reciprocity -> strong reciprocity
+- **SO.3.6** Sponsorship access: little sponsor protection -> strong sponsor support
+- **SO.3.7** Cross-boundary ties: sparse cross-team ties -> rich cross-team ties
 
 **What it sees well:** Social-structure reasons behavior does not spread, sustain, or coordinate.
 
@@ -87,13 +87,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **4.1** Reward alignment: reward supports target behavior -> reward favors competing behavior
-- **4.2** Metric validity: meaningful indicators -> gaming-prone indicators
-- **4.3** Accountability symmetry: balanced accountability -> asymmetric accountability burden
-- **4.4** Short-vs-long horizon: long-horizon reinforcement -> short-term pressure dominates
-- **4.5** Recognition visibility: contributions visible -> contributions invisible
-- **4.6** Informal reinforcement: peer recognition supports behavior -> peer reinforcement undermines behavior
-- **4.7** Penalty risk: low penalty for trying -> high penalty for trying
+- **SO.4.1** Reward alignment: reward supports target behavior -> reward favors competing behavior
+- **SO.4.2** Metric validity: meaningful indicators -> gaming-prone indicators
+- **SO.4.3** Accountability symmetry: balanced accountability -> asymmetric accountability burden
+- **SO.4.4** Short-vs-long horizon: long-horizon reinforcement -> short-term pressure dominates
+- **SO.4.5** Recognition visibility: contributions visible -> contributions invisible
+- **SO.4.6** Informal reinforcement: peer recognition supports behavior -> peer reinforcement undermines behavior
+- **SO.4.7** Penalty risk: low penalty for trying -> high penalty for trying
 
 **What it sees well:** Why behavior is socially discouraged by incentive realities despite positive messaging.
 
@@ -109,13 +109,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **5.1** Legitimacy signal: behavior seen as illegitimate -> behavior seen as legitimate
-- **5.2** Meaning coherence: behavior seen as pointless -> behavior seen as meaningful
-- **5.3** Identity safety: behavior threatens identity/status -> behavior is identity-safe
-- **5.4** Reputational risk: high reputational exposure -> low reputational exposure
-- **5.5** Professional congruence: behavior viewed as unprofessional -> behavior viewed as professionally appropriate
-- **5.6** Narrative support: no compelling shared narrative -> strong shared narrative
-- **5.7** Symbolic alignment: behavior culturally dissonant -> behavior culturally consonant
+- **SO.5.1** Legitimacy signal: behavior seen as illegitimate -> behavior seen as legitimate
+- **SO.5.2** Meaning coherence: behavior seen as pointless -> behavior seen as meaningful
+- **SO.5.3** Identity safety: behavior threatens identity/status -> behavior is identity-safe
+- **SO.5.4** Reputational risk: high reputational exposure -> low reputational exposure
+- **SO.5.5** Professional congruence: behavior viewed as unprofessional -> behavior viewed as professionally appropriate
+- **SO.5.6** Narrative support: no compelling shared narrative -> strong shared narrative
+- **SO.5.7** Symbolic alignment: behavior culturally dissonant -> behavior culturally consonant
 
 **What it sees well:** The meaning/permission layer where people may be able to act but do not feel socially authorized to do so.
 
@@ -131,13 +131,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **6.1** Voice safety: speaking up is risky -> speaking up is safe
-- **6.2** Dissent tolerance: dissent punished -> dissent tolerated and used
-- **6.3** Political threat level: high threat of retaliation -> low threat
-- **6.4** Conflict handling quality: conflict personalized/suppressed -> conflict constructively managed
-- **6.5** Permission to experiment: experimentation punished -> experimentation protected
-- **6.6** Status asymmetry: steep status gradients -> manageable status gradients
-- **6.7** Transparency of rules: implicit opaque rules -> explicit predictable rules
+- **SO.6.1** Voice safety: speaking up is risky -> speaking up is safe
+- **SO.6.2** Dissent tolerance: dissent punished -> dissent tolerated and used
+- **SO.6.3** Political threat level: high threat of retaliation -> low threat
+- **SO.6.4** Conflict handling quality: conflict personalized/suppressed -> conflict constructively managed
+- **SO.6.5** Permission to experiment: experimentation punished -> experimentation protected
+- **SO.6.6** Status asymmetry: steep status gradients -> manageable status gradients
+- **SO.6.7** Transparency of rules: implicit opaque rules -> explicit predictable rules
 
 **What it sees well:** Why behavior is actively or passively suppressed by political conditions.
 
@@ -153,13 +153,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Dimensions it tends to foreground:**
 
-- **7.1** Local autonomy fit: units lack local control -> units have right-sized autonomy
-- **7.2** Coordination sufficiency: weak cross-unit coordination -> effective coordination channels
-- **7.3** Escalation viability: escalation blocked or politicized -> escalation usable and timely
-- **7.4** Governance recursion quality: disconnected levels -> coherent recursive alignment
-- **7.5** Policy-operational coherence: policy conflicts with operations -> policy enables operations
-- **7.6** Adaptation bandwidth: weak sensing/adaptation -> strong future-facing adaptation
-- **7.7** Identity-boundary clarity: unclear system purpose/boundary -> clear identity and boundary
+- **SO.7.1** Local autonomy fit: units lack local control -> units have right-sized autonomy
+- **SO.7.2** Coordination sufficiency: weak cross-unit coordination -> effective coordination channels
+- **SO.7.3** Escalation viability: escalation blocked or politicized -> escalation usable and timely
+- **SO.7.4** Governance recursion quality: disconnected levels -> coherent recursive alignment
+- **SO.7.5** Policy-operational coherence: policy conflicts with operations -> policy enables operations
+- **SO.7.6** Adaptation bandwidth: weak sensing/adaptation -> strong future-facing adaptation
+- **SO.7.7** Identity-boundary clarity: unclear system purpose/boundary -> clear identity and boundary
 
 **What it sees well:** Structural reasons a behavior works in pockets but fails to stabilize as a system practice.
 

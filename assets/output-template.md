@@ -1,109 +1,132 @@
-# Diagnostic report skeleton
+# Output template
 
-Use this as the **shape** of a COM-B diagnosis output. It mirrors the pattern in [`references/scenarios/`](../references/scenarios/). The **user does not fill this in**; the agent produces a report that follows this structure.
+Use this as the **shape** of a COM-B diagnosis output. The **user does not fill this in**; the agent produces output that follows this structure.
 
-**Purpose:** stable report shape, consistent long outputs, preserved sections, predictable formatting for any downstream use (paste into docs, tickets, or tools).
+**Purpose:** stable output shape, phased delivery, consistent formatting for downstream use (paste into docs, tickets, or tools).
 
 ---
 
 ## Conventions
 
-- **Lens dimensions:** cite stable IDs from the lens files (e.g. `PO 1.2`, `PC 1.3.4`, `RM 1.3.5`). PO/SO use `section.dimension`; PC/PHC/RM/AM use `sub-lens.dimension`.
+- **Lens dimensions:** cite stable IDs from the lens files (e.g. `PO.1.2`, `PC.1.3.4`, `RM.1.3.5`). PO/SO use `PO.n.m` / `SO.n.m`; PC/PHC use `PC.1.x.y` / `PHC.2.x.y`; RM/AM use `RM.1.x.y` / `AM.2.x.y`. Behavior-state classification uses **`S.1`–`S.7`**; state-scoped dimensions use **`S.n.k`**. See [`references/lenses/dimensional-ids.md`](references/lenses/dimensional-ids.md).
 - **BCW functions:** use abbreviations from the intervention mapping (e.g. `ED`, `ER`, `EN`).
-- **BCTs:** cite taxonomy numbers and names (e.g. `12.1 Restructuring the physical environment`).
-- **Primary blockers:** mark with `*` in digest `blockers` line where helpful.
+- **BCTs:** cite **`BCT.n.m`** IDs and names (e.g. `BCT.12.1 Restructuring the physical environment`).
 
 ---
 
-## Title
+## Phase A: Summary and key insights (always delivered first)
 
-```markdown
-# Scenario: "<short label for the situation>"
-```
+### Behavior definition
 
-One line that names the behavior-in-context (not a generic title).
+Restate the structured behavior definition from Step 1:
+
+- **Behavior:** ...
+- **Who:** ...
+- **Will do what:** ...
+- **To what extent:** ...
+- **In what context:** ...
+- **For what outcome:** ...
+
+### Summary
+
+1–2 paragraphs in plain language. No taxonomy codes. Answers "what's going on and what should I do?" as a trusted advisor would. Covers:
+- The core dynamic: what's preventing this behavior
+- The highest-leverage area for intervention
+- The recommended direction (not detailed steps — that's Phase B)
+
+### Key insights
+
+3–5 bullet points. Each is a specific finding — a tension, surprise, or highest-leverage point the diagnosis surfaced. Written so the user could repeat them to a colleague.
+
+### Offer
+
+After delivering Phase A, offer the user two paths:
+
+> I can go deeper in two ways:
+> - **In-depth report** — the full diagnostic with dimensional assessments, cross-lens analysis, and the BCW/BCT reasoning behind these recommendations
+> - **Action plan** — a concrete, phased plan with specific changes, owners, and success signals
+>
+> Which would be most useful? (You can also ask for both.)
 
 ---
 
-## Intro (one sentence)
+## Phase B — Option 1: In-depth report
 
-Point to the canonical pipeline, e.g. that the report follows [`references/flow.md`](../references/flow.md) and that the fenced block below is the **digest**.
+### Digest block
 
----
-
-## Digest block (required)
-
-Immediately after the intro, a **fenced code block** with **outputs only** — no prose. Same field names as scenarios so skims and diffs stay predictable.
-
-Use only `lenses.{branch}` keys for branches in play (omit empty branches).
+A fenced code block with compressed outputs — no prose. For quick scanning and diffing.
 
 ```text
 state      = S?: <full state name>
-blockers   = <codes>; * = primary, e.g. PO* AM SO | ...
-lenses.PC  = [id short-tag, ...]   # if PC in play
-lenses.PHC = [...]                 # if PHC in play
-lenses.PO  = [...]                 # if PO in play
-lenses.SO  = [...]                 # if SO in play
-lenses.RM  = [...]                 # if RM in play
-lenses.AM  = [...]                 # if AM in play
-functions  = <BCW order, use >> or > for emphasis if needed>
-bcts       = <FUNCTION→n.n,n.n | ...>
-phases     = <e.g. [wk1-3] A+B → [wk4-8] C>
+dimensions = <top dimensional findings, e.g. PC.1.2.1 low, PO.2.7 high, SO.4.1 low>
+tensions   = <cross-lens tensions, e.g. "C present but M absent">
+leverage   = <highest-leverage dimensions>
+functions  = <BCW function priority order>
+bcts       = <FUNCTION→BCT.n.m,BCT.n.m | ...>
 ```
 
----
+### Step 2: Lens analysis
 
-## The situation
+One sub-section per active lens:
 
-Context-only prose: what people do or fail to do, actors, environment, recent changes. **Not** a numbered pipeline step.
+#### Behavior state (B-lens)
+- State ID and full name (**S.1**–**S.7**)
+- Signals that matched
+- Why this state and not an adjacent one
 
----
+#### Capability findings
+- Relevant dimensions with positions and evidence
+- Sub-headings by sub-lens if multiple are active (e.g. `##### Mental models`, `##### Judgment`)
 
-## Step 1: Classify the behavior state
+#### Opportunity findings
+- Physical opportunity (PO) dimensions with positions and evidence
+- Social opportunity (SO) dimensions with positions and evidence
 
-- State ID and full name (S1–S7).
-- Signals from the diagnostic cycle that matched.
-- Why this state and not an adjacent one (brief).
+#### Motivation findings
+- Reflective motivation (RM) dimensions with positions and evidence
+- Automatic motivation (AM) dimensions with positions and evidence
 
----
+### Step 3: Cross-lens assessment
 
-## Step 2: Identify COM-B blockers
+- Tensions between lenses (with dimension IDs)
+- Reinforcements between lenses
+- Prioritization: which findings are highest-leverage and why
 
-- Primary blockers (with evidence tied to the situation).
-- Secondary blockers (with evidence).
-- Use sub-headings like **Primary blockers** / **Secondary blockers** when it helps readability.
+### Step 4: BCW and BCT reasoning
 
----
+- Table or list: dimensional findings → BCW functions (from intervention bias annotations + base mapping)
+- Consolidated priority order of functions with rationale
+- Named BCTs per function with how each applies to this case
 
-## Step 3: Deepen with lenses
+### Assessment form (optional appendix)
 
-- Opening line listing which lens files apply and ID format reminder (optional but matches scenarios).
-- One **sub-section per active COM-B branch** (e.g. `### Physical opportunity lenses`), with narrative paragraphs keyed to dimensional IDs.
+If the user asks to see the raw assessment, include the filled-out form with all relevant dimensions, positions, and evidence.
 
----
+### Framework observations
 
-## Step 4: Map to intervention functions
-
-- Table or list: COM-B blockers → applicable BCW functions (from intervention mapping).
-- **Consolidated priority order** of functions for this case, with rationale tied to lens dimensions.
-
----
-
-## Step 5: Select BCTs
-
-- Group by BCW function (sub-headings like `### Via ER -> Grouping 12 …`).
-- For each: technique number, name, and how it applies to this case.
+Reflections after the diagnosis: what the framework surfaced, tensions, gaps, or risks — not a repeat of earlier sections.
 
 ---
 
-## Step 6: Intervention design
+## Phase B — Option 2: Action plan
 
-- **Tool and design levers:** bulleted list of concrete changes keyed by COM-B branch; traceable to BCTs / functions.
-- **Phased rollout:** one sub-heading **per phase** (e.g. `### Phase 1: … (weeks …)`).
-- Each phase: **Focus** (which functions / dimensions), concrete actions with BCT numbers, owners if known, **advance signal** (what improves if the phase works).
+### Phased rollout
 
----
+One sub-section per phase (e.g. `### Phase 1: ... (weeks 1–3)`).
 
-## Framework observations
+Each phase includes:
+- **Focus:** which forces this phase addresses (in plain language, with dimension IDs parenthetical)
+- **Concrete changes:** specific actions — tools, process changes, environment changes, social structures
+- **Who owns it:** roles or teams responsible
+- **Success signals:** what improves if this phase works; how to know it's time to advance
 
-Reflections **after** the diagnosis: what the framework surfaced, tensions (e.g. primary vs secondary blockers), gaps, or risks — not a repeat of Steps 1–6.
+### Tool and AI recommendations
+
+- Specific tools, AI capabilities, or framework mappings that support the plan
+- How they connect to the intervention strategy
+
+### Risks and watchpoints
+
+- What could go wrong
+- What signals would indicate the plan needs adjustment
+- Regression risks (especially where behavior state could slide back)
