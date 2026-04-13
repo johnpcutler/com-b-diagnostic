@@ -53,6 +53,7 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.2.5** Transfer confidence: confidence is narrow -> confidence generalizes across settings
 - **RM.1.2.6** Source of efficacy: weak mastery/vicarious/persuasion support -> strong efficacy-building experience
 - **RM.1.2.7** Emotional interpretation: arousal feels disabling -> arousal feels manageable or mobilizing
+- **RM.1.2.8** Change efficacy: confident the behavior can be safely changed -> changing the behavior feels dangerous
 
 **What it sees well:** Situations where people value the behavior but doubt their ability to carry it through.
 
@@ -94,6 +95,7 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.4.5** Future-self pull: weak possible self -> strong possible self
 - **RM.1.4.6** Authenticity: performative adoption -> authentic endorsement
 - **RM.1.4.7** Reputation risk: low identity exposure -> high identity exposure
+- **RM.1.4.8** Identity-practice distance: identity and practice are aligned -> aspiration far exceeds practice
 
 **What it sees well:** Aspirational but weakly realized behaviors, professionalism questions, and situations where resistance is really about self-definition rather than simple preference.
 
@@ -183,6 +185,7 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 - **AM.2.3.5** Social-emotional intensity: low shame/pride/fear load -> high shame/pride/fear load
 - **AM.2.3.6** Interoceptive burden: low bodily discomfort -> high bodily discomfort
 - **AM.2.3.7** Emotion regulation capacity: reactions are manageable -> reactions easily dominate action
+- **AM.2.3.8** Displacement guilt: low guilt about skipping -> chronic guilt from repeated intention-action gaps
 
 **What it sees well:** Anxiety, discomfort, embarrassment, relief, and other hot motivators that make a behavior feel immediately hard or attractive.
 
@@ -254,7 +257,6 @@ Read next:
 - [capability-lenses.md](capability-lenses.md) for `PC` and `PHC` diagnosis before coding blockers
 - [physical-opportunity-lenses.md](physical-opportunity-lenses.md) for `PO` conditions that enable or block follow-through
 - [social-opportunity-lenses.md](social-opportunity-lenses.md) for `SO` conditions such as norms, legitimacy, and political safety
-- [behavior-lenses.md](behavior-lenses.md) for how `RM` and `AM` show up in behavior states
 - [com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families after motivational diagnosis
 
 ## References To Ground These Lenses

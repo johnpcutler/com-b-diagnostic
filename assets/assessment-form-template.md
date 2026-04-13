@@ -11,21 +11,21 @@ Internal working document for the agent. Serves triple duty:
 
 ---
 
-## B-LENS: Behavior State
+## Situational Orientation
 
-Classify using [`behavior-lenses.md`](../references/lenses/behavior-lenses.md).
+Before diving into the C/O/M lenses, identify which pattern best describes the current situation. This is a starting orientation — not a diagnostic finding. It helps prioritize which dimensions to explore first. The real analysis happens in the lens sections below.
 
-| ID | State | Signal | Relevant? | Match? | Evidence |
-|----|-------|--------|-----------|--------|----------|
-| S.1 | Fully Realized & Stable | Ritualized, reliable, trusted | | | |
-| S.2 | Realized but Friction-Filled | Mandatory but painful; environment is the enemy | | | |
-| S.3 | Partially Realized / Inconsistent | Exists in pockets; lacks alignment | | | |
-| S.4 | Weakly Realized | Agreed and valued, but continually displaced | | | |
-| S.5 | Aspirational Only | Identity-level desire without practice | | | |
-| S.6 | Actively Suppressed | Systemic forces prevent the behavior | | | |
-| S.7 | Contested / Undefined | No shared definition; conceptual ambiguity | | | |
+| Pattern | Signal | Diagnostic question | Match? | Evidence |
+|---------|--------|---------------------|--------|----------|
+| Fully Realized & Stable | Ritualized, reliable, trusted | Is this behavior working but hiding cost or blocking improvement? | | |
+| Realized but Friction-Filled | Mandatory but painful; environment is the enemy | Is the behavior happening but painful because the environment fights it? | | |
+| Partially Realized / Inconsistent | Exists in pockets; lacks alignment | Is the behavior happening in pockets but without alignment or consistency? | | |
+| Weakly Realized | Agreed and valued, but continually displaced | Is the behavior endorsed but continually displaced by competing priorities? | | |
+| Aspirational Only | Identity-level desire without practice | Is the behavior aspirational but lacking practice, infrastructure, or defined skill? | | |
+| Actively Suppressed | Systemic forces prevent the behavior | Is the behavior blocked by political, structural, or incentive-based forces? | | |
+| Contested / Undefined | No shared definition; conceptual ambiguity | Can people even agree on what the behavior is? | | |
 
-**Best-match state:** ___  **Confidence:** ___
+**Best-match pattern:** ___  **Confidence:** ___
 
 ---
 
@@ -104,6 +104,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PC.1.6.5 | Coordination literacy | weak understanding of who knows what → strong distributed understanding | ED, EN | | | |
 | PC.1.6.6 | Definition stability | unstable definitions → stable definitions | ED, ER | | | |
 | PC.1.6.7 | Cross-role interpretability | representations travel poorly → representations travel well | ED, ER | | | |
+| PC.1.6.8 | Behavior specification | "what good looks like" is clearly specified → "what good looks like" is undefined | ED, ER | | | |
 
 ### PC.1.7 — Supported Performance and Scaffolding
 
@@ -116,6 +117,7 @@ Source of truth: [`capability-lenses.md`](../references/lenses/capability-lenses
 | PC.1.7.5 | Feedback dependence | needs constant correction → self-corrects reliably | TR, EN | | | |
 | PC.1.7.6 | Transfer under support | support works only locally → support generalizes capability | TR | | | |
 | PC.1.7.7 | Fading readiness | support cannot be reduced → support can be faded | TR, EN | | | |
+| PC.1.7.8 | Bootstrap accessibility | easy entry points exist for first attempts → no accessible way to start | EN, ER | | | |
 
 ---
 
@@ -236,6 +238,8 @@ Source of truth: [`physical-opportunity-lenses.md`](../references/lenses/physica
 | PO.4.5 | Projection support | next state anticipatable → next state hard to foresee | ER, EN | | | |
 | PO.4.6 | Representation coherence | coherent displays/artifacts → fragmented representations | ER | | | |
 | PO.4.7 | Alert quality | useful alerts → noisy, fatiguing alerts | ER | | | |
+| PO.4.8 | Cost visibility | overhead costs are visible and tracked → overhead costs are invisible and tolerated | ER | | | |
+| PO.4.9 | Friction visibility | friction is visible and discussed → friction is normalized and invisible | ER | | | |
 
 ### PO.5 — Tooling and Interface Affordances
 
@@ -290,6 +294,8 @@ Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-op
 | SO.1.5 | Enforcement intensity | weak social reinforcement → strong social reinforcement | INC, ER | | | |
 | SO.1.6 | Norm volatility | unstable expectations → stable expectations | ER | | | |
 | SO.1.7 | Deviance cost | low social cost for deviation → high social cost for deviation | MO, RE | | | |
+| SO.1.8 | Practice entrenchment | practice is revisable → practice is ritually entrenched | ER, MO | | | |
+| SO.1.9 | Aspiration stability | organizational aspiration is durable → aspiration follows trends | ER | | | |
 
 ### SO.2 — Roles, Authority, and Boundary Clarity
 
@@ -350,6 +356,7 @@ Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-op
 | SO.6.5 | Permission to experiment | experimentation punished → experimentation protected | ER, EN | | | |
 | SO.6.6 | Status asymmetry | steep status gradients → manageable status gradients | ER | | | |
 | SO.6.7 | Transparency of rules | implicit opaque rules → explicit predictable rules | ER, ED | | | |
+| SO.6.8 | Refinement openness | established practices are open to improvement → established practices are closed to challenge | ER, EN | | | |
 
 ### SO.7 — Governance Viability and Recursion (Viable System Lens)
 
@@ -362,6 +369,8 @@ Source of truth: [`social-opportunity-lenses.md`](../references/lenses/social-op
 | SO.7.5 | Policy-operational coherence | policy conflicts with operations → policy enables operations | ER | | | |
 | SO.7.6 | Adaptation bandwidth | weak sensing/adaptation → strong future-facing adaptation | ER, EN | | | |
 | SO.7.7 | Identity-boundary clarity | unclear system purpose/boundary → clear identity and boundary | ER, ED | | | |
+| SO.7.8 | Cross-group consistency | consistent practice across groups → high practice variation across groups | ER, EN | | | |
+| SO.7.9 | Convergence direction | groups are converging on shared practice → groups are diverging further | ER, EN | | | |
 
 ---
 
@@ -392,6 +401,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 | RM.1.2.5 | Transfer confidence | confidence is narrow → confidence generalizes across settings | PE, TR | | | |
 | RM.1.2.6 | Source of efficacy | weak mastery/vicarious/persuasion support → strong efficacy-building experience | MO, TR | | | |
 | RM.1.2.7 | Emotional interpretation | arousal feels disabling → arousal feels manageable or mobilizing | PE | | | |
+| RM.1.2.8 | Change efficacy | confident the behavior can be safely changed → changing the behavior feels dangerous | PE, EN | | | |
 
 ### RM.1.3 — Expectancy-Value-Cost
 
@@ -417,6 +427,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 | RM.1.4.5 | Future-self pull | weak possible self → strong possible self | PE, MO | | | |
 | RM.1.4.6 | Authenticity | performative adoption → authentic endorsement | PE | | | |
 | RM.1.4.7 | Reputation risk | low identity exposure → high identity exposure | EN, ER | | | |
+| RM.1.4.8 | Identity-practice distance | identity and practice are aligned → aspiration far exceeds practice | PE, MO | | | |
 
 ### RM.1.5 — Goal Intentions and Implementation Intentions
 
@@ -471,6 +482,7 @@ Source of truth: [`motivation-lenses.md`](../references/lenses/motivation-lenses
 | AM.2.3.5 | Social-emotional intensity | low shame/pride/fear load → high shame/pride/fear load | EN, PE | | | |
 | AM.2.3.6 | Interoceptive burden | low bodily discomfort → high bodily discomfort | ER, EN | | | |
 | AM.2.3.7 | Emotion regulation capacity | reactions are manageable → reactions easily dominate action | EN, TR | | | |
+| AM.2.3.8 | Displacement guilt | low guilt about skipping → chronic guilt from repeated intention-action gaps | PE, ER | | | |
 
 ### AM.2.4 — Learned Helplessness and Perceived Uncontrollability
 

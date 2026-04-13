@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Run a structured behavioral diagnosis using COM-B, the Behavior Change Wheel, and BCT Taxonomy v1. Given a description of a stuck or problematic behavior, produce a traceable chain: structured behavior definition → dimensional lens analysis across B, C, O, M → cross-lens assessment → intervention functions → named techniques → actionable recommendations.
+Run a structured behavioral diagnosis using COM-B, the Behavior Change Wheel, and BCT Taxonomy v1. Given a description of a stuck or problematic behavior, produce a traceable chain: structured behavior definition → dimensional lens analysis across C, O, M → cross-lens assessment → intervention functions → named techniques → actionable recommendations.
 
 ## When to activate
 
@@ -32,13 +32,14 @@ Before any analysis, establish a precise behavior definition. Extract from the u
 
 If the user provides enough detail to fill this out, do so and confirm. If critical fields are missing (especially "will do what" and "to what extent"), ask before proceeding. A vague behavior definition produces a vague diagnosis.
 
-### Step 2 — Research behavior, capability, opportunity, and motivation
+### Step 2 — Research capability, opportunity, and motivation
 
 Read [`assets/assessment-form-template.md`](assets/assessment-form-template.md). This is your primary working document for the diagnosis. It lists every dimension from every lens file, with intervention bias annotations baked in.
 
-Apply four peer lenses to the defined behavior:
+Start with the **situational orientation** table at the top of the assessment form — identify which pattern best describes the current situation. This is a starting orientation, not a diagnostic finding.
 
-- **Behavior state** (B-lens): read [`references/lenses/behavior-lenses.md`](references/lenses/behavior-lenses.md). Match to one of seven states (**S.1**–**S.7**). These are a **cycle**, not a ladder — behaviors regress.
+Then apply three diagnostic lenses:
+
 - **Capability** (C-lens): PC, PHC dimensions from the form; deep definitions in [`references/lenses/capability-lenses.md`](references/lenses/capability-lenses.md) if needed.
 - **Opportunity** (O-lens): PO, SO dimensions from the form; deep definitions in [`references/lenses/physical-opportunity-lenses.md`](references/lenses/physical-opportunity-lenses.md) and [`references/lenses/social-opportunity-lenses.md`](references/lenses/social-opportunity-lenses.md) if needed.
 - **Motivation** (M-lens): RM, AM dimensions from the form; deep definitions in [`references/lenses/motivation-lenses.md`](references/lenses/motivation-lenses.md) if needed.
@@ -55,7 +56,7 @@ Read back the filled-out assessment form. Build a cross-lens assessment:
 - Where do lenses **reinforce** each other? (e.g. both opportunity and motivation point to the same bottleneck)
 - Which dimensional findings are **highest-leverage** for this specific situation?
 
-Produce a coherent diagnostic picture that connects the dots across all four lenses.
+Produce a coherent diagnostic picture that connects the dots across all three lenses.
 
 ### Step 4 — Convert to BCW and BCT recommendations
 
@@ -84,10 +85,9 @@ Follow the output skeleton in [`assets/output-template.md`](assets/output-templa
 1. **Start with behavior definition (Step 1).** Do not skip to analysis without a structured definition. Coach the user if needed.
 2. **Follow the pipeline order.** Later steps depend on earlier outputs. Do not jump to interventions without researching through lenses first.
 3. **Use the assessment form.** Read [`assets/assessment-form-template.md`](assets/assessment-form-template.md) as your primary working document. It contains all dimensions and intervention bias annotations in one place.
-4. **Treat all four lenses as peers.** The behavior-state lens is not a gateway or prerequisite. It is one diagnostic frame among four.
-5. **Do not assume higher states are better.** "Fully Realized & Stable" can mask brittleness and hidden cost.
-6. **Reason about transitions.** The cycle is not a maturity ladder. Behaviors regress when incentives, norms, or operating conditions shift. Different teams can be at different states for the same behavior.
-7. **Multi-actor situations:** do not stop at per-role analysis — trace handoffs and where one actor's output becomes another's input; failures often concentrate at interfaces.
-8. **Deliver Phase A first.** Do not produce the full report or action plan until the user asks. Let them pull.
-9. **Trace everything.** In the in-depth report, every intervention function should trace back to a dimensional position, every dimensional position to observed signals. If the chain breaks, the diagnosis is incomplete.
-10. **Name your sources.** When citing BCTs, use **`BCT.n.m`** IDs (see [`references/lenses/dimensional-ids.md`](references/lenses/dimensional-ids.md)). When citing lens dimensions, use the stable `PC` / `PHC` / `RM` / `AM` / `PO` / `SO` / `S` IDs.
+4. **Use the situational orientation, then the three lenses.** The pattern match is a starting orientation to prioritize dimensions — the real diagnosis comes from the C, O, and M lenses.
+5. **Do not assume higher patterns are better.** "Fully Realized & Stable" can mask brittleness and hidden cost. The seven patterns are a cycle, not a ladder — behaviors regress when conditions shift.
+6. **Multi-actor situations:** do not stop at per-role analysis — trace handoffs and where one actor's output becomes another's input; failures often concentrate at interfaces.
+7. **Deliver Phase A first.** Do not produce the full report or action plan until the user asks. Let them pull.
+8. **Trace everything.** In the in-depth report, every intervention function should trace back to a dimensional position, every dimensional position to observed signals. If the chain breaks, the diagnosis is incomplete.
+9. **Name your sources.** When citing BCTs, use **`BCT.n.m`** IDs (see [`references/lenses/dimensional-ids.md`](references/lenses/dimensional-ids.md)). When citing lens dimensions, use the stable `PC` / `PHC` / `RM` / `AM` / `PO` / `SO` IDs.

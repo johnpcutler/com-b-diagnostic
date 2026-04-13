@@ -155,6 +155,7 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.6.5** Coordination literacy: weak understanding of who knows what -> strong distributed understanding
 - **PC.1.6.6** Definition stability: unstable definitions -> stable definitions
 - **PC.1.6.7** Cross-role interpretability: representations travel poorly -> representations travel well
+- **PC.1.6.8** Behavior specification: "what good looks like" is clearly specified -> "what good looks like" is undefined
 
 **What it sees well:** Situations where people are not simply untrained, but are working from different meanings and incompatible conceptual objects.
 
@@ -177,6 +178,7 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.7.5** Feedback dependence: needs constant correction -> self-corrects reliably
 - **PC.1.7.6** Transfer under support: support works only locally -> support generalizes capability
 - **PC.1.7.7** Fading readiness: support cannot be reduced -> support can be faded
+- **PC.1.7.8** Bootstrap accessibility: easy entry points exist for first attempts -> no accessible way to start
 
 **What it sees well:** Learning-in-progress situations, guided workflows, job aids, and cases where capability is emerging but not yet consolidated.
 
@@ -361,7 +363,6 @@ Read next:
 - [motivation-lenses.md](motivation-lenses.md) for `RM` and `AM`
 - [physical-opportunity-lenses.md](physical-opportunity-lenses.md) for `PO` diagnosis of time, tools, workflow, and local environment
 - [social-opportunity-lenses.md](social-opportunity-lenses.md) for `SO` diagnosis of norms, incentives, legitimacy, and politics
-- [behavior-lenses.md](behavior-lenses.md) for how `PC` appears in states such as `Partially Realized / Inconsistent`, `Aspirational Only`, and `Contested / Undefined`
 - [com-b-to-bcw-intervention-function-mapping.md](../com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) for BCW intervention families after capability diagnosis
 
 ## References To Ground These Lenses

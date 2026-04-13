@@ -20,9 +20,8 @@ STEP 1  define_behavior()
             for_outcome // intended result
           }
 
-STEP 2  research_bcom()
-  READ    assets/assessment-form-template.md              // scaffold with all dimensions + intervention bias annotations
-          lenses/behavior-lenses.md                                 // B-lens: behavior state
+STEP 2  research_com()
+  READ    assets/assessment-form-template.md              // situational orientation + all dimensions + intervention bias annotations
           lenses/capability-lenses.md                     // C-lens: PC, PHC
           lenses/motivation-lenses.md                     // M-lens: RM, AM
           lenses/physical-opportunity-lenses.md            // O-lens: PO
@@ -79,7 +78,7 @@ The user can ask for both Phase B outputs, but the default is to deliver Phase A
 
 The dimensional assessment form ([`assets/assessment-form-template.md`](../assets/assessment-form-template.md)) is the agent's internal working document. It serves triple duty:
 
-1. **Research scaffold** (Step 2): lists all dimensions with intervention bias annotations; agent fills in relevance, position, evidence
+1. **Research scaffold** (Step 2): situational orientation plus all dimensions with intervention bias annotations; agent fills in relevance, position, evidence
 2. **Synthesis input** (Step 3): agent reads back the form to spot cross-lens patterns
 3. **Intervention lookup** (Step 4): co-located bias annotations guide BCW function prioritization
 
@@ -92,7 +91,6 @@ The form is internal by default. It can be surfaced in the Phase B in-depth repo
 | Need | File |
 |------|------|
 | Assessment form scaffold + intervention bias annotations | [`assets/assessment-form-template.md`](../assets/assessment-form-template.md) |
-| B-lens: behavior states, per-state blockers, lever ideas | [`lenses/behavior-lenses.md`](lenses/behavior-lenses.md) |
 | C-lens: PC, PHC dimensions | [`lenses/capability-lenses.md`](lenses/capability-lenses.md) |
 | M-lens: RM, AM dimensions | [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md) |
 | O-lens: PO dimensions | [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md) |
@@ -100,7 +98,6 @@ The form is internal by default. It can be surfaced in the Phase B in-depth repo
 | COM-B → BCW → BCT groupings | [`com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md`](com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) |
 | Full BCT taxonomy | [`com-b-bcw-bct/bct-taxonomy.md`](com-b-bcw-bct/bct-taxonomy.md) |
 | COM-B abbreviations | [`com-b-bcw-bct/com-b-abbreviations-reference.md`](com-b-bcw-bct/com-b-abbreviations-reference.md) |
-| Primary/secondary blocker cheat sheet | [`lenses/behavior-lenses.md`](lenses/behavior-lenses.md) (see quick-reference table) |
 | Repo overview | [`README.md`](../README.md) |
 
 ---
@@ -109,8 +106,7 @@ The form is internal by default. It can be surfaced in the Phase B in-depth repo
 
 - Run steps **in order**; later steps depend on earlier outputs.
 - Step 1 is not optional. A vague behavior definition produces a vague diagnosis. Coach the user until the definition is precise.
-- Step 2 uses four peer lenses (B, C, O, M). The behavior-state lens is not a gateway or prerequisite — it is one diagnostic frame among four.
+- Step 2 uses three diagnostic lenses (C, O, M) preceded by a situational orientation step at the top of the assessment form.
 - The assessment form is the agent's primary working document for Steps 2–4. Read it once; fill it out during Step 2; read it back for Steps 3–4.
-- Do not treat the seven **behavior states** as a maturity ladder; behaviors regress when incentives, norms, or operating conditions shift.
 - Step 4 happens under the hood. The user does not need to see BCW/BCT taxonomy unless they request the in-depth report.
 - Deliver Phase A first. Wait for the user to choose before producing Phase B content.

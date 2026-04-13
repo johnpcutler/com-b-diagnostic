@@ -2,7 +2,7 @@
 
 A detailed walkthrough of the five-step diagnostic pipeline and how the reference files connect.
 
-Built on the **COM-B model** (Michie, van Stralen & West), the **Behavior Change Wheel** (Michie, Atkins & West), and the **BCT Taxonomy v1** (Michie, Richardson, Johnston et al.). The diagnostic lenses draw from Deci & Ryan, Bandura, Klein, Kahneman & Tversky, Endsley, Norman, Cialdini, Edmondson, Beer, Vygotsky, and others across behavioral science, human factors, and organizational theory. The behavior states, blocker profiles, dimensional lens IDs, and product-level levers are original extensions. Full credits and sources in [`credits.md`](../credits.md).
+Built on the **COM-B model** (Michie, van Stralen & West), the **Behavior Change Wheel** (Michie, Atkins & West), and the **BCT Taxonomy v1** (Michie, Richardson, Johnston et al.). The diagnostic lenses draw from Deci & Ryan, Bandura, Klein, Kahneman & Tversky, Endsley, Norman, Cialdini, Edmondson, Beer, Vygotsky, and others across behavioral science, human factors, and organizational theory. The dimensional lens IDs and product-level levers are original extensions. Full credits and sources in [`credits.md`](../credits.md).
 
 ---
 
@@ -12,7 +12,7 @@ Every diagnosis follows the same ordered steps. Later steps depend on earlier ou
 
 ```
 Step 1  DEFINE BEHAVIOR              (user-facing, interactive)
-Step 2  RESEARCH B, C, O, M          (user-facing, interactive, dimension-level)
+Step 2  RESEARCH C, O, M             (user-facing, interactive, dimension-level)
 Step 3  SYNTHESIZE and ASSESS         (cross-lens topology)
 Step 4  CONVERT TO BCW/BCT RECS      (under the hood)
 Step 5  FRAME RECOMMENDATIONS         (user-facing, phased delivery)
@@ -50,20 +50,19 @@ This step establishes a structured, precise behavior definition that all later s
 
 **Output:** a canonical behavior definition that Steps 2–5 reference.
 
-### Step 2 — Research behavior, capability, opportunity, and motivation
+### Step 2 — Research capability, opportunity, and motivation
 
-This is the core analytical step. Four peer lenses are applied to the defined behavior. For each, the agent forms a perspective on specific dimensional scales through a mix of inference from the description and follow-up questions.
+This is the core analytical step. Before dimensional analysis, the agent uses the **Situational Orientation** table at the top of the assessment form to identify which of seven named patterns best describes the situation. That step is a triage aid, not a separate diagnostic lens.
 
-**Four peer lenses:**
+Then three diagnostic lenses are applied. For each, the agent forms a perspective on specific dimensional scales through a mix of inference from the description and follow-up questions.
+
+**Three diagnostic lenses:**
 
 | Lens | What it examines | Source file |
 |------|-----------------|-------------|
-| **Behavior state** (B-lens) | Where the behavior sits in its lifecycle: how reliably it happens, how aligned people are, how vulnerable it is to regression | [`lenses/behavior-lenses.md`](lenses/behavior-lenses.md) |
 | **Capability** (C-lens) | What people must know, perceive, judge, and physically do — PC and PHC | [`lenses/capability-lenses.md`](lenses/capability-lenses.md) |
 | **Opportunity** (O-lens) | Material/temporal conditions (PO) and social/political conditions (SO) | [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md), [`lenses/social-opportunity-lenses.md`](lenses/social-opportunity-lenses.md) |
 | **Motivation** (M-lens) | Reflective endorsement, identity, intentions (RM) and habits, affect, reinforcement (AM) | [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md) |
-
-The behavior-state lens is not a gateway or prerequisite. It is one diagnostic frame among four. Its blocker profiles are hypotheses to test against the C/O/M lenses, not predetermined conclusions.
 
 **The assessment form:**
 
@@ -76,7 +75,7 @@ The form is internal by default. Most situations will only activate a subset of 
 
 **Methods:** Asking (follow-up questions to probe ambiguous dimensions) and Inferring (from the behavior description and any provided artifacts). The lens dimensions often surface distinctions the user hasn't considered — e.g. whether a capability gap is about mental models or procedural fluency, whether motivation is about identity or habit, whether opportunity constraints are about tooling or norms.
 
-**ID scheme:** PO and SO use **PO.n.m** / **SO.n.m** (e.g. PO.2.1, SO.4.5). PC, PHC, RM, AM use dotted prefixes **PC.1.x.y**, **PHC.2.x.y**, **RM.1.x.y**, **AM.2.x.y**. Behavior-state classification uses **S.1–S.7**; state-scoped dimensions use **S.n.k**. See [lenses/dimensional-ids.md](lenses/dimensional-ids.md).
+**ID scheme:** PO and SO use **PO.n.m** / **SO.n.m** (e.g. PO.2.1, SO.4.5). PC, PHC, RM, AM use dotted prefixes **PC.1.x.y**, **PHC.2.x.y**, **RM.1.x.y**, **AM.2.x.y**. See [lenses/dimensional-ids.md](lenses/dimensional-ids.md).
 
 **Output:** a filled-out assessment form (internal), plus any follow-up questions surfaced to the user.
 
@@ -133,20 +132,12 @@ After delivering Phase A, the agent offers two paths:
 
 ```
 assets/assessment-form-template.md
-    All dimensions from all lens files + intervention bias annotations
+    Situational orientation + all dimensions from all lens files + intervention bias annotations
     Triple duty: research scaffold (Step 2), synthesis input (Step 3), intervention lookup (Step 4)
-
-lenses/behavior-lenses.md
-    B-lens: 7 behavior states, per-state blocker profiles, lever ideas
-    One of four peer lenses in Step 2 (lives alongside C, O, M lenses)
 
 com-b-bcw-bct/com-b-abbreviations-reference.md
     Defines: PC, PHC, PO, SO, RM, AM
     Referenced by: every other file
-
-lenses/behavior-lenses.md
-    B-lens with quick-reference table: state → primary/secondary blockers
-    (Consolidates the former behavior-jtbd-maturity-diagnostic-cycle.md and com-b-behavior-states-primary-secondary-blockers.md)
 
 com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md
     Bridges: COM-B codes → BCW functions → BCT groupings

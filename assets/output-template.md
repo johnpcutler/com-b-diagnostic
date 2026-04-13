@@ -8,7 +8,7 @@ Use this as the **shape** of a COM-B diagnosis output. The **user does not fill 
 
 ## Conventions
 
-- **Lens dimensions:** cite stable IDs from the lens files (e.g. `PO.1.2`, `PC.1.3.4`, `RM.1.3.5`). PO/SO use `PO.n.m` / `SO.n.m`; PC/PHC use `PC.1.x.y` / `PHC.2.x.y`; RM/AM use `RM.1.x.y` / `AM.2.x.y`. Behavior-state classification uses **`S.1`–`S.7`**; state-scoped dimensions use **`S.n.k`**. See [`references/lenses/dimensional-ids.md`](references/lenses/dimensional-ids.md).
+- **Lens dimensions:** cite stable IDs from the lens files (e.g. `PO.1.2`, `PC.1.3.4`, `RM.1.3.5`). PO/SO use `PO.n.m` / `SO.n.m`; PC/PHC use `PC.1.x.y` / `PHC.2.x.y`; RM/AM use `RM.1.x.y` / `AM.2.x.y`. See [`references/lenses/dimensional-ids.md`](references/lenses/dimensional-ids.md).
 - **BCW functions:** use abbreviations from the intervention mapping (e.g. `ED`, `ER`, `EN`).
 - **BCTs:** cite **`BCT.n.m`** IDs and names (e.g. `BCT.12.1 Restructuring the physical environment`).
 
@@ -57,7 +57,7 @@ After delivering Phase A, offer the user two paths:
 A fenced code block with compressed outputs — no prose. For quick scanning and diffing.
 
 ```text
-state      = S?: <full state name>
+pattern    = <situational orientation pattern name>
 dimensions = <top dimensional findings, e.g. PC.1.2.1 low, PO.2.7 high, SO.4.1 low>
 tensions   = <cross-lens tensions, e.g. "C present but M absent">
 leverage   = <highest-leverage dimensions>
@@ -69,10 +69,10 @@ bcts       = <FUNCTION→BCT.n.m,BCT.n.m | ...>
 
 One sub-section per active lens:
 
-#### Behavior state (B-lens)
-- State ID and full name (**S.1**–**S.7**)
+#### Situational orientation
+- Pattern name (from the assessment form orientation table)
 - Signals that matched
-- Why this state and not an adjacent one
+- How this orientation guided the lens analysis
 
 #### Capability findings
 - Relevant dimensions with positions and evidence
@@ -129,4 +129,4 @@ Each phase includes:
 
 - What could go wrong
 - What signals would indicate the plan needs adjustment
-- Regression risks (especially where behavior state could slide back)
+- Regression risks (especially where the situational pattern could slide back)

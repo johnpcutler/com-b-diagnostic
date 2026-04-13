@@ -94,6 +94,8 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.4.5** Projection support: next state anticipatable -> next state hard to foresee
 - **PO.4.6** Representation coherence: coherent displays/artifacts -> fragmented representations
 - **PO.4.7** Alert quality: useful alerts -> noisy, fatiguing alerts
+- **PO.4.8** Cost visibility: overhead costs are visible and tracked -> overhead costs are invisible and tolerated
+- **PO.4.9** Friction visibility: friction is visible and discussed -> friction is normalized and invisible
 
 **What it sees well:** Cases where people fail because critical information is not legible in the environment.
 

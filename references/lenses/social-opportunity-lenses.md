@@ -28,6 +28,8 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.1.5** Enforcement intensity: weak social reinforcement -> strong social reinforcement
 - **SO.1.6** Norm volatility: unstable expectations -> stable expectations
 - **SO.1.7** Deviance cost: low social cost for deviation -> high social cost for deviation
+- **SO.1.8** Practice entrenchment: practice is revisable -> practice is ritually entrenched
+- **SO.1.9** Aspiration stability: organizational aspiration is durable -> aspiration follows trends
 
 **What it sees well:** Cases where behavior fails because local social reality contradicts formal intentions.
 
@@ -138,6 +140,7 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.6.5** Permission to experiment: experimentation punished -> experimentation protected
 - **SO.6.6** Status asymmetry: steep status gradients -> manageable status gradients
 - **SO.6.7** Transparency of rules: implicit opaque rules -> explicit predictable rules
+- **SO.6.8** Refinement openness: established practices are open to improvement -> established practices are closed to challenge
 
 **What it sees well:** Why behavior is actively or passively suppressed by political conditions.
 
@@ -160,6 +163,8 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.7.5** Policy-operational coherence: policy conflicts with operations -> policy enables operations
 - **SO.7.6** Adaptation bandwidth: weak sensing/adaptation -> strong future-facing adaptation
 - **SO.7.7** Identity-boundary clarity: unclear system purpose/boundary -> clear identity and boundary
+- **SO.7.8** Cross-group consistency: consistent practice across groups -> high practice variation across groups
+- **SO.7.9** Convergence direction: groups are converging on shared practice -> groups are diverging further
 
 **What it sees well:** Structural reasons a behavior works in pockets but fails to stabilize as a system practice.
 

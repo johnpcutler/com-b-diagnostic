@@ -68,4 +68,4 @@ See each lens file's "References" section for full lineage per COM-B branch.
 
 ## Original contributions
 
-The seven behavior states, blocker profiles, per-state tool levers, lens dimensional IDs, and product-level mechanisms are original extensions of the models above, applied to the context of organizational behavior adoption and tool design.
+The seven situational orientation patterns, lens dimensional IDs, and product-level mechanisms are original extensions of the models above, applied to the context of organizational behavior adoption and tool design.

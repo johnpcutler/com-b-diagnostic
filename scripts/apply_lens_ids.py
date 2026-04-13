@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-off migration: prefixed lens dimension IDs (PC/PHC/S/RM/AM/PO/SO) with dotted notation."""
+"""One-off migration: prefixed lens dimension IDs (PC/PHC/RM/AM/PO/SO) with dotted notation."""
 from __future__ import annotations
 
 import re
@@ -30,20 +30,12 @@ def transform_so(text: str) -> str:
     return text
 
 
-def transform_behavior(text: str) -> str:
-    text = re.sub(r"\bS([1-7])\.([1-7])\b", r"S.\1.\2", text)
-    text = re.sub(r"\bS([1-7])\b", r"S.\1", text)
-    return text
-
-
 def transform_assessment_form(text: str) -> str:
     lines = text.splitlines(keepends=True)
     out: list[str] = []
     zone = "other"
     for line in lines:
-        if line.startswith("## B-LENS"):
-            zone = "B"
-        elif line.startswith("## C-LENS: Psychological"):
+        if line.startswith("## C-LENS: Psychological"):
             zone = "PC"
         elif line.startswith("## C-LENS: Physical"):
             zone = "PHC"
@@ -58,9 +50,7 @@ def transform_assessment_form(text: str) -> str:
         elif line.startswith("## Cross-lens") or line.startswith("## BCW"):
             zone = "other"
 
-        if zone == "B" and line.startswith("| S") and re.match(r"^\| S[1-7] \|", line.strip()):
-            line = re.sub(r"^\| S([1-7]) \|", r"| S.\1 |", line)
-        elif zone == "PC" and line.startswith("| 1."):
+        if zone == "PC" and line.startswith("| 1."):
             line = re.sub(r"^\| 1\.", "| PC.1.", line)
         elif zone == "PHC" and line.startswith("| 2."):
             line = re.sub(r"^\| 2\.", "| PHC.2.", line)
@@ -90,10 +80,6 @@ def transform_assessment_form(text: str) -> str:
 
 def transform_scenarios_and_guides(text: str) -> str:
     """Citations and digest lines in SKILL, guide, output-template, README."""
-    text = re.sub(r"\bS([1-7]):", r"S.\1:", text)
-    text = re.sub(r"state\s*=\s*S([1-7])\b", r"state = S.\1", text, flags=re.IGNORECASE)
-    text = re.sub(r"\*\*S([1-7])\.([1-7])\*\*", r"**S.\1.\2**", text)
-    text = re.sub(r"\bState S([1-7])\b", r"State S.\1", text)
     # Digest / shorthand hyphen codes → dotted
     text = re.sub(r"PO-(\d+\.\d+)", r"PO.\1", text)
     text = re.sub(r"SO-(\d+\.\d+)", r"SO.\1", text)
@@ -143,7 +129,6 @@ def main() -> None:
         (lens_dir / "motivation-lenses.md", transform_motivation),
         (lens_dir / "physical-opportunity-lenses.md", transform_po),
         (lens_dir / "social-opportunity-lenses.md", transform_so),
-        (lens_dir / "behavior-lenses.md", transform_behavior),
         (ROOT / "assets" / "assessment-form-template.md", transform_assessment_form),
     ]
     for path, fn in paths:
