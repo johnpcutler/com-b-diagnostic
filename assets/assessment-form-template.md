@@ -5,7 +5,7 @@ Internal working document for the agent. Serves triple duty:
 2. **Synthesis input** (Step 3): read back to spot cross-lens patterns
 3. **Intervention lookup** (Step 4): use co-located bias annotations to guide BCW function prioritization
 
-**How to use:** For each dimension, note whether it's relevant, where the situation lands, and what evidence supports that. Skip irrelevant dimensions — most situations activate a subset. The `bias` column shows which BCW functions to prioritize when that dimension is identified as a gap. **ID scheme:** see [`../references/lenses/dimensional-ids.md`](../references/lenses/dimensional-ids.md).
+**How to use:** For each dimension, note whether it's relevant, where the situation lands, and what evidence supports that. Skip irrelevant dimensions — most situations activate a subset. The `bias` column shows which BCW functions to prioritize when that dimension is identified as a gap. **ID scheme:** see [`../references/lenses/lens-map.md`](../references/lenses/lens-map.md).
 
 **Position scale:** low = strong gap / left end of the dimension's scale; mid = partial or mixed; high = no significant gap / right end of the scale. A dimension at "high" is generally not a blocker.
 

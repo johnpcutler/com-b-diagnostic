@@ -48,6 +48,25 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.1.6** Exception handling: normal cases only -> adaptable procedure across cases
 - **PC.1.1.7** Transfer readiness: narrow context competence -> competence that transfers
 
+#### Pattern guidance
+
+**Refs:** BCW: ED, EN, TR | BCT: 1.2, 2.2, 4.1, 4.4, 5.1, 5.3, 6.1, 7.1, 8.1, 8.2, 8.4, 8.6, 8.7, 12.5, 15.1, 15.3 | Dims: PC.1.1.1, PC.1.1.2, PC.1.1.4, PC.1.1.6, PC.1.1.7, PC.1.5.1, PC.1.7.1, RM.1.2.1, AM.2.1.1, PO.2.1, SO.1.1, SO.1.5 | Cross: AM-2.1-Habit, AM-2.4-Helplessness, PC-1.5-Meta, PC-1.7-Scaffold, PO-2-Resource, RM-1.2-Efficacy, SO-1-Norms
+
+**Primary BCW linkage:** ED and TR, implemented mainly through BCT group 4 (Shaping Knowledge) and BCT group 8 (Repetition and Substitution). ED addresses declarative gaps via BCT.4.1 (instruction on how to perform a behavior) and BCT.5.1 (information about health consequences). TR addresses procedural and fluency gaps via BCT.8.1 (behavioral practice/rehearsal), BCT.6.1 (demonstration of the behavior), and BCT.8.7 (graded tasks).
+
+**Shaping notes:**
+- When PC.1.1.1 (declarative knowledge) is low but PC.1.1.2 (procedural fluency) is adequate, the person can do it but doesn't understand why. ED is the gap, not TR. Use BCT.5.1 and BCT.5.3 (information about social and environmental consequences) to build understanding rather than adding more practice.
+- When PC.1.1.2 (procedural fluency) is low and AM.2.1.1 (automaticity) is already high for a competing behavior, the old procedure runs on autopilot. TR alone won't displace it; combine with BCT.8.4 (habit reversal) and BCT.8.2 (behavior substitution) -- see AM-2.1-Habit.
+- When PC.1.1.6 (exception handling) is low, BCT.1.2 (problem solving) and BCT.4.4 (behavioral experiments) build adaptive capability better than additional BCT.4.1 (instruction).
+- When PC.1.1.4 (skill stage) is early and PC.1.7.1 (independence) is low, scaffolded TR works: BCT.8.7 (graded tasks) with BCT.6.1 (demonstration). Don't expect independent performance yet -- see PC-1.7-Scaffold.
+- When PC.1.1.7 (transfer readiness) is low, practice in a single context won't generalize. Use BCT.8.6 (generalisation of a target behavior) across multiple contexts.
+
+**Redirecting notes:**
+- If RM.1.2.1 (efficacy belief) is very low, front-load BCT.15.1 (verbal persuasion about capability) and BCT.15.3 (focus on past success) before TR-heavy approaches. Training without efficacy support risks deepening learned helplessness -- see AM-2.4-Helplessness.
+- If PC.1.5.1 (calibration) shows overconfidence, ED may be resisted because the person thinks they already know. Start with BCT.2.2 (feedback on behaviour) to surface the gap before delivering BCT.4.1 (instruction).
+- If SO.1.1 (descriptive norm) signals the behavior is uncommon and SO.1.5 (enforcement intensity) actively discourages it, ED and TR alone will not stick. Address SO-1-Norms first.
+- If PO.2.1 (time availability) is very low, don't overload with extended TR programs. Use EN via BCT.12.5 (adding objects to the environment) and BCT.7.1 (prompts/cues) to embed knowledge at point of action instead.
+
 ### PC-1.2-Models: Mental Models / Situation Models
 
 **Core view of capability:** Capability depends on whether people hold a workable internal model of how the system, domain, or situation operates.
@@ -67,6 +86,23 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.2.5** Model completeness: important factors omitted -> relevant factors integrated
 - **PC.1.2.6** Framing quality: poor framing -> appropriate framing
 - **PC.1.2.7** Updateability: rigid model -> revisable and adaptive model
+
+#### Pattern guidance
+
+**Refs:** BCW: ED, EN, PE | BCT: 2.2, 2.7, 4.1, 4.3, 4.4, 13.2, 13.3 | Dims: PC.1.1.1, PC.1.2.1, PC.1.2.4, PC.1.2.6, PC.1.2.7, PC.1.5.1, PC.1.6.2, AM.2.1.1 | Cross: AM-2.1-Habit, PC-1.1-Knowledge, PC-1.5-Meta, PC-1.6-Shared
+
+**Primary BCW linkage:** ED and EN. ED addresses model errors via BCT.4.3 (re-attribution) and BCT.4.4 (behavioral experiments) to surface and correct faulty causal reasoning. EN makes model-outcome links visible via BCT.2.7 (feedback on outcomes of behavior).
+
+**Shaping notes:**
+- When PC.1.2.1 (model accuracy) is low but PC.1.1.1 (declarative knowledge) is adequate, the person has facts but the wrong causal picture. BCT.4.1 (instruction) on facts won't help. Use BCT.4.4 (behavioral experiments) to surface model errors and BCT.4.3 (re-attribution) to correct causal reasoning.
+- When PC.1.2.4 (dynamical understanding) is low, static explanations won't build dynamic understanding. Use BCT.4.4 (behavioral experiments) and BCT.2.7 (feedback on outcomes) to reveal how the system behaves over time.
+- When PC.1.2.7 (updateability) is low, the model is rigid and resists new information. BCT.13.3 (incompatible beliefs) to create productive dissonance, followed by BCT.4.3 (re-attribution).
+- When PC.1.2.6 (framing quality) is poor, the person may have facts but organizes them around the wrong frame. PE via BCT.13.2 (framing/reframing) before adding more ED content.
+
+**Redirecting notes:**
+- If PC.1.5.1 (calibration) shows the person is confident their model is correct, direct ED will be dismissed. Surface the gap first with BCT.2.2 (feedback on behaviour) or BCT.4.4 (behavioral experiments) -- see PC-1.5-Meta.
+- If PC.1.6.2 (conceptual alignment) is low across a team, fixing one person's model won't help if the group operates from incompatible frames. Address PC-1.6-Shared first.
+- If AM.2.1.1 (automaticity) is high, the person acts from habit, not from their model at all. Model correction (ED) won't change automated behavior -- address AM-2.1-Habit.
 
 ### PC-1.3-Judgment: Judgment and Decision Competence
 
@@ -88,6 +124,23 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.3.6** Time-pressure competence: quality collapses under pressure -> quality is sustained
 - **PC.1.3.7** Tradeoff handling: poor tradeoff reasoning -> strong tradeoff reasoning
 
+#### Pattern guidance
+
+**Refs:** BCW: EN, TR | BCT: 1.2, 2.2, 4.1, 4.3, 4.4, 6.1, 8.1 | Dims: PC.1.2.1, PC.1.3.1, PC.1.3.3, PC.1.3.4, PC.1.3.5, PC.1.3.6, PO.4.1, SO.6.5 | Cross: PC-1.2-Models, PO-4-Visibility, SO-6-Power
+
+**Primary BCW linkage:** TR and EN. TR builds judgment through BCT.8.1 (behavioral practice/rehearsal) in realistic scenarios with BCT.2.2 (feedback on behaviour). EN supports judgment via BCT.1.2 (problem solving) and BCT.6.1 (demonstration) from experts to make tacit reasoning visible.
+
+**Shaping notes:**
+- When PC.1.3.1 (judgment demand) is high but PC.1.3.4 (recognition competence) is low, the person faces many consequential choices without strong pattern recognition. TR via BCT.8.1 (practice) in realistic scenarios with BCT.2.2 (feedback) builds recognition over time. BCT.6.1 (demonstration) from experts makes tacit judgment visible.
+- When PC.1.3.5 (rule dependence) is high, rigid rule-following breaks down in novel cases. BCT.4.4 (behavioral experiments) builds flexible judgment; BCT.1.2 (problem solving) builds adaptive reasoning beyond rules.
+- When PC.1.3.6 (time-pressure competence) is low, judgment quality collapses under pressure. TR must include realistic time pressure via BCT.8.1 under task conditions, not just knowledge delivery at leisure.
+- When PC.1.3.3 (heuristic quality) is poor, misleading shortcuts dominate. BCT.4.3 (re-attribution) to surface the faulty heuristic, then BCT.4.1 (instruction) for better decision rules.
+
+**Redirecting notes:**
+- If PC.1.2.1 (model accuracy) is low, improving judgment won't help when the person reasons well from the wrong model. Fix PC-1.2-Models first.
+- If SO.6.5 (permission to experiment) is low, people can't practice judgment without risk of punishment for errors. Address SO-6-Power first.
+- If PO.4.1 (signal surfacing) is poor, judgment may fail because critical information isn't visible at point of decision. Address PO-4-Visibility before attributing the gap to judgment competence.
+
 ### PC-1.4-Signal: Signal Detection and Pattern Recognition
 
 **Core view of capability:** Capability often depends on whether people can perceive weak, noisy, rare, or ambiguous signals and recognize meaningful patterns quickly enough to act.
@@ -108,6 +161,23 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.4.6** Case familiarity: unfamiliar cases dominate -> familiar patterns are recognized quickly
 - **PC.1.4.7** Comparison burden: little comparison needed -> many comparisons needed
 
+#### Pattern guidance
+
+**Refs:** BCW: EN, TR | BCT: 2.2, 4.2, 6.1, 7.1, 8.1, 8.6, 12.5 | Dims: PC.1.4.1, PC.1.4.3, PC.1.4.4, PC.1.4.5, PC.1.4.7, PC.1.5.1, PHC.2.3.4, PO.4.1 | Cross: PC-1.5-Meta, PHC-2.3-Fatigue, PO-4-Visibility
+
+**Primary BCW linkage:** TR and EN. TR builds perceptual skill via BCT.8.1 (behavioral practice/rehearsal) with BCT.2.2 (feedback on behaviour) across varied cases. EN amplifies weak signals via BCT.12.5 (adding objects to the environment) and BCT.7.1 (prompts/cues).
+
+**Shaping notes:**
+- When PC.1.4.1 (signal strength) is weak and PC.1.4.3 (detection sensitivity) is low, the signal exists but people can't perceive it. Two approaches: TR via BCT.8.1 (practice) with BCT.2.2 (feedback) to build perceptual skill, or EN via BCT.12.5 (adding objects) to amplify the signal in the environment.
+- When PC.1.4.4 (false-alarm balance) is overcautious, people detect too many non-signals. BCT.2.2 (feedback on behaviour) calibrates the threshold; BCT.4.2 (information about antecedents) helps distinguish true signals from noise.
+- When PC.1.4.5 (pattern repertoire) is small, expertise-level pattern recognition is missing. TR via BCT.6.1 (demonstration) from experts with BCT.8.1 (practice) across varied cases. BCT.8.6 (generalisation of a target behavior) extends recognition to new contexts.
+- When PC.1.4.7 (comparison burden) is high, EN via BCT.12.5 (adding objects) such as checklists, overlays, or reference materials reduces the cognitive load of comparison.
+
+**Redirecting notes:**
+- If PO.4.1 (signal surfacing) is poor, the signal isn't available in the environment regardless of the person's detection skill. Address PO-4-Visibility before investing in perceptual TR.
+- If PHC.2.3.4 (performance drift) is high from fatigue, detection sensitivity degrades over time regardless of training. Address PHC-2.3-Fatigue.
+- If PC.1.5.1 (calibration) is poor, the person may think they're detecting well when they're not. BCT.2.2 (feedback on behaviour) to calibrate before more TR.
+
 ### PC-1.5-Meta: Metacognition and Calibration
 
 **Core view of capability:** Capability includes the ability to monitor one's own understanding, detect uncertainty, regulate effort, and calibrate confidence against actual performance.
@@ -127,6 +197,23 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.5.5** Uncertainty awareness: uncertainty is hidden from self -> uncertainty is noticed
 - **PC.1.5.6** Help-seeking readiness: rarely seeks correction -> seeks correction appropriately
 - **PC.1.5.7** Reflective control: poor regulation of strategy -> strong regulation of strategy
+
+#### Pattern guidance
+
+**Refs:** BCW: ED, EN, MO, TR | BCT: 2.2, 2.3, 3.1, 4.2, 4.4, 6.3 | Dims: PC.1.5.1, PC.1.5.3, PC.1.5.4, PC.1.5.6, AM.2.3.5, PO.2.4, SO.6.1 | Cross: AM-2.3-Affect, PO-2-Resource, SO-6-Power
+
+**Primary BCW linkage:** ED and TR. ED uses BCT.4.2 (information about antecedents) to build awareness of own cognitive patterns. TR uses BCT.2.3 (self-monitoring of behaviour) and BCT.2.2 (feedback on behaviour) to develop self-assessment accuracy.
+
+**Shaping notes:**
+- When PC.1.5.1 (calibration) is poor in the overconfident direction, the person doesn't know they don't know. BCT.2.2 (feedback on behaviour) makes the accuracy gap visible. BCT.4.4 (behavioral experiments) creates "surprise" moments that update self-assessment.
+- When PC.1.5.3 (error detection) is weak, TR via BCT.2.3 (self-monitoring of behaviour) with structured reflection builds error-catching capacity. BCT.2.2 (feedback on behaviour) provides the external check.
+- When PC.1.5.6 (help-seeking readiness) is low, the person doesn't seek correction. BCT.6.3 (information about others' approval) normalizes help-seeking; EN via BCT.3.1 (social support) makes it accessible.
+- Metacognition gates many other capability interventions: if PC.1.5.1 (calibration) shows the person is confidently wrong, ED, TR, and MO directed at other sub-lenses may be rejected. Surface the calibration gap first.
+
+**Redirecting notes:**
+- If SO.6.1 (voice safety) is low, people won't admit uncertainty or seek help regardless of metacognitive skill. Address SO-6-Power first.
+- If AM.2.3.5 (social-emotional intensity) is high, admitting errors triggers shame. Address AM-2.3-Affect before expecting open self-monitoring.
+- If PC.1.5.4 (effort allocation) is poorly targeted but PO.2.4 (competing urgency) is high, the root cause may be environmental -- too many competing demands, not poor self-regulation. Address PO-2-Resource.
 
 ### PC-1.6-Shared: Shared Representations and Conceptual Alignment
 
@@ -149,6 +236,23 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.6.7** Cross-role interpretability: representations travel poorly -> representations travel well
 - **PC.1.6.8** Behavior specification: "what good looks like" is clearly specified -> "what good looks like" is undefined
 
+#### Pattern guidance
+
+**Refs:** BCW: ED, EN | BCT: 1.1, 3.2, 4.1, 6.1, 12.5 | Dims: PC.1.6.1, PC.1.6.4, PC.1.6.5, PC.1.6.7, PC.1.6.8, PO.5.1, SO.1.4, SO.2.1 | Cross: PO-5-Tooling, SO-1-Norms, SO-2-Roles
+
+**Primary BCW linkage:** ED and EN. ED establishes shared definitions via BCT.4.1 (instruction on how to perform a behavior). EN builds team-level alignment via BCT.3.2 (social support, practical), BCT.12.5 (adding objects to the environment) such as shared glossaries and boundary objects, and BCT.1.1 (goal setting, behavior) for shared reference.
+
+**Shaping notes:**
+- When PC.1.6.1 (shared language) is low, different terms for the same thing create coordination failures. ED via BCT.4.1 to establish common definitions, reinforced with BCT.12.5 (adding objects) such as shared glossaries or reference artifacts.
+- When PC.1.6.4 (common ground) is low and PC.1.6.5 (coordination literacy) is weak, people don't know who knows what. EN via BCT.3.2 (social support, practical) and structured knowledge-sharing practices build transactive memory.
+- When PC.1.6.8 (behavior specification) is undefined, people can't coordinate because "what good looks like" isn't shared. BCT.1.1 (goal setting, behavior) with BCT.6.1 (demonstration) establishes shared reference.
+- When PC.1.6.7 (cross-role interpretability) is low, representations travel poorly across roles. BCT.6.1 (demonstration) across roles and BCT.4.1 (instruction) using boundary objects that translate between perspectives.
+
+**Redirecting notes:**
+- If SO.2.1 (ownership clarity) is low, shared representations fragment because nobody owns the shared artifact. Address SO-2-Roles first.
+- If SO.1.4 (norm consistency) is low, different groups may protect incompatible definitions as identity markers. Address SO-1-Norms.
+- If PO.5.1 (affordance clarity) is poor in shared tools, tools force incompatible representations. Address PO-5-Tooling.
+
 ### PC-1.7-Scaffold: Supported Performance and Scaffolding
 
 **Core view of capability:** Capability can exist partially or conditionally: a person may not be able to perform independently yet, but may perform competently with prompts, examples, checklists, or guidance.
@@ -169,6 +273,23 @@ Psychological capability concerns what a person must be able to understand, perc
 - **PC.1.7.6** Transfer under support: support works only locally -> support generalizes capability
 - **PC.1.7.7** Fading readiness: support cannot be reduced -> support can be faded
 - **PC.1.7.8** Bootstrap accessibility: easy entry points exist for first attempts -> no accessible way to start
+
+#### Pattern guidance
+
+**Refs:** BCW: EN, TR | BCT: 3.2, 7.1, 7.3, 8.1, 8.7, 12.5, 15.1, 15.3 | Dims: PC.1.7.1, PC.1.7.2, PC.1.7.3, PC.1.7.7, PC.1.7.8, RM.1.2.1, AM.2.4.1, PO.5.1 | Cross: AM-2.4-Helplessness, PO-5-Tooling, RM-1.2-Efficacy
+
+**Primary BCW linkage:** EN and TR. EN provides scaffolding via BCT.7.1 (prompts/cues), BCT.12.5 (adding objects to the environment), and BCT.3.2 (social support, practical). TR builds toward independence via BCT.8.7 (graded tasks) and BCT.8.1 (behavioral practice/rehearsal).
+
+**Shaping notes:**
+- When PC.1.7.1 (independence) is low but PC.1.7.2 (scaffold sensitivity) shows light support works, the person is close to independence. EN via BCT.7.1 (prompts/cues) maintains performance while BCT.7.3 (reduce prompts/cues) begins fading.
+- When PC.1.7.3 (prompt dependence) is high, action doesn't self-initiate. BCT.7.1 (prompts/cues) embedded in the workflow keeps behavior going while TR via BCT.8.7 (graded tasks) builds toward self-initiation.
+- When PC.1.7.7 (fading readiness) is low, support cannot be reduced yet. Don't rush to remove scaffolds -- continue EN and extend TR duration.
+- When PC.1.7.8 (bootstrap accessibility) is low, there's no accessible way to start. EN via BCT.12.5 (adding objects) and BCT.3.2 (social support, practical) to create entry points. BCT.8.7 (graded tasks) lowers the initial difficulty bar.
+
+**Redirecting notes:**
+- If RM.1.2.1 (efficacy belief) is low and declining, scaffold removal may feel like abandonment. Front-load BCT.15.1 (verbal persuasion about capability) and BCT.15.3 (focus on past success) during fading -- see RM-1.2-Efficacy.
+- If PO.5.1 (affordance clarity) is poor, scaffolding tools themselves may be hard to use. Address PO-5-Tooling.
+- If AM.2.4.1 (perceived controllability) is low, the person may not engage with scaffolded practice at all. Address AM-2.4-Helplessness first.
 
 ## 2. Physical Capability
 
@@ -201,6 +322,23 @@ It is strongest when the diagnostic question is some version of:
 - **PHC.2.1.6** Consistency: variable execution -> reliable execution
 - **PHC.2.1.7** Error correction: repeated uncorrected errors -> adaptive correction
 
+#### Pattern guidance
+
+**Refs:** BCW: EN, TR | BCT: 2.2, 6.1, 7.1, 8.1, 8.6, 8.7, 12.5, 15.1 | Dims: PHC.2.1.1, PHC.2.1.4, PHC.2.1.5, PHC.2.1.7, PHC.2.3.2, RM.1.2.1, PO.6.4 | Cross: PHC-2.3-Fatigue, PO-6-PhysEnv, RM-1.2-Efficacy
+
+**Primary BCW linkage:** TR and EN. TR builds motor skill via BCT.8.1 (behavioral practice/rehearsal) with BCT.6.1 (demonstration) and BCT.8.7 (graded tasks). EN supports acquisition via BCT.2.2 (feedback on behaviour) and BCT.12.5 (adding objects to the environment).
+
+**Shaping notes:**
+- When PHC.2.1.1 (skill stage) is early, TR via BCT.8.1 (practice) with BCT.6.1 (demonstration) and frequent BCT.2.2 (feedback on behaviour). At this stage, feedback should be immediate and specific.
+- When PHC.2.1.4 (retention) is weak, practice should be spaced rather than massed. BCT.8.1 (practice) with spaced intervals, supported by BCT.7.1 (prompts/cues) as reminders to practice.
+- When PHC.2.1.5 (transfer) is limited, skill stays context-bound. BCT.8.6 (generalisation of a target behavior) with practice across varied settings.
+- When PHC.2.1.7 (error correction) is poor, repeated uncorrected errors entrench bad movement patterns. BCT.2.2 (feedback on behaviour) focused on error correction before more practice volume.
+
+**Redirecting notes:**
+- If PHC.2.3.2 (fatigue load) is high, practice sessions degrade skill rather than building it. Manage PHC-2.3-Fatigue with adequate rest intervals.
+- If RM.1.2.1 (efficacy belief) is low, physical practice failures reinforce doubt. Front-load BCT.15.1 (verbal persuasion about capability) and BCT.8.7 (graded tasks) to ensure early success -- see RM-1.2-Efficacy.
+- If PO.6.4 (posture and reach demand) is extreme, the task environment makes practice uncomfortable. Address PO-6-PhysEnv.
+
 ### PHC-2.2-Coordination: Motor Control and Coordination
 
 **Core view of capability:** Physical capability includes how well movement is organized, stabilized, and coordinated under the actual demands of the task.
@@ -220,6 +358,23 @@ It is strongest when the diagnostic question is some version of:
 - **PHC.2.2.5** Dual-task interference: strong interference -> low interference
 - **PHC.2.2.6** Timing precision: rough timing -> precise timing
 - **PHC.2.2.7** Fine-vs-gross motor demand: mostly gross -> heavily fine-motor
+
+#### Pattern guidance
+
+**Refs:** BCW: EN, TR | BCT: 2.2, 6.1, 8.1, 12.5, 12.6 | Dims: PHC.2.2.4, PHC.2.2.5, PHC.2.2.6, PHC.2.2.7, PHC.2.3.1, PHC.2.5.1, PO.5.7 | Cross: PHC-2.3-Fatigue, PHC-2.5-Ergo, PO-5-Tooling
+
+**Primary BCW linkage:** TR and EN. TR builds coordination via BCT.8.1 (behavioral practice/rehearsal) and BCT.6.1 (demonstration). EN supports precision via BCT.12.5 (adding objects to the environment) such as guides or stabilizers and BCT.12.6 (body changes).
+
+**Shaping notes:**
+- When PHC.2.2.5 (dual-task interference) is high, coordination collapses when attention is split. TR via BCT.8.1 (practice) under progressively realistic dual-task conditions -- don't train components in isolation only.
+- When PHC.2.2.6 (timing precision) demands are high, TR must include timing-specific BCT.8.1 (practice) with BCT.2.2 (feedback on behaviour) focused on temporal accuracy.
+- When PHC.2.2.4 (variability) is high, movements are inconsistent. BCT.8.1 (practice) with BCT.2.2 (feedback) on consistency. Once consistency is adequate, controlled variability becomes adaptive.
+- When PHC.2.2.7 (fine-vs-gross motor demand) is heavily fine-motor, EN via BCT.12.5 (adding objects) such as guides, stabilizers, or magnification supports precision.
+
+**Redirecting notes:**
+- If PHC.2.3.1 (endurance) is short-lived, coordination degrades before sufficient practice accumulates. Manage PHC-2.3-Fatigue.
+- If PO.5.7 (automation fit) is poor, tools interfere with natural coordination. Address PO-5-Tooling.
+- If PHC.2.5.1 (posture demand) forces awkward positions, coordination is impaired by the task setup rather than the person's skill. Address PHC-2.5-Ergo.
 
 ### PHC-2.3-Fatigue: Work Physiology, Fatigue, and Recovery
 
@@ -241,6 +396,23 @@ It is strongest when the diagnostic question is some version of:
 - **PHC.2.3.6** Freshness requirement: performance robust when fatigued -> performance requires freshness
 - **PHC.2.3.7** Shift tolerance: stable across shifts -> strong decline across shifts
 
+#### Pattern guidance
+
+**Refs:** BCW: EN, ER | BCT: 1.4, 2.3, 11.2, 12.1 | Dims: PHC.2.3.3, PHC.2.3.4, PHC.2.3.5, PHC.2.3.6, AM.2.3.6, PO.2.1, SO.4.4 | Cross: AM-2.3-Affect, PO-2-Resource, SO-4-Incentives
+
+**Primary BCW linkage:** EN and ER. EN addresses fatigue through BCT.1.4 (action planning) for pacing strategies and BCT.11.2 (reduce negative emotions / stress management). ER restructures work patterns via BCT.12.1 (restructuring the physical environment) for task rotation and break design.
+
+**Shaping notes:**
+- When PHC.2.3.4 (performance drift) is high, quality degrades over time. ER via BCT.12.1 (restructuring physical environment) to rotate tasks or introduce breaks. BCT.1.4 (action planning) for pacing strategies.
+- When PHC.2.3.5 (acute-vs-chronic strain) is high cumulative burden, short-term fixes don't address accumulation. EN requires systemic schedule redesign, not just individual coping -- crosses into PO-2-Resource (time/staffing).
+- When PHC.2.3.6 (freshness requirement) is high, performance demands freshness. BCT.1.4 (action planning) to schedule critical tasks when fresh; ER to redesign task ordering.
+- When PHC.2.3.3 (recovery speed) is slow, recovery intervals must be longer. BCT.2.3 (self-monitoring of behaviour) to track fatigue signals; BCT.11.2 to build recovery practices.
+
+**Redirecting notes:**
+- If PO.2.1 (time availability) is chronically scarce, fatigue management is impossible without addressing PO-2-Resource. No amount of individual coping compensates for systemic understaffing.
+- If AM.2.3.6 (interoceptive burden) is high, the person may already be in pain or discomfort. Address AM-2.3-Affect alongside physical recovery.
+- If SO.4.4 (short-vs-long horizon) pressure dominates, people push through fatigue to meet short-term targets. Realign SO-4-Incentives to protect recovery.
+
 ### PHC-2.4-Function: Functional Motor Performance
 
 **Core view of capability:** Physical capability can be assessed in terms of whether someone can complete bounded, concrete physical actions safely and reliably.
@@ -261,6 +433,23 @@ It is strongest when the diagnostic question is some version of:
 - **PHC.2.4.6** Safety margin: narrow safety margin -> strong safety margin
 - **PHC.2.4.7** Reliability of execution: inconsistent performance -> dependable performance
 
+#### Pattern guidance
+
+**Refs:** BCW: EN, TR | BCT: 8.1, 8.7, 12.1, 12.5, 12.6, 15.1 | Dims: PHC.2.4.1, PHC.2.4.2, PHC.2.4.5, PHC.2.4.6, PHC.2.4.7, PHC.2.5.1, PHC.2.5.3, RM.1.2.1, AM.2.4.1 | Cross: AM-2.4-Helplessness, PHC-2.3-Fatigue, PHC-2.5-Ergo, PO-1-WorkSys, PO-6-PhysEnv, RM-1.2-Efficacy
+
+**Primary BCW linkage:** EN and TR. EN augments function via BCT.12.5 (adding objects to the environment) and BCT.12.6 (body changes / assistive aids). TR builds toward functional adequacy via BCT.8.7 (graded tasks) and BCT.8.1 (behavioral practice/rehearsal).
+
+**Shaping notes:**
+- When PHC.2.4.1 (functional adequacy) is below minimum, the person cannot meet the requirement. EN via BCT.12.6 (body changes, e.g. assistive aids) or BCT.12.5 (adding objects) to augment capability. If augmentation is insufficient, task redesign crosses into PO-1-WorkSys.
+- When PHC.2.4.6 (safety margin) is narrow, the person can perform but barely, with high risk. EN to widen the margin through BCT.12.5 (adding objects such as safety devices) and BCT.12.1 (restructuring physical environment) to reduce demands.
+- When PHC.2.4.7 (reliability of execution) is inconsistent, TR via BCT.8.1 (practice) stabilizes performance, but check whether inconsistency stems from fatigue (PHC-2.3-Fatigue) or environmental variability (PO-6-PhysEnv).
+- When PHC.2.4.2 (strength demand) or PHC.2.4.5 (manual handling demand) is high, TR via BCT.12.6 (body changes, e.g. strength training) for long-term, EN via BCT.12.5 (adding objects such as lifting aids) for immediate support.
+
+**Redirecting notes:**
+- If PHC.2.5.1 (posture demand) or PHC.2.5.3 (force demand) is extreme, the problem is task design, not the person's function. Address PHC-2.5-Ergo.
+- If RM.1.2.1 (efficacy belief) is very low following functional failure, rebuild confidence via BCT.15.1 (verbal persuasion about capability) and BCT.8.7 (graded tasks) with guaranteed early success -- see RM-1.2-Efficacy.
+- If AM.2.4.1 (perceived controllability) is low, the person may have given up on functional improvement. Address AM-2.4-Helplessness.
+
 ### PHC-2.5-Ergo: Physical Ergonomics as Demand Analysis
 
 **Core view of capability:** Physical capability is partly about the body, but it is best understood relative to the physical demands imposed by the task.
@@ -280,6 +469,23 @@ It is strongest when the diagnostic question is some version of:
 - **PHC.2.5.5** Biomechanical sustainability: sustainable -> risky or degrading
 - **PHC.2.5.6** Handling complexity: simple manipulation -> complex manipulation
 - **PHC.2.5.7** Bodily fit: strong fit between body and task -> mismatch between body and task
+
+#### Pattern guidance
+
+**Refs:** BCW: EN, ER, TR | BCT: 1.4, 12.1, 12.5, 12.6 | Dims: PHC.2.5.1, PHC.2.5.4, PHC.2.5.5, PHC.2.5.6, PHC.2.5.7, PO.1.2, PO.2.1, SO.4.1 | Cross: PO-1-WorkSys, PO-2-Resource, PO-5-Tooling, SO-4-Incentives
+
+**Primary BCW linkage:** ER and EN. ER addresses body-task mismatch via BCT.12.1 (restructuring the physical environment) to redesign the workstation or task setup. EN augments via BCT.12.5 (adding objects to the environment) for adjustable equipment and BCT.12.6 (body changes) for conditioning.
+
+**Shaping notes:**
+- When PHC.2.5.1 (posture demand) is awkward and PHC.2.5.5 (biomechanical sustainability) is poor, ER via BCT.12.1 (restructuring physical environment) to redesign the workstation. Individual TR (better posture technique) has limited effect when the environment forces bad posture.
+- When PHC.2.5.7 (bodily fit) is a mismatch, the task is designed for a different body. EN via BCT.12.5 (adding objects) for adjustable equipment; ER via BCT.12.1 to modify the task setup.
+- When PHC.2.5.4 (repetition load) is high, frequency-based strain accumulates. ER via BCT.12.1 to redistribute or rotate tasks. BCT.1.4 (action planning) for pacing strategies.
+- When PHC.2.5.6 (handling complexity) is high, EN via BCT.12.5 (adding objects) such as jigs, guides, or fixtures to simplify manipulation.
+
+**Redirecting notes:**
+- If PO.1.2 (tool-task fit) is poor, ergonomic problems may originate from tools rather than body-task mismatch. Address PO-1-WorkSys or PO-5-Tooling.
+- If PO.2.1 (time availability) is scarce, people skip ergonomic precautions under time pressure. Address PO-2-Resource.
+- If SO.4.1 (reward alignment) rewards speed over safety, ergonomic improvements will be bypassed. Realign SO-4-Incentives.
 
 ## From Capability Lenses To COM-B / BCW
 

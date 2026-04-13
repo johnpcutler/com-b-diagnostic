@@ -8,7 +8,7 @@ Use this as the **shape** of a COM-B diagnosis output. The **user does not fill 
 
 ## Conventions
 
-- **Lens dimensions:** cite stable IDs from the lens files (e.g. `PO.1.2`, `PC.1.3.4`, `RM.1.3.5`). PO/SO use `PO.n.m` / `SO.n.m`; PC/PHC use `PC.1.x.y` / `PHC.2.x.y`; RM/AM use `RM.1.x.y` / `AM.2.x.y`. See [`references/lenses/dimensional-ids.md`](references/lenses/dimensional-ids.md).
+- **Lens dimensions:** cite stable IDs from the lens files (e.g. `PO.1.2`, `PC.1.3.4`, `RM.1.3.5`). PO/SO use `PO.n.m` / `SO.n.m`; PC/PHC use `PC.1.x.y` / `PHC.2.x.y`; RM/AM use `RM.1.x.y` / `AM.2.x.y`. See [`references/lenses/lens-map.md`](references/lenses/lens-map.md).
 - **BCW functions:** use abbreviations from the intervention mapping (e.g. `ED`, `ER`, `EN`).
 - **BCTs:** cite **`BCT.n.m`** IDs and names (e.g. `BCT.12.1 Restructuring the physical environment`).
 

@@ -16,5 +16,5 @@ This table lists the COM-B abbreviations used throughout the framework. Each abb
 
 ## Dimensional IDs in lens files
 
-When citing a specific dimension (not just the COM-B branch), use the dotted ID scheme: **`PC.1.x.y`**, **`PHC.2.x.y`**, **`RM.1.x.y`**, **`AM.2.x.y`**, **`PO.n.m`**, **`SO.n.m`**. Full table and rules: [`../lenses/dimensional-ids.md`](../lenses/dimensional-ids.md).
+When citing a specific dimension (not just the COM-B branch), use the dotted ID scheme: **`PC.1.x.y`**, **`PHC.2.x.y`**, **`RM.1.x.y`**, **`AM.2.x.y`**, **`PO.n.m`**, **`SO.n.m`**. Full table and rules: [`../lenses/lens-map.md`](../lenses/lens-map.md).
 

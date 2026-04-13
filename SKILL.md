@@ -90,4 +90,4 @@ Follow the output skeleton in [`assets/output-template.md`](assets/output-templa
 6. **Multi-actor situations:** do not stop at per-role analysis — trace handoffs and where one actor's output becomes another's input; failures often concentrate at interfaces.
 7. **Deliver Phase A first.** Do not produce the full report or action plan until the user asks. Let them pull.
 8. **Trace everything.** In the in-depth report, every intervention function should trace back to a dimensional position, every dimensional position to observed signals. If the chain breaks, the diagnosis is incomplete.
-9. **Name your sources.** When citing BCTs, use **`BCT.n.m`** IDs (see [`references/lenses/dimensional-ids.md`](references/lenses/dimensional-ids.md)). When citing lens dimensions, use the stable `PC` / `PHC` / `RM` / `AM` / `PO` / `SO` IDs.
+9. **Name your sources.** When citing BCTs, use **`BCT.n.m`** IDs (see [`references/lenses/lens-map.md`](references/lenses/lens-map.md)). When citing lens dimensions, use the stable `PC` / `PHC` / `RM` / `AM` / `PO` / `SO` IDs.

@@ -75,7 +75,7 @@ The form is internal by default. Most situations will only activate a subset of 
 
 **Methods:** Asking (follow-up questions to probe ambiguous dimensions) and Inferring (from the behavior description and any provided artifacts). The lens dimensions often surface distinctions the user hasn't considered — e.g. whether a capability gap is about mental models or procedural fluency, whether motivation is about identity or habit, whether opportunity constraints are about tooling or norms.
 
-**ID scheme:** PO and SO use **PO.n.m** / **SO.n.m** (e.g. PO.2.1, SO.4.5). PC, PHC, RM, AM use dotted prefixes **PC.1.x.y**, **PHC.2.x.y**, **RM.1.x.y**, **AM.2.x.y**. See [lenses/dimensional-ids.md](lenses/dimensional-ids.md).
+**ID scheme:** PO and SO use **PO.n.m** / **SO.n.m** (e.g. PO.2.1, SO.4.5). PC, PHC, RM, AM use dotted prefixes **PC.1.x.y**, **PHC.2.x.y**, **RM.1.x.y**, **AM.2.x.y**. See [lenses/lens-map.md](lenses/lens-map.md).
 
 **Output:** a filled-out assessment form (internal), plus any follow-up questions surfaced to the user.
 
