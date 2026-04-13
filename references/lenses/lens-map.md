@@ -71,6 +71,6 @@ Definitions and scales live in:
 - [physical-opportunity-lenses.md](physical-opportunity-lenses.md) — `PO.*`
 - [social-opportunity-lenses.md](social-opportunity-lenses.md) — `SO.*`
 
-The working copy of all IDs for assessment is in [`../../assets/assessment-form-template.md`](../../assets/assessment-form-template.md).
+The synthesis and intervention design worksheet is [`../../assets/practitioner-worksheet.md`](../../assets/practitioner-worksheet.md).
 
 BCT definitions and technique text: [`../com-b-bcw-bct/bct-taxonomy.md`](../com-b-bcw-bct/bct-taxonomy.md).

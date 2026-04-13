@@ -46,31 +46,26 @@ Then three diagnostic lenses are applied. For each, the agent forms a perspectiv
 | **Opportunity** (O-lens) | Material/temporal conditions (PO) and social/political conditions (SO) | [`lenses/physical-opportunity-lenses.md`](lenses/physical-opportunity-lenses.md), [`lenses/social-opportunity-lenses.md`](lenses/social-opportunity-lenses.md) |
 | **Motivation** (M-lens) | Reflective endorsement, identity, intentions (RM) and habits, affect, reinforcement (AM) | [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md) |
 
-**The assessment form:**
+**Working with the lens files:**
 
-The agent uses [`assets/assessment-form-template.md`](../assets/assessment-form-template.md) as its working document. The form lists every dimension from every lens, with intervention bias annotations baked in. For each dimension, the agent notes:
-- **Relevant?** — does this dimension apply to the situation?
-- **Position** — where does the situation land on the scale?
-- **Evidence** — what from the description or follow-up answers supports this?
-
-The form is internal by default. Most situations will only activate a subset of dimensions — the "relevant?" field makes skipping easy.
+The agent reads the lens files directly during this step. For each relevant sub-lens, the agent notes which dimensions are active, their positions on the scale, and the evidence that supports each position. Most situations will only activate a subset of dimensions — skip those that don't apply.
 
 **Methods:** Asking (follow-up questions to probe ambiguous dimensions) and Inferring (from the behavior description and any provided artifacts). The lens dimensions often surface distinctions the user hasn't considered — e.g. whether a capability gap is about mental models or procedural fluency, whether motivation is about identity or habit, whether opportunity constraints are about tooling or norms.
 
 **ID scheme:** PO and SO use **PO.n.m** / **SO.n.m** (e.g. PO.2.1, SO.4.5). PC, PHC, RM, AM use dotted prefixes **PC.1.x.y**, **PHC.2.x.y**, **RM.1.x.y**, **AM.2.x.y**. See [lenses/lens-map.md](lenses/lens-map.md).
 
-**Output:** a filled-out assessment form (internal), plus any follow-up questions surfaced to the user.
+**Output:** dimensional findings from the lens analysis (internal), plus any follow-up questions surfaced to the user.
 
 ### Step 3 — Synthesize and assess the situation
 
-This step reads back the filled-out assessment form and builds a cross-lens picture: the full topology of the situation.
+This step uses [`assets/practitioner-worksheet.md`](../assets/practitioner-worksheet.md) to synthesize findings from Step 2 and build a cross-lens picture: the full topology of the situation.
 
 **What "across multiple lenses" means:**
 - **Tensions:** where lenses conflict (e.g. "capability is present but motivation lens says identity doesn't support it")
 - **Reinforcements:** where lenses align (e.g. "both opportunity and motivation point to the same bottleneck")
 - **Leverage:** which dimensional findings are highest-leverage for this specific situation
 
-The form gives this step structured input rather than forcing it to re-derive findings from narrative prose. The agent reads the form's "relevant" dimensions, looks for patterns across lenses, and produces the synthesis.
+The practitioner worksheet gives this step structured input. The agent fills out the per-lens synthesis tables, identifies cross-lens interactions, and produces the synthesis.
 
 **Output:** a situational assessment naming the key forces, their interactions, and where intervention would have the most leverage.
 
@@ -80,7 +75,7 @@ This step runs under the hood. The agent converts the dimensional assessment int
 
 **How dimensions guide conversion:**
 
-The assessment form carries intervention bias annotations on each dimension. For example, a row reading `1.2.1 Model accuracy | low→ED | relevant: yes | position: low` tells this step to prioritize Education for that finding. The annotations refine within the set of functions the base COM-B → BCW mapping provides — they prioritize, not replace.
+The practitioner worksheet's BCW function ranking (Section 3) drives this step. The agent uses the dimensional findings and Pattern guidance conclusions from the per-lens synthesis to rank BCW functions by likelihood of closing the gap, then selects specific BCTs for each. The ranking refines within the set of functions the base COM-B → BCW mapping provides — it prioritizes, not replaces.
 
 **Source files:**
 
@@ -103,7 +98,7 @@ Delivers recommendations progressively in two phases.
 
 After delivering Phase A, the agent offers two paths:
 
-- **In-depth report:** Full diagnostic with dimensional assessments per lens, cross-lens tensions, BCW/BCT reasoning made visible. Can include the assessment form. For understanding the "why" deeply or sharing with stakeholders.
+- **In-depth report:** Full diagnostic with dimensional assessments per lens, cross-lens tensions, BCW/BCT reasoning made visible. Can include the practitioner worksheet. For understanding the "why" deeply or sharing with stakeholders.
 - **Action plan:** Concrete, phased plan — week-by-week or phase-by-phase — with specific changes, owners, success signals. Includes tool/AI recommendations and mapping to relevant frameworks. For acting now.
 
 **Output structure for each:** see [`assets/output-template.md`](../assets/output-template.md).
@@ -113,9 +108,9 @@ After delivering Phase A, the agent offers two paths:
 ## How the files connect
 
 ```
-assets/assessment-form-template.md
-    All dimensions from all lens files + intervention bias annotations
-    Triple duty: research scaffold (Step 2), synthesis input (Step 3), intervention lookup (Step 4)
+assets/practitioner-worksheet.md
+    Synthesis scaffold (Step 3), BCW ranking (Step 4), intervention design
+    Per-lens synthesis, cross-lens interactions, BCW function ranking with BCTs
 
 com-b-bcw-bct/com-b-abbreviations-reference.md
     Defines: PC, PHC, PO, SO, RM, AM

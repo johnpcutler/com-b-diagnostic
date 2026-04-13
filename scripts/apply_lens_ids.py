@@ -30,54 +30,6 @@ def transform_so(text: str) -> str:
     return text
 
 
-def transform_assessment_form(text: str) -> str:
-    lines = text.splitlines(keepends=True)
-    out: list[str] = []
-    zone = "other"
-    for line in lines:
-        if line.startswith("## C-LENS: Psychological"):
-            zone = "PC"
-        elif line.startswith("## C-LENS: Physical"):
-            zone = "PHC"
-        elif line.startswith("## O-LENS: Physical"):
-            zone = "PO"
-        elif line.startswith("## O-LENS: Social"):
-            zone = "SO"
-        elif line.startswith("## M-LENS: Reflective"):
-            zone = "RM"
-        elif line.startswith("## M-LENS: Automatic"):
-            zone = "AM"
-        elif line.startswith("## Cross-lens") or line.startswith("## BCW"):
-            zone = "other"
-
-        if zone == "PC" and line.startswith("| 1."):
-            line = re.sub(r"^\| 1\.", "| PC.1.", line)
-        elif zone == "PHC" and line.startswith("| 2."):
-            line = re.sub(r"^\| 2\.", "| PHC.2.", line)
-        elif zone == "PO" and line.startswith("|") and re.match(r"^\| \d+\.\d+ \|", line.strip()):
-            if not re.match(r"^\| ID \|", line):
-                line = re.sub(r"^\| (\d+)\.(\d+) \|", r"| PO.\1.\2 |", line)
-        elif zone == "SO" and line.startswith("|") and re.match(r"^\| \d+\.\d+ \|", line.strip()):
-            if not re.match(r"^\| ID \|", line):
-                line = re.sub(r"^\| (\d+)\.(\d+) \|", r"| SO.\1.\2 |", line)
-        elif zone == "RM" and line.startswith("| 1."):
-            line = re.sub(r"^\| 1\.", "| RM.1.", line)
-        elif zone == "AM" and line.startswith("| 2."):
-            line = re.sub(r"^\| 2\.", "| AM.2.", line)
-
-        out.append(line)
-
-    text = "".join(out)
-    # Section headings — legacy dotted sub-lens numbers (headings now use hybrid shortcodes, e.g. PC-1.1-Knowledge)
-    text = re.sub(r"^### PC 1\.", "### PC.1.", text, flags=re.MULTILINE)
-    text = re.sub(r"^### PHC 2\.", "### PHC.2.", text, flags=re.MULTILINE)
-    text = re.sub(r"^### PO (\d) —", r"### PO.\1 —", text, flags=re.MULTILINE)
-    text = re.sub(r"^### SO (\d) —", r"### SO.\1 —", text, flags=re.MULTILINE)
-    text = re.sub(r"^### RM 1\.", "### RM.1.", text, flags=re.MULTILINE)
-    text = re.sub(r"^### AM 2\.", "### AM.2.", text, flags=re.MULTILINE)
-    return text
-
-
 def transform_scenarios_and_guides(text: str) -> str:
     """Citations and digest lines in SKILL, guide, output-template, README."""
     # Digest / shorthand hyphen codes → dotted
@@ -129,7 +81,6 @@ def main() -> None:
         (lens_dir / "motivation-lenses.md", transform_motivation),
         (lens_dir / "physical-opportunity-lenses.md", transform_po),
         (lens_dir / "social-opportunity-lenses.md", transform_so),
-        (ROOT / "assets" / "assessment-form-template.md", transform_assessment_form),
     ]
     for path, fn in paths:
         raw = path.read_text(encoding="utf-8")

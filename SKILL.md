@@ -26,21 +26,19 @@ If critical fields are missing (especially "will do what" and "to what extent"),
 
 ### Step 2 — Research capability, opportunity, and motivation
 
-Read [`assets/assessment-form-template.md`](assets/assessment-form-template.md). This is your primary working document for the diagnosis. It lists every dimension from every lens file, with intervention bias annotations baked in.
+Apply three diagnostic lenses by reading the lens files directly:
 
-Apply three diagnostic lenses:
+- **Capability** (C-lens): [`references/lenses/capability-lenses.md`](references/lenses/capability-lenses.md) — PC, PHC dimensions.
+- **Opportunity** (O-lens): [`references/lenses/physical-opportunity-lenses.md`](references/lenses/physical-opportunity-lenses.md) and [`references/lenses/social-opportunity-lenses.md`](references/lenses/social-opportunity-lenses.md) — PO, SO dimensions.
+- **Motivation** (M-lens): [`references/lenses/motivation-lenses.md`](references/lenses/motivation-lenses.md) — RM, AM dimensions.
 
-- **Capability** (C-lens): PC, PHC dimensions from the form; deep definitions in [`references/lenses/capability-lenses.md`](references/lenses/capability-lenses.md) if needed.
-- **Opportunity** (O-lens): PO, SO dimensions from the form; deep definitions in [`references/lenses/physical-opportunity-lenses.md`](references/lenses/physical-opportunity-lenses.md) and [`references/lenses/social-opportunity-lenses.md`](references/lenses/social-opportunity-lenses.md) if needed.
-- **Motivation** (M-lens): RM, AM dimensions from the form; deep definitions in [`references/lenses/motivation-lenses.md`](references/lenses/motivation-lenses.md) if needed.
-
-For each relevant dimension on the form, note: relevance, position on the scale, and evidence. Skip dimensions that don't apply — most situations activate a subset.
+For each relevant dimension, note: relevance, position on the scale, and evidence. Skip dimensions that don't apply — most situations activate a subset.
 
 **This is a good place to ask follow-up questions.** The lens dimensions often surface distinctions the user hasn't considered — e.g. whether a capability gap is about mental models or procedural fluency, whether motivation is about identity or habit, whether opportunity constraints are about tooling or norms. If the initial description doesn't give enough signal to choose between competing dimensions, ask.
 
 ### Step 3 — Synthesize and assess
 
-Read back the filled-out assessment form. Build a cross-lens assessment:
+Use [`assets/practitioner-worksheet.md`](assets/practitioner-worksheet.md) to synthesize your findings. Build a cross-lens assessment:
 
 - Where do lenses **tension** against each other? (e.g. capability is present but motivation doesn't support it)
 - Where do lenses **reinforce** each other? (e.g. both opportunity and motivation point to the same bottleneck)
@@ -52,7 +50,7 @@ Produce a coherent diagnostic picture that connects the dots across all three le
 
 This step runs **under the hood**. The user does not need to see the taxonomy chain unless they request the in-depth report.
 
-Use the filled-out form's intervention bias annotations to prioritize BCW functions. Read [`references/com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md`](references/com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) for the base mapping and [`references/com-b-bcw-bct/bct-taxonomy.md`](references/com-b-bcw-bct/bct-taxonomy.md) for named techniques.
+Use the BCW function ranking from the practitioner worksheet to prioritize intervention functions. Read [`references/com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md`](references/com-b-bcw-bct/com-b-to-bcw-intervention-function-mapping.md) for the base mapping and [`references/com-b-bcw-bct/bct-taxonomy.md`](references/com-b-bcw-bct/bct-taxonomy.md) for named techniques.
 
 ### Step 5 — Frame recommendations (phased delivery)
 
@@ -65,7 +63,7 @@ Deliver in two phases:
 After delivering Phase A, offer the user two paths:
 
 **Phase B — user chooses one or both:**
-- **In-depth report:** Full diagnostic with dimensional assessments, cross-lens tensions, BCW/BCT reasoning visible. Can include the assessment form.
+- **In-depth report:** Full diagnostic with dimensional assessments, cross-lens tensions, BCW/BCT reasoning visible. Can include the practitioner worksheet.
 - **Action plan:** Concrete phased plan — week-by-week — with specific changes, owners, success signals, tool/AI recommendations.
 
 Follow the output skeleton in [`assets/output-template.md`](assets/output-template.md) for structure.
@@ -74,7 +72,7 @@ Follow the output skeleton in [`assets/output-template.md`](assets/output-templa
 
 1. **Start with behavior definition (Step 1).** Do not skip to analysis without a structured definition. Coach the user if needed.
 2. **Follow the pipeline order.** Later steps depend on earlier outputs. Do not jump to interventions without researching through lenses first.
-3. **Use the assessment form.** Read [`assets/assessment-form-template.md`](assets/assessment-form-template.md) as your primary working document. It contains all dimensions and intervention bias annotations in one place.
+3. **Use the practitioner worksheet.** After lens analysis, use [`assets/practitioner-worksheet.md`](assets/practitioner-worksheet.md) to synthesize findings, rank BCW functions, and design interventions.
 4. **The real diagnosis comes from the C, O, and M lenses.** Pattern labels in the behavior canvas are orientation, not findings.
 5. **Multi-actor situations:** do not stop at per-role analysis — trace handoffs and where one actor's output becomes another's input; failures often concentrate at interfaces.
 6. **Deliver Phase A first.** Do not produce the full report or action plan until the user asks. Let them pull.

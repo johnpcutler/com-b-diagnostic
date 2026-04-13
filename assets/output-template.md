@@ -88,13 +88,13 @@ One sub-section per active lens:
 
 ### Step 4: BCW and BCT reasoning
 
-- Table or list: dimensional findings → BCW functions (from intervention bias annotations + base mapping)
+- Table or list: dimensional findings → BCW functions (from practitioner worksheet ranking + base mapping)
 - Consolidated priority order of functions with rationale
 - Named BCTs per function with how each applies to this case
 
-### Assessment form (optional appendix)
+### Practitioner worksheet (optional appendix)
 
-If the user asks to see the raw assessment, include the filled-out form with all relevant dimensions, positions, and evidence.
+If the user asks to see the working analysis, include the filled-out practitioner worksheet with per-lens synthesis, cross-lens interactions, and BCW ranking.
 
 ### Framework observations
 
