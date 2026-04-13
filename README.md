@@ -8,6 +8,18 @@ Whatever the scale, the pattern is familiar: something isn't happening, and the 
 
 Describe what's stuck to your AI agent. It runs a structured diagnostic grounded in the COM-B model, the Behavior Change Wheel, and the BCT Taxonomy v1, and returns a phased plan.
 
+```mermaid
+flowchart TD
+  A[Define behavior] --> B[Research C O M lenses]
+  B --> C[Fill practitioner worksheet]
+  C --> D[Phase A summary]
+  D --> E{More context?}
+  E -->|Yes re-run| B
+  E -->|Continue| F[Phase B report plan or analysis]
+```
+
+Details: [`references/flow.md`](references/flow.md).
+
 Full attribution in [`credits.md`](credits.md).
 
 ---
