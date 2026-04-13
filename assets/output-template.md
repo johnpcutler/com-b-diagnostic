@@ -34,9 +34,13 @@ Restate the structured behavior definition from Step 1:
 - The highest-leverage area for intervention
 - The recommended direction (not detailed steps — that's Phase B)
 
+Draw from the filled practitioner worksheet -- especially the COM-B ranking and narrative syntheses -- but strip all taxonomy codes. The reader should feel the depth of the analysis without seeing the scaffolding.
+
 ### Key insights
 
 3–5 bullet points. Each is a specific finding — a tension, surprise, or highest-leverage point the diagnosis surfaced. Written so the user could repeat them to a colleague.
+
+Each insight should translate a specific worksheet finding (a cross-lens tension, a "what not to try," or a leverage point) into language a colleague could act on without reading the diagnosis.
 
 ### Offer
 
@@ -67,7 +71,9 @@ bcts       = <FUNCTION→BCT.n.m,BCT.n.m | ...>
 
 ### Step 2: Lens analysis
 
-One sub-section per active lens:
+One sub-section per active lens.
+
+Translate the per-lens synthesis tables from the worksheet into readable prose. Preserve the dimensional precision but explain what each finding means for this situation -- don't just restate positions.
 
 #### Capability findings
 - Relevant dimensions with positions and evidence
@@ -83,11 +89,15 @@ One sub-section per active lens:
 
 ### Step 3: Cross-lens assessment
 
+Translate the cross-lens interactions and COM-B ranking from the worksheet. Make the prerequisite logic and leverage reasoning explicit to the reader.
+
 - Tensions between lenses (with dimension IDs)
 - Reinforcements between lenses
 - Prioritization: which findings are highest-leverage and why
 
 ### Step 4: BCW and BCT reasoning
+
+Translate the BCW function ranking from the worksheet. The rationale column becomes readable paragraphs; the BCT selections become concrete examples of what each technique means in this case.
 
 - Table or list: dimensional findings → BCW functions (from practitioner worksheet ranking + base mapping)
 - Consolidated priority order of functions with rationale
@@ -104,6 +114,8 @@ Reflections after the diagnosis: what the framework surfaced, tensions, gaps, or
 ### Phased rollout
 
 One sub-section per phase (e.g. `### Phase 1: ... (weeks 1–3)`).
+
+Each phase should trace back to the worksheet's intervention implications and BCW ranking. Translate the BCT selections into concrete actions the reader can execute without knowing the taxonomy.
 
 Each phase includes:
 - **Focus:** which forces this phase addresses (in plain language, with dimension IDs parenthetical)
