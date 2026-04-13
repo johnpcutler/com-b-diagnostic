@@ -15,7 +15,9 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Core view of opportunity:** Opportunity is shaped by how person, task, tools, physical setting, and organizational arrangements interact as a local system.
 
-**Strongest at:** Revealing structural mismatches across the work system that make the target behavior hard to enact even when people are capable and motivated.
+**Use when:** Revealing structural mismatches across the work system that make the target behavior hard to enact even when people are capable and motivated -- especially multi-factor constraints that cannot be explained by a single missing tool or skill.
+
+**Diagnostic question:** Where is the local work system misaligned for this behavior?
 
 **Academic grounding:** Draws on `SEIPS` and work-system/human-factors models, especially Carayon and colleagues, plus sociotechnical systems traditions in ergonomics.
 
@@ -29,15 +31,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.1.6** Safety-productivity balance: low tradeoff pressure -> chronic tradeoff pressure
 - **PO.1.7** Constraint load: manageable constraints -> compounding constraints
 
-**What it sees well:** Multi-factor opportunity constraints that cannot be explained by a single missing tool or missing skill.
-
-**What it sees less well:** Fine-grained internal cognition and identity-level motivation; those map more directly to `PC`, `RM`, and `AM`.
-
 ## 2. Resource and Capacity Conditions
 
 **Core view of opportunity:** Opportunity depends on whether people have enough time, staffing, material resources, and slack to perform the behavior without sacrificing critical adjacent work.
 
-**Strongest at:** Revealing scarcity-driven displacement, chronic urgency competition, and hidden capacity ceilings.
+**Use when:** Revealing scarcity-driven displacement, chronic urgency competition, and hidden capacity ceilings -- especially when endorsed, understood behaviors still fail under real resource pressure.
+
+**Diagnostic question:** Is capacity/scheduling scarcity displacing the behavior?
 
 **Academic grounding:** Draws on workload/capacity and operations-management traditions, including demand-capacity fit, queueing effects, and human-factors workload research.
 
@@ -51,15 +51,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.2.6** Variability absorption: variability absorbed -> variability destabilizes flow
 - **PO.2.7** Activation overhead: low startup burden -> high startup burden
 
-**What it sees well:** Why behaviors that are endorsed and understood still fail under real resource pressure.
-
-**What it sees less well:** Social permission and political risk around the behavior, which are mainly `SO`.
-
 ## 3. Workflow and Process Architecture
 
 **Core view of opportunity:** Opportunity is created or blocked by process topology: handoffs, dependencies, sequence constraints, queue points, and coordination latency.
 
-**Strongest at:** Revealing where workflow design adds activation energy, delays, or breakdowns that suppress behavior.
+**Use when:** Revealing where workflow design adds activation energy, delays, or breakdowns that suppress behavior -- especially operational friction that silently prevents behavior from becoming routine.
+
+**Diagnostic question:** Where do handoffs, dependencies, and queues suppress execution?
 
 **Academic grounding:** Draws on process-engineering and resilience-in-work traditions, plus human-factors work on handoffs, coordination burden, and process reliability.
 
@@ -73,15 +71,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.3.6** Recovery ease: easy recovery -> recovery is costly and slow
 - **PO.3.7** Activation energy: easy to begin -> hard to initiate
 
-**What it sees well:** Operational friction that silently prevents behavior from becoming routine.
-
-**What it sees less well:** Whether people want to do the behavior or see it as identity-consistent (`RM`/`AM` territory).
-
 ## 4. Information and State Visibility in the Environment
 
 **Core view of opportunity:** Opportunity depends on whether the environment surfaces the right signals, system states, and consequences at the point of action.
 
-**Strongest at:** Revealing observability and feedback failures that prevent timely, accurate action.
+**Use when:** Revealing observability and feedback failures that prevent timely, accurate action -- especially when people fail because critical information is not legible in the environment.
+
+**Diagnostic question:** Are relevant states and consequences visible at point of action?
 
 **Academic grounding:** Draws on situation-awareness and ecological-interface traditions, especially Endsley and related CSE/HFE work on observability and projection.
 
@@ -97,15 +93,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.4.8** Cost visibility: overhead costs are visible and tracked -> overhead costs are invisible and tolerated
 - **PO.4.9** Friction visibility: friction is visible and discussed -> friction is normalized and invisible
 
-**What it sees well:** Cases where people fail because critical information is not legible in the environment.
-
-**What it sees less well:** Whether people have underlying judgment skill once signals are available (a `PC` question).
-
 ## 5. Tooling and Interface Affordances
 
 **Core view of opportunity:** Opportunity is shaped by whether tools and interfaces make the desired behavior easy, reliable, and recoverable in context of use.
 
-**Strongest at:** Revealing friction, mode confusion, brittleness, and usability debt that suppress desired behavior.
+**Use when:** Revealing friction, mode confusion, brittleness, and usability debt that suppress desired behavior -- especially when well-intended users avoid or abandon behaviors because the interface makes them costly.
+
+**Diagnostic question:** Do tools make the behavior easy and recoverable in context?
 
 **Academic grounding:** Draws on HCI/usability and affordance traditions, including Norman, `ISO 9241-11`, and human-centered design in context of use.
 
@@ -119,15 +113,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.5.6** Learnability in context: low onboarding burden -> high onboarding burden
 - **PO.5.7** Automation fit: automation supports work -> automation adds new friction
 
-**What it sees well:** Why well-intended users avoid or abandon behaviors when the interface makes them costly.
-
-**What it sees less well:** Broader resourcing and governance structures outside the tool surface.
-
 ## 6. Physical Environment and Ergonomic Conditions
 
 **Core view of opportunity:** Opportunity depends on whether the physical setting supports safe, sustainable, and efficient execution.
 
-**Strongest at:** Revealing environmental strain, sensory load, and layout barriers that reduce feasible performance.
+**Use when:** Revealing environmental strain, sensory load, and layout barriers that reduce feasible performance -- especially local constraints that make behavior physically inconvenient or unsafe.
+
+**Diagnostic question:** Does the physical setting support sustainable execution?
 
 **Academic grounding:** Draws on physical ergonomics and occupational human-factors traditions focused on posture, reach, lighting, noise, layout, and environmental stressors.
 
@@ -141,15 +133,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.6.6** Environmental hazard load: low exposure -> persistent hazard exposure
 - **PO.6.7** Physical comfort sustainability: sustainable comfort -> accumulating discomfort
 
-**What it sees well:** Local environmental constraints that make behavior physically inconvenient or unsafe.
-
-**What it sees less well:** Whether roles, norms, and politics allow the behavior (`SO`), even when the physical setting is favorable.
-
 ## 7. Control Loops and Adaptive Regulation (Cybernetics)
 
 **Core view of opportunity:** Opportunity depends on whether the system has usable feedback loops, effective control actions, and sufficient damping to self-correct under disturbance.
 
-**Strongest at:** Revealing delay, oscillation, and over/under-correction dynamics that keep behavior unstable even when tools and intent exist.
+**Use when:** Revealing delay, oscillation, and over/under-correction dynamics that keep behavior unstable even when tools and intent exist -- especially when enough resources exist but control architecture and adaptation loops still fail.
+
+**Diagnostic question:** Can the system sense, decide, and correct fast enough to stay stable?
 
 **Academic grounding:** Draws on cybernetics and control traditions, especially Wiener, Ashby, and later systems-dynamics and sociotechnical control-loop work.
 
@@ -162,10 +152,6 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **PO.7.5** Damping quality: stable correction -> oscillation and over-correction
 - **PO.7.6** Disturbance handling: disturbances absorbed -> disturbances destabilize performance
 - **PO.7.7** Variety handling: control responses match variability -> variability exceeds control capacity
-
-**What it sees well:** Why systems with enough resources still fail due to broken control architecture and poor adaptation loops.
-
-**What it sees less well:** Identity, legitimacy, and norm contestation that determine whether actors are socially willing to use control authority (`SO`/`RM` territory).
 
 ## From Physical Opportunity Lenses To COM-B / BCW
 
@@ -180,20 +166,6 @@ Once dominant physical-opportunity patterns are clearer, the next step is usuall
 - In some cases, paired `TR` helps when environmental redesign and capability-building must be coordinated.
 
 The goal is not to duplicate that mapping here, but to make it easier to move from physical-opportunity diagnosis to intervention family.
-
-## How to use these lenses together
-
-One practical way to use these lenses is to ask a different kind of question with each:
-
-- Work-System Configuration and Constraints: Where is the local work system misaligned for this behavior?
-- Resource and Capacity Conditions: Is capacity/scheduling scarcity displacing the behavior?
-- Workflow and Process Architecture: Where do handoffs, dependencies, and queues suppress execution?
-- Information and State Visibility in the Environment: Are relevant states and consequences visible at point of action?
-- Tooling and Interface Affordances: Do tools make the behavior easy and recoverable in context?
-- Physical Environment and Ergonomic Conditions: Does the physical setting support sustainable execution?
-- Control Loops and Adaptive Regulation (Cybernetics): Can the system sense, decide, and correct fast enough to stay stable?
-
-Used together, these lenses turn vague environmental complaints into specific `PO` diagnostics.
 
 ## Boundaries of this file
 

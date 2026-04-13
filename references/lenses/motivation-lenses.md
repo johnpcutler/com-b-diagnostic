@@ -22,7 +22,9 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 
 **Core view of motivation:** Motivation varies in quality, not just quantity. Behavior is more robust when it is autonomously endorsed and when the context supports autonomy, competence, and relatedness.
 
-**Strongest at:** Revealing whether people are acting from choice and internalization versus pressure, compliance, or controlled obligation.
+**Use when:** Revealing whether people are acting from choice and internalization versus pressure, compliance, or controlled obligation -- especially the difference between fragile compliance and durable commitment when motivation sounds present but is externally driven.
+
+**Diagnostic question:** Is the motivation self-endorsed or mainly controlled?
 
 **Dimensions it tends to foreground:**
 
@@ -34,15 +36,13 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.1.6** Internalization: surface compliance -> integrated endorsement
 - **RM.1.1.7** Goal self-concordance: alien goals -> self-concordant goals
 
-**What it sees well:** The difference between fragile compliance and durable commitment, especially where people say they are motivated but the motivation is externally driven.
-
-**What it sees less well:** Cue-triggered behavior, habit loops, and hot emotional reactions unless paired with automatic-motivation lenses; it mainly refines `RM`.
-
 ### 1.2 Self-Efficacy
 
 **Core view of motivation:** Belief in one's capability to execute the behavior strongly influences initiation, effort, persistence, and recovery after setbacks.
 
-**Strongest at:** Revealing the motivational effect of perceived capability rather than actual capability alone.
+**Use when:** Revealing the motivational effect of perceived capability rather than actual capability alone -- especially when people value the behavior but doubt their ability to carry it through.
+
+**Diagnostic question:** Do people believe they can execute the behavior?
 
 **Dimensions it tends to foreground:**
 
@@ -55,15 +55,13 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.2.7** Emotional interpretation: arousal feels disabling -> arousal feels manageable or mobilizing
 - **RM.1.2.8** Change efficacy: confident the behavior can be safely changed -> changing the behavior feels dangerous
 
-**What it sees well:** Situations where people value the behavior but doubt their ability to carry it through.
-
-**What it sees less well:** Whether the behavior is worth doing in the first place, or whether it fits the person's identity; it mainly refines `RM`.
-
 ### 1.3 Expectancy-Value-Cost
 
 **Core view of motivation:** Motivation depends on whether success seems likely enough, valuable enough, and low-cost enough to justify action.
 
-**Strongest at:** Revealing the reflective calculus behind "not worth it," "too costly," or "unlikely to pay off."
+**Use when:** Revealing the reflective calculus behind "not worth it," "too costly," or "unlikely to pay off" -- especially tradeoffs and cost-heavy behaviors that fail not from incapacity but because they do not seem worth the effort.
+
+**Diagnostic question:** Does the behavior seem worth doing?
 
 **Dimensions it tends to foreground:**
 
@@ -76,15 +74,13 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.3.7** Opportunity cost: little sacrificed -> substantial sacrifice
 - **RM.1.3.8** Present-vs-future weighting: future value dominates -> present cost dominates
 
-**What it sees well:** Reflective tradeoffs, perceived payoff, and cost-heavy behaviors that fail not because of incapacity but because they do not seem worth the effort.
-
-**What it sees less well:** Automatic impulses, habits, and some identity-based resistance that is not experienced as explicit calculation; it mainly refines `RM`.
-
 ### 1.4 Identity-Based Motivation
 
 **Core view of motivation:** People are more ready to act when the behavior feels congruent with a salient identity and when difficulty is interpreted as meaningful rather than disqualifying.
 
-**Strongest at:** Revealing whether the behavior feels like something "someone like me" does.
+**Use when:** Revealing whether the behavior feels like something "someone like me" does -- especially aspirational but weakly realized behaviors, professionalism questions, and resistance rooted in self-definition rather than simple preference.
+
+**Diagnostic question:** Does the behavior fit who the person is or wants to be?
 
 **Dimensions it tends to foreground:**
 
@@ -97,15 +93,13 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.4.7** Reputation risk: low identity exposure -> high identity exposure
 - **RM.1.4.8** Identity-practice distance: identity and practice are aligned -> aspiration far exceeds practice
 
-**What it sees well:** Aspirational but weakly realized behaviors, professionalism questions, and situations where resistance is really about self-definition rather than simple preference.
-
-**What it sees less well:** Purely instrumental cost-benefit calculations and automatic or habitual behavior; it mainly refines `RM`.
-
 ### 1.5 Goal Intentions and Implementation Intentions
 
 **Core view of motivation:** Wanting a behavior is not the same as having converted it into a sufficiently specific plan for action.
 
-**Strongest at:** Revealing the gap between intention and action.
+**Use when:** Revealing the gap between intention and action -- especially when people genuinely intend to act but fail at initiation, timing, or follow-through.
+
+**Diagnostic question:** Has intention been translated into actionable plans?
 
 **Dimensions it tends to foreground:**
 
@@ -116,10 +110,6 @@ Reflective motivation concerns the more deliberate, evaluative, and self-conscio
 - **RM.1.5.5** Obstacle planning: no coping plan -> explicit coping plan
 - **RM.1.5.6** Initiation readiness: hard to start -> easy to start
 - **RM.1.5.7** Maintenance planning: weak follow-through structure -> strong follow-through structure
-
-**What it sees well:** Situations where people genuinely intend to act but fail at initiation, timing, or follow-through.
-
-**What it sees less well:** Fully habitual behaviors, cue-driven impulses, and structural barriers that belong more naturally under `PO` or `SO`; it mainly refines `RM`.
 
 ## 2. Automatic Motivation
 
@@ -134,7 +124,9 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 
 **Core view of motivation:** Repeated behavior in stable contexts creates context-response associations that can drive action with minimal deliberation.
 
-**Strongest at:** Revealing autopilot behavior and why changing intentions often fails to change repeated action.
+**Use when:** Revealing autopilot behavior and why changing intentions often fails to change repeated action -- especially routine, inertia, and persistence of established behavior despite attitude or plan change.
+
+**Diagnostic question:** What does the person do on autopilot?
 
 **Dimensions it tends to foreground:**
 
@@ -146,15 +138,13 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 - **AM.2.1.6** Disruption sensitivity: easy to disrupt -> highly entrenched
 - **AM.2.1.7** Competing habit strength: weak competing routine -> strong competing routine
 
-**What it sees well:** Routine, inertia, and why established behavior persists even when attitudes or plans change.
-
-**What it sees less well:** Explicit values, deliberate tradeoffs, and identity-linked reasoning; it mainly refines `AM`.
-
 ### 2.2 Reinforcement, Reward, and Wanting
 
 **Core view of motivation:** Behavior is shaped by reward history, cue-triggered wanting, punishment, relief, and the reinforcement contingencies attached to action.
 
-**Strongest at:** Revealing why some behaviors are strongly pulled forward in the moment, even when people know better.
+**Use when:** Revealing why some behaviors are strongly pulled forward in the moment, even when people know better -- especially persistence through reinforcement, craving, relief seeking, and reward salience.
+
+**Diagnostic question:** What is being rewarded or made attractive in the moment?
 
 **Dimensions it tends to foreground:**
 
@@ -166,15 +156,13 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 - **AM.2.2.6** Extinction resistance: easy to extinguish -> highly persistent
 - **AM.2.2.7** Goal-directed control: outcome-sensitive -> outcome-insensitive or habit-like
 
-**What it sees well:** Why behaviors persist through reinforcement, craving, relief seeking, and reward salience.
-
-**What it sees less well:** Normative endorsement, self-definition, and some capability questions unless those affect reward response; it mainly refines `AM`.
-
 ### 2.3 Affect and Emotion
 
 **Core view of motivation:** Immediate feelings such as anxiety, dread, pride, relief, or discomfort can drive or inhibit action independently of reflective plans.
 
-**Strongest at:** Revealing hot-state approach and avoidance.
+**Use when:** Revealing hot-state approach and avoidance -- especially anxiety, discomfort, embarrassment, relief, and other feelings that make a behavior immediately hard or attractive.
+
+**Diagnostic question:** What feelings pull the person toward or away from the behavior?
 
 **Dimensions it tends to foreground:**
 
@@ -187,15 +175,13 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 - **AM.2.3.7** Emotion regulation capacity: reactions are manageable -> reactions easily dominate action
 - **AM.2.3.8** Displacement guilt: low guilt about skipping -> chronic guilt from repeated intention-action gaps
 
-**What it sees well:** Anxiety, discomfort, embarrassment, relief, and other hot motivators that make a behavior feel immediately hard or attractive.
-
-**What it sees less well:** Stable beliefs about value and competence unless those beliefs are tightly coupled to emotional states; it mainly refines `AM`.
-
 ### 2.4 Learned Helplessness and Perceived Uncontrollability
 
 **Core view of motivation:** When effort feels repeatedly disconnected from outcomes, people can become passive, disengaged, or resigned.
 
-**Strongest at:** Revealing "why bother?" dynamics where people stop initiating effort despite having at least some capability and opportunity.
+**Use when:** Revealing "why bother?" dynamics where people stop initiating effort despite having at least some capability and opportunity -- especially resignation, disengagement, futility, and motivational shutdown.
+
+**Diagnostic question:** Has the person learned that trying does not matter?
 
 **Dimensions it tends to foreground:**
 
@@ -206,10 +192,6 @@ Automatic motivation concerns the faster, more associative, more emotional, and 
 - **AM.2.4.5** Persistence: repeated attempts continue -> attempts collapse quickly
 - **AM.2.4.6** Learned pessimism: outcomes seem influenceable -> outcomes seem fixed
 - **AM.2.4.7** Exposure duration: short-term frustration -> prolonged uncontrollable experience
-
-**What it sees well:** Resignation, disengagement, futility, and motivational shutdown.
-
-**What it sees less well:** Cases where the person is still energized but pulled in the wrong direction by habit or reward; it mainly refines `AM`.
 
 ## From Motivation Lenses To COM-B / BCW
 
@@ -225,22 +207,6 @@ Once the dominant motivational pattern is clearer, the next step is usually to m
 - `AM` is most often paired with `PE`, `INC`, `COE`, `TR`, `ER`, `MO`, and `EN`.
 
 The goal is not to duplicate that mapping here, but to make it easier to move from motivational diagnosis to intervention family.
-
-## How to use these lenses together
-
-One practical way to use these lenses is to ask a different kind of question with each:
-
-- Self-Determination Theory: Is the motivation self-endorsed or mainly controlled?
-- Self-Efficacy: Do people believe they can execute the behavior?
-- Expectancy-Value-Cost: Does the behavior seem worth doing?
-- Identity-Based Motivation: Does the behavior fit who the person is or wants to be?
-- Goal and Implementation Intentions: Has intention been translated into actionable plans?
-- Habit Formation: What does the person do on autopilot?
-- Reinforcement, Reward, and Wanting: What is being rewarded or made attractive in the moment?
-- Affect and Emotion: What feelings pull the person toward or away from the behavior?
-- Learned Helplessness and Perceived Uncontrollability: Has the person learned that trying does not matter?
-
-Used together, these lenses can help turn the broad COM-B label of `motivation` into a more precise diagnosis.
 
 ## Boundaries of this file
 

@@ -15,7 +15,9 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 
 **Core view of opportunity:** Opportunity depends on what people perceive others do (descriptive norms) and what they believe others approve or disapprove (injunctive norms).
 
-**Strongest at:** Revealing hidden social pressure that stabilizes or suppresses behavior independent of formal policy.
+**Use when:** Revealing hidden social pressure that stabilizes or suppresses behavior independent of formal policy -- especially when local social reality contradicts formal intentions.
+
+**Diagnostic question:** What does the local social reality reward or discourage?
 
 **Academic grounding:** Draws on social-norms and normative-conduct traditions, especially Cialdini and related work in social psychology and behavioral public policy.
 
@@ -31,15 +33,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.1.8** Practice entrenchment: practice is revisable -> practice is ritually entrenched
 - **SO.1.9** Aspiration stability: organizational aspiration is durable -> aspiration follows trends
 
-**What it sees well:** Cases where behavior fails because local social reality contradicts formal intentions.
-
-**What it sees less well:** Material bottlenecks in time/tools/workflow (`PO`) and individual skill deficits (`PC`/`PHC`).
-
 ## 2. Roles, Authority, and Boundary Clarity
 
 **Core view of opportunity:** Opportunity depends on whether responsibilities, decision rights, and role boundaries make it legitimate for someone to perform the behavior.
 
-**Strongest at:** Revealing ambiguity and jurisdictional conflict that prevent action.
+**Use when:** Revealing ambiguity and jurisdictional conflict that prevent action -- especially when behavior is technically possible but socially unauthorized.
+
+**Diagnostic question:** Who is socially authorized to do what?
 
 **Academic grounding:** Draws on role theory, organizational design, and jurisdiction/boundary work, including role ambiguity/conflict research and responsibility-allocation traditions in high-reliability settings.
 
@@ -53,15 +53,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.2.6** Accountability fit: responsibility without authority -> responsibility aligned with authority
 - **SO.2.7** Handback reliability: dropped transitions -> reliable transitions
 
-**What it sees well:** Why people avoid behavior that is technically possible but socially unauthorized.
-
-**What it sees less well:** Whether the behavior itself is physically or cognitively feasible.
-
 ## 3. Network Position and Social Capital
 
 **Core view of opportunity:** Opportunity depends on where actors sit in social networks, which affects access to information, trust, sponsorship, and coordination pathways.
 
-**Strongest at:** Revealing unequal access and coordination bottlenecks that emerge from social structure rather than process design alone.
+**Use when:** Revealing unequal access and coordination bottlenecks that emerge from social structure rather than process design alone -- especially social-structure reasons behavior does not spread, sustain, or coordinate.
+
+**Diagnostic question:** Who can access trust, information, and sponsorship pathways?
 
 **Academic grounding:** Draws on social-capital and network traditions, including Bourdieu/Coleman/Putnam lineages and network-structure work on brokerage and closure (for example, Burt).
 
@@ -75,15 +73,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.3.6** Sponsorship access: little sponsor protection -> strong sponsor support
 - **SO.3.7** Cross-boundary ties: sparse cross-team ties -> rich cross-team ties
 
-**What it sees well:** Social-structure reasons behavior does not spread, sustain, or coordinate.
-
-**What it sees less well:** Whether formal incentives and sanctions are aligned (`incentive architecture` lens).
-
 ## 4. Incentives, Accountability, and Reinforcement Architecture
 
 **Core view of opportunity:** Opportunity depends on whether formal and informal reward/accountability systems make the target behavior socially and institutionally viable.
 
-**Strongest at:** Revealing misaligned reinforcement where the stated behavior is rewarded rhetorically but penalized operationally.
+**Use when:** Revealing misaligned reinforcement where the stated behavior is rewarded rhetorically but penalized operationally -- especially when incentive realities discourage behavior despite positive messaging.
+
+**Diagnostic question:** What behavior do reward/accountability systems actually produce?
 
 **Academic grounding:** Draws on organizational-incentive design, principal-agent traditions, reinforcement structures in organizations, and performance-management research.
 
@@ -97,15 +93,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.4.6** Informal reinforcement: peer recognition supports behavior -> peer reinforcement undermines behavior
 - **SO.4.7** Penalty risk: low penalty for trying -> high penalty for trying
 
-**What it sees well:** Why behavior is socially discouraged by incentive realities despite positive messaging.
-
-**What it sees less well:** Deeper identity meaning and legitimacy narratives unless paired with the next lens.
-
 ## 5. Legitimacy, Meaning, and Identity Safety
 
 **Core view of opportunity:** Opportunity depends on whether the behavior is seen as legitimate, meaningful, and identity-safe within the local social order.
 
-**Strongest at:** Revealing whether people perceive the behavior as socially allowed, professionally credible, and reputationally safe.
+**Use when:** Revealing whether people perceive the behavior as socially allowed, professionally credible, and reputationally safe -- especially the meaning/permission layer where people could act but do not feel socially authorized.
+
+**Diagnostic question:** Is the behavior socially legitimate and identity-safe?
 
 **Academic grounding:** Draws on institutional legitimacy traditions (for example, Suchman), social-identity and identity-work literatures, and social-practice-oriented work on meaning and normative order.
 
@@ -119,15 +113,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.5.6** Narrative support: no compelling shared narrative -> strong shared narrative
 - **SO.5.7** Symbolic alignment: behavior culturally dissonant -> behavior culturally consonant
 
-**What it sees well:** The meaning/permission layer where people may be able to act but do not feel socially authorized to do so.
-
-**What it sees less well:** Habit dynamics and affective pull/push mechanics that are more directly `AM`.
-
 ## 6. Power, Politics, and Psychological Safety
 
 **Core view of opportunity:** Opportunity depends on whether power relations and local politics permit voice, experimentation, dissent, and cross-boundary action without unacceptable social risk.
 
-**Strongest at:** Revealing sanction risk, defensive routines, silence climates, and politically induced non-action.
+**Use when:** Revealing sanction risk, defensive routines, silence climates, and politically induced non-action -- especially active or passive suppression of behavior by political conditions.
+
+**Diagnostic question:** Is it politically safe to attempt, discuss, and improve the behavior?
 
 **Academic grounding:** Draws on psychological safety research (for example, Edmondson), organizational-politics traditions, and micropolitics/power analyses of workplace behavior.
 
@@ -142,15 +134,13 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.6.7** Transparency of rules: implicit opaque rules -> explicit predictable rules
 - **SO.6.8** Refinement openness: established practices are open to improvement -> established practices are closed to challenge
 
-**What it sees well:** Why behavior is actively or passively suppressed by political conditions.
-
-**What it sees less well:** Purely material opportunity constraints (`PO`) and purely technical capability constraints (`PC`/`PHC`).
-
 ## 7. Governance Viability and Recursion (Viable System Lens)
 
 **Core view of opportunity:** Opportunity depends on whether governance and coordination layers are organized so local units can act autonomously while still remaining coherently coordinated and adaptive at system level.
 
-**Strongest at:** Revealing where either over-centralization or under-coordination makes behavior non-viable across scale, context, or change.
+**Use when:** Revealing where either over-centralization or under-coordination makes behavior non-viable across scale, context, or change -- especially structural reasons a behavior works in pockets but fails to stabilize as a system practice.
+
+**Diagnostic question:** Is autonomy/coordination/governance structured to keep the behavior viable at scale?
 
 **Academic grounding:** Draws on the Viable System Model and cybernetic governance traditions, especially Beer, plus later organizational-design work on recursive coordination and adaptive control.
 
@@ -166,10 +156,6 @@ See [com-b-abbreviations-reference.md](../com-b-bcw-bct/com-b-abbreviations-refe
 - **SO.7.8** Cross-group consistency: consistent practice across groups -> high practice variation across groups
 - **SO.7.9** Convergence direction: groups are converging on shared practice -> groups are diverging further
 
-**What it sees well:** Structural reasons a behavior works in pockets but fails to stabilize as a system practice.
-
-**What it sees less well:** Fine-grained physical bottlenecks (`PO`) and individual-level cognition/skill constraints (`PC`/`PHC`).
-
 ## From Social Opportunity Lenses To COM-B / BCW
 
 These lenses do not replace COM-B. They help specify what kind of `SO` problem is inside the broad `Opportunity` branch.
@@ -182,20 +168,6 @@ Once dominant social-opportunity patterns are clearer, the next step is usually 
 - `SO` is most often paired with `RE`, `ER`, `MO`, and `EN`.
 
 The goal is not to duplicate that mapping here, but to make it easier to move from social-opportunity diagnosis to intervention family.
-
-## How to use these lenses together
-
-One practical way to use these lenses is to ask a different kind of question with each:
-
-- Norms and Normative Climate: What does the local social reality reward or discourage?
-- Roles, Authority, and Boundary Clarity: Who is socially authorized to do what?
-- Network Position and Social Capital: Who can access trust, information, and sponsorship pathways?
-- Incentives, Accountability, and Reinforcement Architecture: What behavior do reward/accountability systems actually produce?
-- Legitimacy, Meaning, and Identity Safety: Is the behavior socially legitimate and identity-safe?
-- Power, Politics, and Psychological Safety: Is it politically safe to attempt, discuss, and improve the behavior?
-- Governance Viability and Recursion (Viable System Lens): Is autonomy/coordination/governance structured to keep the behavior viable at scale?
-
-Used together, these lenses turn diffuse cultural concerns into specific `SO` diagnostics.
 
 ## Boundaries of this file
 
