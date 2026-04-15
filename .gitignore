@@ -2,3 +2,7 @@
 __pycache__/
 *.py[cod]
 _tmp_*.py
+
+# Keep directory, ignore user-specific context files
+/user-context/*
+!/user-context/.gitkeep

@@ -38,6 +38,15 @@ If critical fields are missing (especially "will do what" and "to what extent"),
 
 The canvas includes a "Prior attempts" field for what has already been tried and why it didn't work. This is critical context -- prior attempts that failed often reveal which COM-B branches are not the real bottleneck.
 
+The canvas also includes an optional "Relevant context" field for static environmental context. If the user references files in `user-context/`, read those files during Step 1. If the user does not reference files but a `user-context/` directory exists at the workspace root, optionally read relevant markdown files there (for example, org/team/role context files) to enrich assumptions before lens analysis.
+
+These context files are optional. If `user-context/` is missing, empty, or missing specific files, proceed normally using only the user's current description and follow-up answers.
+
+**Context prioritization in Step 1:**
+- Cross-functional handoffs, alignment, and interface failures: weigh org and team context heavily.
+- Individual overload, burnout, or role-friction issues: weigh role and team context heavily.
+- Use context to pre-fill plausible assumptions and sharpen follow-up questions, not to override explicit user facts.
+
 ### Step 2 — Research capability, opportunity, and motivation
 
 Apply three diagnostic lenses by reading the lens files directly:
