@@ -61,6 +61,8 @@ STEP 5  frame_recommendations()
             in_depth_report             // full diagnostic with dimensional assessments, BCW/BCT reasoning
             action_plan                 // phased rollout: week-by-week, owners, success signals
           }
+  SAVE_OFFER                            // after delivering any artifact (canvas, phase_a, or phase_b output),
+                                        // ask user if they want it saved as a markdown file — do not auto-save
 
 FEEDBACK  refine_with_user()                               // after Phase A, before Phase B
   IN      phase_a

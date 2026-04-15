@@ -114,6 +114,8 @@ After the feedback loop, the agent offers three paths:
 - **Action plan:** Concrete, phased plan — week-by-week or phase-by-phase — with specific changes, owners, success signals. Includes tool/AI recommendations and mapping to relevant frameworks. For acting now.
 - **Working analysis:** The practitioner worksheet showing how the agent got from lens findings to ranked interventions. For inspecting the reasoning chain or reusing the analysis.
 
+After delivering any Phase B option, offer to save the output as a markdown file. These artifacts represent significant processing and are expensive to reproduce if the session is lost. Use a descriptive filename (e.g. `com-b-diagnosis-[short-topic].md`) or let the user choose. Do not auto-save.
+
 **Output structure for each:** see [`assets/output-template.md`](../assets/output-template.md).
 
 ---
