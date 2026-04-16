@@ -14,6 +14,7 @@ A structured template for defining the target behavior before diagnosis. Fill th
 | **For what outcome** | What result should this produce? | What changes if this behavior happens consistently? How would you know? |
 | **Current state** | Where does the behavior sit right now? (optional) | See pattern vocabulary below. |
 | **Prior attempts** | What has been tried that didn't work? (optional) | What interventions, fixes, or workarounds have been attempted? Why did they fail or fall short? |
+| **Relevant context** | Which optional static context should inform diagnosis? (optional) | Which files in `user-context/` matter here (for example, `user-context/team-context-platform.md`)? Which level matters most: org, team, role? |
 
 ## Pattern vocabulary for Current state
 
@@ -39,3 +40,4 @@ These are optional labels for describing where the behavior sits. They are orien
 > **For what outcome:** To pinpoint areas for improvement, ensure data-driven insights inform product decisions and align actions with business objectives
 > **Current state:** Weakly Realized — everyone agrees metrics matter, but sprint pressure displaces the review every time
 > **Prior attempts:** Tried a "metrics Monday" standing meeting — attendance dropped after 3 weeks. Also added a dashboard link to Slack — people click it but don't discuss what they see. The team lead thinks the issue is motivation, but the dashboard is hard to read and nobody was trained on SPC.
+> **Relevant context:** See `user-context/team-context-platform.md` and `user-context/org-context-enterprise.md` (org and team context are most relevant because cross-team handoffs shape who can act on metric insights).

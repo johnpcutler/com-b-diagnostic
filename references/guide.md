@@ -32,6 +32,10 @@ This step establishes a structured, precise behavior definition that all later s
 
 The canvas includes a "Prior attempts" field. Actively ask what has been tried before and why it didn't work -- this is some of the most diagnostic information available. Failed attempts often reveal which COM-B branches are not the real bottleneck.
 
+Users can optionally provide static environmental context to reduce repeated explanation in new diagnoses. Copy templates from [`assets/context-templates/org-context.md`](../assets/context-templates/org-context.md), [`assets/context-templates/team-context.md`](../assets/context-templates/team-context.md), and [`assets/context-templates/role-context.md`](../assets/context-templates/role-context.md) into a workspace-root `user-context/` folder, then fill and reference those files.
+
+Use the behavior canvas "Relevant context" field to point to specific files (for example, `user-context/team-context-platform.md`) or to indicate which context level matters most (org, team, role). If `user-context/` is missing or no context file is relevant, Step 1 proceeds normally from the live description.
+
 **Output:** a canonical behavior definition that Steps 2–5 reference.
 
 ### Step 2 — Research capability, opportunity, and motivation

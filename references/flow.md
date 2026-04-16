@@ -10,8 +10,9 @@ Treat each step as a function: named inputs, named outputs, explicit file depend
 
 ```text
 STEP 1  define_behavior()
-  IN      user description, artifacts, or follow-up answers
+  IN      user description, artifacts, follow-up answers, optional environmental context files
   READ    assets/behavior-canvas.md                        // field definitions + coaching prompts + pattern vocabulary
+  OPTIONAL READ  user-context/*.md                         // files referenced by user or discovered at workspace root
   OUT     behavior_definition {
             behavior    // summary statement
             who         // actors
@@ -21,6 +22,8 @@ STEP 1  define_behavior()
             for_outcome // intended result
             current_state  // optional: pattern label (e.g. "aspirational only", "actively suppressed")
             prior_attempts // optional: what's been tried, why it didn't work
+            relevant_context // optional: which context files or levels (org/team/role) are relevant
+            context_notes // optional: concise assumptions inferred from user-context files
           }
 
 STEP 2  research_com()
@@ -115,6 +118,7 @@ The worksheet is internal by default. It can be surfaced in the Phase B in-depth
 | Need | File |
 |------|------|
 | Behavior definition fields + coaching prompts | [`assets/behavior-canvas.md`](../assets/behavior-canvas.md) |
+| Context templates to copy into workspace `user-context/` | [`assets/context-templates/org-context.md`](../assets/context-templates/org-context.md), [`assets/context-templates/team-context.md`](../assets/context-templates/team-context.md), [`assets/context-templates/role-context.md`](../assets/context-templates/role-context.md) |
 | Practitioner worksheet: synthesis + BCW ranking template | [`assets/practitioner-worksheet.md`](../assets/practitioner-worksheet.md) |
 | C-lens: PC, PHC dimensions | [`lenses/capability-lenses.md`](lenses/capability-lenses.md) |
 | M-lens: RM, AM dimensions | [`lenses/motivation-lenses.md`](lenses/motivation-lenses.md) |
@@ -131,6 +135,7 @@ The worksheet is internal by default. It can be surfaced in the Phase B in-depth
 
 - Run steps **in order**; later steps depend on earlier outputs.
 - Step 1 is not optional. A vague behavior definition produces a vague diagnosis. Coach the user until the definition is precise.
+- Step 1 may optionally enrich behavior definition with `user-context/` files; if the folder or files are missing, proceed normally.
 - Step 2 uses three diagnostic lenses (C, O, M) applied to dimensions in the lens files directly.
 - The practitioner worksheet is the agent's working document for Steps 3–4. Use it to synthesize findings, rank BCW functions, and design interventions.
 - Step 4 happens under the hood. The user does not need to see BCW/BCT taxonomy unless they request the in-depth report.
