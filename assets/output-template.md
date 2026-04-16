@@ -65,6 +65,8 @@ After delivering Phase A, offer the user three paths:
 > - **Working analysis** — the practitioner worksheet showing how I got from lens findings to ranked interventions
 >
 > Which would be most useful? (You can also ask for more than one.)
+>
+> I can also save the summary and key insights above as a markdown file if you'd like to keep them.
 
 ---
 
@@ -120,6 +122,8 @@ Translate the BCW function ranking from the worksheet. The rationale column beco
 
 Reflections after the diagnosis: what the framework surfaced, tensions, gaps, or risks — not a repeat of earlier sections.
 
+After delivering the in-depth report, offer to save it as a markdown file.
+
 ---
 
 ## Phase B — Option 2: Action plan
@@ -147,6 +151,8 @@ Each phase includes:
 - What signals would indicate the plan needs adjustment
 - Regression risks (especially where the situational pattern could slide back)
 
+After delivering the action plan, offer to save it as a markdown file.
+
 ---
 
 ## Phase B — Option 3: Working analysis
@@ -160,3 +166,5 @@ ranking and intervention design. Include all five sections:
 3. Cross-lens interactions
 4. BCW function ranking (with rationale and BCTs)
 5. Intervention implications
+
+After delivering the working analysis, offer to save it as a markdown file.

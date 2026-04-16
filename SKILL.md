@@ -47,6 +47,8 @@ These context files are optional. If `user-context/` is missing, empty, or missi
 - Individual overload, burnout, or role-friction issues: weigh role and team context heavily.
 - Use context to pre-fill plausible assumptions and sharpen follow-up questions, not to override explicit user facts.
 
+Once the behavior canvas is complete, offer to save it as a markdown file. The canvas anchors the entire analysis and is worth preserving — especially if the user refines it during the feedback loop.
+
 ### Step 2 — Research capability, opportunity, and motivation
 
 Apply three diagnostic lenses by reading the lens files directly:
@@ -96,6 +98,8 @@ After delivering the summary and key insights, pause and ask for the user's reac
 
 Follow the output skeleton in [`assets/output-template.md`](assets/output-template.md) for structure.
 
+**Saving outputs:** After delivering any Phase B output (in-depth report, action plan, or working analysis), offer to save it as a markdown file. These artifacts represent significant processing and are expensive to reproduce. If the user treats Phase A as a final deliverable (e.g., they don't request Phase B), offer to save the summary and key insights as well.
+
 ## Guardrails
 
 1. **Start with behavior definition (Step 1).** Do not skip to analysis without a structured definition. Coach the user if needed.
@@ -107,3 +111,4 @@ Follow the output skeleton in [`assets/output-template.md`](assets/output-templa
 7. **Trace everything.** In the in-depth report, every intervention function should trace back to a dimensional position, every dimensional position to observed signals. If the chain breaks, the diagnosis is incomplete.
 8. **Name your sources.** When citing BCTs, use **`BCT.n.m`** IDs (see [`references/lenses/lens-map.md`](references/lenses/lens-map.md)). When citing lens dimensions, use the stable `PC` / `PHC` / `RM` / `AM` / `PO` / `SO` IDs.
 9. **Close the feedback loop.** After Phase A, always prompt for the user's reaction before proceeding to Phase B. New information from the user — especially prior failed attempts — should update the canvas and trigger re-analysis, not be patched onto existing conclusions.
+10. **Offer to save substantial outputs.** After delivering the behavior canvas, Phase A summary, or any Phase B deliverable, ask whether the user would like it saved as a markdown file. Use a descriptive filename (e.g. `com-b-diagnosis-[short-topic].md`) or let the user choose. Do not auto-save — always ask first.
