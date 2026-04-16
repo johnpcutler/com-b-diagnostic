@@ -26,7 +26,23 @@ Full attribution in [`credits.md`](credits.md).
 
 ## Install
 
-Clone or download this repo, then point your tool at the skill directory.
+### Quick install with `npx skills`
+
+Install with a single command using the [Skills CLI](https://github.com/vercel-labs/skills). It auto-detects your coding agents and sets everything up:
+
+```bash
+npx skills add johnpcutler/change-lenses-and-actions
+```
+
+You can also target specific agents or install globally:
+
+```bash
+# Install to specific agents
+npx skills add johnpcutler/change-lenses-and-actions -a claude-code -a cursor
+
+# Install globally (available across all projects)
+npx skills add johnpcutler/change-lenses-and-actions -g
+```
 
 ### Cursor
 
